@@ -27,7 +27,15 @@ i = 0
 for link in links:
     driver.get(link)
     time.sleep(5)
-    header = driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"] | //h1[@class="gamut-1ewwict-Text e8i0p5k0"] | //div[@class="gamut-haybot-Text e8i0p5k0"] | //h1[@class="title__j--HQWSTaNBKMSTT6-74Z"] | //h1[@class="gamut-17dxsx1-Text e8i0p5k0"]').text
+    try:
+      header = driver.find_element(By.XPATH, '//h1[@class="gamut-1ewwict-Text e8i0p5k0"] | //h1[@class="title__j--HQWSTaNBKMSTT6-74Z"] | //h1[@class="gamut-17dxsx1-Text e8i0p5k0"]').text
+    except:
+      pass
+    try:
+      header = driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"] | //div[@class="gamut-haybot-Text e8i0p5k0"]').text
+    except:
+      pass
+    
     try:
       div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
     except:
