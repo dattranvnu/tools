@@ -1,0 +1,3 @@
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-introduction-to-front-end-engineer-career-path/modules/fecp-22-getting-started/informationals/fecp-22-welcome-to-front-end-engineer-career-path,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-introduction-to-front-end-engineer-career-path/modules/fecp-22-getting-started/informationals/fecp-22-helpful-resources,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-introduction-to-front-end-engineer-career-path/modules/fecp-22-getting-started/informationals/fecp-community-resources

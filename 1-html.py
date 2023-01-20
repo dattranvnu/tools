@@ -10,7 +10,7 @@ username = "wakamats@oregonstate.edu"
 password = "Baneyboo8"
 output =''
 
-my_file = open("outputs/0-links.txt", "r")
+my_file = open("0-links.txt", "r")
 data = my_file.read()
 links = data.split(",\n")
 my_file.close()
@@ -54,6 +54,6 @@ for link in links:
 output = "---\noutput:\n  md_document:\n    variant: markdown_github\n---\n\n" + output
 
 
-f=open("outputs/README.Rmd","w")
+f=open("README.Rmd","w")
 f.write(output)
 f.close()
