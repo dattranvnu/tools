@@ -25,7 +25,7 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@c
 time.sleep(8)
 i = 0
 div = ''
-for link in links:
+for link in links[23:28]:
     driver.get(link)
     time.sleep(6)
     # informationals & articles
@@ -54,7 +54,7 @@ for link in links:
     # videos
     try:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
-      div = driver.find_element(By.XPATH, '//main//iframe').get_attribute('innerHTML')
+      div = driver.find_element(By.XPATH, '//main//iframe/..').get_attribute('innerHTML')
     except:
       pass
     # external_resources
