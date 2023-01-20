@@ -85,8 +85,7 @@ When a user clicks on the text of this link (Learn to code!), they will
 be directed to
 <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://www.codecademy.com">www.codecademy.com</a>.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code>
-<div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"www.codecademy.com"</span><span class="mtk4">&gt;</span><span class="mtk1">Learn to code!</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"www.codecademy.com"</span><span class="mtk4">&gt;</span><span class="mtk1">Learn to code!</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -102,7 +101,12 @@ To start, look in <strong>index.html</strong> for the text that says
 text.
 </p>
 
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -127,7 +131,12 @@ Open the hint if you need a reminder on how to set attributes for html
 tags.
 </p>
 
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -154,7 +163,12 @@ Click <strong>Run</strong> one more time when you are ready to move on
 to the next lesson.
 </p>
 
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -239,10 +253,14 @@ Use your knowledge of HTML attributes to figure out what this code
 specifies, and check out extra information in the hint if you want to
 learn more.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code>
-<div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">"stylesheet"</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"style.css"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">"stylesheet"</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"style.css"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
 
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -285,7 +303,12 @@ Just for practice, change the
 see what changes!
 </p>
 
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -305,7 +328,12 @@ Let’s change the color property within the
 white.
 </p>
 
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -388,7 +416,12 @@ Once you have observed the effect of
 <strong>Run</strong> button to move on to the next Checkpoint.
 </p>
 
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -421,7 +454,12 @@ Confused? Don’t worry, we’ll cover functions more thoroughly in the next
 exercise.
 </p>
 
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -487,21 +525,24 @@ color code</a>.
 It then saves the new color under the name
 <code class="code__2rdF32qjRVp7mMVBHuPwDS">newColor</code>.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code>
-<div data-lang="codecademy-js" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk12">let newColor</span><span class="mtk1"> =&nbsp;</span><span class="mtk9">getRandomColor</span><span class="mtk1">();</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-js" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk12">let newColor</span><span class="mtk1"> =&nbsp;</span><span class="mtk9">getRandomColor</span><span class="mtk1">();</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 On the next line, the
 <code class="code__2rdF32qjRVp7mMVBHuPwDS">document</code> keyword
 accesses the page’s background color and sets it equal to the new color.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code>
-<div data-lang="codecademy-js" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk9">document</span><span class="mtk1">.</span><span class="mtk10">body</span><span class="mtk1">.</span><span class="mtk10">style</span><span class="mtk1">.</span><span class="mtk10">backgroundColor</span><span class="mtk1"> =&nbsp;</span><span class="mtk9">newColor</span><span class="mtk1">;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-js" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk9">document</span><span class="mtk1">.</span><span class="mtk10">body</span><span class="mtk1">.</span><span class="mtk10">style</span><span class="mtk1">.</span><span class="mtk10">backgroundColor</span><span class="mtk1"> =&nbsp;</span><span class="mtk9">newColor</span><span class="mtk1">;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Click the <strong>Run</strong> button to move on to the next checkpoint
 to see how we can let a user change the color!
 </p>
 
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -546,7 +587,12 @@ Paste this code into the opening tag of the button element:
 <code class="code__2rdF32qjRVp7mMVBHuPwDS">onclick=“changeColor()”</code>.
 </p>
 
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -574,7 +620,12 @@ When you’re ready, click <strong>Run</strong> again and move on to the
 next exercise.
 </p>
 
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
@@ -614,8 +665,7 @@ Here’s an example of a query that would select all of the columns —the
 shorthand for “all”— from the
 <code class="code__2rdF32qjRVp7mMVBHuPwDS">page_views</code> table:
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code>
-<div data-lang="codecademy-sql" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk12">SELECT</span><span class="mtk1"> *&nbsp;</span><span class="mtk12">FROM</span><span class="mtk1"> page_views;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-sql" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk12">SELECT</span><span class="mtk1"> *&nbsp;</span><span class="mtk12">FROM</span><span class="mtk1"> page_views;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Web developers and software engineers also use SQL to build apps that
 can save, modify, and access data. There’s even a growing field of
@@ -638,7 +688,12 @@ data is Alejandra’s app able to store and retrieve? Why is it important
 for her to store this particular set of information?
 </p>
 
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
