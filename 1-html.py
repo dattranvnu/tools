@@ -54,6 +54,6 @@ for link in links:
 output = "---\noutput:\n  md_document:\n    variant: markdown_github\n---\n\n" + output
 
 
-f=open("outputs/source.Rmd","w")
+f=open("outputs/README.Rmd","w")
 f.write(output)
 f.close()
