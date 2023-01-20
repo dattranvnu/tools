@@ -27,32 +27,32 @@ i = 0
 for link in links:
     driver.get(link)
     time.sleep(5)
+    # informationals
     try:
-      header = driver.find_element(By.XPATH, '//h1[@class="gamut-1ewwict-Text e8i0p5k0"] | //h1[@class="title__j--HQWSTaNBKMSTT6-74Z"] | //h1[@class="gamut-17dxsx1-Text e8i0p5k0"]').text
+      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]//h1').text
+      div = driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]').get_attribute('innerHTML')
     except:
       pass
+    # lessons
     try:
-      header = driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
+      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n#### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
+      body = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n###\n\n' '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
     except:
       pass
+    # videos
     try:
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n###\n\n' '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
+      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
+      div = driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//iframe').get_attribute('innerHTML')
     except:
       pass
+    # external_resources
     try:
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]').get_attribute('innerHTML')
-    except:
-      pass
-    try:
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]').get_attribute('innerHTML')
-    except:
-      pass
-    try:
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-78rdvp-FlexBox e1tc6bzh0"]').get_attribute('innerHTML')
+      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
+      div = driver.find_element(By.XPATH, '//div[@class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
     except:
       pass
     
-    output = output + '\n\n\n\n\n### ' + header + '\n\n\n\n\n' + div + '\n\n\n\n\n'
+    output = output + header + '\n\n\n\n\n' + div + '\n\n\n\n\n'
     print(i, link)
     i += 1
 
