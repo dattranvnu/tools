@@ -1,3 +1,7 @@
+# Introduction to Front-End Engineer Career Path
+
+## Getting Started
+
 ### Welcome to Front-End Engineer Career Path
 
 <h1 class="gamut-1ewwict-Text e8i0p5k0">
