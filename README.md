@@ -1,5 +1,3 @@
-# Introduction: Overview of Web Development
-
 ## Introduction: Overview of Web Development
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
@@ -31,8 +29,6 @@ reviews to others in the
 <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects
 category</a>, which can help to reinforce what you’ve learned.
 </p>
-
-# The Internet and Web Development
 
 ## OVERVIEW OF THE INTERNET
 
@@ -85,6 +81,8 @@ Check out the graph on the right that shows the number of websites on
 the internet since 2000. When you’re ready, move to the next exercise.
 </p>
 
+## OVERVIEW OF THE INTERNET
+
 ### The Ever-Expanding Network
 
 Overview of the Internet
@@ -119,6 +117,8 @@ internet was formed.
 Check out the map of early ARPANET supercomputers. When you’re ready,
 move to the next exercise.
 </p>
+
+## OVERVIEW OF THE INTERNET
 
 ### The World Wide Web
 
@@ -158,6 +158,8 @@ Wide Web are linked to one another. Move to the next exercise when you
 are ready to continue.
 </p>
 
+## OVERVIEW OF THE INTERNET
+
 ### Browsers and Servers
 
 Overview of the Internet
@@ -189,6 +191,8 @@ sending this lesson data to your client device.
 Watch the video to learn about the importance of browsers and servers,
 then move to the next exercise when you are ready to proceed.
 </p>
+
+## OVERVIEW OF THE INTERNET
 
 ### 404 Status Code
 
@@ -254,6 +258,8 @@ browser display the 404 status code.
 </p>
 </li>
 </ol>
+
+## OVERVIEW OF THE INTERNET
 
 ### How Do Browsers Work?
 
@@ -335,6 +341,8 @@ The animation to the right shows the different languages that work
 together to display a webpage. When you’re ready, move on to the next
 exercise.
 </p>
+
+## OVERVIEW OF THE INTERNET
 
 ### Web 2.0
 
@@ -420,6 +428,8 @@ Allows social interaction — a lot of friends liked this image!
 Move to the next exercise when you’re ready to continue.
 </p>
 
+## OVERVIEW OF THE INTERNET
+
 ### Current Internet Trends
 
 Overview of the Internet
@@ -473,6 +483,8 @@ changes.
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Move to the next exercise when you’re ready to proceed.
 </p>
+
+## OVERVIEW OF THE INTERNET
 
 ### Review
 
@@ -584,6 +596,8 @@ languages, starting with HTML.
 Continue to the next exercise when you are ready to dive into HTML!
 </p>
 
+## LANGUAGES FOR WEB DEVELOPMENT
+
 ### What is HTML
 
 Languages for Web Development
@@ -617,6 +631,8 @@ are pretty intuitive, see if you can figure out how anything works.
 If not, don’t worry! We’ll explain it soon.
 </p>
 
+## LANGUAGES FOR WEB DEVELOPMENT
+
 ### HTML Markup
 
 Languages for Web Development
@@ -642,6 +658,8 @@ known as less-than and greater-than signs).
 Compare the markup for the essay to the markup in the HTML diagram. How
 do they compare?
 </p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### HTML Elements
 
@@ -691,6 +709,8 @@ Study the diagram to the right to learn about the anatomy of HTML
 syntax. When you’re done, continue to the next exercise.
 </p>
 
+## LANGUAGES FOR WEB DEVELOPMENT
+
 ### Common Tags
 
 Languages for Web Development
@@ -725,77 +745,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Put an opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> tag around the long
-paragraph that starts with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">With over 25 years…</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Put an opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">button</code> tag around the
-text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Click
-here!</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Hypertext and the World Wide Web
 
@@ -832,6 +782,8 @@ hyperlinked documents.
 Review the structure of links shown in the diagram, then continue to the
 next exercise when you are ready.
 </p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Adding Hyperlinks
 
@@ -905,67 +857,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute
-to this anchor tag, and give it the value
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">/resume.html</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This URL is called a <em>relative path</em> and it looks a little
-different from the full URLs you’re used to seeing. That’s because it’s
-actually a link to another page on the same website, so we can omit the
-first part. Instead of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">www.jetsetter.com/resume.html</code>
-we can abbreviate the link to just
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">/resume.html</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Open the hint if you need a reminder on how to set attributes for html
-tags.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Click on the link that you just made to navigate to see Alejandra’s
-resume!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Click <strong>Run</strong> one more time when you are ready to move on
-to the next lesson.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is CSS?
 
@@ -1003,6 +895,8 @@ her website gets more and more complex.
 After you’ve reviewed the diagram to compare the uses of HTML and CSS,
 continue to the next exercise.
 </p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Applying CSS
 
@@ -1055,78 +949,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Awesome! Alejandra’s site is looking good! Just a little CSS can make
-the difference between a website that looks like a skeleton and
-portfolio-ready site.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now let’s tweak the CSS just a little bit, to see how the visual rules
-specified in CSS can change the way that a website is displayed.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Navigate to the <strong>style.css</strong> and scroll down to line 37
-where you will see the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector. This
-section defines the styles for the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> element on the
-page, which is the most prominent heading.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Just for practice, change the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> property from
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">white</code> to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">black</code> and press Run to
-see what changes!
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Good job changing the color of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> text!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you look at the rendered browser, you’ll notice that the heading text
-is no longer readable in-front of the image.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s change the color property within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector back to
-white.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is JavaScript?
 
@@ -1214,43 +1037,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-What else is happening here?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-JavaScript uses functions, which are reusable blocks of code designed to
-perform a specific task.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">drawText</code> is a function
-that is being run on line 2. Change the text that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">‘hello world’</code> to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">‘JavaScript’</code> to pass a
-different value into this function.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Check out the browser to see what changed! One of the benefits of
-functions is that they are <em>reusable</em>. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">drawText</code> function
-allows us to take advantage of the reusability of functions because it
-can render any input text without us needing to rewrite the logic of the
-function.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Confused? Don’t worry, we’ll cover functions more thoroughly in the next
-exercise.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### JavaScript Functions
 
@@ -1333,88 +1120,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The next step is to connect the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">changeColor()</code>
-JavaScript function with an event, so that when we click the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Repaint!</code> button, it
-changes the background color.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-An event is something that can happen in a browser, like clicking or
-hovering with your mouse.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML attributes can set events, where the <strong>name</strong> of the
-attribute is the event and the <strong>value</strong> of the attribute
-is the JavaScript function that we want to execute.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this case, the name of the event is
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">onclick</code> and we can
-invoke the function by calling
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“changeColor()”</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Paste this code into the opening tag of the button element:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">onclick=“changeColor()”</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s test out the functionality of the code that we just added. When
-you click the “Repaint!” button, the background color of the site should
-be reset at random!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When you’re ready, click <strong>Run</strong> again and move on to the
-next exercise.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is SQL?
 
@@ -1482,17 +1188,7 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Review
 
@@ -1554,8 +1250,6 @@ reading and editing code.
 If you’re intrigued by Web Development, you should now have a sense of
 what skills or languages you want to learn next.
 </p>
-
-# What is Front-End Development
 
 ## What is Programming?
 
@@ -1768,20 +1462,18 @@ stick with it, you’ll be able to make some brilliant things.
 
 ## What is Front-End?
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="What is front-end?" width="100%" height="100%" src="https://www.youtube.com/embed/GJ8jidDdWVg?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true">
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="What is front-end?" width="100%" height="100%" src="https://www.youtube.com/embed/GJ8jidDdWVg?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
 </iframe>
 
 ## Front-End Frameworks
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true">
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
 </iframe>
 
 ## Front-End Frameworks
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true">
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
 </iframe>
-
-# Review: Overview of Web Development
 
 ## Review: Overview of Web Development
 

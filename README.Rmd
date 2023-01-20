@@ -4,8 +4,6 @@ output:
     variant: markdown_github
 ---
 
-# Introduction: Overview of Web Development
-
 ## Introduction: Overview of Web Development
 
 
@@ -22,7 +20,7 @@ output:
 </div>
 
 
-# The Internet and Web Development
+
 
 ## OVERVIEW OF THE INTERNET
 
@@ -52,7 +50,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### The Ever-Expanding Network
 
@@ -73,7 +71,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### The World Wide Web
 
@@ -95,7 +93,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### Browsers and Servers
 
@@ -116,7 +114,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### 404 Status Code
 
@@ -148,7 +146,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### How Do Browsers Work?
 
@@ -182,7 +180,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### Web 2.0
 
@@ -220,7 +218,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### Current Internet Trends
 
@@ -246,7 +244,7 @@ output:
 
 
 
-
+## OVERVIEW OF THE INTERNET
 
 ### Review
 
@@ -302,7 +300,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is HTML
 
@@ -324,7 +322,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### HTML Markup
 
@@ -344,7 +342,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### HTML Elements
 
@@ -371,7 +369,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Common Tags
 
@@ -386,15 +384,13 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s make the heading stand out! Put an opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> tag around the text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Jetsetter Travel Agency</code>.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Put an opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> tag around the long paragraph that starts with <code class="code__2rdF32qjRVp7mMVBHuPwDS">With over 25 years...</code>.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 3 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Put an opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">button</code> tag around the text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Click here!</code>.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 4 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s make the heading stand out! Put an opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> tag around the text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Jetsetter Travel Agency</code>.</p>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Hypertext and the World Wide Web
 
@@ -415,7 +411,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Adding Hyperlinks
 
@@ -434,19 +430,14 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Alejandra has begun to build out her business’s website. She wants to link from her homepage to a different page that contains her resume. </p>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Alejandra has begun to build out her business’s website. She wants to link from her homepage to a different page that contains her resume. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To start, look in <strong>index.html</strong> for the text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">25 years of experience</code> — it should be near line 20. Put an anchor tag (<code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code>) around this text.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute to this anchor tag, and give it the value <code class="code__2rdF32qjRVp7mMVBHuPwDS">/resume.html</code>. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">This URL is called a <em>relative path</em> and it looks a little different from the full URLs you’re used to seeing. That’s because it’s actually a link to another page on the same website, so we can omit the first part. Instead of <code class="code__2rdF32qjRVp7mMVBHuPwDS">www.jetsetter.com/resume.html</code> we can abbreviate the link to just <code class="code__2rdF32qjRVp7mMVBHuPwDS">/resume.html</code>.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Open the hint if you need a reminder on how to set attributes for html tags.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 3 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Click on the link that you just made to navigate to see Alejandra’s resume!</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Click <strong>Run</strong> one more time when you are ready to move on to the next lesson.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 4 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is CSS?
 
@@ -468,7 +459,7 @@ output:
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Applying CSS
 
@@ -484,22 +475,15 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">On line 6 of <strong>index.html</strong>, copy and paste the code below to apply the CSS file to the existing HTML.</p>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">On line 6 of <strong>index.html</strong>, copy and paste the code below to apply the CSS file to the existing HTML.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Use your knowledge of HTML attributes to figure out what this code specifies, and check out extra information in the hint if you want to learn more.</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">"stylesheet"</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"style.css"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Awesome! Alejandra’s site is looking good! Just a little CSS can make the difference between a website that looks like a skeleton and portfolio-ready site.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Now let’s tweak the CSS just a little bit, to see how the visual rules specified in CSS can change the way that a website is displayed. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Navigate to the <strong>style.css</strong> and scroll down to line 37 where you will see the <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector. This section defines the styles for the <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> element on the page, which is the most prominent heading.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Just for practice, change the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> property from <code class="code__2rdF32qjRVp7mMVBHuPwDS">white</code> to <code class="code__2rdF32qjRVp7mMVBHuPwDS">black</code> and press Run to see what changes!  </p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 3 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Good job changing the color of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> text! </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">If you look at the rendered browser, you’ll notice that the heading text is no longer readable in-front of the image. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Let’s change the color property within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector back to white. </p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 4 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is JavaScript?
 
@@ -528,20 +512,15 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">One of the classic browser events that JavaScript can respond to is the position of the mouse. When a user puts the mouse near an HTML element, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">onmouseover</code> event is fired.</p>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">One of the classic browser events that JavaScript can respond to is the position of the mouse. When a user puts the mouse near an HTML element, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">onmouseover</code> event is fired.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Hover over the text in the browser to see how it responds to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">onmouseover</code> event.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Once you have observed the effect of <code class="code__2rdF32qjRVp7mMVBHuPwDS">onmouseover</code>, click the <strong>Run</strong> button to move on to the next Checkpoint.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">What else is happening here?</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">JavaScript uses functions, which are reusable blocks of code designed to perform a specific task.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><code class="code__2rdF32qjRVp7mMVBHuPwDS">drawText</code> is a function that is being run on line 2. Change the text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">'hello world'</code> to <code class="code__2rdF32qjRVp7mMVBHuPwDS">'JavaScript'</code> to pass a different value into this function.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Check out the browser to see what changed! One of the benefits of functions is that they are <em>reusable</em>. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">drawText</code> function allows us to take advantage of the reusability of functions because it can render any input text without us needing to rewrite the logic of the function.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Confused? Don’t worry, we’ll cover functions more thoroughly in the next exercise.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 3 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### JavaScript Functions
 
@@ -559,7 +538,7 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">First, let’s take a look at the JavaScript in the <strong>index.html</strong> file. </p>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">First, let’s take a look at the JavaScript in the <strong>index.html</strong> file. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The JavaScript code is between the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;script&gt;</code> tags. This tag alerts the browser that the page contains JavaScript and separates the JavaScript code from the HTML.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Find the JavaScript function <code class="code__2rdF32qjRVp7mMVBHuPwDS">changeColor()</code>. This function chooses a color from a list of colors. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">How does that happen?</p>
@@ -569,19 +548,12 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">On the next line, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">document</code> keyword accesses the page’s background color and sets it equal to the new color. </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-js" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk9">document</span><span class="mtk1">.</span><span class="mtk10">body</span><span class="mtk1">.</span><span class="mtk10">style</span><span class="mtk1">.</span><span class="mtk10">backgroundColor</span><span class="mtk1"> =&nbsp;</span><span class="mtk9">newColor</span><span class="mtk1">;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Click the <strong>Run</strong> button to move on to the next checkpoint to see how we can let a user change the color!</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The next step is to connect the <code class="code__2rdF32qjRVp7mMVBHuPwDS">changeColor()</code> JavaScript function with an event, so that when we click the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Repaint!</code> button, it changes the background color.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">An event is something that can happen in a browser, like clicking or hovering with your mouse. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">HTML attributes can set events, where the <strong>name</strong> of the attribute is the event and the <strong>value</strong> of the attribute is the JavaScript function that we want to execute.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">In this case, the name of the event is <code class="code__2rdF32qjRVp7mMVBHuPwDS">onclick</code> and we can invoke the function by calling <code class="code__2rdF32qjRVp7mMVBHuPwDS">"changeColor()"</code>.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Paste this code into the opening tag of the button element: <code class="code__2rdF32qjRVp7mMVBHuPwDS">onclick="changeColor()"</code>.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 3 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s test out the functionality of the code that we just added. When you click the “Repaint!” button, the background color of the site should be reset at random!</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">When you’re ready, click <strong>Run</strong> again and move on to the next exercise.</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 4 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### What is SQL?
 
@@ -599,14 +571,14 @@ output:
 
 
 
-<div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Now you try it! Add <code class="code__2rdF32qjRVp7mMVBHuPwDS">SELECT * FROM users;</code> to the text editor to select the entire <code class="code__2rdF32qjRVp7mMVBHuPwDS">users</code> table from the database.</p>
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Now you try it! Add <code class="code__2rdF32qjRVp7mMVBHuPwDS">SELECT * FROM users;</code> to the text editor to select the entire <code class="code__2rdF32qjRVp7mMVBHuPwDS">users</code> table from the database.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Press run and take a look at the data that is returned. What kinds of data is Alejandra’s app able to store and retrieve? Why is it important for her to store this particular set of information?</p>
-</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div>
 
 
 
 
-
+## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Review
 
@@ -633,7 +605,7 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you’re intrigued by Web Development, you should now have a sense of what skills or languages you want to learn next.</p>
 </div></div></div>
 
-# What is Front-End Development
+
 
 
 ## What is Programming?
@@ -704,7 +676,7 @@ Click on the white circles.</em></p>
 
 
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="What is front-end?" width="100%" height="100%" src="https://www.youtube.com/embed/GJ8jidDdWVg?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="What is front-end?" width="100%" height="100%" src="https://www.youtube.com/embed/GJ8jidDdWVg?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
 
 
 
@@ -714,7 +686,7 @@ Click on the white circles.</em></p>
 
 
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
 
 
 
@@ -724,10 +696,10 @@ Click on the white circles.</em></p>
 
 
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
 
 
-# Review: Overview of Web Development
+
 
 ## Review: Overview of Web Development
 
