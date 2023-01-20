@@ -25,7 +25,7 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@c
 time.sleep(8)
 i = 0
 div = ''
-for link in link[17:22]:
+for link in links[17:22]:
     driver.get(link)
     time.sleep(6)
     # informationals & articles
