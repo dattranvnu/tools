@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir outputs 
+
 Rscript 0-links.R
 
 python 1-html.py
