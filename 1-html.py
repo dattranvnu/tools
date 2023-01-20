@@ -53,10 +53,12 @@ for link in links[15:25]:
       except:
         pass
       try:
-        nodes = driver.find_elements(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]//div[@class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h"]/../div[1]').get_attribute('innerHTML')
+        div = driver.find_elements(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML')
+        nodes =  '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]//div[@class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h"]/../div[1]/div[1]/div').get_attribute('innerHTML')
         for node in nodes:
-          div =''
-          div = div + node.get_attribute('innerHTML')
+          bullet = 1
+          div = div + '\n\n\n' + str(bullet) +' ' + node.get_attribute('innerHTML')
+          bullet += 1
       except:
         pass
     except:
