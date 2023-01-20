@@ -1,3 +1,5 @@
+# Introduction: Overview of Web Development
+
 ## Introduction: Overview of Web Development
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
@@ -29,6 +31,8 @@ reviews to others in the
 <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects
 category</a>, which can help to reinforce what you’ve learned.
 </p>
+
+# The Internet and Web Development
 
 ## OVERVIEW OF THE INTERNET
 
@@ -81,8 +85,6 @@ Check out the graph on the right that shows the number of websites on
 the internet since 2000. When you’re ready, move to the next exercise.
 </p>
 
-## OVERVIEW OF THE INTERNET
-
 ### The Ever-Expanding Network
 
 Overview of the Internet
@@ -117,8 +119,6 @@ internet was formed.
 Check out the map of early ARPANET supercomputers. When you’re ready,
 move to the next exercise.
 </p>
-
-## OVERVIEW OF THE INTERNET
 
 ### The World Wide Web
 
@@ -158,8 +158,6 @@ Wide Web are linked to one another. Move to the next exercise when you
 are ready to continue.
 </p>
 
-## OVERVIEW OF THE INTERNET
-
 ### Browsers and Servers
 
 Overview of the Internet
@@ -191,8 +189,6 @@ sending this lesson data to your client device.
 Watch the video to learn about the importance of browsers and servers,
 then move to the next exercise when you are ready to proceed.
 </p>
-
-## OVERVIEW OF THE INTERNET
 
 ### 404 Status Code
 
@@ -258,8 +254,6 @@ browser display the 404 status code.
 </p>
 </li>
 </ol>
-
-## OVERVIEW OF THE INTERNET
 
 ### How Do Browsers Work?
 
@@ -341,8 +335,6 @@ The animation to the right shows the different languages that work
 together to display a webpage. When you’re ready, move on to the next
 exercise.
 </p>
-
-## OVERVIEW OF THE INTERNET
 
 ### Web 2.0
 
@@ -428,8 +420,6 @@ Allows social interaction — a lot of friends liked this image!
 Move to the next exercise when you’re ready to continue.
 </p>
 
-## OVERVIEW OF THE INTERNET
-
 ### Current Internet Trends
 
 Overview of the Internet
@@ -483,8 +473,6 @@ changes.
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Move to the next exercise when you’re ready to proceed.
 </p>
-
-## OVERVIEW OF THE INTERNET
 
 ### Review
 
@@ -596,8 +584,6 @@ languages, starting with HTML.
 Continue to the next exercise when you are ready to dive into HTML!
 </p>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### What is HTML
 
 Languages for Web Development
@@ -631,8 +617,6 @@ are pretty intuitive, see if you can figure out how anything works.
 If not, don’t worry! We’ll explain it soon.
 </p>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### HTML Markup
 
 Languages for Web Development
@@ -658,8 +642,6 @@ known as less-than and greater-than signs).
 Compare the markup for the essay to the markup in the HTML diagram. How
 do they compare?
 </p>
-
-## LANGUAGES FOR WEB DEVELOPMENT
 
 ### HTML Elements
 
@@ -708,8 +690,6 @@ angle bracket.
 Study the diagram to the right to learn about the anatomy of HTML
 syntax. When you’re done, continue to the next exercise.
 </p>
-
-## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Common Tags
 
@@ -817,8 +797,6 @@ Arrow Chevron Down Icon
 <path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
 </button>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### Hypertext and the World Wide Web
 
 Languages for Web Development
@@ -854,8 +832,6 @@ hyperlinked documents.
 Review the structure of links shown in the diagram, then continue to the
 next exercise when you are ready.
 </p>
-
-## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Adding Hyperlinks
 
@@ -991,8 +967,6 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### What is CSS?
 
 Languages for Web Development
@@ -1029,8 +1003,6 @@ her website gets more and more complex.
 After you’ve reviewed the diagram to compare the uses of HTML and CSS,
 continue to the next exercise.
 </p>
-
-## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Applying CSS
 
@@ -1156,8 +1128,6 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### What is JavaScript?
 
 Languages for Web Development
@@ -1281,8 +1251,6 @@ Check Icon
 </title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
-
-## LANGUAGES FOR WEB DEVELOPMENT
 
 ### JavaScript Functions
 
@@ -1448,8 +1416,6 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### What is SQL?
 
 Languages for Web Development
@@ -1528,8 +1494,6 @@ Arrow Chevron Down Icon
 <path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
 </button>
 
-## LANGUAGES FOR WEB DEVELOPMENT
-
 ### Review
 
 Languages for Web Development
@@ -1590,6 +1554,8 @@ reading and editing code.
 If you’re intrigued by Web Development, you should now have a sense of
 what skills or languages you want to learn next.
 </p>
+
+# What is Front-End Development
 
 ## What is Programming?
 
@@ -1814,6 +1780,8 @@ stick with it, you’ll be able to make some brilliant things.
 
 <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true">
 </iframe>
+
+# Review: Overview of Web Development
 
 ## Review: Overview of Web Development
 

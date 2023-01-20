@@ -4,6 +4,8 @@ output:
     variant: markdown_github
 ---
 
+# Introduction: Overview of Web Development
+
 ## Introduction: Overview of Web Development
 
 
@@ -20,7 +22,7 @@ output:
 </div>
 
 
-
+# The Internet and Web Development
 
 ## OVERVIEW OF THE INTERNET
 
@@ -50,7 +52,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### The Ever-Expanding Network
 
@@ -71,7 +73,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### The World Wide Web
 
@@ -93,7 +95,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### Browsers and Servers
 
@@ -114,7 +116,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### 404 Status Code
 
@@ -146,7 +148,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### How Do Browsers Work?
 
@@ -180,7 +182,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### Web 2.0
 
@@ -218,7 +220,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### Current Internet Trends
 
@@ -244,7 +246,7 @@ output:
 
 
 
-## OVERVIEW OF THE INTERNET
+
 
 ### Review
 
@@ -300,7 +302,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### What is HTML
 
@@ -322,7 +324,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### HTML Markup
 
@@ -342,7 +344,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### HTML Elements
 
@@ -369,7 +371,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### Common Tags
 
@@ -392,7 +394,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### Hypertext and the World Wide Web
 
@@ -413,7 +415,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### Adding Hyperlinks
 
@@ -444,7 +446,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### What is CSS?
 
@@ -466,7 +468,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### Applying CSS
 
@@ -497,7 +499,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### What is JavaScript?
 
@@ -539,7 +541,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### JavaScript Functions
 
@@ -579,7 +581,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### What is SQL?
 
@@ -604,7 +606,7 @@ output:
 
 
 
-## LANGUAGES FOR WEB DEVELOPMENT
+
 
 ### Review
 
@@ -631,7 +633,7 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you’re intrigued by Web Development, you should now have a sense of what skills or languages you want to learn next.</p>
 </div></div></div>
 
-
+# What is Front-End Development
 
 
 ## What is Programming?
@@ -725,7 +727,7 @@ Click on the white circles.</em></p>
 <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="widget2" data-gtm-yt-inspected-76="true"></iframe>
 
 
-
+# Review: Overview of Web Development
 
 ## Review: Overview of Web Development
 
