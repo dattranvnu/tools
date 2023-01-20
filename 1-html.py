@@ -45,7 +45,7 @@ for link in links:
     except:
       pass
     
-    output = output + '\n\n\n\n\n## ' + header + '\n\n\n\n\n' + div + '\n\n\n\n\n'
+    output = output + '\n\n\n\n\n### ' + header + '\n\n\n\n\n' + div + '\n\n\n\n\n'
     print(i, link)
     i += 1
 

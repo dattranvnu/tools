@@ -9,7 +9,7 @@ output:
 
 
 
-## Welcome to Front-End Engineer Career Path
+### Welcome to Front-End Engineer Career Path
 
 
 
@@ -61,7 +61,7 @@ output:
 
 
 
-## Helpful Resources
+### Helpful Resources
 
 
 
@@ -96,7 +96,7 @@ output:
 
 
 
-## Community Resources
+### Community Resources
 
 
 
