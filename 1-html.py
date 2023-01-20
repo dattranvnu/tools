@@ -32,12 +32,11 @@ for link in links:
     except:
       pass
     try:
-      header = driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"] | //div[@class="gamut-haybot-Text e8i0p5k0"]').text
+      header = driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"] | ').text + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"] | ').text
     except:
       pass
-    
     try:
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
+      div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n###\n\n' '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
     except:
       pass
     try:
