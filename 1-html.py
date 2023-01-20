@@ -24,12 +24,16 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//*[@id="lo
 wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@class="e1w6mdco0 gamut-18luxs6-ResetElement-createButtonComponent e1bhhzie0"]'))).click()
 time.sleep(8)
 i = 0
+div = ''
 for link in links:
     driver.get(link)
     time.sleep(5)
     # informationals
     header = '### ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
-    div = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]').get_attribute('innerHTML')
+    nodes = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]')
+    for node in nodes:
+      div = div + node.get_attribute('innerHTML')
+    
     # try:
     #   header = '### ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
     #   div = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]').get_attribute('innerHTML')
