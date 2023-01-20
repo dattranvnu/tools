@@ -45,7 +45,6 @@ for link in links:
         div = div + node.get_attribute('innerHTML')
     except:
       pass
-
     # lessons & projects
     try:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
@@ -55,12 +54,12 @@ for link in links:
     # videos
     try:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//iframe').get_attribute('innerHTML')
+      div = driver.find_element(By.XPATH, '//main//iframe').get_attribute('innerHTML')
     except:
       pass
     # external_resources
     try:
-      header = '##' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
+      header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
       div = driver.find_element(By.XPATH, '//div[@class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
     except:
       pass

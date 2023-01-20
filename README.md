@@ -1800,11 +1800,11 @@ While learning to program may initially be frustrating, if you choose to
 stick with it, you’ll be able to make some brilliant things.
 </p>
 
-##What is Front-End?
+## What is Front-End?
 
-##Front-End Frameworks
+## Front-End Frameworks
 
-##Front-End Frameworks
+## Front-End Frameworks
 
 ## Review: Overview of Web Development
 
