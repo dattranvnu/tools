@@ -29,19 +29,19 @@ for link in links:
     time.sleep(5)
     # informationals
     try:
-      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]//h1').text
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
+      header = '### ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
+      div = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]').get_attribute('innerHTML')
     except:
       pass
     # lessons
     try:
-      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n#### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
+      header = '### ' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n#### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
       div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n###\n\n' '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
     except:
       pass
     # videos
     try:
-      header = '###' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
+      header = '### ' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
       div = driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//iframe').get_attribute('innerHTML')
     except:
       pass
