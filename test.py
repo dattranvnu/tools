@@ -25,7 +25,7 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@c
 time.sleep(8)
 i = 0
 div = ''
-for link in links:
+for link in links[0:3]:
     driver.get(link)
     time.sleep(6)
     # informationals & articles
@@ -33,40 +33,11 @@ for link in links:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
       nodes = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]')
       for node in nodes:
-        div =''
         div = div + node.get_attribute('innerHTML')
     except:
       pass
-    try:
-      header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
-      nodes = driver.find_elements(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/*[name(.) !="h1"]')
-      for node in nodes:
-        div =''
-        div = div + node.get_attribute('innerHTML')
-    except:
-      pass
-
-    # lessons & projects
-    try:
-      header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n#### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute('innerHTML') + '\n\n###\n\n' '\n\n\n\n\n' + driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
-    except:
-      pass
-    # videos
-    try:
-      header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//iframe').get_attribute('innerHTML')
-    except:
-      pass
-    # external_resources
-    try:
-      header = '##' + driver.find_element(By.XPATH, '//div[@class="gamut-xvi723-FlexBox e1tc6bzh0"]//h1').text
-      div = driver.find_element(By.XPATH, '//div[@class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
-    except:
-      pass
-    
     output = output + header + '\n\n\n\n\n' + div + '\n\n\n\n\n'
-    print(i, link)
+    print(i, link, nodes)
     i += 1
 
 
