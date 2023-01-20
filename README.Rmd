@@ -24,7 +24,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### Hello, Internet!
+### Hello, Internet!
 
 
 
@@ -41,10 +41,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">By the end of this lesson, you will have the knowledge that you need to collaborate more effectively with engineers and jump into your own career in web development. </p>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -56,7 +52,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### The Ever-Expanding Network
+### The Ever-Expanding Network
 
 
 
@@ -65,10 +61,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">These institutions wanted to connect their individual networks for large-scale information transfer. However, many of them followed different standards and technical implementations. In the 1970s, the <em>transmission control protocol</em> and <em>internet protocol</em>, otherwise known as TCP/IP, were created to provide standards around the transfer of data that would allow these early networks to communicate with each other. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">TCP/IP was researched and specified throughout the 1970s and adopted in the early 1980s. As different networks adopted TCP/IP, the interconnected global network of networks that is today known as the internet was formed.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -81,7 +73,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### The World Wide Web
+### The World Wide Web
 
 
 
@@ -91,10 +83,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Engagement with the internet changed in 1989 when Tim Berners-Lee invented the <em>world wide web</em>. The world wide web is a collection of interlinked websites and other web resources. The world wide web, in combination with the rise of web browsers in the 1990s, introduced a user-friendly interface that enabled users to browse multimedia content and interact with other users. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The invention of the world wide web led to the use of the internet in wider society through the 1990s and the creation of a variety of websites that are still in use today.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -107,7 +95,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### Browsers and Servers
+### Browsers and Servers
 
 
 
@@ -116,10 +104,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">One way of understanding this process is to look at the <em>client-server</em> model. In this model, the <em>client</em> refers to the user’s device or program that is making a request for data. A client can be a browser or application running on a user’s laptop, smartphone, or tablet. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The <em>server</em> is the device or program in that network that waits for incoming requests and sends back data. This might be an in-house server, a rented server at a data center, or cloud server. At Codecademy, we have servers that store lesson data and our servers are sending this lesson data to your client device.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -132,7 +116,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### 404 Status Code
+### 404 Status Code
 
 
 
@@ -143,10 +127,6 @@ output:
 <img src="https://content.codecademy.com/programs/code-foundations-path/web-dev-survey/table.svg" alt="a table showing the most common HTTP status codes" class="img__1JGFO2nlisObc3KeOSGPRp">
 
 </div></div></div>
-
-###
-
-
 
 
 
@@ -168,7 +148,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### How Do Browsers Work?
+### How Do Browsers Work?
 
 
 
@@ -191,10 +171,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Voila! The user can now interact with the website that they requested to see. This whole process typically happens in about a second or less, depending on the speed of the user’s connection, the size of the website, and even the physical distance between the browser and the server.</p>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -206,7 +182,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### Web 2.0
+### Web 2.0
 
 
 
@@ -224,10 +200,6 @@ output:
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The rise of <em>web frameworks</em> that connected to databases, like Spring, Django, and Ruby-on-Rails, enabled user-generated content to effectively be created, stored, and displayed.</li>
 </ul>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -248,7 +220,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### Current Internet Trends
+### Current Internet Trends
 
 
 
@@ -261,10 +233,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Though most mobile applications are internet connected, they are not part of the world wide web. The web is built out of links, whereas mobile applications are designed to keep the user’s attention. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you want to learn about mobile development, web development is a great place to start! While the majority of mobile applications are built in programming languages, like Swift for iOS, it is increasingly common to see developers using JavaScript frameworks to build new apps.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -278,7 +246,7 @@ output:
 
 ## OVERVIEW OF THE INTERNET
 
-#### Review
+### Review
 
 
 
@@ -292,10 +260,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you want to learn about mobile development, web development is a great place to start! While the majority of mobile applications are built in programming languages, like Swift for iOS, it is increasingly common to see developers using JavaScript frameworks to build new apps.</p>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -308,7 +272,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is Web Development
+### What is Web Development
 
 
 
@@ -327,10 +291,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">We’ll follow along with Alejandra as she picks up each of these languages, starting with HTML.</p>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -342,7 +302,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is HTML
+### What is HTML
 
 
 
@@ -351,10 +311,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">HTML is a practical place to start learning to code. You can build basic websites after learning just a little HTML, with text, images, and videos. You can always open up your work-in-progress website with your browser and see what you’re building.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">HTML stands for <strong>h</strong>ypertext <strong>m</strong>arkup <strong>l</strong>anguage. In the next few exercises, we will look at the HTML acronym word-by-word to unpack what HTML really means.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -368,7 +324,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### HTML Markup
+### HTML Markup
 
 
 
@@ -376,10 +332,6 @@ output:
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Languages for Web Development</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">HTML Markup</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The <em>ML</em> in HTML stands for <em>markup language</em>. Markup refers to a way of annotating text that is distinguishable from the text itself. The same way that a teacher might “markup” a student essay by underlining topic sentences and circling spelling errors, HTML annotates the content within a web page.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">A teacher might use a red pen to make sure that their comments are easy to distinguish from the student’s own work. HTML separates content and annotation by using HTML tags, which are denoted by angle brackets (also known as less-than and greater-than signs).</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -392,7 +344,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### HTML Elements
+### HTML Elements
 
 
 
@@ -408,10 +360,6 @@ output:
 </ul>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -423,7 +371,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Common Tags
+### Common Tags
 
 
 
@@ -432,10 +380,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Here are a few common tags that you can start getting familiar with:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">This is a&nbsp;heading, it emphasizes text.</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">This is a&nbsp;paragraph, it is the most common tag for</span><span class="mtk1"> larger chunks of text.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This is an anchor tag, used to specify the text th</span><span class="mtk1">at is the "anchor" for a&nbsp;link.</span><span class="mtk4">&lt;/a&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;button&gt;</span><span class="mtk1">This is a&nbsp;button.</span><span class="mtk4">&lt;/button&gt;</span></span><br></div></code></pre></pre>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -450,7 +394,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Hypertext and the World Wide Web
+### Hypertext and the World Wide Web
 
 
 
@@ -459,10 +403,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">What’s so hyper about hypertext? The prefix <em>hyper</em> indicates that the text expands beyond the traditional constraints of the written word. Instead of reading documents from beginning to end, like you would read a book, someone going through hypertext can <em>browse</em>. By clicking on links from one document to another, the user can navigate to whatever page they find the most interesting and carve their own unique path through the web.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Many modern websites provide rich user experiences, with features like embedded videos, animations, and interactivity, so it doesn’t necessarily feel like you are just navigating from one HTML page to the next. But despite all of the advances that have taken place with the growth of the web, at its core the web is still just a collection of hyperlinked documents.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -475,7 +415,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Adding Hyperlinks
+### Adding Hyperlinks
 
 
 
@@ -488,10 +428,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">With this code, we’re assigning the value <code class="code__2rdF32qjRVp7mMVBHuPwDS">www.codecademy.com</code> to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute. When a user clicks on the text of this link (Learn to code!), they will be directed to <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://www.codecademy.com">www.codecademy.com</a>.</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"www.codecademy.com"</span><span class="mtk4">&gt;</span><span class="mtk1">Learn to code!</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -510,7 +446,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is CSS?
+### What is CSS?
 
 
 
@@ -520,10 +456,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Why do we need a separate language for content and presentation? This is an example of the computer science principle <em>separation of concerns</em>. Large codebases are kept maintainable when each section has clearly differentiated problems that it is trying to solve. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Since the styling rules are described separately from the content itself, if Alejandra adds more paragraphs, images, or other forms of content, she can expect them to be styled the same way as her existing content. This will save Alejandra time in the long run, especially as her website gets more and more complex.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -536,7 +468,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Applying CSS
+### Applying CSS
 
 
 
@@ -546,10 +478,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this file, you will recognize many of the HTML tags that you have been working with — and maybe a few that you haven’t seen yet! CSS contains <em>selectors</em> that specify the HTML elements to which the style should be applied as well as <em>visual rules</em> that specify how that content should be displayed.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Now it’s time to use the HTML link element to apply the CSS file to her existing website. This is done with an HTML link tag. An HTML link tag is often used to create a connection between an HTML file and the CSS file and tells the browser to apply the CSS styles to the HTML.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -571,7 +499,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is JavaScript?
+### What is JavaScript?
 
 
 
@@ -595,10 +523,6 @@ output:
 </ul>
 </div></div></div>
 
-###
-
-
-
 
 
 
@@ -617,7 +541,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### JavaScript Functions
+### JavaScript Functions
 
 
 
@@ -629,10 +553,6 @@ output:
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Events and functions combine to give JavaScript the ability to create interactive experiences. When an event is fired, a function is executed. This pattern is used again and again in web development to create interactive websites.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -661,7 +581,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is SQL?
+### What is SQL?
 
 
 
@@ -673,10 +593,6 @@ output:
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-sql" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk12">SELECT</span><span class="mtk1"> *&nbsp;</span><span class="mtk12">FROM</span><span class="mtk1"> page_views;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Web developers and software engineers also use SQL to build apps that can save, modify, and access data. There’s even a growing field of <em>data engineering</em>, which is a specialized subset of software engineers who ensure that the applications they are working with accurately and efficiently record all of the required data.</p>
 </div></div></div>
-
-###
-
-
 
 
 
@@ -690,7 +606,7 @@ output:
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Review
+### Review
 
 
 
@@ -707,10 +623,6 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Learning web development has given Alejandra the skills that she needed for her business and also opened the door for her to take on more and more technical projects in a wide variety of fields.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Are you interested in more content about picking your first language? Try out <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/choosing-a-programming-language-track">Choosing Your First Language</a>!</p>
 </div></div></div>
-
-###
-
-
 
 
 

@@ -32,7 +32,7 @@ category</a>, which can help to reinforce what you’ve learned.
 
 ## OVERVIEW OF THE INTERNET
 
-#### Hello, Internet!
+### Hello, Internet!
 
 Overview of the Internet
 
@@ -76,8 +76,6 @@ collaborate more effectively with engineers and jump into your own
 career in web development.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Check out the graph on the right that shows the number of websites on
 the internet since 2000. When you’re ready, move to the next exercise.
@@ -85,7 +83,7 @@ the internet since 2000. When you’re ready, move to the next exercise.
 
 ## OVERVIEW OF THE INTERNET
 
-#### The Ever-Expanding Network
+### The Ever-Expanding Network
 
 Overview of the Internet
 
@@ -115,8 +113,6 @@ interconnected global network of networks that is today known as the
 internet was formed.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Check out the map of early ARPANET supercomputers. When you’re ready,
 move to the next exercise.
@@ -124,7 +120,7 @@ move to the next exercise.
 
 ## OVERVIEW OF THE INTERNET
 
-#### The World Wide Web
+### The World Wide Web
 
 Overview of the Internet
 
@@ -156,8 +152,6 @@ wider society through the 1990s and the creation of a variety of
 websites that are still in use today.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 The diagram to the right demonstrates how different pages on the World
 Wide Web are linked to one another. Move to the next exercise when you
@@ -166,7 +160,7 @@ are ready to continue.
 
 ## OVERVIEW OF THE INTERNET
 
-#### Browsers and Servers
+### Browsers and Servers
 
 Overview of the Internet
 
@@ -193,8 +187,6 @@ Codecademy, we have servers that store lesson data and our servers are
 sending this lesson data to your client device.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Watch the video to learn about the importance of browsers and servers,
 then move to the next exercise when you are ready to proceed.
@@ -202,7 +194,7 @@ then move to the next exercise when you are ready to proceed.
 
 ## OVERVIEW OF THE INTERNET
 
-#### 404 Status Code
+### 404 Status Code
 
 Overview of the Internet
 
@@ -227,8 +219,6 @@ Review the HTTP statuses below and see if any of them seem familiar.
 </p>
 
 <img src="https://content.codecademy.com/programs/code-foundations-path/web-dev-survey/table.svg" alt="a table showing the most common HTTP status codes" class="img__1JGFO2nlisObc3KeOSGPRp">
-
-### 
 
 <ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
@@ -271,7 +261,7 @@ browser display the 404 status code.
 
 ## OVERVIEW OF THE INTERNET
 
-#### How Do Browsers Work?
+### How Do Browsers Work?
 
 Overview of the Internet
 
@@ -346,8 +336,6 @@ website, and even the physical distance between the browser and the
 server.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 The animation to the right shows the different languages that work
 together to display a webpage. When you’re ready, move on to the next
@@ -356,7 +344,7 @@ exercise.
 
 ## OVERVIEW OF THE INTERNET
 
-#### Web 2.0
+### Web 2.0
 
 Overview of the Internet
 
@@ -413,8 +401,6 @@ effectively be created, stored, and displayed.
 </li>
 </ul>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 What are the differences between Web 1.0 and Web 2.0 pages? The answers
 are in these screenshots.
@@ -444,7 +430,7 @@ Move to the next exercise when you’re ready to continue.
 
 ## OVERVIEW OF THE INTERNET
 
-#### Current Internet Trends
+### Current Internet Trends
 
 Overview of the Internet
 
@@ -488,8 +474,6 @@ great place to start! While the majority of mobile applications are
 built in programming languages, like Swift for iOS, it is increasingly
 common to see developers using JavaScript frameworks to build new apps.
 </p>
-
-### 
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Check out the basic responsive website shown here. Try resizing the
@@ -502,7 +486,7 @@ Move to the next exercise when you’re ready to proceed.
 
 ## OVERVIEW OF THE INTERNET
 
-#### Review
+### Review
 
 Overview of the Internet
 
@@ -547,8 +531,6 @@ built in programming languages, like Swift for iOS, it is increasingly
 common to see developers using JavaScript frameworks to build new apps.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Check out the basic responsive website shown here. Try resizing the
 screen—you’ll notice the font size adjusting as the screen width
@@ -560,7 +542,7 @@ Move to the next exercise when you’re ready to proceed.
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is Web Development
+### What is Web Development
 
 Languages for Web Development
 
@@ -610,15 +592,13 @@ We’ll follow along with Alejandra as she picks up each of these
 languages, starting with HTML.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Continue to the next exercise when you are ready to dive into HTML!
 </p>
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is HTML
+### What is HTML
 
 Languages for Web Development
 
@@ -643,8 +623,6 @@ HTML stands for <strong>h</strong>ypertext <strong>m</strong>arkup
 the HTML acronym word-by-word to unpack what HTML really means.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Take a peek at the HTML code to the right. Some parts of the language
 are pretty intuitive, see if you can figure out how anything works.
@@ -655,7 +633,7 @@ If not, don’t worry! We’ll explain it soon.
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### HTML Markup
+### HTML Markup
 
 Languages for Web Development
 
@@ -676,8 +654,6 @@ annotation by using HTML tags, which are denoted by angle brackets (also
 known as less-than and greater-than signs).
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Compare the markup for the essay to the markup in the HTML diagram. How
 do they compare?
@@ -685,7 +661,7 @@ do they compare?
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### HTML Elements
+### HTML Elements
 
 Languages for Web Development
 
@@ -728,8 +704,6 @@ angle bracket.
 </li>
 </ul>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Study the diagram to the right to learn about the anatomy of HTML
 syntax. When you’re done, continue to the next exercise.
@@ -737,7 +711,7 @@ syntax. When you’re done, continue to the next exercise.
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Common Tags
+### Common Tags
 
 Languages for Web Development
 
@@ -752,8 +726,6 @@ tags.
 Here are a few common tags that you can start getting familiar with:
 </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">This is a&nbsp;heading, it emphasizes text.</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">This is a&nbsp;paragraph, it is the most common tag for</span><span class="mtk1"> larger chunks of text.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This is an anchor tag, used to specify the text th</span><span class="mtk1">at is the "anchor" for a&nbsp;link.</span><span class="mtk4">&lt;/a&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;button&gt;</span><span class="mtk1">This is a&nbsp;button.</span><span class="mtk4">&lt;/button&gt;</span></span><br></div></code></pre></pre>
-
-### 
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -847,7 +819,7 @@ Arrow Chevron Down Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Hypertext and the World Wide Web
+### Hypertext and the World Wide Web
 
 Languages for Web Development
 
@@ -878,8 +850,6 @@ growth of the web, at its core the web is still just a collection of
 hyperlinked documents.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Review the structure of links shown in the diagram, then continue to the
 next exercise when you are ready.
@@ -887,7 +857,7 @@ next exercise when you are ready.
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Adding Hyperlinks
+### Adding Hyperlinks
 
 Languages for Web Development
 
@@ -935,8 +905,6 @@ be directed to
 <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://www.codecademy.com">www.codecademy.com</a>.
 </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"www.codecademy.com"</span><span class="mtk4">&gt;</span><span class="mtk1">Learn to code!</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-
-### 
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -1025,7 +993,7 @@ Check Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is CSS?
+### What is CSS?
 
 Languages for Web Development
 
@@ -1057,8 +1025,6 @@ content. This will save Alejandra time in the long run, especially as
 her website gets more and more complex.
 </p>
 
-### 
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 After you’ve reviewed the diagram to compare the uses of HTML and CSS,
 continue to the next exercise.
@@ -1066,7 +1032,7 @@ continue to the next exercise.
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Applying CSS
+### Applying CSS
 
 Languages for Web Development
 
@@ -1094,8 +1060,6 @@ existing website. This is done with an HTML link tag. An HTML link tag
 is often used to create a connection between an HTML file and the CSS
 file and tells the browser to apply the CSS styles to the HTML.
 </p>
-
-### 
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -1194,7 +1158,7 @@ Check Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is JavaScript?
+### What is JavaScript?
 
 Languages for Web Development
 
@@ -1252,8 +1216,6 @@ the user re-sizing their window
 the user hovering over text on the webpage
 </li>
 </ul>
-
-### 
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -1322,7 +1284,7 @@ Check Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### JavaScript Functions
+### JavaScript Functions
 
 Languages for Web Development
 
@@ -1349,8 +1311,6 @@ interactive experiences. When an event is fired, a function is executed.
 This pattern is used again and again in web development to create
 interactive websites.
 </p>
-
-### 
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
@@ -1490,7 +1450,7 @@ Check Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### What is SQL?
+### What is SQL?
 
 Languages for Web Development
 
@@ -1533,8 +1493,6 @@ engineers who ensure that the applications they are working with
 accurately and efficiently record all of the required data.
 </p>
 
-### 
-
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
@@ -1572,7 +1530,7 @@ Arrow Chevron Down Icon
 
 ## LANGUAGES FOR WEB DEVELOPMENT
 
-#### Review
+### Review
 
 Languages for Web Development
 
@@ -1622,8 +1580,6 @@ Try out
 <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/choosing-a-programming-language-track">Choosing
 Your First Language</a>!
 </p>
-
-### 
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Congratulations! You can now understand and talk about the main
