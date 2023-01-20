@@ -32,7 +32,7 @@ for link in links:
     except:
       pass
     try:
-      header = driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"] | ').text + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"] | ').text
+      header = driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
     except:
       pass
     try:
