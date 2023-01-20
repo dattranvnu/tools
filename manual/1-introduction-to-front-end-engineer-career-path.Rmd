@@ -4,17 +4,12 @@ output:
     variant: markdown_github
 ---
 
-# Introduction to Front-End Engineer Career Path
-
-## Getting Started
-
-
-### Welcome to Front-End Engineer Career Path
+## Welcome to Front-End Engineer Career Path
 
 
 
 
-<h1 class="gamut-1ewwict-Text e8i0p5k0">Welcome to Front-End Engineer Career Path</h1><p class="gamut-1xdcsrc-Text e8i0p5k0"><span data-testid="markdown" class="markdown__1eeYJ4WPKUcvX_LDDGJR12">See what you will be learning in this Career Path.</span></p><div class="gamut-unqu21-Box-ArticleContentContainer e1xfx7rd1"><div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">Welcome to the Front-End Engineer Career Path! If you want to make beautiful, interactive websites, start a new career, or improve your skills, you’ve come to the right place. This path starts from the very basics so you don’t need to know anything to start. We’ll give you everything you need to know to apply for an entry-level job in front-end engineering: from languages like HTML, CSS, and JavaScript, to frameworks like React and Redux, to interview skills, like whiteboarding and data structures.</p>
+<div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">Welcome to the Front-End Engineer Career Path! If you want to make beautiful, interactive websites, start a new career, or improve your skills, you’ve come to the right place. This path starts from the very basics so you don’t need to know anything to start. We’ll give you everything you need to know to apply for an entry-level job in front-end engineering: from languages like HTML, CSS, and JavaScript, to frameworks like React and Redux, to interview skills, like whiteboarding and data structures.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">After this Path, you will be able to:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Build static websites with HTML and CSS</li>
@@ -51,22 +46,17 @@ output:
 <h3 id="heading-updates" class="h3__3B1DSzXTW-ux1viDSStOux">Updates</h3>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Since we strive to bring you the best and most up-to-date content, we will be periodically updating the materials in this path. For smaller updates we’ll be communicating changes via the <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/articles/change-log-web-development">Web Development Change Log</a>, which features updates and bug fixes across all Web Development content. For larger changes, we’ll write a <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://news.codecademy.com/tag/updates/">blog post</a> detailing the extent of those changes and how they impact the syllabi. If you are enrolled in this path, we’ll send a notification each time there’s been an update, so you know exactly what has changed. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">We’re excited for you to begin this journey!</p>
-</div></div>
+</div>
 
 
 
 
+## Helpful Resources
 
 
 
 
-
-### Helpful Resources
-
-
-
-
-<h1 class="gamut-1ewwict-Text e8i0p5k0">Helpful Resources</h1><p class="gamut-1xdcsrc-Text e8i0p5k0"><span data-testid="markdown" class="markdown__1eeYJ4WPKUcvX_LDDGJR12">In order to successfully take part in your learning journey, we’ve provided you with a set of resources.</span></p><div class="gamut-unqu21-Box-ArticleContentContainer e1xfx7rd1"><div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">As you go through the path, we’ll suggest certain resources for you to use, like articles, videos, tutorials, and documentation. Here are some additional resources that are considered groundbreaking, significant, or classics in the industry and will help you throughout your Path:</p>
+<div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">As you go through the path, we’ll suggest certain resources for you to use, like articles, videos, tutorials, and documentation. Here are some additional resources that are considered groundbreaking, significant, or classics in the industry and will help you throughout your Path:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/">MDN Web Docs</a></li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://css-tricks.com/">CSS-Tricks</a></li>
@@ -86,22 +76,17 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">While the books listed are recommended and will help you on your coding journey, purchasing and reading them is optional. When possible, we’ve suggested a free alternative. The content covers the same topics that you’ll find in our own lessons, but may be useful for those who want another explanation, perspective, or other opportunities for practice.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">For those who choose to use them, relevant chapters and sections are recommended in Review informationals at the end of each unit.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Best of luck!</p>
-</div></div>
+</div>
 
 
 
 
+## Community Resources
 
 
 
 
-
-### Community Resources
-
-
-
-
-<h1 class="gamut-1ewwict-Text e8i0p5k0">Community Resources</h1><p class="gamut-1xdcsrc-Text e8i0p5k0"><span data-testid="markdown" class="markdown__1eeYJ4WPKUcvX_LDDGJR12">Get to know the Codecademy Community while you work on your Path</span></p><div class="gamut-unqu21-Box-ArticleContentContainer e1xfx7rd1"><div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">A large part of learning how to code is collaborative. Get to know the Codecademy Community while you work on your Path, whether it’s to get a project review, find a pair-programming buddy, or gain a new collaborator. </p>
+<div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">A large part of learning how to code is collaborative. Get to know the Codecademy Community while you work on your Path, whether it’s to get a project review, find a pair-programming buddy, or gain a new collaborator. </p>
 <h3 id="heading-codecademy-community-learning-to-code-with-others" class="h3__3B1DSzXTW-ux1viDSStOux">Codecademy Community: Learning to Code with Others</h3>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Learning a programming language can be like learning a spoken language. It’s an incredible feeling when someone speaks to you and you understand what they’re saying! But it’s much more powerful when you are able to speak in response, using the new language with others.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Coding languages work similarly. To gain mastery, you must also practice using the language.
@@ -112,7 +97,7 @@ You can start practicing what you’ve learned by visiting the <a target="_blank
 <h3 id="heading-join-a-chapter-learn-together" class="h3__3B1DSzXTW-ux1viDSStOux">Join a Chapter, Learn Together</h3>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Codecademy Chapters are a great way to team up to reach your goals. Chapters meet virtually at a set time, and are peer-led by a Codecademy learner, just like you. Each Chapter will have a focus, ranging from web development projects, to mobile development, to technical interview preparedness. <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://community.codecademy.com">Find a Chapter near you or start your own</a>. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Best of luck!</p>
-</div></div>
+</div>
 
 
 
