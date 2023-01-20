@@ -1,1 +1,1 @@
-rmarkdown::render("outputs/README.Rmd")
+rmarkdown::render("README.Rmd")
