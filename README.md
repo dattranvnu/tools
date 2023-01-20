@@ -1,3 +1,822 @@
+## Introduction: Overview of Web Development
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The goal of this unit is to introduce you to the field of front-end web
+development. You will learn about how the internet works and get an
+overview of programming languages used by web developers.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After this unit, you will be able to:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand the architecture of the internet, at a high-level
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand commonly used languages in Web Development
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand what a front-end is
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Learning is social. Whatever you’re working on, be sure to connect with
+the Codecademy community in the
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>.
+Remember to check in with the community regularly, including for things
+like asking for code reviews on your project work and providing code
+reviews to others in the
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects
+category</a>, which can help to reinforce what you’ve learned.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### Hello, Internet!
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Hello,
+Internet!</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+It is nearly impossible to overstate how much the internet has changed
+how we consume information and communicate with one another. More than
+four billion people around the world are internet users and the total
+number of websites on the world wide web is nearing two billion.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Despite the presence of the internet in our lives, very few internet
+users understand how it works. You don’t need to be an engineer to
+benefit from understanding how the internet works. However,
+understanding the internet’s infrastructure will help you decide if
+learning web development is right for you.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, you will learn how the internet works behind the scenes.
+After finishing this lesson, you’ll be able to answer questions like:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+How is data sent from one computer to another?
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+What is the relationship between a browser and a server?
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+How is code turned into the experience that users see in their browsers?
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+How has the web and web development changed from its invention to today?
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+By the end of this lesson, you will have the knowledge that you need to
+collaborate more effectively with engineers and jump into your own
+career in web development.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Check out the graph on the right that shows the number of websites on
+the internet since 2000. When you’re ready, move to the next exercise.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### The Ever-Expanding Network
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">The
+Ever-Expanding Network</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+So how did the internet start? In 1969, the United States Department of
+Defense funded the creation of <em>ARPANET</em>, a precursor network to
+the internet. ARPANET stands for Advanced Research Projects Agency
+Network. ARPANET connected supercomputing centers run by government
+agencies and universities.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+These institutions wanted to connect their individual networks for
+large-scale information transfer. However, many of them followed
+different standards and technical implementations. In the 1970s, the
+<em>transmission control protocol</em> and <em>internet protocol</em>,
+otherwise known as TCP/IP, were created to provide standards around the
+transfer of data that would allow these early networks to communicate
+with each other.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+TCP/IP was researched and specified throughout the 1970s and adopted in
+the early 1980s. As different networks adopted TCP/IP, the
+interconnected global network of networks that is today known as the
+internet was formed.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Check out the map of early ARPANET supercomputers. When you’re ready,
+move to the next exercise.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### The World Wide Web
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">The World
+Wide Web</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+While people today often use the terms internet and world wide web
+interchangeably, they actually refer to quite different things.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<em>The internet</em> refers to the actual network of connected
+computing devices. Although the internet was around in the 1980s, there
+was not an intuitive way for most people to browse the internet. The
+internet just sent messages produced by one computer and presented them
+to another computer.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Engagement with the internet changed in 1989 when Tim Berners-Lee
+invented the <em>world wide web</em>. The world wide web is a collection
+of interlinked websites and other web resources. The world wide web, in
+combination with the rise of web browsers in the 1990s, introduced a
+user-friendly interface that enabled users to browse multimedia content
+and interact with other users.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The invention of the world wide web led to the use of the internet in
+wider society through the 1990s and the creation of a variety of
+websites that are still in use today.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The diagram to the right demonstrates how different pages on the World
+Wide Web are linked to one another. Move to the next exercise when you
+are ready to continue.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### Browsers and Servers
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Browsers and
+Servers</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+As we’ve seen, the internet is a network that links computer devices
+worldwide, enabling people to share information with one another despite
+vast distances. But how is information sent from one device to another?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+One way of understanding this process is to look at the
+<em>client-server</em> model. In this model, the <em>client</em> refers
+to the user’s device or program that is making a request for data. A
+client can be a browser or application running on a user’s laptop,
+smartphone, or tablet.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <em>server</em> is the device or program in that network that waits
+for incoming requests and sends back data. This might be an in-house
+server, a rented server at a data center, or cloud server. At
+Codecademy, we have servers that store lesson data and our servers are
+sending this lesson data to your client device.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Watch the video to learn about the importance of browsers and servers,
+then move to the next exercise when you are ready to proceed.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### 404 Status Code
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">404 Status
+Code</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s take a deeper dive into the client-server model through exploring
+a part of HTTP that you’ve probably seen before: <em>HTTP status
+codes</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When a server responds to a client, the server specifies a status code
+as a part of the response. Status codes indicate whether or not the HTTP
+request was successfully completed and if there was an error, they
+contain some information about the type of error that happened. The
+status code helps the browser know how to handle the data that was sent
+back with the response.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Review the HTTP statuses below and see if any of them seem familiar.
+</p>
+
+<img src="https://content.codecademy.com/programs/code-foundations-path/web-dev-survey/table.svg" alt="a table showing the most common HTTP status codes" class="img__1JGFO2nlisObc3KeOSGPRp">
+
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The browser is currently displaying a website that Alex has created to
+show photos and descriptions of her pets. If you click on the links for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Dogs</code> or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Cats</code>, you can see more
+information about Alex’s dogs and cats.
+</p>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, click on the file icon in the upper left corner of the text
+editor. You’ll see the different HTML files that the server is ready to
+send to the browser whenever those links are clicked. These HTML files
+correspond to the different web pages that are displayed in the browser.
+When the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Dogs</code> link is
+clicked, the server will send the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">dogs.html</code> file to the
+client.
+</p>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Try out the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Dogs</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Cats</code> links now!
+</p>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s create a 404 status response by making a request for a
+non-existent resource. Alex hasn’t built a webpage to list her turtles!
+Click on the link for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Turtles</code> to see the
+browser display the 404 status code.
+</p>
+</li>
+</ol>
+
+## OVERVIEW OF THE INTERNET
+
+### How Do Browsers Work?
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">How Do
+Browsers Work?</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+So far we’ve seen how a single request and response are handled between
+a client and a server. But most of the time, our devices aren’t making a
+single request. Every time we load a webpage, our device sends a request
+for each file that makes up that page. So even when we’re just loading
+<em>one</em> webpage, that page can make multiple requests in order to
+retrieve different pieces of content, like images.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+So how does this process work when we’re making multiple requests
+simultaneously?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All of the following steps happen in a split second:
+</p>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+When a user types in a URL and presses enter, the server processes the
+request and sends the HTML file back to the client. <em>HTML</em> files
+hold the content of a website and they also contain links for any
+additional assets or code that are needed to display the site properly.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The browser will begin to search for elements in the HTML file and it
+will start to make additional HTTP requests for any other external
+resources used by the HTML file. This often includes:<br>
+</li>
+</ol>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+One or more CSS stylesheets. <em>CSS</em> stands for cascading style
+sheets; CSS creates the style and layout of a web page. The browser will
+request the CSS stylesheet, and when the server sends it back, the
+browser analyzes the CSS and starts applying the visual styles to the
+content of the site.<br>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The request-response cycle also sends website assets, like images and
+videos, from the server to the browser. If these files are large, there
+might even be a noticeable delay before they are rendered by the
+browser.<br>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+One or more JavaScript files. <em>JavaScript</em> makes the webpage
+interactive. This programming language functions as the “behavior” of
+the web page. A webpage that does not use JavaScript is known as a
+<em>static</em> webpage.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In most modern browsers, these additional requests are made in parallel.
+This means that these requests are initiated at the same time, and the
+browser does not wait to receive one resource before requesting the next
+resource.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All of the resources are typically displayed as soon as possible. The
+HTML will be displayed even if some of the other assets have not been
+received by the browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Voila! The user can now interact with the website that they requested to
+see. This whole process typically happens in about a second or less,
+depending on the speed of the user’s connection, the size of the
+website, and even the physical distance between the browser and the
+server.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The animation to the right shows the different languages that work
+together to display a webpage. When you’re ready, move on to the next
+exercise.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### Web 2.0
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Web
+2.0</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now that we’ve covered some of the basics of how the internet works,
+let’s check out some trends that are fundamental to the emergence of
+modern web development and modern JavaScript.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The earliest static websites were composed of text, images, and links,
+with very little interactivity beyond browsing from one page to another.
+These websites are called <em>static</em>, which means lacking in
+movement because they do not change based on user behavior. As internet
+connection speeds and web technologies progressed, more complex
+interactions became possible on the web.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A collection of advances in the early 2000s created a cluster of web
+applications that are often called “Web 2.0”. In comparison to early
+static websites, Web 2.0 applications are often defined by:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Providing a dynamic user experience by offering content that responds to
+user input without forcing the page to reload. In the early web, user
+input would typically take the user to a new page — and they would have
+to wait for the new page to load. In Web 2.0, websites could just update
+selected regions of the page, avoiding the interruption caused by
+reloading.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Emphasizing user-generated content and social sharing. In the early web,
+content was generally authored by a single source. The rise of blogging,
+social media, and wikis in web 2.0 meant that users could generate
+content and share it with their friends.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+There were important technical advances that enabled each of these
+advances in the user interface of the internet. For example:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<em>jQuery</em> was the first JavaScript framework that could fetch data
+while the web page is running.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The rise of <em>web frameworks</em> that connected to databases, like
+Spring, Django, and Ruby-on-Rails, enabled user-generated content to
+effectively be created, stored, and displayed.
+</li>
+</ul>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+What are the differences between Web 1.0 and Web 2.0 pages? The answers
+are in these screenshots.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On the left, the Web 1.0 page is <em>static:</em> it does not respond to
+user behavior and the content is the same for all users.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On the right, the Web 2.0 page is:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Interactive — you can Like and Comment on the page
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Dynamic — the time since posting (currently “12 hrs”) updates without
+reloading the whole page
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Allows social interaction — a lot of friends liked this image!
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Move to the next exercise when you’re ready to continue.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### Current Internet Trends
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Current
+Internet Trends</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of internet-connected smartphones has profoundly changed how
+users interact with the internet. Mobile internet traffic now accounts
+for more than half of all internet traffic and web development practices
+have evolved in order to provide a good user experience regardless of
+device type.
+</p>
+<h4 id="heading-responsive-web-design" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+Responsive Web Design
+</h4>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of <em>responsive web design</em> has changed how websites are
+built. Responsive web design was enabled by additions to the CSS
+language, like media queries and relative units. These additions allow
+the presentation of websites to adjust based on the size of the window
+in which they are displayed.
+</p>
+<h4 id="heading-mobile-applications-and-devices" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+Mobile Applications and Devices
+</h4>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of internet-connected <em>mobile applications</em> has changed
+the way that we think about browsing the internet. Users accessing the
+internet on smartphones are likely to spend much more time with specific
+applications, rather than using their phone’s browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Though most mobile applications are internet connected, they are not
+part of the world wide web. The web is built out of links, whereas
+mobile applications are designed to keep the user’s attention.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to learn about mobile development, web development is a
+great place to start! While the majority of mobile applications are
+built in programming languages, like Swift for iOS, it is increasingly
+common to see developers using JavaScript frameworks to build new apps.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Check out the basic responsive website shown here. Try resizing the
+screen—you’ll notice the font size adjusting as the screen width
+changes.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Move to the next exercise when you’re ready to proceed.
+</p>
+
+## OVERVIEW OF THE INTERNET
+
+### Review
+
+Overview of the Internet
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Current
+Internet Trends</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of internet-connected smartphones has profoundly changed how
+users interact with the internet. Mobile internet traffic now accounts
+for more than half of all internet traffic and web development practices
+have evolved in order to provide a good user experience regardless of
+device type.
+</p>
+<h4 id="heading-responsive-web-design" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+Responsive Web Design
+</h4>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of <em>responsive web design</em> has changed how websites are
+built. Responsive web design was enabled by additions to the CSS
+language, like media queries and relative units. These additions allow
+the presentation of websites to adjust based on the size of the window
+in which they are displayed.
+</p>
+<h4 id="heading-mobile-applications-and-devices" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+Mobile Applications and Devices
+</h4>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The rise of internet-connected <em>mobile applications</em> has changed
+the way that we think about browsing the internet. Users accessing the
+internet on smartphones are likely to spend much more time with specific
+applications, rather than using their phone’s browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Though most mobile applications are internet connected, they are not
+part of the world wide web. The web is built out of links, whereas
+mobile applications are designed to keep the user’s attention.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to learn about mobile development, web development is a
+great place to start! While the majority of mobile applications are
+built in programming languages, like Swift for iOS, it is increasingly
+common to see developers using JavaScript frameworks to build new apps.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Check out the basic responsive website shown here. Try resizing the
+screen—you’ll notice the font size adjusting as the screen width
+changes.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Move to the next exercise when you’re ready to proceed.
+</p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
+
+### What is Web Development
+
+Languages for Web Development
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">What is Web
+Development</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Welcome to the world of web development! Millions of users have learned
+to make websites and web applications on Codecademy — and you could be
+next.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Having web development skills allows you to take your big ideas —
+whether it’s a simple website, a complex web application, or even a
+browser game — and build them on the web!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Meet Alejandra! She is a budding web developer. She runs a small travel
+agency. Alejandra finds her customers mostly through word of mouth, but
+now she’s ready to expand her business by building a website.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, we will follow Alejandra along her journey to learn new
+languages for web development, and we will see what kinds of features
+each new skill allows Alejandra to build for her site.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The four main languages that Alejandra needs to learn include:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<strong>HTML</strong> — structures website content
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<strong>CSS</strong> — applies styling to websites
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<strong>JavaScript</strong> — adds interactivity to websites
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<strong>SQL</strong> — allows your web application to store and retrieve
+data
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We’ll follow along with Alejandra as she picks up each of these
+languages, starting with HTML.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Continue to the next exercise when you are ready to dive into HTML!
+</p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
+
+### What is HTML
+
+Languages for Web Development
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">What is
+HTML</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Alejandra knows that the first step to building a website is learning
+HTML. Why? <em>HTML</em> is the skeleton of all web pages. It provides
+structure to the content on a website, including text, images, buttons,
+videos, and more.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+HTML is a practical place to start learning to code. You can build basic
+websites after learning just a little HTML, with text, images, and
+videos. You can always open up your work-in-progress website with your
+browser and see what you’re building.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+HTML stands for <strong>h</strong>ypertext <strong>m</strong>arkup
+<strong>l</strong>anguage. In the next few exercises, we will look at
+the HTML acronym word-by-word to unpack what HTML really means.
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a peek at the HTML code to the right. Some parts of the language
+are pretty intuitive, see if you can figure out how anything works.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If not, don’t worry! We’ll explain it soon.
+</p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
+
+### HTML Markup
+
+Languages for Web Development
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">HTML
+Markup</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <em>ML</em> in HTML stands for <em>markup language</em>. Markup
+refers to a way of annotating text that is distinguishable from the text
+itself. The same way that a teacher might “markup” a student essay by
+underlining topic sentences and circling spelling errors, HTML annotates
+the content within a web page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A teacher might use a red pen to make sure that their comments are easy
+to distinguish from the student’s own work. HTML separates content and
+annotation by using HTML tags, which are denoted by angle brackets (also
+known as less-than and greater-than signs).
+</p>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Compare the markup for the essay to the markup in the HTML diagram. How
+do they compare?
+</p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
+
+### HTML Elements
+
+Languages for Web Development
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">HTML
+Elements</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+HTML tags are the “markup” for HTML. They are annotations that provide
+information about the type of content they contain. Let’s take a close
+look at the syntax for how HTML tags surround content to create an HTML
+element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The diagram displays an HTML paragraph element. As we can see, the
+paragraph element is made up of one opening tag
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>), the content
+(“Hello World!” text), and a closing tag
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</p\></code>).
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s quickly review each part of the element pictured:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+HTML element — a unit of content in an HTML document formed by HTML tags
+and the text or media it contains.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Opening Tag — the element name used to start an HTML element. The tag
+type is surrounded by opening and closing angle brackets.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Content — The information (text or other elements) contained between the
+opening and closing tags of an HTML element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Closing tag — the second HTML tag used to end an HTML element. Closing
+tags have a forward slash (/) inside of them, directly after the left
+angle bracket.
+</li>
+</ul>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Study the diagram to the right to learn about the anatomy of HTML
+syntax. When you’re done, continue to the next exercise.
+</p>
+
+## LANGUAGES FOR WEB DEVELOPMENT
+
+### Common Tags
+
+Languages for Web Development
+
+<span class="gamut-yj8jvy-Text e8i0p5k0" aria-hidden="true">Common
+Tags</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Okay, let’s practice using HTML elements by writing a few different
+tags.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Here are a few common tags that you can start getting familiar with:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">This is a&nbsp;heading, it emphasizes text.</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">This is a&nbsp;paragraph, it is the most common tag for</span><span class="mtk1"> larger chunks of text.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This is an anchor tag, used to specify the text th</span><span class="mtk1">at is the "anchor" for a&nbsp;link.</span><span class="mtk4">&lt;/a&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;button&gt;</span><span class="mtk1">This is a&nbsp;button.</span><span class="mtk4">&lt;/button&gt;</span></span><br></div></code></pre></pre>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s make the heading stand out! Put an opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> tag around the text
+that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Jetsetter Travel
+Agency</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Put an opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> tag around the long
+paragraph that starts with
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">With over 25 years…</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Put an opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">button</code> tag around the
+text that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Click
+here!</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
 ## LANGUAGES FOR WEB DEVELOPMENT
 
 ### Hypertext and the World Wide Web
@@ -985,3 +1804,67 @@ stick with it, you’ll be able to make some brilliant things.
 
 <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="What is front-end?" width="100%" height="100%" src="https://www.youtube.com/embed/GJ8jidDdWVg?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
 </iframe>
+
+## Front-End Frameworks
+
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
+</iframe>
+
+## Front-End Frameworks
+
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Front End Frameworks" width="100%" height="100%" src="https://www.youtube.com/embed/IVbMcP5OLbo?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
+</iframe>
+
+## Review: Overview of Web Development
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Congratulations! The goal of this unit was to introduce you to the field
+of front-end web development. You also learned about how the internet
+works and got an overview of programming languages used by web
+developers.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Having completed this unit, you are now able to:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand the architecture of the internet, at a high-level
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand commonly used languages in Web Development
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Understand what a front-end is
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you are interested in learning more about these topics, here are some
+additional resources:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Book:
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://bookshop.org/books/html-and-css-design-and-build-websites/9781118008188">HTML
+& CSS</a>, Jon Duckett, Introduction (pp. 2-10)
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Article:
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://codeburst.io/how-to-become-a-web-developer-101-5db4f11e611">Web
+Development For Beginners</a>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Article:
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.vox.com/2014/6/16/18076282/the-internet">The
+internet, explained</a>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Learning is social. Whatever you’re working on, be sure to connect with
+the Codecademy community in the
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>.
+Remember to check in with the community regularly, including for things
+like asking for code reviews on your project work and providing code
+reviews to others in the
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects
+category</a>, which can help to reinforce what you’ve learned.
+</p>
