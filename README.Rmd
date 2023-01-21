@@ -2122,7 +2122,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## CHANGING THE BOX MODEL
+
 
 ### Box Model: Content-Box
 
@@ -2155,7 +2155,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## CHANGING THE BOX MODEL
+
 
 ### Box Model: Border-Box
 
@@ -2191,7 +2191,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## CHANGING THE BOX MODEL
+
 
 ### The New Box Model
 
@@ -2224,7 +2224,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## CHANGING THE BOX MODEL
+
 
 ### Review: Changing the Box Model
 
@@ -2424,7 +2424,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Position
 
@@ -2467,7 +2467,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Position: Relative
 
@@ -2512,7 +2512,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Position: Absolute
 
@@ -2547,7 +2547,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Position: Fixed
 
@@ -2584,7 +2584,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Position: Sticky
 
@@ -2618,7 +2618,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Z-Index
 
@@ -2655,7 +2655,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Inline Display
 
@@ -2693,7 +2693,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Display: Block
 
@@ -2728,7 +2728,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Display: Inline-Block
 
@@ -2768,7 +2768,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Float
 
@@ -2808,7 +2808,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Clear
 
@@ -2849,7 +2849,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## DISPLAY AND POSITIONING
+
 
 ### Review: Layout
 
@@ -2965,7 +2965,6 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Learning is social. Whatever you’re working on, be sure to connect with the Codecademy community in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>. Remember to check in with the community regularly, including for things like asking for code reviews on your project work and providing code reviews to others in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects category</a>, which can help to reinforce what you’ve learned.</p>
 </div>
-
 
 
 
