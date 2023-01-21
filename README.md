@@ -1,3 +1,11 @@
+# Fundamentals of HTML
+
+## Introduction: Fundamentals of HTML
+
+
+
+
+
 <div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">The goal of this unit is to introduce you to the fundamentals of HTML, one of the languages essential to developing websites.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">After this unit, you will be able to:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
@@ -9,7 +17,7 @@
 <p class="p__1qg33Igem5pAgn4kPMirjw">Learning is social. Whatever you’re working on, be sure to connect with the Codecademy community in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>. Remember to check in with the community regularly, including for things like asking for code reviews on your project work and providing code reviews to others in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects category</a>, which can help to reinforce what you’ve learned.</p>
 </div>
 
-
+# Learn HTML: Elements
 
 
 ## INTRODUCTION TO HTML
@@ -39,7 +47,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### HTML Anatomy
 
@@ -70,10 +78,10 @@
 </div></div></div><div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Study the diagram to the right to learn about the anatomy of HTML syntax. When you’re done, continue to the next exercise.</p>
 </div></div></div>
 
+<img src="https://content.codecademy.com/courses/learn-html/elements-and-structure/html%20lesson%20image.svg" alt="HTML Element Diagram" class="gamut-1h2re45-imageStyles-imageStyles e1xtjyf0">
 
 
 
-## INTRODUCTION TO HTML
 
 ### The Body
 
@@ -99,7 +107,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### HTML Structure
 
@@ -122,7 +130,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Headings
 
@@ -156,7 +164,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Divs
 
@@ -182,7 +190,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Attributes
 
@@ -208,7 +216,7 @@
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Displaying Text
 
@@ -248,7 +256,7 @@ This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;span&gt;</code> element sepa
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Styling Text
 
@@ -275,7 +283,7 @@ This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;span&gt;</code> element sepa
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Line Breaks
 
@@ -297,7 +305,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Unordered Lists
 
@@ -335,7 +343,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Ordered Lists
 
@@ -366,7 +374,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Images
 
@@ -388,7 +396,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Image Alts
 
@@ -412,7 +420,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Videos
 
@@ -436,7 +444,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Review
 
@@ -467,6 +475,11 @@ miles).</p>
 </div></div></div><div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">We’ve left you with your final code. Feel free to play around and modify it using the new elements you’ve learned!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you want to review how to structure HTML in a project and use semantically meaningful elements, watch the video below and follow along with one of our experts:</p>
 <div class="youtubeVideoWrapper__1XGg4ywjdSdfygJkAy3bB2" data-testid="yt-iframe" style="padding-bottom: 66.67%;"><iframe width="300" height="200" src="https://www.youtube.com/embed/uxmB8MlO3m8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" class="iframe__rk2yNYIwJeUOj5J8cQJ9-"></iframe></div></div></div></div>
+
+
+
+
+# Learn HTML: Structure
 
 
 
@@ -918,9 +931,7 @@ Click the link to make sure it works!</p>
 
 
 
-## FRONT-END ENGINEER
-
-### Fashion Blog
+## Fashion Blog
 
 
 
@@ -971,7 +982,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div></article></div></div>
 
 
-
+# Learn HTML: Tables
 
 ## HTML TABLES
 
@@ -1288,9 +1299,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## FRONT-END ENGINEER
-
-### Wine Festival Schedule
+## Wine Festival Schedule
 
 
 
@@ -1628,92 +1637,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## FRONT-END ENGINEER
-
-### New York City Blog
-
-
-
-
-<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Front-End Engineer</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">New York City Blog</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">After researching New York City, you decide to create a blog for your viewers who want to know more about the city. It’s time to create a blog to show off how amazing the Big Apple is. You got this!</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Don’t forget to save your code after each step. By pressing save to run your code you will see the changes you’ve made in the browser.     </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> While you are developing the webpage, you will notice that the elements are automatically assigned colors, borders, and positioned properly. This is because of the CSS file. Don’t worry about CSS right now, it’s only there so that the webpage looks nice.   </p>
-</div></div><div class="group__LspoGf1Fw0-ac_AUnuvRV"></div></div><div class="tasks__2zeiH_BHmhuJBXUlJC3X0R"><span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as complete by checking them off</span><h2 class="fit-full fcn-task-header">Navigation Bar</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 1" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-1-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-1">1.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">A common usage of a navigation bar is to create shortcuts for a webpage. This will allow the user to go directly to the information they want to access through the navigation links. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;nav&gt;</code> element underneath the opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;body&gt;</code> tag.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 2" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-2-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-2">2.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;nav&gt;</code> element, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;ul&gt;</code> element to create an unordered list. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">The unordered list should contain the following three items:</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Blog</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Media</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">About</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Use an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;li&gt;</code> element with <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a href=""&gt;&lt;/a&gt;</code> nested within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;li&gt;</code> element to link the content to the nav bar. 
-You may notice that the navbar doesn’t work right now but don’t worry, once the content is added, the navbar will be fully functional!  </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Blog Content</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 3" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-3-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-3">3.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">You need to title your blog, so people know what you’re writing about. Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> element under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/nav&gt;</code> tag. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> element, create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h1&gt;</code> element which should contain the following:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 4" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-4-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-4">4.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> element below the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/header&gt;</code> tag.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> element, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element with an id of “blog”. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element will hold the main content of your webpage. You are giving this element an id so that you can target it with the nav bar.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 5" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-5-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-5">5.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Then, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element within <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> that has the following:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is made up of five boroughs which </span><span class="mtk1">include Queens, Manhattan, Brooklyn, the Bronx, </span><span class="mtk1">and Staten Island. The city is the home of </span><span class="mtk1">approximately 8&nbsp;million people. In 1876, France </span><span class="mtk1">gifted the City of New York what is known as the </span><span class="mtk1">Statue of Liberty, which is currently located on </span><span class="mtk1">Liberty Island and commonly visited by tourists. </span><span class="mtk1">However, it took 10 years to assemble and </span><span class="mtk1">therefore wasn’t unveiled until 1886. Another </span><span class="mtk1">tourist destination is Times Square. Times Square </span><span class="mtk1">is commonly known for the big buildings, Broadway </span><span class="mtk1">shows, and bright neon signs. This famous location </span><span class="mtk1">was named after The New York Times after the Times </span><span class="mtk1">moved to that location. Prior to that, it was </span><span class="mtk1">named Longacre Square. New York City is also known </span><span class="mtk1">for its bridges that connect the boroughs and </span><span class="mtk1">allow ease of transportation.</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 6" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-6-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-6">6.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that our blog has some content, the next step is adding media to enhance our blog. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">You can do this by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> element. Under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/section&gt;</code> tag create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> element.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 7" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-7-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-7">7.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag within <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> and use the following link as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>:</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg">https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg</a></p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 8" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-8-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-8">8.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s describe the image for those who don’t know what statue this is! </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Using <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> add this description of the image:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">This is the Statue of Liberty, a&nbsp;popular tourist a</span><span class="mtk1">ttraction located on Liberty Island.</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Aside Content</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 9" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-9-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-9">9.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">For our blog post, you need to add additional content to enhance the post, you can do this by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/figure&gt;</code> tag create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Within <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code>, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element containing the following information:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is very popular for the variety of g</span><span class="mtk1">reat food it has. Some of the top food items in NY</span><span class="mtk1">C include:</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 10" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-10-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-10">10.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">New York is known for its amazing food. Our blog should list some of the top food options in NYC. You can do this by creating an ordered list! </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create an ordered list by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;ol&gt;</code> element within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. In an ordered list the first item is ranked one, the second item is ranked two and so on. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">The ordered list should contain the following seven items in this order:</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Pizza </li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Bagels</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Burgers and Sandwiches </li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Ramen </li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Tacos</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Pasta</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Desserts</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Media</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 11" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-11-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-11">11.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Right now our blog post consists of only one image. Adding more media can help give a better visual representation of New York. Let’s create a section for the media content. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element with an id of “media” under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/aside&gt;</code> tag. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Within the new <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element, create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Then, create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h2&gt;</code> element within <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> that says: </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">The Scenery in NYC</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 12" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-12-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-12">12.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">You are going to add a little description to explain the media. Add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element directly underneath the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/h2&gt;</code> tag but within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element with the following paragraph:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">While the view in the city is beautiful, the sound</span><span class="mtk1">s are not as lovely. Below you'll see an example o</span><span class="mtk1">f the view and the sounds you'll deal with in NYC </span><span class="mtk1">on a&nbsp;daily basis.</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 13" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-13-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-13">13.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">New York City has a beautiful skyline, so let’s show that with a video. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/article&gt;</code> tag, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;video&gt;</code> element with the attribute <code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>.
-Use the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>: <code class="code__2rdF32qjRVp7mMVBHuPwDS">"https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"</code>.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 14" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-14-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-14">14.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">During the night time, the New York City skyline can light up the whole sky! This time you are going to use <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;embed&gt;</code> to display an image of the skyline. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;embed&gt;</code> element under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/video&gt;</code> tag. Use the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>: <code class="code__2rdF32qjRVp7mMVBHuPwDS">"https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg"</code>.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 15" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-15-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-15">15.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">New York City is known as “the city that never sleeps.” At any point in the day, you can hear the traffic as you make your way through the city. Let’s add an audio clip to show how loud NYC can be. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> tag with the attribute <code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> directly below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;embed&gt;</code> element. (Don’t forget the closing tag.)</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> tag, insert an audio file with the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>: <code class="code__2rdF32qjRVp7mMVBHuPwDS">"https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov"</code>.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Footer</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 16" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-16-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-16">16.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">At the bottom of a page, you can add a footer to credit you for the creation of this blog! </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;footer&gt;</code> element with an id of “about” under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/main&gt;</code> tag.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Inside, add the following content:</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">A <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> tag with “Posted by:” followed by your name.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">A <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> tag that provides one type of contact information for people to reach you at. For example:<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">Contact information: Blogger@NYC.com</span></span><br></div></code></pre></pre></li>
-</ul>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">The Endgame!</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 17" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-17-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-17">17.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Congratulations! You successfully created a webpage using only semantic elements. Now that you’ve learned about the importance of Semantic HTML along with its benefits, it’s time to incorporate this knowledge into your future projects.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Think about ways you could improve this project or create your very own project using semantic elements. Need some suggestions? Check the hint for some ideas to get you started!  </p>
-</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div></div>
-
-
-
-
-## FRONT-END ENGINEER
-
-### New York City Blog
+## New York City Blog
 
 
 
