@@ -32,6 +32,10 @@
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+<h1></h1>
+```
+
 
 
 
@@ -87,6 +91,10 @@
 <p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note</strong>: While some browsers may render some content outside body tags as well to accommodate the occasional mistake in your HTML, not all browsers do this! The best way to ensure that all your HTML renders the same way in all browsers is to ensure that your elements remain within the opening and closing body tags.</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -320,6 +328,10 @@ miles).</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -368,6 +380,10 @@ miles).</p>
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Under the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Media</code> <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h2&gt;</code> heading, add an image. Use the following URL as the source (<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>) for the image: </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/web-101/web</span><span class="mtk1">101-image_brownbear.jpg</span></span><br></div></code></pre></pre></div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -473,6 +489,10 @@ miles).</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -490,6 +510,10 @@ miles).</p>
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add the opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;html&gt;</code> tags below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;!DOCTYPE html&gt;</code> tag.</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -579,6 +603,10 @@ miles).</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://en.wikipedia.org/wiki/Brown_bear</span></span><br></div></code></pre></pre>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -677,6 +705,10 @@ Click the link to make sure it works!</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Wrap the text of each list item in the unordered list in an <code class="code__2rdF32qjRVp7mMVBHuPwDS">anchor</code> element. Each anchor tag should link to the corresponding <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div&gt;</code> on the page (The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code> element that contains the text “Introduction” links to <code class="code__2rdF32qjRVp7mMVBHuPwDS">#introduction</code>).</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -972,6 +1004,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1013,6 +1049,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1050,6 +1090,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1074,6 +1118,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1092,6 +1140,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In <strong>index.html</strong>, span a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;td&gt;</code> element across two columns.</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -1118,6 +1170,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1136,6 +1192,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Enclose rows 2, 3, 4, 5, 6, and 7 of the table in a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;tbody&gt;</code> element.</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -1191,6 +1251,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">In <strong>style.css</strong>, set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> of all table headings (<code class="code__2rdF32qjRVp7mMVBHuPwDS">th</code>) and table data (<code class="code__2rdF32qjRVp7mMVBHuPwDS">td</code>) to 18 pixels (<code class="code__2rdF32qjRVp7mMVBHuPwDS">18px</code>).</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -1327,6 +1391,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1385,6 +1453,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1410,6 +1482,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Remove the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div id="aside"&gt;</code> tag and replace it with <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> tag. Don’t forget about the closing tag!</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -1439,6 +1515,10 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> under <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> and describe the image. </p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
@@ -1477,6 +1557,10 @@ For example, here’s how we could add both autoplay functionality and audio con
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
+```html
+
+```
+
 
 
 
@@ -1509,6 +1593,10 @@ For example, here’s how we could add both autoplay functionality and audio con
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dog-on-beach.gif</span></span><br></div></code></pre></pre>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
+
+```html
+
+```
 
 
 
