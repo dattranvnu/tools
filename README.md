@@ -1322,15 +1322,22 @@ miles).</p>
 <!DOCTYPE html>
 <html>
   <head>
-		<title>Brown Bears</title>
-	</head>
+    <title>Brown Bears</title>
+  </head>
   <body>
     <h1>The Brown Bear</h1>
     <div id="introduction">
       <h2>About Brown Bears</h2>
-      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
-        Atlas bear and the Himalayan brown bear.</p>
-      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+      <p>
+        The brown bear (<em>Ursus arctos</em>) is native to parts of northern
+        Eurasia and North America. Its conservation status is currently
+        <strong>Least Concern</strong>.<br /><br />
+        There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"
+        >Learn More</a
+      >
       <h3>Species</h3>
       <ul>
         <li>Arctos</li>
@@ -1339,7 +1346,12 @@ miles).</p>
         <li>Nelsoni (extinct)</li>
       </ul>
       <h3>Features</h3>
-      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+      <p>
+        Brown bears are not always completely brown. Some can be reddish or
+        yellowish. They have very large, curved claws and huge paws. Male brown
+        bears are often 30% larger than female brown bears. They can range from
+        5 feet to 9 feet from head to toe.
+      </p>
     </div>
     <div id="habitat">
       <h2>Habitat</h2>
@@ -1350,15 +1362,29 @@ miles).</p>
         <li>Canada</li>
       </ol>
       <h3>Countries with Small Brown Bear Populations</h3>
-      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+      <p>
+        Some countries with smaller brown bear populations include Armenia,
+        Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal,
+        Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.
+      </p>
     </div>
     <div id="media">
       <h2>Media</h2>
-      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
-      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+      <img
+        src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"
+      />
+      <video
+        src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
+        width="320"
+        height="240"
+        controls
+      >
+        Video not supported
+      </video>
     </div>
   </body>
 </html>
+
 ```
 
 
@@ -1687,13 +1713,12 @@ Click the link to make sure it works!</p>
 ```html
 <!DOCTYPE html>
 <html>
-  	<body>
-      <h1>Whitespace</h1>
-      <p>
-        Whitespace and indentation make html documents easier to ready
-      </p>
+  <body>
+    <h1>Whitespace</h1>
+    <p>Whitespace and indentation make html documents easier to ready</p>
   </body>
 </html>
+
 ```
 
 
@@ -3748,7 +3773,7 @@ footer h3 {
 </div></div></div><div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Analyze the diagram and take note of key differences between non-semantic and semantic code. </p>
 </div></div></div>
 
-
+<img src="https://content.codecademy.com/courses/updated_images/SemanticVSNonSemantic_Diagram_Updated_1.svg" alt="Image shows non-semantic code full of random <div> elements. The semantic code is clean and easy to understand since everything is labeled. " class="gamut-1h2re45-imageStyles-imageStyles e1xtjyf0">
 
 
 
@@ -3762,19 +3787,27 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">The example below shows <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> in action:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<header>
+  <h1>
+     Everything you need to know about pizza!
+  </h1>
+</header>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">This can be compared to the code below which uses a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div&gt;</code> tag instead of a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> tag:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"header"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"header"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<div id="header">
+  <h1>
+    Everything you need to know about pizza!
+  </h1>
+</div>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">By using a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> tag, our code becomes easier to read. It is much easier to identify what is inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h1&gt;</code>‘s parent tags, as opposed to a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div&gt;</code> tag which would provide no details as to what was inside of the tag.</p>
@@ -3782,10 +3815,17 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">Let’s take a look at the example below:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;nav&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#home"</span><span class="mtk4">&gt;</span><span class="mtk1">Home</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#about"</span><span class="mtk4">&gt;</span><span class="mtk1">About</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/nav&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;nav&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#home"</span><span class="mtk4">&gt;</span><span class="mtk1">Home</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#about"</span><span class="mtk4">&gt;</span><span class="mtk1">About</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/nav&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<header> 
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>      
+    </ul>
+  </nav>
+</header>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">By using <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;nav&gt;</code> as a way to label our navigation links, it will be easier for not only us, but also for web browsers and screen readers to read the code.</p>
@@ -3798,6 +3838,21 @@ footer h3 {
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
 
 ```
 
@@ -3816,10 +3871,20 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">So how does <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> look when incorporated into our code? That’s a great question.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;main&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Types of Sports</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h3&gt;</span><span class="mtk1">Baseball</span><span class="mtk4">&lt;/h3&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first game of baseball was played in Coo</span><span class="mtk1">perstown, New York in the summer of 1839.</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/main&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;main&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Types of Sports</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h3&gt;</span><span class="mtk1">Baseball</span><span class="mtk4">&lt;/h3&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first game of baseball was played in Coo</span><span class="mtk1">perstown, New York in the summer of 1839.</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/main&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<main>
+  <header>
+    <h1>Types of Sports</h1>
+  </header>
+  <article>
+    <h3>Baseball</h3>
+    <p>
+      The first game of baseball was played in Cooperstown, New York in the summer of 1839.
+    </p>
+  </article>
+</main>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">As we see above, <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> contains an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;header&gt;</code> tag with child elements that hold the most important information related to the page.</p>
@@ -3834,10 +3899,12 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">For example:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;footer&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Email me at Codey@Codecademy.com</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/footer&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;footer&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Email me at Codey@Codecademy.com</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/footer&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<footer>
+  <p>Email me at Codey@Codecademy.com</p>
+</footer>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the footer is used to contain contact information. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;footer&gt;</code> tag is separate from the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> element and typically located at the bottom of the content.</p>
@@ -3848,10 +3915,30 @@ footer h3 {
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>This is where the main content will go once the page is built out!</p>
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
-
-
 
 
 
@@ -3866,10 +3953,12 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">Here is an example of how to use <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code>:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<section>
+  <h2>Fun Facts About Cricket</h2> 
+</section>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the code above we created a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element to encapsulate the code. In <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> we added a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h2&gt;</code> element as a heading.</p>
@@ -3877,10 +3966,15 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">Here is an example of how to use <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code>:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">A single match of cricket can last up to 5&nbsp;days.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">A single match of cricket can last up to 5&nbsp;days.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<section>
+  <h2>Fun Facts About Cricket</h2>
+  <article>
+    <p>A single match of cricket can last up to 5 days.</p>
+  </article>
+</section>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the code above, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element containing a fact about cricket was placed inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element. It is important to note that a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element could also be placed in an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element depending on the context.</p>
@@ -3892,6 +3986,38 @@ footer h3 {
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
 
@@ -3917,10 +4043,17 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw">Here’s an example of <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> being used alongside <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code>:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The first World Series was played between Pittsbur</span><span class="mtk1">gh and Boston in 1903 and was a&nbsp;nine-game series.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;aside&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;Babe Ruth once stated, “Heroes get remembered, </span><span class="mtk1">but legends never die.” </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/aside&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The first World Series was played between Pittsbur</span><span class="mtk1">gh and Boston in 1903 and was a&nbsp;nine-game series.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;aside&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;Babe Ruth once stated, “Heroes get remembered, </span><span class="mtk1">but legends never die.” </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/aside&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<article>
+  <p>The first World Series was played between Pittsburgh and Boston in 1903 and was a nine-game series.</p>
+</article>
+<aside>
+  <p>
+   Babe Ruth once stated, “Heroes get remembered, but legends never die.” 
+  </p>
+</aside>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">As shown above, the information within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> is the important content. Meanwhile the information within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> enhances the information in <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> but is not required in order to understand it.</p>
@@ -3929,6 +4062,45 @@ footer h3 {
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>
+            A study was conducted on dogs being away from their owners for
+            varying hours and the studies show that dogs who were away from
+            their owners the longest showed the greatest amount of affection!
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
 
@@ -3946,10 +4118,12 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw"><a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/figure?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code></a> is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. </p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<figure>
+  <img src="overwatch.jpg">
+</figure>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this code, we created a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> element so that we can encapsulate our <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag. In <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> we used the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag to insert an image onto the webpage. We used the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag so that we can link the source of the image. </p>
@@ -3957,10 +4131,13 @@ footer h3 {
 <p class="p__1qg33Igem5pAgn4kPMirjw"><a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/figcaption?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code></a> is an element used to describe the media in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> tag. Usually, <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> will go inside <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code>. This is different than using a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element to describe the content; if we decide to change the location of <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code>, the paragraph tag may get displaced from the figure while a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> will move with the figure. This is useful for grouping an image with a caption.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;figcaption&gt;</span><span class="mtk1">This picture shows characters from Overwatch.</span><span class="mtk4">&lt;/figcaption&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;figcaption&gt;</span><span class="mtk1">This picture shows characters from Overwatch.</span><span class="mtk4">&lt;/figcaption&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<figure>
+  <img src="overwatch.jpg">
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
+</figure>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, we added a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> into the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> element to describe the image from the previous example. This helps group the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figure&gt;</code> content with the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> content.</p>
@@ -3973,16 +4150,58 @@ footer h3 {
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dogimage.jpeg</span></span><br></div></code></pre></pre>
 
-```html
-
-```
-
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;figcaption&gt;</code> under <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> and describe the image. </p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>
+            A study was conducted on dogs being away from their owners for
+            varying hours and the studies show that dogs who were away from
+            their owners the longest showed the greatest amount of affection!
+          </p>
+        </aside>
+      </section>
+      <!--Create <figure> tag here -->
+      <figure>
+        <img
+          src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+        />
+        <figcaption>A cute dog.</figcaption>
+      </figure>
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
 
@@ -4001,10 +4220,12 @@ Korean hip hop?</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> element is used to embed audio content into a document. Like <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;video&gt;</code>, <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> uses <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> to link the audio source.  </p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"iAmAnAudioFile.mp3"</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/audio&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"iAmAnAudioFile.mp3"</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/audio&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<audio>
+  <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+</audio>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this example, we created an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> element. Then we created a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;source&gt;</code> element to encapsulate our audio link. In this case, <code class="code__2rdF32qjRVp7mMVBHuPwDS">iAmAnAudioFile.mp3</code> is our audio file. Then we specified the type by using <code class="code__2rdF32qjRVp7mMVBHuPwDS">type</code> and named what kind of audio it is. 
@@ -4021,9 +4242,10 @@ Although not always necessary, it’s recommended that we state the type of audi
 For example, here’s how we could add both autoplay functionality and audio controls:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio</span><span class="mtk1"> </span><span class="mtk7">autoplay</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio</span><span class="mtk1"> </span><span class="mtk7">autoplay</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<audio autoplay controls>
 
 ```
 
@@ -4033,9 +4255,10 @@ For example, here’s how we could add both autoplay functionality and audio con
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add a source for the audio inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;audio&gt;</code> tag by using this code:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">""</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">""</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<source src="" type="audio/mp3">
 
 ```
 
@@ -4044,14 +4267,63 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dogBarking.mp3</span></span><br></div></code></pre></pre>
 
-```html
-
-```
 
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>
+            A study was conducted on dogs being away from their owners for
+            varying hours and the studies show that dogs who were away from
+            their owners the longest showed the greatest amount of affection!
+          </p>
+        </aside>
+      </section>
+      <figure>
+        <img
+          src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+        />
+        <figcaption>A cute dog.</figcaption>
+      </figure>
+      <!-- Create <audio> tag here -->
+      <audio controls>
+        <source
+          src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
 
@@ -4075,9 +4347,10 @@ For example, here’s how we could add both autoplay functionality and audio con
 <p class="p__1qg33Igem5pAgn4kPMirjw">Below is an example of <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;video&gt;</code> being used with the controls attribute:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;video</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"coding.mp4"</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span><span class="mtk1">Video not supported</span><span class="mtk4">&lt;/video&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;video</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"coding.mp4"</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span><span class="mtk1">Video not supported</span><span class="mtk4">&lt;/video&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<video src="coding.mp4" controls>Video not supported</video>
 
 ```
 
@@ -4086,9 +4359,10 @@ For example, here’s how we could add both autoplay functionality and audio con
 <p class="p__1qg33Igem5pAgn4kPMirjw">Below we’ll take a look at <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;embed&gt;</code> being used in action.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;embed</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"download.gif"</span><span class="mtk4">/&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;embed</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"download.gif"</span><span class="mtk4">/&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<embed src="download.gif"/>
 
 ```
 
@@ -4098,9 +4372,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dog-video.mp4</span></span><br></div></code></pre></pre>
 
-```html
 
-```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In between the opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;video&gt;</code> tag, you can add a text that will show up if the video is unable to load. This text is helpful for screen readers as well!</p>
 </div></div></div>
@@ -4109,14 +4381,74 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dog-on-beach.gif</span></span><br></div></code></pre></pre>
 
-```html
 
-```
 
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>
+            A study was conducted on dogs being away from their owners for
+            varying hours and the studies show that dogs who were away from
+            their owners the longest showed the greatest amount of affection!
+          </p>
+        </aside>
+      </section>
+      <figure>
+        <img
+          src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+        />
+        <figcaption>A cute dog.</figcaption>
+      </figure>
+      <audio controls>
+        <source
+          src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+      <!-- Create <video> and <embed> tag here -->
+      <video
+        src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4"
+        controls
+      ></video>
+      <embed
+        src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"
+      />
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
 
 ```
 
@@ -4147,6 +4479,69 @@ For example, here’s how we could add both autoplay functionality and audio con
 </div></div></div><div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Now it’s time to use what you’ve learned to build a more accessible website.</p>
 </div></div></div>
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+            Dogs have a sense of time. It's been proven that they know the
+            difference between a hour and five. If conditioned to, they can
+            predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>
+            A study was conducted on dogs being away from their owners for
+            varying hours and the studies show that dogs who were away from
+            their owners the longest showed the greatest amount of affection!
+          </p>
+        </aside>
+      </section>
+      <figure>
+        <img
+          src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+        />
+        <figcaption>A cute dog.</figcaption>
+      </figure>
+      <audio controls>
+        <source
+          src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+      <video
+        src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4"
+        controls
+      ></video>
+      <embed
+        src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"
+      />
+    </main>
+
+    <footer>
+      <p>Contact me at +1 234 567 8910</p>
+    </footer>
+  </body>
+</html>
+```
 
 
 
@@ -4176,9 +4571,7 @@ You may notice that the navbar doesn’t work right now but don’t worry, once 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 4" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-4-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-4">4.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> element below the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/header&gt;</code> tag.</p>
 
-```html
 
-```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;main&gt;</code> element, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element with an id of “blog”. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;section&gt;</code> element will hold the main content of your webpage. You are giving this element an id so that you can target it with the nav bar.</p>
@@ -4188,9 +4581,7 @@ You may notice that the navbar doesn’t work right now but don’t worry, once 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is made up of five boroughs which </span><span class="mtk1">include Queens, Manhattan, Brooklyn, the Bronx, </span><span class="mtk1">and Staten Island. The city is the home of </span><span class="mtk1">approximately 8&nbsp;million people. In 1876, France </span><span class="mtk1">gifted the City of New York what is known as the </span><span class="mtk1">Statue of Liberty, which is currently located on </span><span class="mtk1">Liberty Island and commonly visited by tourists. </span><span class="mtk1">However, it took 10 years to assemble and </span><span class="mtk1">therefore wasn’t unveiled until 1886. Another </span><span class="mtk1">tourist destination is Times Square. Times Square </span><span class="mtk1">is commonly known for the big buildings, Broadway </span><span class="mtk1">shows, and bright neon signs. This famous location </span><span class="mtk1">was named after The New York Times after the Times </span><span class="mtk1">moved to that location. Prior to that, it was </span><span class="mtk1">named Longacre Square. New York City is also known </span><span class="mtk1">for its bridges that connect the boroughs and </span><span class="mtk1">allow ease of transportation.</span></span><br></div></code></pre></pre>
 
-```html
 
-```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 6" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-6-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-6">6.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that our blog has some content, the next step is adding media to enhance our blog. </p>
@@ -4203,9 +4594,7 @@ You may notice that the navbar doesn’t work right now but don’t worry, once 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">This is the Statue of Liberty, a&nbsp;popular tourist a</span><span class="mtk1">ttraction located on Liberty Island.</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
 
-```html
 
-```
 
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h3 class="fit-full fcn-task-header">Aside Content</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 9" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-9-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-9">9.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">For our blog post, you need to add additional content to enhance the post, you can do this by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/figure&gt;</code> tag create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. </p>
@@ -4214,9 +4603,7 @@ You may notice that the navbar doesn’t work right now but don’t worry, once 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is very popular for the variety of g</span><span class="mtk1">reat food it has. Some of the top food items in NY</span><span class="mtk1">C include:</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 10" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-10-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-10">10.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">New York is known for its amazing food. Our blog should list some of the top food options in NYC. You can do this by creating an ordered list! </p>
 
-```html
 
-```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">Create an ordered list by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;ol&gt;</code> element within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;aside&gt;</code> element. In an ordered list the first item is ranked one, the second item is ranked two and so on. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The ordered list should contain the following seven items in this order:</p>
@@ -4238,17 +4625,13 @@ You may notice that the navbar doesn’t work right now but don’t worry, once 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">The Scenery in NYC</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 12" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-12-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-12">12.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">You are going to add a little description to explain the media. Add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element directly underneath the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/h2&gt;</code> tag but within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;article&gt;</code> element with the following paragraph:</p>
 
-```html
 
-```
 
 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">While the view in the city is beautiful, the sound</span><span class="mtk1">s are not as lovely. Below you'll see an example o</span><span class="mtk1">f the view and the sounds you'll deal with in NYC </span><span class="mtk1">on a&nbsp;daily basis.</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Note:</strong> Save your work to see your progress.</p>
 
-```html
 
-```
 
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 13" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-13-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-13">13.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">New York City has a beautiful skyline, so let’s show that with a video. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Under the closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/article&gt;</code> tag, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;video&gt;</code> element with the attribute <code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>.
@@ -4268,16 +4651,222 @@ Use the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</cod
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">Contact information: Blogger@NYC.com</span></span><br></div></code></pre></pre></li>
 
-```html
 
-```
 
 </ul>
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h3 class="fit-full fcn-task-header">The Endgame!</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 17" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-17-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-17">17.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Congratulations! You successfully created a webpage using only semantic elements. Now that you’ve learned about the importance of Semantic HTML along with its benefits, it’s time to incorporate this knowledge into your future projects.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Think about ways you could improve this project or create your very own project using semantic elements. Need some suggestions? Check the hint for some ideas to get you started!  </p>
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div></div>
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Media</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>New York City</h1>
+    </header>
+    <main>
+      <section id="blog">
+        <article>
+          <p>
+            New York City is made up of five boroughs which include Queens,
+            Manhattan, Brooklyn, the Bronx, and Staten Island. The city is the
+            home of approximately 8 million people. In 1876, France gifted the
+            City of New York what is known as the Statue of Liberty, which is
+            currently located on Ellis Island commonly visited by tourists.
+            However, it took 10 years to assemble and therefore wasn’t unveiled
+            until 1886. Another tourist destination is Times Square. Times
+            Square is commonly known for the big buildings, Broadway shows, and
+            bright neon signs. This famous location was named after The New York
+            Times after the Times moved to that location. Prior to that, it was
+            named Longacre Square. New York City is also known for its bridges
+            that connect the boroughs and allow ease of transportation.
+          </p>
+        </article>
+      </section>
+      <figure>
+        <img
+          src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/statue-of-liberty.jpeg"
+        />
+        <figcaption>
+          This is the Statue of Liberty, a popular tourist attraction located on
+          Ellis Island.
+        </figcaption>
+      </figure>
+      <aside>
+        <p>
+          New York City is very popular for the variety of great food it has.
+          Some of the top food items in NYC include:
+        </p>
+        <ol>
+          <li>Pizza</li>
+          <li>Bagels</li>
+          <li>Burgers and Sandwiches</li>
+          <li>Ramen</li>
+          <li>Tacos</li>
+          <li>Pasta</li>
+          <li>Deserts</li>
+        </ol>
+      </aside>
+      <section id="media">
+        <article>
+          <h2>The Scenery in NYC</h2>
+          <p>
+            While the view in the city is beautiful, the sounds are not as
+            lovely. Below you'll see an example of the view and the sounds
+            you'll deal with in NYC on a daily basis.
+          </p>
+        </article>
+        <video
+          src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-skyline-timelapse.mp4"
+          controls
+        ></video>
+        <embed
+          src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-skyline.jpeg"
+        />
+        <audio
+          src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-sounds.mov"
+          controls
+        ></audio>
+      </section>
+    </main>
+    <footer id="about">
+      <p>Posted By: Michael Morris</p>
+      <p>Contact information: blackwinter@gmail.com</p>
+    </footer>
+  </body>
+</html>
+
+```
+
+```css
+body {
+	background: #e6e6e6;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #010e80;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	display: table-cell
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+h2 a {
+	padding: 33px 25px;
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	background-color: #111;
+}
+
+figcaption{
+  text-align:left;
+}
+
+header {
+	margin-left: 14px;
+}
+
+article {
+	text-align: left;
+	margin: 15px;
+	max-width: 80%;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+  position:relative;
+  right:28px;
+}
+
+aside {
+	left: 10px;
+	border: 1px solid black;
+	padding: 15px;
+	max-width: 80%;
+	position: relative;
+	border-color: #010e80;
+	border-width: 5px;
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #010e80;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+video {
+	display: block;
+	width: 420px;
+	height: 250px;
+  padding:15px;
+}
+
+audio {
+	padding: 15px;
+	width: 98%;
+  box-sizing: border-box;
+}
+
+embed {
+	width: 400px;
+	height: 458px;
+  padding:15px;
+}
+```
 
 
 # Review: Fundamentals of HTML
