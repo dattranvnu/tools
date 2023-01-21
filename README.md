@@ -4,6 +4,8 @@ output:
     variant: markdown_github
 ---
 
+# Introduction: Fundamentals of CSS
+
 ## Introduction: Fundamentals of CSS
 
 
@@ -23,6 +25,9 @@ output:
 
 
 
+
+
+# Learn CSS: Selectors and Visual Rules
 
 ## SETUP AND SYNTAX
 
@@ -111,42 +116,24 @@ output:
 
 
 
-### CSS Anatomy
+### Inline Styles
 
-
-
-
-<div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The diagram on the right shows two different methods, or <em>syntaxes</em>, for writing CSS code. The first syntax shows CSS applies as a <em>ruleset</em>, while the second shows it written as an <em>inline style</em>. Two different methods of writing CSS may seem a bit intimidating at first, but it’s not as bad as it looks! </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">The <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/css/anatomy?page_req=catalog">anatomy</a> of both methods does share common features. Notice how both syntaxes contain a <em>declaration</em>. Declarations are the core of CSS. They apply a style to the selected element. Here, the <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/paragraphs?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code></a> element has been selected in both syntaxes and will be styled to display the text in blue.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Understanding that a declaration is used to style a selected element is key to learning how to style HTML documents with CSS! The terms below explain each of the labels in the diagram on the right.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Ruleset Terms:</strong></p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Selector</em>—The beginning of the ruleset used to target the element that will be styled.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Declaration Block</em>—The code in-between (and including) the curly braces (<code class="code__2rdF32qjRVp7mMVBHuPwDS">{ }</code>) that contains the CSS declaration(s).</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Declaration</em>—The group name for a property and value pair that applies a style to the selected element.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Property</em>—The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Value</em>—The second part of the declaration that signifies the value of the property.</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw"><strong>Inline Style Terms:</strong></p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Opening Tag</em>—The start of an <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements?page_req=catalog">HTML element</a>. This is the element that will be styled.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Attribute</em>—The style <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/attributes?page_req=catalog">attribute</a> is used to add CSS inline styles to an HTML element.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Declaration</em>—The group name for a property and value pair that applies a style to the selected element.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Property</em>—The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><em>Value</em>—The second part of the declaration that signifies the value of the property.</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Don’t worry about memorizing all of these—you will get acquainted with them more and more as the course progresses! Feel free to come back and use this exercise as a reference later on.</p>
-</div>
+<div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Although CSS is a different language than HTML, it’s possible to write CSS code directly within HTML code using <em>inline styles</em>.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">To style an HTML element, you can add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute directly to the opening tag. After you add the attribute, you can set it equal to the CSS style(s) you’d like applied to that element.</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above demonstrates how to use inline styling. The paragraph element has a <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute within its opening tag. Next, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute is set equal to <code class="code__2rdF32qjRVp7mMVBHuPwDS">color: red;</code>, which will set the color of the paragraph text to red within the browser. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">If you’d like to add <em>more</em> than one style with inline styles, simply keep adding to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute. Make sure to end the styles with a semicolon (<code class="code__2rdF32qjRVp7mMVBHuPwDS">;</code>).</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red; font-size: 20px;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">It’s important to know that inline styles are a quick way of directly styling an HTML element, but are rarely used when creating websites. But you may encounter circumstances where inline styling is necessary, so understanding how it works, and recognizing it in HTML code is good knowledge to have. Soon you’ll learn the proper way to add CSS code!</p>
+</div></div>
 
 
 
 
 #### Instructions 
 
-
-<div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Study the diagrams to become familiar with the CSS syntax and the new terms that will be used throughout the course. </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Click the “Next” button when you are ready to write some code!</p>
-</div></div></div>
+<div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>, use inline styling to set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> of the first paragraph (the first <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element) to <code class="code__2rdF32qjRVp7mMVBHuPwDS">green</code>.</p>
+</div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div></div>
 
 
 #### Solutions
@@ -310,6 +297,8 @@ output:
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Make sure to bookmark these links so you have them at your disposal.</p>
 </div>
+
+
 
 
 
@@ -877,6 +866,9 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 
+
+
+
 ## VISUAL RULES
 
 ### Introduction To Visual Rules
@@ -1247,8 +1239,13 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 
-### Review Visual Rules
 
+
+## Documentation: CSS
+
+<div class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="noUnderline__3auQH9YTaYeT71hkb5qMQq" tabindex="0"><h2 class="gamut-3zfb2u-Anchor-AnchorBase e14vpv2g1">MDN<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="gamut-1nszhsc-Svg eol2zvm0"><title>Open Icon</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M23.251 7.498V.748h-6.75m6.75 0l-15 15m3-10.5h-9a1.5 1.5 0 00-1.5 1.5v15a1.5 1.5 0 001.5 1.5h15a1.5 1.5 0 001.5-1.5v-9"></path></svg></h2></a><div class="gamut-dnk8cz-ExternalResourceMarkdown e1xk5veq1"><p class="p__1qg33Igem5pAgn4kPMirjw">The provided link goes directly to the go-to documentation for CSS (Cascading Style Sheets). This is helpful if you would like a comprehensive resource for understanding the key concepts of CSS and understanding how to debug common CSS problems.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Instead of trying to remember it all, use the documentation as a readily available resource for syntax or implementation help!</p>
+</div></div>
 
 
 
@@ -1286,9 +1283,9 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 
-## FRONT-END ENGINEER
 
-### Healthy Recipes
+
+## Healthy Recipes
 
 
 
@@ -1341,9 +1338,9 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 
-## FRONT-END ENGINEER
 
-### Olivia Woodruff Portfolio
+
+## Olivia Woodruff Portfolio
 
 
 
@@ -1386,6 +1383,9 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 
+
+
+# Learn CSS: The Box Model
 
 ## THE BOX MODEL
 
@@ -2084,6 +2084,7 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
+
 ## CHANGING THE BOX MODEL
 
 ### Why Change the Box Model?
@@ -2262,6 +2263,9 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
+
+
+
 ## The Box Model in DevTools
 
 
@@ -2322,6 +2326,9 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
+
+
+
 ## The Box Model in DevTools
 
 
@@ -2332,9 +2339,10 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## FRONT-END ENGINEER
 
-### The Box Model: Davie's Burgers
+
+
+## The Box Model: Davie's Burgers
 
 
 
@@ -2397,6 +2405,8 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 ```html
 
 ```
+
+
 
 
 
@@ -2896,9 +2906,10 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
-## FRONT-END ENGINEER
 
-### Broadway
+
+
+## Broadway
 
 
 
@@ -2945,10 +2956,13 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 
 
+
+
+
 ## Review: Fundamentals of CSS
 
 
-
+### Review: Fundamentals of CSS
 
 <div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">Congratulations! The goal of this unit was to get an introduction to CSS, one of the languages essential to developing websites. You learned how to apply styles to HTML documents using CSS.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Having completed this unit, you are now able to:</p>
