@@ -25,7 +25,7 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@c
 time.sleep(8)
 i = 0
 div = ''
-for link in links[0:10]:
+for link in links[0:4]:
     driver.get(link)
     time.sleep(6)
     # informationals & articles
@@ -51,7 +51,7 @@ for link in links[0:10]:
       try:
         div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]/div/div[2]').get_attribute('innerHTML')
         nodes = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
-        div = div + '\n\n\n\n\n' + '#### Instructions \n\n\n' + nodes  + '#### Solutions' + '\n\n\n ```html\n```'
+        div = div + '\n\n\n\n\n' + '#### Instructions \n\n\n' + nodes  + '\n\n\n#### Solutions' + '\n\n\n```html\n\n```'
       except:
         pass
     except:
