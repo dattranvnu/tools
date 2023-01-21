@@ -894,7 +894,7 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw"><img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_browser_compatibility.png" alt="Browser compatibility section of an MDN article" class="img__1JGFO2nlisObc3KeOSGPRp"></p>
 <h3 id="heading-related-topics" class="h3__3B1DSzXTW-ux1viDSStOux">Related Topics</h3>
 <p class="p__1qg33Igem5pAgn4kPMirjw">There are two sections of this article that will show you additional, related topics: the section “See also” and the sidebar under “Related Topics.” Both provide linked articles that discuss topics related to the subject of the current article. </p>
-<h2 id="heading-recap" class="h2__1Ly_Sza5xVS3yZl46_StcN">Recap</h2>
+<h3 id="heading-related-topics" class="h3__3B1DSzXTW-ux1viDSStOux">Recap</h3>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this article you learned:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to search on MDN</li>
