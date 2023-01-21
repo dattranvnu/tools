@@ -2722,3 +2722,21 @@ Use the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</cod
 
 
 
+# Review: Fundamentals of HTML
+
+## Review: Fundamentals of HTML
+
+<div class="gamut-1ag67m1-FlexBox e1tc6bzh0"><p class="gamut-1xdcsrc-Text e8i0p5k0"><span data-testid="markdown" class="markdown__1eeYJ4WPKUcvX_LDDGJR12">In this unit, you learned about the fundamentals of HTML.</span></p><div class="gamut-unqu21-Box-ArticleContentContainer e1xfx7rd1"><div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0"><p class="p__1qg33Igem5pAgn4kPMirjw">Congratulations! The goal of this unit was to get an introduction to the fundamentals of HTML, one of the languages essential to developing websites.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Having completed this unit, you are now able to:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Understand how HTML is used for web development</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Use HTML to build a structure for a website</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Create tables in HTML documents</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Write clearer, more accessible HTML using Semantic HTML tags</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">If you are interested in learning more about these topics, here are some additional resources:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Book: <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://bookshop.org/books/html-and-css-design-and-build-websites/9781118008188">HTML &amp; CSS</a>, Jon Duckett, Chapters 1-5 (pp. 12-124)</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Learning is social. Whatever you’re working on, be sure to connect with the Codecademy community in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>. Remember to check in with the community regularly, including for things like asking for code reviews on your project work and providing code reviews to others in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects category</a>, which can help to reinforce what you’ve learned.</p>
+</div></div></div>
