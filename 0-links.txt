@@ -1,3 +1,4 @@
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-introduction-fundamentals-of-css/informationals/wdcp-22-introduction-fundamentals-of-css,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/learn-css-setup-and-syntax/exercises/intro-to-css,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/learn-css-setup-and-syntax/exercises/css-anatomy,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/learn-css-setup-and-syntax/exercises/inline-styles,
@@ -29,6 +30,9 @@ https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-f
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/css-visual-rules/exercises/background-image,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/css-visual-rules/exercises/important,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/lessons/css-visual-rules/exercises/review-visual-rules,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/external_resources/fecp-css-on-mdn-web-docs,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/projects/css-selectors-1,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/projects/css-visual-rules-project,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-intro/exercises/box-model-intro,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-intro/exercises/box-model,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-intro/exercises/height-width,
@@ -50,6 +54,9 @@ https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-f
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-new/exercises/box-border,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-new/exercises/box-model-updated,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/lessons/box-model-new/exercises/new-box-model-review,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/articles/f1-devtools-box-model,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/videos/the-box-model-in-devtools,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model/projects/box-model-on,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/flow-of-html,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/position,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/position-relative,
@@ -62,4 +69,6 @@ https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-f
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/inline-block-display,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/float,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/clear,
-https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/review-css-display-positioning
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/lessons/css-display-positioning/exercises/review-css-display-positioning,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning/projects/broadway-design,
+https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-review-fundamentals-of-css/informationals/wdcp-22-review-fundamentals-of-css
