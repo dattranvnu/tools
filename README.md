@@ -509,7 +509,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### The <html> tag
 
@@ -531,7 +531,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### The Head
 
@@ -555,7 +555,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Page Titles
 
@@ -575,7 +575,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Where Does the Title Appear?
 
@@ -595,7 +595,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Other Web Pages
 
@@ -624,7 +624,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Opening Links in a New Window
 
@@ -645,7 +645,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Relative Page
 
@@ -670,7 +670,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking At Will
 
@@ -693,7 +693,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Same Page
 
@@ -726,7 +726,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Whitespace
 
@@ -751,7 +751,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Indentation
 
@@ -769,7 +769,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Comments
 
@@ -795,7 +795,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### HTML Tags
 
@@ -1001,7 +1001,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Create a Table
 
@@ -1022,7 +1022,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Rows
 
@@ -1040,7 +1040,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Data
 
@@ -1067,7 +1067,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Headings
 
@@ -1108,7 +1108,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Borders
 
@@ -1136,7 +1136,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Spanning Columns
 
@@ -1159,7 +1159,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Spanning Rows
 
@@ -1188,7 +1188,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Body
 
@@ -1211,7 +1211,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Head
 
@@ -1229,7 +1229,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Footer
 
@@ -1247,7 +1247,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Styling with CSS
 
@@ -1270,7 +1270,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Review
 
@@ -1301,7 +1301,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 ## Wine Festival Schedule
 
-
+## SEMANTIC HTML
 
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Front-End Engineer</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Wine Festival Schedule</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The Aguillar Family is hosting their annual wine festival and they have asked you to build a web page for the event schedule! Use your knowledge of HTML to display a table to the attendees.</p>
@@ -1349,7 +1349,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Introduction to Semantic HTML
 
@@ -1375,7 +1375,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Header and Nav
 
@@ -1407,7 +1407,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Main and Footer
 
@@ -1439,7 +1439,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Article and Section
 
@@ -1469,7 +1469,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### The Aside Element
 
@@ -1499,7 +1499,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Figure and Figcaption
 
@@ -1532,7 +1532,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Audio and Attributes
 
@@ -1573,7 +1573,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## SEMANTIC HTML
+
 
 ### Video and Embed
 
@@ -1610,7 +1610,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## SEMANTIC HTML
+
 
 ### Review
 
