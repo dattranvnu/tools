@@ -977,9 +977,10 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The declaration looks like this:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<!DOCTYPE html>
 
 ```
 
@@ -991,7 +992,7 @@ miles).</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
-
+<!DOCTYPE html>
 ```
 
 
@@ -1008,10 +1009,13 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To create HTML structure and content, we must add opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;html&gt;</code> tags after declaring <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;!DOCTYPE html&gt;</code>:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<!DOCTYPE html>
+<html>
+ 
+</html>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">Anything between the opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;html&gt;</code> and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;/html&gt;</code> tags will be interpreted as HTML code. Without these tags, it’s possible that browsers could incorrectly interpret your HTML code.</p>
@@ -1020,7 +1024,10 @@ miles).</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
 
+</html>
 ```
 
 
@@ -1044,9 +1051,11 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The opening and closing head tags typically appear as the first item after your first HTML tag:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<head>
+</head>
 
 ```
 
@@ -1055,6 +1064,44 @@ miles).</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+	</head>
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+    </div>
+  </body>
+</html>
 
 ```
 
@@ -1073,10 +1120,15 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">A browser’s tab displays the title specified in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code> tag. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code> tag is always inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code>.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;title&gt;</span><span class="mtk1">My Coding Journal</span><span class="mtk4">&lt;/title&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/head&gt;</span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;title&gt;</span><span class="mtk1">My Coding Journal</span><span class="mtk4">&lt;/title&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/head&gt;</span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coding Journal</title>
+  </head>
+</html>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">If we were to open a file containing the HTML code in the example above, the browser would display the words <code class="code__2rdF32qjRVp7mMVBHuPwDS">My Coding Journal</code> in the title bar (or in the tab’s title). </p>
@@ -1086,6 +1138,45 @@ miles).</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Brown Bears</title>
+	</head>
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+    </div>
+  </body>
+</html>
 
 ```
 
@@ -1099,30 +1190,19 @@ miles).</p>
 
 
 
-<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">HTML Document Standards</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Page Titles</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">What kind of metadata about the web page can the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code> element contain?</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">If you navigate to the Codecademy <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/all"> catalog </a> and look at the top of your browser, you’ll notice the words <code class="code__2rdF32qjRVp7mMVBHuPwDS">All Courses &amp; Tutorials | Codecademy</code>, which is the <em>title</em> of the web page.</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">A browser’s tab displays the title specified in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code> tag. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code> tag is always inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code>.</p>
-
-
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;title&gt;</span><span class="mtk1">My Coding Journal</span><span class="mtk4">&lt;/title&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/head&gt;</span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
-
-```html
-
-```
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">If we were to open a file containing the HTML code in the example above, the browser would display the words <code class="code__2rdF32qjRVp7mMVBHuPwDS">My Coding Journal</code> in the title bar (or in the tab’s title). </p>
-</div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add “Brown Bears” as the title of your web page by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code> element,</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">Unfortunately, you won’t be able to see the title of your page in the smaller browser to the right. We’ll show you what it would look like in the next exercise.</p>
-</div></div></div>
-<div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
-
-```html
-
-```
+<div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Good work! Unfortunately, the browser panel used by the Codecademy environment does not have a title bar, so the “Brown Bear” title you wrote in the previous exercise will not be displayed. Outside of the Codecademy environment, however, your title would appear as depicted in the diagram to the right.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">So far, we have learned about:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;!DOCTYPE html&gt;</code>, the declaration specifying the version of HTML for the browser</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;html&gt;</code> tags that enclose all of your HTML code</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code> tag that contains the metadata of a webpage, such as its <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;title&gt;</code></li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Next, you will learn about new types of elements that go inside the body. </p>
+</div></div>
 
 
 
-
+<img src="https://content.codecademy.com/courses/updated_images/htmlcss1-diagram__sitetitle_Updated_1.svg" alt="Illustration of a browser panel with a title bar" class="gamut-1h2re45-imageStyles-imageStyles e1xtjyf0">
 
 
 ### Linking to Other Web Pages
@@ -1134,9 +1214,10 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">You can add links to a web page by adding an <em>anchor</em> element <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/a?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code></a> and including the text of the link in between the opening and closing tags.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<a>This Is A Link To Wikipedia</a>
 
 ```
 
@@ -1144,9 +1225,10 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The anchor element in the example above is incomplete without the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute. This attribute stands for <em>hyperlink reference</em> and is used to link to a <em>path</em>, or the address to where a file is located (whether it is on your computer or another location). The paths provided to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute are often URLs.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://www.wikipedia.org/"</span><span class="mtk4">&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://www.wikipedia.org/"</span><span class="mtk4">&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>
 
 ```
 
@@ -1159,14 +1241,51 @@ miles).</p>
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://en.wikipedia.org/wiki/Brown_bear</span></span><br></div></code></pre></pre>
 
-```html
-
-```
 
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>Brown Bears</title>
+	</head>
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+      <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+    </div>
+  </body>
+</html>
 
 ```
 
@@ -1186,9 +1305,10 @@ miles).</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">For a link to open in a new window, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute requires a value of <code class="code__2rdF32qjRVp7mMVBHuPwDS">_blank</code>. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute can be added directly to the opening tag of the anchor element, just like the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Brown_bear"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">The Brown Bear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Brown_bear"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">The Brown Bear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
 
 ```
 
@@ -1199,7 +1319,46 @@ miles).</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
-
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>Brown Bears</title>
+	</head>
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+      <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+    </div>
+  </body>
+</html>
 ```
 
 
@@ -1218,9 +1377,6 @@ miles).</p>
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">project-folder/</span></span><br><span><span class="mtk1">|—— about.html</span></span><br><span><span class="mtk1">|—— contact.html</span></span><br><span><span class="mtk1">|—— index.html</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw">The example above shows three different files — <strong>about.html</strong>, <strong>contact.html</strong>, and <strong>index.html</strong> in one folder.</p>
 
-```html
-
-```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">HTML files are often stored in the same folder, as shown in the example above. If the browser is currently displaying <strong>index.html</strong>, it also knows that <strong>about.html</strong> and <strong>contact.html</strong> are in the same folder. Because the files are stored in the same folder, we can link web pages together using a <em>relative path</em>.</p>
 
@@ -1228,6 +1384,7 @@ miles).</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"./contact.html"</span><span class="mtk4">&gt;</span><span class="mtk1">Contact</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
 
 ```html
+<a href="./contact.html">Contact</a>
 
 ```
 
@@ -1242,6 +1399,51 @@ Click the link to make sure it works!</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brown Bears</title>
+</head>
+
+<body>
+  <a href="./index.html">Brown Bear</a>
+  <a href="./aboutme.html">About Me</a>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  </div>
+</body>
+
+</html>
 
 ```
 
@@ -1259,9 +1461,10 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">So far, we’ve added links that were made up of only text, like the following:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">Prickly Pear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">Prickly Pear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">Prickly Pear</a>
 
 ```
 
@@ -1269,9 +1472,10 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Thankfully, HTML allows you to turn nearly any element into a link by wrapping that element with an anchor element. With this technique, it’s possible to turn images into links by simply wrapping the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> element with an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code> element.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"https://www.Prickly_Pear_Closeup.jpg"</span><span class="mtk1"> </span><span class="mtk7">alt</span><span class="mtk1">=</span><span class="mtk8">"A red prickly pear fruit"</span><span class="mtk4">/&gt;&lt;/a&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"https://www.Prickly_Pear_Closeup.jpg"</span><span class="mtk1"> </span><span class="mtk7">alt</span><span class="mtk1">=</span><span class="mtk8">"A red prickly pear fruit"</span><span class="mtk4">/&gt;&lt;/a&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a>
 
 ```
 
@@ -1283,14 +1487,54 @@ Click the link to make sure it works!</p>
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://en.wikipedia.org/wiki/Brown_bear</span></span><br></div></code></pre></pre></div></div></div>
 
-```html
-
-```
-
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Brown Bears</title>
+</head>
+
+<body>
+  <a href="./index.html">Brown Bear</a>
+  <a href="./aboutme.html">About Me</a>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/></a>
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  </div>
+</body>
+
+</html>
 ```
 
 
@@ -1308,20 +1552,24 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In order to link to a <em>target</em> on the same page, we must give the target an <em>id</em>, like this: </p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"top"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the top of the page!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the bottom! </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"top"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the top of the page!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the bottom! </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<p id="top">This is the top of the page!</p>
+<h1 id="bottom">This is the bottom! </h1>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this example, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element is assigned an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> of “top” and the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h1&gt;</code> element is assigned “bottom.” An <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> can be added to most elements on a webpage. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">An <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> should be descriptive to make it easier to remember the purpose of a link. The target link is a string containing the <code class="code__2rdF32qjRVp7mMVBHuPwDS">#</code> character and the target element’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>. </p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ol&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#top"</span><span class="mtk4">&gt;</span><span class="mtk1">Top</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">Bottom</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ol&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ol&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#top"</span><span class="mtk4">&gt;</span><span class="mtk1">Top</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">Bottom</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ol&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<ol>
+  <li><a href="#top">Top</a></li>
+  <li><a href="#bottom">Bottom</a></li>
+</ol>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the links to <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p id="top"&gt;</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h1 id="bottom"&gt;</code> are embedded in an ordered list. These links appear in the browser as a numbered list of links. An <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> is especially helpful for organizing content belonging to a <code class="code__2rdF32qjRVp7mMVBHuPwDS">div</code>!</p>
@@ -1337,7 +1585,56 @@ Click the link to make sure it works!</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Brown Bears</title>
+</head>
+
+<body>
+  <a href="./index.html">Brown Bear</a>
+  <a href="./aboutme.html">About Me</a>
+  <h1>The Brown Bear</h1>
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#habitat">Habitat</a></li>
+    <li><a href="#media">Media</a></li>
+  </ul>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/></a>
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  </div>
+</body>
+
+</html>
 ```
 
 
@@ -1357,19 +1654,23 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">What makes the example below difficult to read?</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;&lt;/body&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;&lt;/body&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<body><p>Paragraph 1</p><p>Paragraph 2</p></body>
 
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">You have to read the entire line to know what elements are present. Compare the example above to this:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<body>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+</body>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">This example is easier to read, because each element is on its own line. While the first example required you to read the entire line of code to identify the elements, this example makes it easy to identify the body tag and two paragraphs.</p>
@@ -1378,16 +1679,21 @@ Click the link to make sure it works!</p>
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">Paragraph 1</span></span><br><span><span class="mtk1">Paragraph 2</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw">In the next exercise you will learn how to use indentation to help visualize nested elements.</p>
 
-```html
-
-```
 
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Use whitespace to make the code more readable by putting each element on its own line.</p>
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
-
+<!DOCTYPE html>
+<html>
+  	<body>
+      <h1>Whitespace</h1>
+      <p>
+        Whitespace and indentation make html documents easier to ready
+      </p>
+  </body>
+</html>
 ```
 
 
@@ -1407,6 +1713,12 @@ Click the link to make sure it works!</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
 
 ```html
+<body>
+  <p>Paragraph 1</p>
+  <div>
+    <p>Paragraph 2</p>
+  </div>
+</body>
 
 ```
 
@@ -1416,7 +1728,12 @@ Click the link to make sure it works!</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
-
+<body>
+	<h1>Whitespace</h1>    
+	<div>
+		<p>Whitespace and indentation make html documents easier to read.</p>
+	</div>  
+</body>
 ```
 
 
@@ -1433,10 +1750,10 @@ Click the link to make sure it works!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Comments begin with <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;!--</code> and end with <code class="code__2rdF32qjRVp7mMVBHuPwDS">--&gt;</code>. Any characters in between will be ignored by your browser.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- This is a&nbsp;comment that the browser will not d</span><span class="mtk16">isplay. --&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- This is a&nbsp;comment that the browser will not d</span><span class="mtk16">isplay. --&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<!-- This is a comment that the browser will not display. -->
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">Including comments in your code is helpful for many reasons:</p>
@@ -1446,18 +1763,20 @@ Click the link to make sure it works!</p>
 </ol>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- Favorite Films Section --&gt;</span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The following is a&nbsp;list of my favorite films:</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- Favorite Films Section --&gt;</span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The following is a&nbsp;list of my favorite films:</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<!-- Favorite Films Section -->
+<p>The following is a list of my favorite films:</p>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this example, the comment is used to denote that the following text makes up a particular section of the page.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- &lt;p&gt; Test Code &lt;/p&gt; --&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- &lt;p&gt; Test Code &lt;/p&gt; --&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<!-- <p> Test Code </p> -->
 
 ```
 
@@ -1467,7 +1786,17 @@ Click the link to make sure it works!</p>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
-
+<!DOCTYPE html>
+<html>
+  <!-- <p> History Quote Coding Assignment </p> -->
+  <head>
+    <title>Favorite Quotes</title>
+  </head>
+  <body>
+    <p>Feet, what do I need you for when I have wings to fly?</p>
+    <p>- Frida Kahlo</p>
+  </body>
+</html>
 ```
 
 
@@ -1501,7 +1830,63 @@ Click the link to make sure it works!</p>
 <div class="youtubeVideoWrapper__1XGg4ywjdSdfygJkAy3bB2" data-testid="yt-iframe" style="padding-bottom: 66.67%;"><iframe width="300" height="200" src="https://www.youtube.com/embed/B4tCt6elrU0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" class="iframe__rk2yNYIwJeUOj5J8cQJ9-"></iframe></div></div></div></div>
 
 
+```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Brown Bears</title>
+</head>
+
+<body>
+  <nav>
+    <a href="./index.html">Brown Bear</a>
+    <a href="./aboutme.html">About Me</a>
+  </nav>
+  <h1>The Brown Bear</h1>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#habitat">Habitat</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+  </nav>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  </div>
+</body>
+
+</html>
+
+```
 
 ## Intro to Mozilla Developer Network
 
@@ -1639,34 +2024,24 @@ Between the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h1&gt;</code> and fir
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-one.jpeg</span></span><br></div></code></pre></pre>
 
-```html
 
-```
 
 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-two.jpeg</span></span><br></div></code></pre></pre>
 
-```html
-
-```
 
 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-three.jpeg</span></span><br></div></code></pre></pre>
 
-```html
-
-```
 
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 9" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-9-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-9">9.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Your first blog post is complete! Now let’s add an image of Isa, so her readers get to know her. Below the opening body tag, add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag with the following source:</p>
 
 
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/profile.jpg</span></span><br></div></code></pre></pre>
 
-```html
 
-```
 
 </div></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 10" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-10-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-10">10.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code> tag, add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h3&gt;</code> that says “by Isabelle Rodriguez   |   1 day ago”</p>
 </div></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 11" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-11-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-11">11.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Isa wants her readers to know that she’s written a lot more than one post. Let’s make a list of some related blog posts. Beneath the last paragraph, add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;h4&gt;</code> tag that says “Related Content”. Underneath that header tag, create an unordered list.</p>
@@ -1687,6 +2062,39 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 17" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-17-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-17">17.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Congrats! You’ve got the beginnings of a solid fashion blog. Feel free to make modifications and practice your HTML by adding more content. </p>
 </div></div></div></article></div></div>
 
+```html
+<!DOCTYPE html>
+  <!-- Fashion Blog: Pro Project 11.30.20 -->
+<html>     
+  <head>
+    <title>Everyday with Isa</title>
+    </head>
+    <body>
+      <a href="#contact"><img src="https://content.codecademy.com/courses/learn-html/elements-and-structure/profile.jpg" /></a>      
+      <h3>by Isabelle Rodriguez | 1 day ago</h3>
+      <h1>An Insider's Guide to NYFW</h1>
+      <img src="https://content.codecademy.com/courses/learn-html/elements-and-structure/image-one.jpeg" />
+      <p><a href="https://en.wikipedia.org/wiki/New_York_Fashion_Week" target="_blank">NYFW</a> can be both amazingly fun & incredibly overwhelming, especially if you’ve never been. Luckily, I’m here to give you an insider’s guide and make your first show a pleasurable experience. By taking my tips and tricks, and following your gut, you’ll have an unforgettable experience!</p>
+      <h2>Getting Tickets & Picking the Shows</h2>
+        <img src="https://content.codecademy.com/courses/learn-html/elements-and-structure/image-two.jpeg" />
+        <p>If you’re lucky or connected you can get an invite, sans the price tag. But I wasn’t so lucky or connected my first 2 years so I’m here to help you out. First, plan out which shows are most important to you and make a schedule and this is a biggie: SET A BUDGET. If you’re worrying about blowing your cash the whole time you won’t have fun. Then check out prices, days, and times and prioritize the designers you want to see most. Lastly, purchase your tickets and get excited!</p>
+      <h2>Dressing for the Shows</h2>
+      <img src="https://content.codecademy.com/courses/learn-html/elements-and-structure/image-three.jpeg" />
+        <p>Always be true to your own sense of style, if you don’t you’ll be uncomfortable the whole time and it will show. Remember, NYFW is about expressing yourself and taking in what the designers have chosen to express through their new lines. Also it’s important to wear shoes you’ll be comfortable in all day. Obviously you want to look good, but you’ll be on your feet all day long, so be prepared.</p>
+        <h4>Related Content</h4>
+        <ul>
+          <li>How to Style Boyfriend Jeans</li>
+          <li>When Print is Too Much</li>
+          <li>The Overalls Trend</li>
+          <li>Fall's It Color: Blush</li>
+        </ul>
+        <div id="contact">
+          <p><strong>email:</strong> isa@fashionblog.com | <strong>phone:</strong> 917-555-1098 |
+              <strong>address:</strong> 371 284th St., New York, NY, 10001</p>
+              </div>
+      </body>
+  </html>
+```
 
 # Learn HTML: Tables
 
@@ -1704,7 +2112,77 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">Explore with the code in this file and try modifying something at random. What happened?</p>
 </div></div></div>
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
 
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Adam's Greenworks</th>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <th>Davie's Burgers</th>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <th>Baker's Bike Shop</th>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <th>Miss Sally's Southern</th>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <th>Summit Resort Rentals</th>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <th>Strike Fitness</th>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+```
 
 
 
@@ -1717,10 +2195,12 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">HTML Tables</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Create a Table</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Before displaying data, we must first create the table that will contain the data by using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;table&gt;</code> element.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+ 
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;table&gt;</code> element will contain all of the tabular data we plan on displaying.</p>
@@ -1729,6 +2209,78 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total</td>
+        <td>28</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1746,10 +2298,15 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">The first step in entering data into the table is to add rows using the <em>table row</em> element: <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;tr&gt;</code>.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, two rows have been added to the table.</p>
@@ -1758,6 +2315,37 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr></tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1774,10 +2362,15 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">HTML Tables</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Table Data</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the <em>table data</em> element: <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;td&gt;</code>.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tr>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, two data points (<code class="code__2rdF32qjRVp7mMVBHuPwDS">73</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">81</code>) were entered in the one row that exists. By adding two data points, we created two cells of data. </p>
@@ -1792,6 +2385,37 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr></tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1810,10 +2434,21 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Temperature</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Temperature</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tr>
+    <th></th>
+    <th scope="col">Saturday</th>
+    <th scope="col">Sunday</th>
+  </tr>
+  <tr>
+    <th scope="row">Temperature</th>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">What happened in the code above? </p>
@@ -1840,6 +2475,37 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr></tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1860,7 +2526,12 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table</span><span class="mtk1"> </span><span class="mtk7">border</span><span class="mtk1">=</span><span class="mtk8">"1"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
 
 ```html
-
+<table border="1">
+  <tr>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above is <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Deprecation">deprecated</a>, so please don’t use it. It’s meant to illustrate older conventions you may come across when reading other developers’ code.</p>
@@ -1869,26 +2540,116 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">You can achieve the same table border effect using CSS.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
 
-```html
-
+```css
+table, td {
+  border: 1px solid black;
+}
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above uses CSS instead of HTML to show table borders.</p>
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">We’re going to need some more data in the table. Add the following data to the table. Make sure to place it after the second table row.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Davie's Burgers</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">2</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Baker's Bike Shop</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">3</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Miss Sally's Southern</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Summit Resort Rentals</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Strike Fitness</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">1</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Enter Order</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Davie's Burgers</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">2</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Baker's Bike Shop</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">3</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Miss Sally's Southern</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Summit Resort Rentals</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Strike Fitness</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">1</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Enter Order</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<tr>
+  <td>Davie's Burgers</td>
+  <td>2</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Baker's Bike Shop</td>
+  <td>3</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Miss Sally's Southern</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Summit Resort Rentals</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Strike Fitness</td>
+  <td>1</td>
+  <td>Enter Order</td>
+</tr>
 ```
 
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr>
+        <th scope="col">Company Name</th>
+        <th scope="col">Number of Items to Ship</th>
+        <th scope="col">Next Action</th>
+      </tr>
+      <tr>
+        <td>Adam's Greenworks</td>
+        <td>14</td>
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <td>Davie's Burgers</td>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Baker's Bike Shop</td>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Miss Sally's Southern</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Summit Resort Rentals</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Strike Fitness</td>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1907,10 +2668,20 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">Data can span columns using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">colspan</code> attribute. The attribute accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Monday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Tuesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Wednesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">colspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Out of Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Back in Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Monday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Tuesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Wednesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">colspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Out of Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Back in Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  </tr>
+  <tr>
+    <td colspan="2">Out of Town</td>
+    <td>Back in Town</td>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the data <code class="code__2rdF32qjRVp7mMVBHuPwDS">Out of Town</code> spans the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Monday</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">Tuesday</code> table headings using the value <code class="code__2rdF32qjRVp7mMVBHuPwDS">2</code> (two columns). The data <code class="code__2rdF32qjRVp7mMVBHuPwDS">Back in Town</code> appear only under the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Wednesday</code> heading.</p>
@@ -1919,6 +2690,70 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr>
+        <th>Company Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+      <tr>
+        <td colspan="2">Adam's Greenworks</td>
+        <td>14</td>
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <td>Davie's Burgers</td>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Baker's Bike Shop</td>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Miss Sally's Southern</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Summit Resort Rentals</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Strike Fitness</td>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1936,10 +2771,28 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">rowspan</code> attribute is used for data that spans multiple rows (perhaps an event goes on for multiple hours on a certain day). It accepts an integer (greater than or equal to 1) to denote the number of rows it spans across.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 1&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 2&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 3&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 4&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 1&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 2&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 3&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 4&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tr> <!-- Row 1 -->
+    <th></th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <th>Morning</th>
+    <td rowspan="2">Work</td>
+    <td rowspan="3">Relax</td>
+  </tr>
+  <tr> <!-- Row 3 -->
+    <th>Afternoon</th>
+  </tr>
+  <tr> <!-- Row 4 -->
+    <th>Evening</th>
+    <td>Dinner</td>
+  </tr>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, there are four rows:</p>
@@ -1955,6 +2808,70 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr>
+        <th>Company Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+      <tr>
+        <td colspan="2">Adam's Greenworks</td>
+        <td>14</td>
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Davie's Burgers</td>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Baker's Bike Shop</td>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Miss Sally's Southern</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Summit Resort Rentals</td>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Strike Fitness</td>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -1973,10 +2890,30 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw">The <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;tbody&gt;</code> element should contain all of the table’s data, excluding the table headings (more on this in a later exercise).</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, all of the table data is contained within a table body element. Note, however, that the headings were also kept in the table’s body — we’ll change this in the next exercise.</p>
@@ -1985,6 +2922,72 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <tr>
+        <th>Company Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -2001,10 +3004,32 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">HTML Tables</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Table Head</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In the last exercise, the table’s headings were kept inside of the table’s body. When a table’s body is sectioned off, however, it also makes sense to section off the table’s column headings using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;thead&gt;</code> element.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th scope="row">Afternoon</th>
+    </tr>
+    <tr>
+      <th scope="row">Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the only new element is <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;thead&gt;</code>. The table headings are contained inside of this element. Note that the table’s head still requires a row in order to contain the table headings.</p>
@@ -2014,6 +3039,74 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -2030,26 +3123,122 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">HTML Tables</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Table Footer</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The bottom part of a long table can also be sectioned off using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;tfoot&gt;</code> element.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Quarter</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Revenue</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Costs</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q1</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$10M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$7.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q2</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tfoot&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$22M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tfoot&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Quarter</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Revenue</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Costs</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q1</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$10M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$7.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q2</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tfoot&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$22M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tfoot&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Q1</th>
+      <td>$10M</td>
+      <td>$7.5M</td>
+    </tr>
+    <tr>
+      <th>Q2</th>
+      <td>$12M</td>
+      <td>$5M</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>$22M</td>
+      <td>$12.5M</td>
+    </tr>
+  </tfoot>
+</table>
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the footer contains the totals of the data in the table. Footers are often used to contain sums, differences, and other data results.</p>
 </div></div></div><div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add a table footer at the bottom of the table using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;tfoot&gt;</code> element. Inside of the footer, add the following data:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">28</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span> </span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">28</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span> </span></span><br></div></code></pre></pre> -->
 
 ```html
-
+<td>Total</td>
+<td>28</td>
 ```
 
 </div></div></div>
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
 
 ```
 
@@ -2067,10 +3256,14 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <p class="p__1qg33Igem5pAgn4kPMirjw"><a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/learn-css">CSS</a>, or Cascading Style Sheets, is a language that web developers use to style the HTML content on a web page. You can use CSS to style tables. Specifically, you can style the various aspects mentioned above.</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">th</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Arial</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk5">sans-serif</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">text-align</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">center</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">th</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Arial</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk5">sans-serif</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">text-align</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">center</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
 
-```html
-
+```css
+table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above demonstrates just some of the various table aspects you can style using CSS properties. </p>
@@ -2080,10 +3273,163 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 <div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
 
 ```
 
+```css
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+}
 
+/* Navigation */
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #88CCF1;
+}
+
+/* Table */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}
+
+.search {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  color: #AAA;
+  padding: 20px;
+  margin: 50px auto 0px auto;
+  width: 77%;
+}
+```
 
 
 
@@ -2112,14 +3458,80 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </div></div></div><div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Take some time to experiment with your new knowledge of tables in <strong>index.html</strong>. When you’re done, proceed to the next unit.</p>
 </div></div></div>
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
 
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Number of Items to Ship</th>
+          <th>Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+```
 
 
 ## Wine Festival Schedule
-
-# SEMANTIC HTML
-
-## SEMANTIC HTML
 
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Front-End Engineer</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Wine Festival Schedule</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The Aguillar Family is hosting their annual wine festival and they have asked you to build a web page for the event schedule! Use your knowledge of HTML to display a table to the attendees.</p>
@@ -2163,6 +3575,152 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">You have created the events table. Cheers!</p>
 </div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div></div>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Aguillar Family Wine Festival</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Annual Aguillar Family Wine Festival</h1>
+    </header>
+
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Wine Festival Schedule.</th>
+          </tr>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left"><h3>12:00 pm</h3></td>
+            <td>Welcome Reception</td>
+          </tr>
+          <tr>
+            <td class="left"><h3>01:00 pm</h3></td>
+            <td>Storytelling & Tasting</td>
+          </tr>
+          <tr>
+            <td class="left"><h3>02:00 pm</h3></td>
+            <td>Wine Luncheon</td>
+          </tr>
+          <tr>
+            <td class="left"><h3>03:00 pm</h3></td>
+            <td><h3>Aguillar Family Wines</h3></td>
+          </tr>
+          <tr>
+            <td class="left"><h3>04:00 pm</h3></td>
+            <td><h3>WIne & Cheese Tasting</h3></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <h3>Contact</h3>
+      <h3>Location</h3>
+      <h3>Privacy Policy</h3>
+    </footer>
+  </body>
+</html>
+```
+
+```css
+body {
+  background-color: #242f44;
+  color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: #242f44;
+  z-index: 5;
+}
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #242f44;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+
+.left {
+  width: 150px;
+}
+
+```
+
+# SEMANTIC HTML
+
+## SEMANTIC HTML
 
 
 
