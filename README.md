@@ -678,10 +678,111 @@ body {
 
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation World</title>
+  </head>
+
+  <body>
+    <img
+      src="https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg"
+    />
+    <h1 class="title">Top Vacation Spots</h1>
+    <h5>By: Stacy Gray</h5>
+    <h6>Published: 2 Days Ago</h6>
+
+    <p>
+      The world is full of fascinating places. Planning the perfect vacation
+      involves packing up, leaving home, and experiencing something new.
+    </p>
+
+    <h2 class="destination">1. Florence, Italy</h2>
+    <div class="description">
+      A city-size shrine to the Renaissance, Florence offers frescoes,
+      sculptures, churches, palaces, and other monuments from the richest
+      cultural flowering the world has known. Names from its dazzling historical
+      past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most
+      resonant of the medieval age.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/florence"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Museums</li>
+        <li>Bike Tours</li>
+        <li>Historical Monuments</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">2. Beijing, China</h2>
+    <div class="description">
+      A city in the midst of reinventing itself and continuing to build on the
+      success of the 2008 Summer Olympics, Beijing is a place of frenzied
+      construction. New housing, new roads, and new sports venues seem to spring
+      up overnight. At the same time, the capital of the Peoples Republic of
+      China remains an epicenter of tradition, with the treasures of nearly
+      2,000 years as the imperial capital still on view in the famed Forbidden
+      City and in the luxuriant pavilions and gardens of the Summer Palace.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/beijing"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Biking</li>
+        <li>Historical Sites</li>
+        <li>Restaurants and Dining</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">3. Seoul, South Korea</h2>
+    <div class="description">
+      The Korean capital is a city of contrasts. Fourteenth-century city gates
+      squat in the shadow of 21st-century skyscrapers, while the broad Han River
+      is back-dropped by granite mountains rising in the city center complete
+      with alpine highways speeding around their contours and temples nestling
+      among their crags. Fashionable, gadget-laden youths battle for sidewalk
+      space with fortune-tellers and peddlers, while tiny neighborhoods of
+      traditional cottages contrast with endless ranks of identical apartments.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/seoul"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Parasailing</li>
+        <li>Segway Tours</li>
+        <li>Spas and Resorts</li>
+      </ul>
+    </div>
+
+    <h2>More Destinations</h2>
+    <ul>
+      <li><h4 class="destination">Jackson Hole, Wyoming</h4></li>
+      <li><h4 class="destination">Cape Town, South Africa</h4></li>
+      <li><h4 class="destination">La Paz, Bolivia</h4></li>
+    </ul>
+
+    <p>
+      &mdash;Best of luck with your travels, and be sure to send pictures and
+      stories. We'd love to hear them!
+    </p>
+  </body>
+</html>
 
 ```
 
+```css
+p {
+  color: green;
+}
 
+```
 
 
 
@@ -701,9 +802,10 @@ body {
 <p class="p__1qg33Igem5pAgn4kPMirjw">When linking an HTML file and a CSS file together, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;link&gt;</code> element will look like the following:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'https://www.codecademy.com/stylesheets/style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'https://www.codecademy.com/stylesheets/style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet'>
 
 ```
 
@@ -715,6 +817,7 @@ body {
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'./style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
 
 ```html
+<link href='./style.css' rel='stylesheet'>
 
 ```
 
@@ -739,10 +842,111 @@ body {
 
 
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation World</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <img
+      src="https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg"
+    />
+    <h1 class="title">Top Vacation Spots</h1>
+    <h5>By: Stacy Gray</h5>
+    <h6>Published: 2 Days Ago</h6>
+
+    <p>
+      The world is full of fascinating places. Planning the perfect vacation
+      involves packing up, leaving home, and experiencing something new.
+    </p>
+
+    <h2 class="destination">1. Florence, Italy</h2>
+    <div class="description">
+      A city-size shrine to the Renaissance, Florence offers frescoes,
+      sculptures, churches, palaces, and other monuments from the richest
+      cultural flowering the world has known. Names from its dazzling historical
+      past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most
+      resonant of the medieval age.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/florence"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Museums</li>
+        <li>Bike Tours</li>
+        <li>Historical Monuments</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">2. Beijing, China</h2>
+    <div class="description">
+      A city in the midst of reinventing itself and continuing to build on the
+      success of the 2008 Summer Olympics, Beijing is a place of frenzied
+      construction. New housing, new roads, and new sports venues seem to spring
+      up overnight. At the same time, the capital of the Peoples Republic of
+      China remains an epicenter of tradition, with the treasures of nearly
+      2,000 years as the imperial capital still on view in the famed Forbidden
+      City and in the luxuriant pavilions and gardens of the Summer Palace.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/beijing"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Biking</li>
+        <li>Historical Sites</li>
+        <li>Restaurants and Dining</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">3. Seoul, South Korea</h2>
+    <div class="description">
+      The Korean capital is a city of contrasts. Fourteenth-century city gates
+      squat in the shadow of 21st-century skyscrapers, while the broad Han River
+      is back-dropped by granite mountains rising in the city center complete
+      with alpine highways speeding around their contours and temples nestling
+      among their crags. Fashionable, gadget-laden youths battle for sidewalk
+      space with fortune-tellers and peddlers, while tiny neighborhoods of
+      traditional cottages contrast with endless ranks of identical apartments.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/seoul"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Parasailing</li>
+        <li>Segway Tours</li>
+        <li>Spas and Resorts</li>
+      </ul>
+    </div>
+
+    <h2>More Destinations</h2>
+    <ul>
+      <li><h4 class="destination">Jackson Hole, Wyoming</h4></li>
+      <li><h4 class="destination">Cape Town, South Africa</h4></li>
+      <li><h4 class="destination">La Paz, Bolivia</h4></li>
+    </ul>
+
+    <p>
+      &mdash;Best of luck with your travels, and be sure to send pictures and
+      stories. We'd love to hear them!
+    </p>
+  </body>
+</html>
 
 ```
 
-
+```css
+p {
+  color: green;
+}
+```
 
 
 
@@ -774,7 +978,113 @@ body {
 <p class="p__1qg33Igem5pAgn4kPMirjw">Make sure to bookmark these links so you have them at your disposal.</p>
 </div>
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation World</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <img
+      src="https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg"
+    />
+    <h1 class="title">Top Vacation Spots</h1>
+    <h5>By: Stacy Gray</h5>
+    <h6>Published: 2 Days Ago</h6>
+
+    <p>
+      The world is full of fascinating places. Planning the perfect vacation
+      involves packing up, leaving home, and experiencing something new.
+    </p>
+
+    <h2 class="destination">1. Florence, Italy</h2>
+    <div class="description">
+      A city-size shrine to the Renaissance, Florence offers frescoes,
+      sculptures, churches, palaces, and other monuments from the richest
+      cultural flowering the world has known. Names from its dazzling historical
+      past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most
+      resonant of the medieval age.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/florence"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Museums</li>
+        <li>Bike Tours</li>
+        <li>Historical Monuments</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">2. Beijing, China</h2>
+    <div class="description">
+      A city in the midst of reinventing itself and continuing to build on the
+      success of the 2008 Summer Olympics, Beijing is a place of frenzied
+      construction. New housing, new roads, and new sports venues seem to spring
+      up overnight. At the same time, the capital of the Peoples Republic of
+      China remains an epicenter of tradition, with the treasures of nearly
+      2,000 years as the imperial capital still on view in the famed Forbidden
+      City and in the luxuriant pavilions and gardens of the Summer Palace.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/beijing"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Biking</li>
+        <li>Historical Sites</li>
+        <li>Restaurants and Dining</li>
+      </ul>
+    </div>
+
+    <h2 class="destination">3. Seoul, South Korea</h2>
+    <div class="description">
+      The Korean capital is a city of contrasts. Fourteenth-century city gates
+      squat in the shadow of 21st-century skyscrapers, while the broad Han River
+      is back-dropped by granite mountains rising in the city center complete
+      with alpine highways speeding around their contours and temples nestling
+      among their crags. Fashionable, gadget-laden youths battle for sidewalk
+      space with fortune-tellers and peddlers, while tiny neighborhoods of
+      traditional cottages contrast with endless ranks of identical apartments.
+      <a
+        href="https://www.nationalgeographic.com/travel/destination/seoul"
+        target="_blank"
+        >Learn More</a
+      >.
+      <h5>Top Attractions</h5>
+      <ul>
+        <li>Parasailing</li>
+        <li>Segway Tours</li>
+        <li>Spas and Resorts</li>
+      </ul>
+    </div>
+
+    <h2>More Destinations</h2>
+    <ul>
+      <li><h4 class="destination">Jackson Hole, Wyoming</h4></li>
+      <li><h4 class="destination">Cape Town, South Africa</h4></li>
+      <li><h4 class="destination">La Paz, Bolivia</h4></li>
+    </ul>
+
+    <p>
+      &mdash;Best of luck with your travels, and be sure to send pictures and
+      stories. We'd love to hear them!
+    </p>
+  </body>
+</html>
+
+```
+
+```css
+p {
+  color: green;
+}
+
+```
 
 
 
@@ -789,7 +1099,15 @@ body {
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Remember that <em>declarations</em> are a fundamental part of CSS because they apply a style to a selected element. But how do you decide which elements will get the style? With a <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/css/selectors?page_req=catalog"><em>selector</em></a>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">A selector is used to target the specific HTML element(s) to be styled by the declaration. One selector you may already be familiar with is the <em>type</em> selector. Just like its name suggests, the type selector matches the <em>type</em> of the element in the HTML document. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the previous lesson, you changed the color of a paragraph element.</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
+
+```css
+p {
+  color: green;
+}
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">This is an instance of using the type selector! The element type is <code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>, which comes from the HTML <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Some important notes on the type selector:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
@@ -815,10 +1133,75 @@ body {
 
 
 ```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Vacation World</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+  <img src='https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg' />
+  <h1 class='title'>Top Vacation Spots</h1>
+  <h5>By: Stacy Gray</h5>
+  <h6>Published: 2 Days Ago</h6>
+
+  <p>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
+
+  <h2 class='destination'>1. Florence, Italy</h2>
+  <div class='description'>A city-size shrine to the Renaissance, Florence offers frescoes, sculptures, churches, palaces, and other monuments from the richest cultural flowering the world has known. Names from its dazzling historical past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most resonant of the medieval age. <a href='https://www.nationalgeographic.com/travel/destination/florence' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Museums</li>
+      <li>Bike Tours</li>
+      <li>Historical Monuments</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>2. Beijing, China</h2>
+  <div class='description'>A city in the midst of reinventing itself and continuing to build on the success of the 2008 Summer Olympics, Beijing is a place of frenzied construction. New housing, new roads, and new sports venues seem to spring up overnight. At the same time, the capital of the Peoples Republic of China remains an epicenter of tradition, with the treasures of nearly 2,000 years as the imperial capital still on view in the famed Forbidden City and in the luxuriant pavilions and gardens of the Summer Palace.
+    <a href='https://www.nationalgeographic.com/travel/destination/beijing' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Biking</li>
+      <li>Historical Sites</li>
+      <li>Restaurants and Dining</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>3. Seoul, South Korea</h2>
+  <div class='description'>The Korean capital is a city of contrasts. Fourteenth-century city gates squat in the shadow of 21st-century skyscrapers, while the broad Han River is back-dropped by granite mountains rising in the city center complete with alpine highways speeding around their contours and temples nestling among their crags. Fashionable, gadget-laden youths battle for sidewalk space with fortune-tellers and peddlers, while tiny neighborhoods of traditional cottages contrast with endless ranks of identical apartments.
+    <a href='https://www.nationalgeographic.com/travel/destination/seoul' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Parasailing</li>
+      <li>Segway Tours</li>
+      <li>Spas and Resorts</li>
+    </ul>
+  </div>
+
+  <h2> More Destinations </h2>
+  <ul>
+    <li><h4 class='destination'>Jackson Hole, Wyoming</h4></li>
+    <li><h4 class='destination'>Cape Town, South Africa</h4></li>
+    <li><h4 class='destination'>La Paz, Bolivia</h4></li>
+  </ul>
+
+  <p>&mdash;Best of luck with your travels, and be sure to send pictures and stories. We'd love to hear them!</p>
+
+
+</body>
+
+</html>
 ```
 
+```css
+p {
+  color: green;
+}
 
+```
 
 
 
@@ -831,7 +1214,15 @@ body {
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">You learned how the <em>type selector</em> selects all elements of a given type. Well, the <em>universal selector</em> selects all elements of <em>any</em> type. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Targeting all of the elements on the page has a few specific use cases, such as resetting default browser styling, or selecting all <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/t/what-are-parent-elements-and-child-elements-in-html-and-css/283224">children</a> of a parent element. Don’t worry if you don’t understand the use cases right now—we will get to them later on in our Learn CSS journey.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The universal selector uses the <code class="code__2rdF32qjRVp7mMVBHuPwDS">*</code> character in the same place where you specified the type selector in a ruleset, like so:</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span><span class="mtk9"> </span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Verdana</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span><span class="mtk9"> </span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Verdana</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
+
+```css
+* { 
+  font-family: Verdana;
+}
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the code above, every text element on the page will have its font changed to <code class="code__2rdF32qjRVp7mMVBHuPwDS">Verdana</code>.  </p>
 </div>
 
@@ -842,7 +1233,15 @@ body {
 
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">To see how the universal selector targets all elements on a page, copy the rule below and paste it on the first line of <strong>style.css</strong>.</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
+
+```css
+* {
+  border: 1px solid red;
+}
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">Then, click “Run”.  </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Since the universal selector targets all elements, every element on the page now has a red border. Not a visually pleasing look, but you can see how all of the elements have been modified.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
@@ -852,10 +1251,82 @@ body {
 
 
 ```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Vacation World</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+  <img src='https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg' />
+  <h1 class='title'>Top Vacation Spots</h1>
+  <h5>By: Stacy Gray</h5>
+  <h6>Published: 2 Days Ago</h6>
+
+  <p>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
+
+  <h2 class='destination'>1. Florence, Italy</h2>
+  <div class='description'>A city-size shrine to the Renaissance, Florence offers frescoes, sculptures, churches, palaces, and other monuments from the richest cultural flowering the world has known. Names from its dazzling historical past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most resonant of the medieval age. <a href='https://www.nationalgeographic.com/travel/destination/florence' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Museums</li>
+      <li>Bike Tours</li>
+      <li>Historical Monuments</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>2. Beijing, China</h2>
+  <div class='description'>A city in the midst of reinventing itself and continuing to build on the success of the 2008 Summer Olympics, Beijing is a place of frenzied construction. New housing, new roads, and new sports venues seem to spring up overnight. At the same time, the capital of the Peoples Republic of China remains an epicenter of tradition, with the treasures of nearly 2,000 years as the imperial capital still on view in the famed Forbidden City and in the luxuriant pavilions and gardens of the Summer Palace.
+    <a href='https://www.nationalgeographic.com/travel/destination/beijing' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Biking</li>
+      <li>Historical Sites</li>
+      <li>Restaurants and Dining</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>3. Seoul, South Korea</h2>
+  <div class='description'>The Korean capital is a city of contrasts. Fourteenth-century city gates squat in the shadow of 21st-century skyscrapers, while the broad Han River is back-dropped by granite mountains rising in the city center complete with alpine highways speeding around their contours and temples nestling among their crags. Fashionable, gadget-laden youths battle for sidewalk space with fortune-tellers and peddlers, while tiny neighborhoods of traditional cottages contrast with endless ranks of identical apartments.
+    <a href='https://www.nationalgeographic.com/travel/destination/seoul' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Parasailing</li>
+      <li>Segway Tours</li>
+      <li>Spas and Resorts</li>
+    </ul>
+  </div>
+
+  <h2> More Destinations </h2>
+  <ul>
+    <li><h4 class='destination'>Jackson Hole, Wyoming</h4></li>
+    <li><h4 class='destination'>Cape Town, South Africa</h4></li>
+    <li><h4 class='destination'>La Paz, Bolivia</h4></li>
+  </ul>
+
+  <p>&mdash;Best of luck with your travels, and be sure to send pictures and stories. We'd love to hear them!</p>
+
+
+</body>
+
+</html>
 ```
 
+```css
+* {
+  border: 1px solid red;
+}
 
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
+}
+```
 
 
 
@@ -869,14 +1340,23 @@ body {
 <p class="p__1qg33Igem5pAgn4kPMirjw">For example, consider the following HTML:</p>
 
 
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'brand'</span><span class="mtk4">&gt;</span><span class="mtk1">Sole Shoe Company</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'brand'</span><span class="mtk4">&gt;</span><span class="mtk1">Sole Shoe Company</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre> -->
 
 ```html
+<p class='brand'>Sole Shoe Company</p>
 
 ```
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">The paragraph element in the example above has a <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute within the opening tag of the<code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute is set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">'brand'</code>. To select this element using CSS, we can create a ruleset with a class selector of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.brand</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+
+<!-- <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.brand</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre> -->
+
+```css
+.brand {
+ 
+}
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">To select an HTML element by its class using CSS, a period (<code class="code__2rdF32qjRVp7mMVBHuPwDS">.</code>) must be prepended to the class’s name. In the example above, the class is <code class="code__2rdF32qjRVp7mMVBHuPwDS">brand</code>, so the CSS selector for it is <code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.</p>
 </div>
 
@@ -899,10 +1379,86 @@ body {
 
 
 ```html
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Vacation World</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+  <img src='https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg' />
+  <h1 class='title'>Top Vacation Spots</h1>
+  <h5>By: Stacy Gray</h5>
+  <h6>Published: 2 Days Ago</h6>
+
+  <p>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
+
+  <h2 class='destination'>1. Florence, Italy</h2>
+  <div class='description'>A city-size shrine to the Renaissance, Florence offers frescoes, sculptures, churches, palaces, and other monuments from the richest cultural flowering the world has known. Names from its dazzling historical past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most resonant of the medieval age. <a href='https://www.nationalgeographic.com/travel/destination/florence' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Museums</li>
+      <li>Bike Tours</li>
+      <li>Historical Monuments</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>2. Beijing, China</h2>
+  <div class='description'>A city in the midst of reinventing itself and continuing to build on the success of the 2008 Summer Olympics, Beijing is a place of frenzied construction. New housing, new roads, and new sports venues seem to spring up overnight. At the same time, the capital of the Peoples Republic of China remains an epicenter of tradition, with the treasures of nearly 2,000 years as the imperial capital still on view in the famed Forbidden City and in the luxuriant pavilions and gardens of the Summer Palace.
+    <a href='https://www.nationalgeographic.com/travel/destination/beijing' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Biking</li>
+      <li>Historical Sites</li>
+      <li>Restaurants and Dining</li>
+    </ul>
+  </div>
+
+  <h2 class='destination'>3. Seoul, South Korea</h2>
+  <div class='description'>The Korean capital is a city of contrasts. Fourteenth-century city gates squat in the shadow of 21st-century skyscrapers, while the broad Han River is back-dropped by granite mountains rising in the city center complete with alpine highways speeding around their contours and temples nestling among their crags. Fashionable, gadget-laden youths battle for sidewalk space with fortune-tellers and peddlers, while tiny neighborhoods of traditional cottages contrast with endless ranks of identical apartments.
+    <a href='https://www.nationalgeographic.com/travel/destination/seoul' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Parasailing</li>
+      <li>Segway Tours</li>
+      <li>Spas and Resorts</li>
+    </ul>
+  </div>
+
+  <h2> More Destinations </h2>
+  <ul>
+    <li><h4 class='destination'>Jackson Hole, Wyoming</h4></li>
+    <li><h4 class='destination'>Cape Town, South Africa</h4></li>
+    <li><h4 class='destination'>La Paz, Bolivia</h4></li>
+  </ul>
+
+  <p>&mdash;Best of luck with your travels, and be sure to send pictures and stories. We'd love to hear them!</p>
+
+
+</body>
+
+</html>
 ```
 
+```css
+* {
+  border: 1px solid red;
+}
 
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+```
 
 
 
