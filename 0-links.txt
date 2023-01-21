@@ -55,5 +55,4 @@ https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-f
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-html/modules/wdcp-22-semantic-html/lessons/semantic-html/exercises/audio-and-attributes,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-html/modules/wdcp-22-semantic-html/lessons/semantic-html/exercises/video-and-embed,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-html/modules/wdcp-22-semantic-html/lessons/semantic-html/exercises/review,
-https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-html/modules/wdcp-22-semantic-html/projects/semantic-html-nyc-blog,
 https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-html/modules/wdcp-22-semantic-html/projects/semantic-html-nyc-blog
