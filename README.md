@@ -48,7 +48,14 @@ output:
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Take a look at the code in <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code> and observe how it displays in the browser to the right. This is plain HTML without any styling. Let’s take a quick look at the power of CSS.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Copy and paste the following line of code onto line 5:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"style.css"</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">"stylesheet"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">What happens when you press the Run button?</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Take some time to explore and experiment with the code in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code> file.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
@@ -120,10 +127,24 @@ output:
 
 <div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Although CSS is a different language than HTML, it’s possible to write CSS code directly within HTML code using <em>inline styles</em>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To style an HTML element, you can add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute directly to the opening tag. After you add the attribute, you can set it equal to the CSS style(s) you’d like applied to that element.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above demonstrates how to use inline styling. The paragraph element has a <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute within its opening tag. Next, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute is set equal to <code class="code__2rdF32qjRVp7mMVBHuPwDS">color: red;</code>, which will set the color of the paragraph text to red within the browser. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">If you’d like to add <em>more</em> than one style with inline styles, simply keep adding to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute. Make sure to end the styles with a semicolon (<code class="code__2rdF32qjRVp7mMVBHuPwDS">;</code>).</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red; font-size: 20px;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">It’s important to know that inline styles are a quick way of directly styling an HTML element, but are rarely used when creating websites. But you may encounter circumstances where inline styling is necessary, so understanding how it works, and recognizing it in HTML code is good knowledge to have. Soon you’ll learn the proper way to add CSS code!</p>
 </div></div>
 
@@ -157,9 +178,23 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Fortunately, HTML allows you to write CSS code in its own dedicated section with a <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;style&gt;</code></a> element nested inside of the <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/head?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code></a> element. The CSS code inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;style&gt;</code> element is often referred to as an <em>internal stylesheet</em>. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">An internal stylesheet has certain benefits and use cases over inlines styles, but once again, it’s not best practice (we’ll get there, we promise). Understanding how to use internal stylesheets is nonetheless helpful knowledge to have.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To create an internal stylesheet, a <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;style&gt;</code> element must be placed inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;head&gt;</code> element.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;style&gt;</span></span><br><span><span> </span></span><br><span><span> </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/style&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">After adding opening and closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;style&gt;</code> tags in the head section, you can begin writing CSS code.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;style&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">p</span><span class="mtk1"> </span><span class="mtk4">{</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk7">color:</span><span class="mtk1"> </span><span class="mtk4">red;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk7">font-size:</span><span class="mtk1"> </span><span class="mtk14">20px</span><span class="mtk4">;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">}</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/style&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">The CSS code in the example above changes the color of all paragraph text to red and also changes the size of the text to 20 pixels. Note how the syntax of the CSS code matches (for the most part) the syntax you used for inline styling. The main difference is that you can specify which elements to apply the styling.</p>
 </div>
 
@@ -237,11 +272,25 @@ output:
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">rel</code> — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">stylesheet</code>.</li>
 </ol>
 <p class="p__1qg33Igem5pAgn4kPMirjw">When linking an HTML file and a CSS file together, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;link&gt;</code> element will look like the following:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'https://www.codecademy.com/stylesheets/style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">Note that in the example above, the path to the stylesheet is a URL:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://www.codecademy.com/stylesheets/style.css</span></span><br></div></code></pre></pre><p class="p__1qg33Igem5pAgn4kPMirjw">Specifying the path to the stylesheet using a URL is one way of linking a stylesheet. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">If the CSS file is stored in the same <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Directory_(computing)">directory</a> as your HTML file, then you can specify a <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/general/file-paths?page_req=catalog">relative path</a> instead of a URL, like so:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'./style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">Using a relative path is very common way of linking a stylesheet.</p>
 </div>
 
@@ -391,7 +440,14 @@ output:
 
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">CSS is not limited to selecting elements by their type. As you know, HTML elements can also have <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/attr-html">attributes</a>. When working with HTML and CSS a <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/classes?page_req=catalog"><em>class</em></a> attribute is one of the most common ways to select an element.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">For example, consider the following HTML:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'brand'</span><span class="mtk4">&gt;</span><span class="mtk1">Sole Shoe Company</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">The paragraph element in the example above has a <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute within the opening tag of the<code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;</code> element. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute is set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">'brand'</code>. To select this element using CSS, we can create a ruleset with a class selector of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.brand</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To select an HTML element by its class using CSS, a period (<code class="code__2rdF32qjRVp7mMVBHuPwDS">.</code>) must be prepended to the class’s name. In the example above, the class is <code class="code__2rdF32qjRVp7mMVBHuPwDS">brand</code>, so the CSS selector for it is <code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.</p>
@@ -434,7 +490,14 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">For instance, perhaps there’s a heading element that needs to be green and bold. You could write two CSS rulesets like so:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.green</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.bold</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-weight</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">bold</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Then, you could include both of these classes on one HTML element like this:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'green bold'</span><span class="mtk4">&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">We can add multiple classes to an HTML element’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.</p>
 </div>
 
@@ -468,7 +531,14 @@ output:
 
 
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Oftentimes it’s important to select a single element with CSS to give it its own unique style. If an HTML element needs to be styled uniquely, we can give it an ID using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute. </p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">'large-title'</span><span class="mtk4">&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">In contrast to <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> which accepts multiple values, and can be used broadly throughout an HTML document, an element’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> can only have a single value, and only be used once per page. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To select an element’s ID with CSS, we prepend the <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> name with a number sign (<code class="code__2rdF32qjRVp7mMVBHuPwDS">#</code>). For instance, if we wanted to select the HTML element in the example above, it would look like this:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">#large-title</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
@@ -511,7 +581,14 @@ output:
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">[</span><span class="mtk9">href</span><span class="mtk1">]{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">magenta</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The most basic syntax is an attribute surrounded by square brackets. In the above example: <code class="code__2rdF32qjRVp7mMVBHuPwDS">[href]</code> would target all elements with an <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute and set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> to <code class="code__2rdF32qjRVp7mMVBHuPwDS">magenta</code>.   </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">And it can get <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#syntax">more granular</a> from there by adding type and/or attribute values. One way is by using <code class="code__2rdF32qjRVp7mMVBHuPwDS">type[attribute*=value]</code>. In short, this code selects an element where the attribute contains any instance of the specified value. Let’s take a look at an example.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">'/images/seasons/cold/winter.jpg'</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">'/images/seasons/warm/summer.jpg'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">The HTML code above renders two <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/img?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;img&gt;</code></a> elements, each containing a <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute with a value equaling a link to an image file.  </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">img</span><span class="mtk1">[</span><span class="mtk12">src</span><span class="mtk1">*=</span><span class="mtk8">'winter'</span><span class="mtk1">]</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 50px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk4">img</span><span class="mtk1">[</span><span class="mtk12">src</span><span class="mtk1">*=</span><span class="mtk8">'summer'</span><span class="mtk1">]</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 100px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Now take a look at the above CSS code. The <em>attribute selector</em> is used to target each image individually. </p>
@@ -641,7 +718,14 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Specificity is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">IDs are the most specific selector in CSS, followed by classes, and finally, type. For example, consider the following HTML and CSS:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'headline'</span><span class="mtk4">&gt;</span><span class="mtk1">Breaking News</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.headline</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">firebrick</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example code above, the color of the heading would be set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">firebrick</code>, as the class selector is more specific than the type selector. If an ID attribute (and selector) were added to the code above, the styles within the ID selector’s body would override all other styles for the heading.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Over time, as files grow with code, many elements may have IDs, which can make CSS difficult to edit since a new, more specific style must be created to change the style of an element.</p>
@@ -717,7 +801,14 @@ For instance, imagine a page with two headlines. One headline needs to be bold a
 
 
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In addition to chaining selectors to select elements, CSS also supports selecting elements that are nested within other HTML elements, also known as <em>descendants</em>. For instance, consider the following HTML:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ul</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'main-list'</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ul&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">The nested <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;li&gt;</code> elements are descendants of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;ul&gt;</code> element and can be selected with the <em>descendant combinator</em> like so:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.main-list</span><span class="mtk9"> </span><span class="mtk4">li</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, <code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list</code> selects the element with the<code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list</code> class (the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;ul&gt;</code> element). The descendant <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;li&gt;</code>‘s are selected by adding <code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code> to the selector, separated by a space. This results in <code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list li</code> as the final selector. </p>
@@ -2002,7 +2093,14 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">visible</code> — displays an element.</li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">collapse</code> — collapses an element.</li>
 </ul>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Explore</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Connect</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"future"</span><span class="mtk4">&gt;</span><span class="mtk1">Donate</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ul&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.future</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">visibility</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">hidden</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the list item with a class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">future</code> will be hidden from view in the browser. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Keep in mind, however, that users can still view the contents of the list item (e.g., <code class="code__2rdF32qjRVp7mMVBHuPwDS">Donate</code>) by viewing the source code in their browser. Furthermore, the web page will <em>only</em> hide the contents of the element. It will still leave an empty space where the element is intended to display.</p>
@@ -2094,7 +2192,14 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">The last lesson focused on the most important aspects of the box model: box dimensions, borders, padding, and margin. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The box model, however, has an awkward limitation regarding box dimensions. This limitation is best illustrated with an example.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Hello World</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, a heading element’s box has solid, black, 1 pixel thick borders. The height of the box is 200 pixels, while the width of the box is 300 pixels. A padding of 10 pixels has also been set on all four sides of the box’s content.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Unfortunately, under the current box model, the border thickness and the padding will affect the dimensions of the box.</p>
@@ -2167,7 +2272,14 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">box-sizing</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">border-box</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The code in the example above resets the box model to <code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code> for all HTML elements. This new box model avoids the dimensional issues that exist in the former box model you learned about.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this box model, the height and width of the box will remain fixed. The border thickness and padding will be included inside of the box, which means the overall dimensions of the box do not change.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Hello World</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">box-sizing</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">border-box</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the height of the box would remain at 200 pixels and the width would remain at 300 pixels. The border thickness and padding would remain entirely <em>inside</em> of the box.</p>
 </div>
@@ -2675,7 +2787,14 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 <div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Every HTML element has a default <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> value that dictates if it can share horizontal space with other elements. Some elements fill the entire browser from left to right regardless of the size of their content. Other elements only take up as much horizontal space as their content requires and can be directly next to other elements.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this lesson, we’ll cover three values for the <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> property: <code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code>, <code class="code__2rdF32qjRVp7mMVBHuPwDS">block</code>, and <code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The default <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> for some elements, such as <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;em&gt;</code>, <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;strong&gt;</code>, and <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code>, is called <em>inline</em>. Inline elements have a box that wraps tightly around their content, only taking up the amount of space necessary to display their content and not requiring a new line after each element. The height and width of these elements cannot be specified in the CSS document. For example, the text of an anchor tag (<code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;a&gt;</code>) will, by default, be displayed on the same line as the surrounding text, and it will only be as wide as necessary to contain its content. <code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code> elements cannot be altered in size with the <code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> or <code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> CSS properties.</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">To learn more about </span><span class="mtk4">&lt;em&gt;</span><span class="mtk1">inline</span><span class="mtk4">&lt;/em&gt;</span><span class="mtk1"> elements, read </span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#"</span><span class="mtk4">&gt;</span><span class="mtk1">MDN documentation</span><span class="mtk4">&lt;/a&gt;</span><span class="mtk1">.&nbsp;&nbsp;&nbsp;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the example above, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;em&gt;</code> element is <code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code>, because it displays its content on the same line as the content surrounding it, including the anchor tag. This example will display:</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">To learn more about <em>inline</em> elements, read <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">MDN documentation</a>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The CSS <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> property provides the ability to make any element an inline element. This includes elements that are not inline by default such as paragraphs, divs, and headings.</p>
@@ -2749,7 +2868,14 @@ The first value sets the padding-top value (<code class="code__2rdF32qjRVp7mMVBH
 <p class="p__1qg33Igem5pAgn4kPMirjw">For example, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div&gt;</code>s below will be displayed on the same line and with the specified dimensions:</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw"><img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/display-inline-block.png" alt="inline block example" class="img__1JGFO2nlisObc3KeOSGPRp"> </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Let’s take a look at the code:</p>
+
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">I’m a&nbsp;rectangle!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">So am I!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Me three!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
+
+```html
+
+```
+
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.rectangle</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">display</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">inline-block</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">There are three rectangular divs that each contain a paragraph of text. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">.rectangle</code> <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;div&gt;</code>s will all appear inline (provided there is enough space from left to right) with a width of 200 pixels and height of 300 pixels, even though the text inside of them may not require 200 pixels by 300 pixels of space.</p>
 </div>
