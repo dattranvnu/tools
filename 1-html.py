@@ -27,7 +27,7 @@ i = 0
 div = ''
 for link in links:
     driver.get(link)
-    time.sleep(6)
+    time.sleep(7)
     # informationals & articles
     try:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]/h1').text
@@ -51,7 +51,7 @@ for link in links:
       try:
         div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]/div/div[2]').get_attribute('innerHTML')
         nodes = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
-        div = div + '\n\n\n\n\n' + '#### Instructions \n\n\n' + nodes  + '\n\n\n#### Solutions' + '\n\n\n```html\n\n```'
+        div = div + '\n\n\n\n\n' + '**Instructions** \n\n\n' + nodes  + '\n\n\n **Solutions**' + '\n\n\n```html\n\n```'
       except:
         pass
     except:
