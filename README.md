@@ -1,24 +1,28 @@
-## Introduction: Fundamentals of HTML
+## Introduction: Fundamentals of CSS
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The goal of this unit is to introduce you to the fundamentals of HTML,
-one of the languages essential to developing websites.
+The goal of this unit is to introduce you to CSS, one of the languages
+essential to developing websites. You will learn how to apply styles to
+HTML documents using CSS.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 After this unit, you will be able to:
 </p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Understand how HTML is used for web development
+Understand how CSS is used for web development
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Use HTML to build a structure for a website
+Use CSS to add initial styling to your website
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Create tables in HTML documents
+Understand the Box Model in CSS
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Write clearer, more accessible HTML using Semantic HTML tags
+Add positioning using CSS
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Read CSS documentation
 </li>
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
@@ -32,50 +36,22 @@ reviews to others in the
 category</a>, which can help to reinforce what you’ve learned.
 </p>
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### Introduction to HTML
+### Intro to CSS
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Welcome to the world of code! Last year, millions of learners from our
-community started with HTML. Why? HTML is the skeleton of all web pages.
-It’s often the first language learned by developers, marketers, and
-designers and is core to front-end development work. If this is your
-first time touching code, we’re excited for what you’re about to create.
+While
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/learn-html">HTML</a>
+is the fundamental structure of every web page, it can be visually
+unappealing on its own. Cascading Style Sheets or <em>CSS</em> is a
+language web developers use to style the HTML content on a web page. If
+you’re interested in modifying colors, font types, font sizes, images,
+element positioning, and more, CSS is the tool for the job!
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-So what exactly is HTML? HTML provides structure to the content
-appearing on a website, such as images, text, or videos. Right-click on
-any page on the internet, choose “Inspect,” and you’ll see HTML in a
-panel of your screen.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML stands for HyperText Markup Language:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A <em>markup</em> language is a computer language that defines the
-structure and presentation of raw text.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-In HTML, the computer can interpret <em>raw text</em> that is wrapped in
-HTML elements.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<em>HyperText</em> is text displayed on a computer or device that
-provides access to other text through links, also known as
-<em>hyperlinks</em>. You probably clicked on a couple of hyperlinks on
-your way to this Codecademy course.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Learning HTML is the first step in creating websites, but even a bit of
-knowledge can help you inject code snippets into newsletter, blog or
-website templates. As you continue learning, you can layer HTML with CSS
-and JavaScript to create visually compelling and dynamic websites. But
-for now, we’re going to focus on how to add and modify basic content on
-a page, like text, images, and videos. Don’t worry if the websites look
-ugly — we’re just getting started.
+In this lesson, you’ll learn how to set up your CSS file structure and
+select which HTML elements you wish to style.
 </p>
 
 **Instructions**
@@ -83,10 +59,21 @@ ugly — we’re just getting started.
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code editor to the right, type your name in between
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</h1\></code>, then press
-<strong>Run</strong>.
+Take a look at the code in
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code> and observe
+how it displays in the browser to the right. This is plain HTML without
+any styling. Let’s take a quick look at the power of CSS.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Copy and paste the following line of code onto line 5:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"style.css"</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">"stylesheet"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+What happens when you press the Run button?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take some time to explore and experiment with the code in the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code> file.
 </p>
 
 <span aria-live="assertive">Checkpoint 2 Passed</span>
@@ -115,82 +102,99 @@ Arrow Chevron Down Icon
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### HTML Anatomy
+### CSS Anatomy
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML is composed of
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements?page_ref=catalog">elements</a>.
-These elements structure the webpage and define its content. Let’s take
-a look at how they’re written.
+The diagram on the right shows two different methods, or
+<em>syntaxes</em>, for writing CSS code. The first syntax shows CSS
+applies as a <em>ruleset</em>, while the second shows it written as an
+<em>inline style</em>. Two different methods of writing CSS may seem a
+bit intimidating at first, but it’s not as bad as it looks!
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The diagram to the right displays an HTML paragraph element. As we can
-see, the paragraph element is made up of:
+The
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/css/anatomy?page_req=catalog">anatomy</a>
+of both methods does share common features. Notice how both syntaxes
+contain a <em>declaration</em>. Declarations are the core of CSS. They
+apply a style to the selected element. Here, the
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/paragraphs?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code></a>
+element has been selected in both syntaxes and will be styled to display
+the text in blue.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Understanding that a declaration is used to style a selected element is
+key to learning how to style HTML documents with CSS! The terms below
+explain each of the labels in the diagram on the right.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<strong>Ruleset Terms:</strong>
 </p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-An <em>opening tag</em>
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>)
+<em>Selector</em>—The beginning of the ruleset used to target the
+element that will be styled.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The content (“Hello World!” text)
+<em>Declaration Block</em>—The code in-between (and including) the curly
+braces (<code class="code__2rdF32qjRVp7mMVBHuPwDS">{ }</code>) that
+contains the CSS declaration(s).
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A <em>closing tag</em>
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</p\></code>)
+<em>Declaration</em>—The group name for a property and value pair that
+applies a style to the selected element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<em>Property</em>—The first part of the declaration that signifies what
+visual characteristic of the element is to be modified.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<em>Value</em>—The second part of the declaration that signifies the
+value of the property.
 </li>
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-A <em>tag</em> and the <em>content</em> between it is called an HTML
-element. There are many tags that we can use to organize and display
-text and other types of content, like images.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s quickly review each part of the element pictured:
+<strong>Inline Style Terms:</strong>
 </p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML element (or simply, element) — a unit of content in an HTML
-document formed by HTML tags and the text or media it contains.
-</p>
+<em>Opening Tag</em>—The start of an
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements?page_req=catalog">HTML
+element</a>. This is the element that will be styled.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML Tag — the element name, surrounded by an opening
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<</code>) and closing
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\></code>) angle bracket.
-</p>
+<em>Attribute</em>—The style
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/attributes?page_req=catalog">attribute</a>
+is used to add CSS inline styles to an HTML element.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Opening Tag — the first HTML tag used to start an HTML element. The tag
-type is surrounded by opening and closing angle brackets.
-</p>
+<em>Declaration</em>—The group name for a property and value pair that
+applies a style to the selected element.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Content — The information (text or other elements) contained between the
-opening and closing tags of an HTML element.
-</p>
+<em>Property</em>—The first part of the declaration that signifies what
+visual characteristic of the element is to be modified.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Closing tag — the second HTML tag used to end an HTML element. Closing
-tags have a forward slash
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">/</code>) inside of them,
-directly after the left angle bracket.
-</p>
+<em>Value</em>—The second part of the declaration that signifies the
+value of the property.
 </li>
 </ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Don’t worry about memorizing all of these—you will get acquainted with
+them more and more as the course progresses! Feel free to come back and
+use this exercise as a reference later on.
+</p>
 
 **Instructions**
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Study the diagram to the right to learn about the anatomy of HTML
-syntax. When you’re done, continue to the next exercise.
+Study the diagrams to become familiar with the CSS syntax and the new
+terms that will be used throughout the course.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Click the “Next” button when you are ready to write some code!
 </p>
 
 **Solutions**
@@ -198,56 +202,61 @@ syntax. When you’re done, continue to the next exercise.
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### The Body
+### Inline Styles
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-One of the key HTML elements we use to build a webpage is the
-<em>body</em> element. Only content inside the opening and closing body
-tags can be displayed to the screen. Here’s what opening and closing
-body tags look like:
+Although CSS is a different language than HTML, it’s possible to write
+CSS code directly within HTML code using <em>inline styles</em>.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Once the file has a body, many different types of content – including
-text, images, and buttons – can be added to the body.
+To style an HTML element, you can add the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute
+directly to the opening tag. After you add the attribute, you can set it
+equal to the CSS style(s) you’d like applied to that element.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">What's up, doc?</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above demonstrates how to use inline styling.
+The paragraph element has a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute within
+its opening tag. Next, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute is set
+equal to <code class="code__2rdF32qjRVp7mMVBHuPwDS">color: red;</code>,
+which will set the color of the paragraph text to red within the
+browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you’d like to add <em>more</em> than one style with inline styles,
+simply keep adding to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute. Make
+sure to end the styles with a semicolon
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">;</code>).
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">style</span><span class="mtk1">=</span><span class="mtk8">'color: red; font-size: 20px;'</span><span class="mtk4">&gt;</span><span class="mtk1">I'm learning to code!</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+It’s important to know that inline styles are a quick way of directly
+styling an HTML element, but are rarely used when creating websites. But
+you may encounter circumstances where inline styling is necessary, so
+understanding how it works, and recognizing it in HTML code is good
+knowledge to have. Soon you’ll learn the proper way to add CSS code!
+</p>
 
 **Instructions**
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a body to your web page using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element.
+In <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>, use
+inline styling to set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> of the first
+paragraph (the first
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element) to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">green</code>.
 </p>
 
 <span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the following code between your opening and closing body tags:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">"Life is very short and what we have to do must be</span><span class="mtk1"> done in the now." -&nbsp;Audre Lorde</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note</strong>: While some browsers may render some content
-outside body tags as well to accommodate the occasional mistake in your
-HTML, not all browsers do this! The best way to ensure that all your
-HTML renders the same way in all browsers is to ensure that your
-elements remain within the opening and closing body tags.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
 
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
 <title>
@@ -273,61 +282,54 @@ Arrow Chevron Down Icon
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### HTML Structure
+### Internal Stylesheet
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML is organized as a collection of family tree relationships. As you
-saw in the last exercise, we placed
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tags within
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tags. When an
-element is contained inside another element, it is considered the
-<em>child</em> of that element. The child element is said to be
-<em>nested</em> inside of the <em>parent</em> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">This paragraph is a&nbsp;child of the body</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element is
-nested inside the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element is
-considered a child of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element, and
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element
-is considered the parent. You can also see that we’ve added two spaces
-of indentation (using the <kbd>space</kbd> bar) for better readability.
+As previously stated, inline styles are not the best way to style HTML
+elements. If you wanted to style, for example, multiple
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/h1-h6?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
+elements</a>, you would have to add inline styling to each element
+manually. In addition, you would also have to maintain the HTML code
+when additional <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
+elements are added.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Since there can be multiple levels of nesting, this analogy can be
-extended to grandchildren, great-grandchildren, and beyond. The
-relationship between elements and their ancestor and descendent elements
-is known as <em>hierarchy</em>.
+Fortunately, HTML allows you to write CSS code in its own dedicated
+section with a
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code></a>
+element nested inside of the
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/head?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code></a>
+element. The CSS code inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element is
+often referred to as an <em>internal stylesheet</em>.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s consider a more complicated example that uses some new tags:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Sibling to p, but also grandchild of body</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Sibling to h1, but also grandchild of body</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element is
-the parent of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element. Both
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> elements are
-children of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element.
-Because the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> elements are at
-the same level, they are considered siblings and are both grandchildren
-of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code>
-element.
+An internal stylesheet has certain benefits and use cases over inlines
+styles, but once again, it’s not best practice (we’ll get there, we
+promise). Understanding how to use internal stylesheets is nonetheless
+helpful knowledge to have.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Understanding HTML hierarchy is important because child elements can
-inherit behavior and styling from their parent element. You’ll learn
-more about webpage hierarchy when you start digging into CSS.
+To create an internal stylesheet, a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element must
+be placed inside of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> element.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;style&gt;</span></span><br><span><span> </span></span><br><span><span> </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/style&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After adding opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> tags in the
+head section, you can begin writing CSS code.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;style&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">p</span><span class="mtk1"> </span><span class="mtk4">{</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk7">color:</span><span class="mtk1"> </span><span class="mtk4">red;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk7">font-size:</span><span class="mtk1"> </span><span class="mtk14">20px</span><span class="mtk4">;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">}</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/style&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The CSS code in the example above changes the color of all paragraph
+text to red and also changes the size of the text to 20 pixels. Note how
+the syntax of the CSS code matches (for the most part) the syntax you
+used for inline styling. The main difference is that you can specify
+which elements to apply the styling.
 </p>
 
 **Instructions**
@@ -335,90 +337,14 @@ more about webpage hierarchy when you start digging into CSS.
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the paragraph below as a child of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">div</code> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">This paragraph is a&nbsp;child of the div element and a</span><span class="mtk1"> grandchild of the body element</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Headings
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Headings in HTML are similar to headings in other types of media. For
-example, in newspapers, large headings are typically used to capture a
-reader’s attention. Other times, headings are used to describe content,
-like the title of a movie or an educational article.
+Let’s move the inline style that was added to the paragraph into an
+internal stylesheet.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML follows a similar pattern. In HTML, there are six different
-<em>headings</em>, or <em>heading elements</em>.
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/headings?page_ref=catalog">Headings</a>
-can be used for a variety of purposes, like titling sections, articles,
-or other forms of content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The following is the list of heading elements available in HTML. They
-are ordered from largest to smallest in size.
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> — used for main
-headings. All other smaller headings are used for subheadings.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code>
-</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The following example code uses a headline intended to capture a
-reader’s attention. It uses the largest heading available, the main
-heading element:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">BREAKING NEWS</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that you know how to structure HTML elements, we’ll spend the rest
-of the lesson building an informational website using some of the most
-common HTML elements. We’ve put some elements in to get you started, but
-you’ll write the rest of the page on your own.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-heading that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Features</code>, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> heading that
-says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Habitat</code>.
+Start by adding an empty
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element in
+the head of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>.
 </p>
 
 <span aria-live="assertive">Checkpoint 2 Passed</span>
@@ -445,10 +371,11 @@ Arrow Chevron Down Icon
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Habitat</code>
-heading, add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-heading that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Countries
-with Large Brown Bear Populations</code>.
+Inside of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element, add
+a CSS ruleset targeting the paragraph (the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element). You
+can leave the declaration block empty for now.
 </p>
 
 <span aria-live="assertive">Checkpoint 3 Passed</span>
@@ -459,14 +386,24 @@ Check Icon
 </title>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
 
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-On the next line, add one more
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code> heading that
-says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Countries with Small
-Brown Bear Populations</code>.
+Next, place just the declaration from the inline style into the empty
+declaration block in the inline stylesheet.
 </p>
 
 <span aria-live="assertive">Checkpoint 4 Passed</span>
@@ -478,12 +415,27 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">4.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Finally, on the next line add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> heading that
-says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Media</code>.
+Finally, delete the inline style from the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice how the styling works the same in the stylesheet as it did in the
+inline style!
 </p>
 
 <span aria-live="assertive">Checkpoint 5 Passed</span>
@@ -495,74 +447,6 @@ Check Icon
 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
 </svg>
 
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Divs
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-One of the most popular elements in HTML is the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element.
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/div?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code></a>
-is short for “division” or a container that divides the page into
-sections. These sections are very useful for grouping elements in your
-HTML together.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Why use divs?</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Great for grouping elements!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s don’t
-inherently have a visual representation, but they are very useful when
-we want to apply custom styles to our HTML elements.
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s allow us to
-group HTML elements to apply the same styles for all HTML elements
-inside. We can also style the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element as a
-whole. You can see how this can be done in the
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/learn-css">Learn
-CSS</a> course.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s can contain
-any text or other HTML elements, such as links, images, or videos.
-Remember to always add two spaces of indentation when you nest elements
-inside of <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s for
-better readability.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
-heading that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">The Brown
-Bear</code>, add an opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Place the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</div\></code> tag after the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code> element that
-says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Features</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Remember to use your <kbd>space</kbd> bar to add two spaces of
-indentation when you nest elements.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
 <span class="children__3aFTNwOnkG0i7uCSFwvYT5">
 
@@ -575,219 +459,30 @@ Arrow Chevron Down Icon
 <path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
 </button>
 
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Above the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-element that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Habitat</code>, add an
-opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Close the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\</div\></code> tag
-after the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-element that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">Countries
-with Small Brown Bear Populations</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Above the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-element that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Media</code>, add an opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Place the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</div\></code> tag right
-above the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</body\></code> tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
 **Solutions**
 
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### Attributes
+### External Stylesheet
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-If we want to expand an element’s tag, we can do so using an attribute.
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/attributes?page_ref=catalog">Attributes</a>
-are content added to the opening tag of an element and can be used in
-several different ways, from providing information to changing styling.
-Attributes are made up of the following two parts:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <em>name</em> of the attribute
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <em>value</em> of the attribute
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-One commonly used attribute is the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>. We can use the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute to
-specify different content (such as
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s) and is
-really helpful when you use an element more than once.
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>s have several
-different purposes in HTML, but for now, we’ll focus on how they can
-help us identify content on our page.
+Developers avoid mixing code by storing HTML and CSS code in separate
+files (HTML files contain only HTML code, and CSS files contain only CSS
+code).
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-When we add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> to a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>, we place it
-in the opening tag:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"intro"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Introduction</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute
-with the value
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“introduction”</code> to the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag that’s
-below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">The Brown
-Bear</code> <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
-heading.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute
-with the value
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“habitat”</code> to the
-opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag
-that has the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Habitat</code>
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> heading as a
-child.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute
-with the value <code class="code__2rdF32qjRVp7mMVBHuPwDS">“media”</code>
-to the opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>
-tag that has the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Media</code>
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> heading as a
-child.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Displaying Text
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you want to display text in HTML, you can use a <em>paragraph</em> or
-<em>span</em>:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/paragraphs?page_ref=catalog"><em>Paragraphs</em>
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>)</a>contain a
-block of plain text.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/span?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\></code></a>
-contains short pieces of text or other HTML. They are used to separate
-small pieces of content that are on the same line as other content.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Take a look at each of these elements in action below:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Technology</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;&lt;span&gt;</span><span class="mtk1">Self-driving cars</span><span class="mtk4">&lt;/span&gt;</span><span class="mtk1"> are anticipated to replace up to 2&nbsp;million jobs o</span><span class="mtk1">ver the next two decades.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, there are two different
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>. The second
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> contains a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\>Self-driving
-cars\</span\></code>. This
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\></code> element
-separates “Self-driving cars” from the rest of the text in the
-paragraph.
+You can create an external stylesheet by using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.css</code> file name
+extension, like so:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code>
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-It’s best to use a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\></code> element when
-you want to target a specific piece of content that is <em>inline</em>,
-or on the same line as other text. If you want to divide your content
-into <em>blocks</em>, it’s better to use a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>.
+With an external stylesheet, you can write all the CSS code needed to
+style a page without sacrificing the readability and maintainability of
+your HTML file.
 </p>
 
 **Instructions**
@@ -795,349 +490,25 @@ into <em>blocks</em>, it’s better to use a
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-element that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">About Brown
-Bears</code>, add
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> opening and
-closing tags, and inside of the tags put the following text:
+Take a look at
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>. Cut the
+CSS code ruleset in between the opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> tags and
+paste it directly into the file called
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code>.
 </p>
-<blockquote class="blockquote__Bo1k0tPllp684-m2XzKRP">
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The brown bear (Ursus arctos) is native to parts of northern Eurasia and
-North America. Its conservation status is currently Least Concern. There
-are many subspecies within the brown bear species, including the Atlas
-bear and the Himalayan brown bear.
+Delete the remaining
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element (now
+empty) from <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>
+and press the Run button.
 </p>
-</blockquote>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Remember to always add two spaces of indentation when you nest elements
-inside of <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s for
-better readability.
+Hmm, the font changes didn’t take effect? Click the Next button to find
+out why.
 </p>
 
 <span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-element that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Features</code>, add a
-paragraph with the following text:
-</p>
-<blockquote class="blockquote__Bo1k0tPllp684-m2XzKRP">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Brown bears are not always completely brown. Some can be reddish or
-yellowish. They have very large, curved claws and huge paws. Male brown
-bears are often 30% larger than female brown bears. They can range from
-5 feet to 9 feet from head to toe.
-</p>
-</blockquote>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
-element that says:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Countries with Small Brown
-Bear Populations</code>
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a paragraph with the following text:
-</p>
-<blockquote class="blockquote__Bo1k0tPllp684-m2XzKRP">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Some countries with smaller brown bear populations include Armenia,
-Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal,
-Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.
-</p>
-</blockquote>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Styling Text
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can also style text using HTML tags. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> tag emphasizes
-text, while the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> tag
-highlights important text.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Later, when you begin to style websites, you will decide how you want
-browsers to display content within
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> tags.
-Browsers, however, have built-in style sheets that will generally style
-these tags in the following ways:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> tag will
-generally render as <em>italic</em> emphasis.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> will
-generally render as <strong>bold</strong> emphasis.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Take a look at each style in action:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p&gt;&lt;strong&gt;</span><span class="mtk1">The Nile River</span><span class="mtk4">&lt;/strong&gt;</span><span class="mtk1"> is the </span><span class="mtk4">&lt;em&gt;</span><span class="mtk1">longest</span><span class="mtk4">&lt;/em&gt;</span><span class="mtk1"> river in the world, measuring over 6,850 kilomete</span><span class="mtk1">rs long (approximately 4,260 miles).</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> tags are used
-to emphasize the text to produce the following:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>The Nile River</strong> is the <em>longest</em> river in the
-world, measuring over 6,850 kilometers long (approximately 4,260 miles).
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As we can see, “The Nile River” is bolded and “longest” is in italics.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the first paragraph that starts “The brown bear…”, emphasize
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Ursus arctos</code> using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the paragraph under <code class="code__2rdF32qjRVp7mMVBHuPwDS">About
-Brown Bears</code>, make the words
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Least Concern</code> strong
-using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code>
-tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Line Breaks
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The spacing between code in an HTML file doesn’t affect the positioning
-of elements in the browser. If you are interested in modifying the
-spacing in the browser, you can use HTML’s <em>line break</em> element:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<br\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The line break element is unique because it is only composed of a
-starting tag. You can use it anywhere within your HTML code and a line
-break will be shown in the browser.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The Nile River is the longest river </span><span class="mtk4">&lt;br&gt;</span><span class="mtk1"> in the world, measuring over 6,850 </span><span class="mtk4">&lt;br&gt;</span><span class="mtk1"> kilometers long (approximately 4,260 </span><span class="mtk4">&lt;br&gt;</span><span class="mtk1"> miles).</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The code in the example above will result in an output that looks like
-the following:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The Nile River is the longest river<br> in the world, measuring over
-6,850<br> kilometers long (approximately 4,260<br> miles).
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add two line breaks
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<br\></code>) after the
-sentence that ends with <code class="code__2rdF32qjRVp7mMVBHuPwDS">Least
-Concern</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Unordered Lists
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In addition to organizing text in paragraph form, you can also display
-content in an easy-to-read list.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In HTML, you can use an <em>unordered list</em> tag
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code>) to create a
-list of items in no particular order. An unordered list outlines
-individual <em>list items</em> with a bullet point.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/ul?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code>
-element</a> should not hold raw text and won’t automatically format raw
-text into an unordered list of items. Individual list items must be
-added to the unordered list using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> tag. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> or list item
-tag is used to describe an item in a list.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Limes</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Tortillas</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Chicken</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ul&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the list was created using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code> tag and all
-individual list items were added using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> tags.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The output will look like this:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Limes
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Tortillas
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Chicken
-</li>
-</ul>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the heading that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Species</code>, create an
-unordered list.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Do not add any list items to the list just yet.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the following list items to the unordered list:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Arctos
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Collarus
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Horribilis
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Nelsoni (extinct)
-</li>
-</ul>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
 
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
 <title>
@@ -1163,129 +534,3423 @@ Arrow Chevron Down Icon
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## SETUP AND SYNTAX
 
-### Ordered Lists
+### Linking the CSS File
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/ol?page_ref=catalog"><em>Ordered
-lists</em>
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ol\></code>)</a> are like
-unordered lists, except that each list item is numbered. They are useful
-when you need to list different steps in a process or rank items for
-first to last.
+Perfect! We successfully separated structure (HTML) from styling (CSS),
+but the web page still looks bland. Why?
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-You can create the ordered list with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ol\></code> tag and then
-add individual list items to the list using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> tags.
+When HTML and CSS codes are in separate files, the files must be linked.
+Otherwise, the HTML file won’t be able to locate the CSS code, and the
+styling will not be applied.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ol&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Preheat the oven to 350 degrees.</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Mix whole wheat flour, baking soda, and salt.</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Cream the butter, sugar in separate bowl.</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Add eggs and vanilla extract to bowl.</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ol&gt;</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The output will look like this:
+You can use the
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/link?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code></a>
+element to link HTML and CSS files together. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code> element must
+be placed within the head of the HTML file. It is a self-closing tag and
+requires the following attributes:
 </p>
 <ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Preheat the oven to 350 degrees.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> — like the anchor
+element, the value of this attribute must be the address, or path, to
+the CSS file.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Mix whole wheat flour, baking soda, and salt.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">rel</code> — this attribute
+describes the relationship between the HTML file and the CSS file.
+Because you are linking to a stylesheet, the value should be set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">stylesheet</code>.
+</li>
+</ol>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When linking an HTML file and a CSS file together, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code> element will
+look like the following:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'https://www.codecademy.com/stylesheets/style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Note that in the example above, the path to the stylesheet is a URL:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://www.codecademy.com/stylesheets/style.css</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Specifying the path to the stylesheet using a URL is one way of linking
+a stylesheet.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If the CSS file is stored in the same
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Directory_(computing)">directory</a>
+as your HTML file, then you can specify a
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/general/file-paths?page_req=catalog">relative
+path</a> instead of a URL, like so:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;link</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">'./style.css'</span><span class="mtk1"> </span><span class="mtk7">rel</span><span class="mtk1">=</span><span class="mtk8">'stylesheet'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Using a relative path is very common way of linking a stylesheet.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s link the stylesheet
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code> to the HTML
+file <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+First, add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code>
+element within the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> section.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code>
+attribute to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code> element and
+set it equal to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a look at the web page in the browser to the right. Do you notice
+any changes yet?
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">rel</code>
+attribute and set it to the correct value. Keep an eye on the first
+paragraph’s font—it should appear different from the destinations’
+descriptions when your stylesheet is linked correctly.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SETUP AND SYNTAX
+
+### Review
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Great work so far! By understanding how to incorporate CSS code into
+your HTML file, as well as learning some of the key terms, you’re on
+your way to creating spectacular websites with HTML and CSS.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s review what you learned so far:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The basic anatomy of CSS syntax written for both inline styles and
+stylesheets.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Cream the butter, sugar in separate bowl.
+Some commonly used CSS terms, such as <em>ruleset</em>,
+<em>selector</em>, and <em>declaration</em>.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Add eggs and vanilla extract to bowl.
+CSS inline styles can be written inside the opening HTML tag using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code> attribute.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Inline styles can be used to style HTML, but it is not the best
+practice.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+An internal stylesheet is written using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<style\></code> element
+inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>
+element of an HTML file.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Internal stylesheets can be used to style HTML but are also not best
+practice.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+An external stylesheet separates CSS code from HTML, by using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.css</code> file extension.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+External stylesheets are the best approach when it comes to using HTML
+and CSS.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+External stylesheets are linked to HTML using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<link\></code> element.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take this knowledge to the next lesson, where you start learning how to
+select HTML elements to style!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Here are a few more resources to add to your toolkit:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/css">Codecademy
+Docs: CSS</a>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/workspaces/new">Codecademy
+Workspaces: CSS</a>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Make sure to bookmark these links so you have them at your disposal.
+</p>
+
+## SELECTORS
+
+### Type
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Remember that <em>declarations</em> are a fundamental part of CSS
+because they apply a style to a selected element. But how do you decide
+which elements will get the style? With a
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/css/selectors?page_req=catalog"><em>selector</em></a>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A selector is used to target the specific HTML element(s) to be styled
+by the declaration. One selector you may already be familiar with is the
+<em>type</em> selector. Just like its name suggests, the type selector
+matches the <em>type</em> of the element in the HTML document.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the previous lesson, you changed the color of a paragraph element.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This is an instance of using the type selector! The element type is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>, which comes from
+the HTML <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>
+element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Some important notes on the type selector:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The type selector does not include the angle brackets.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Since element types are often referred to by their opening tag name, the
+type selector is sometimes referred to as the <em>tag name</em> or
+<em>element</em> selector.
+</li>
+</ul>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Open <code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code>. On
+line 5, add a ruleset using the type selector to target all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> elements. Leave
+the declaration block (<code class="code__2rdF32qjRVp7mMVBHuPwDS">{
+}</code>) empty for now.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside the curly braces of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector, add the
+declaration below:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">maroon</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Note that the content of the web page will update because we’ve already
+linked <code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Universal
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You learned how the <em>type selector</em> selects all elements of a
+given type. Well, the <em>universal selector</em> selects all elements
+of <em>any</em> type.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Targeting all of the elements on the page has a few specific use cases,
+such as resetting default browser styling, or selecting all
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/t/what-are-parent-elements-and-child-elements-in-html-and-css/283224">children</a>
+of a parent element. Don’t worry if you don’t understand the use cases
+right now—we will get to them later on in our Learn CSS journey.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The universal selector uses the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\*</code> character in the
+same place where you specified the type selector in a ruleset, like so:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span><span class="mtk9"> </span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Verdana</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the code above, every text element on the page will have its font
+changed to <code class="code__2rdF32qjRVp7mMVBHuPwDS">Verdana</code>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To see how the universal selector targets all elements on a page, copy
+the rule below and paste it on the first line of
+<strong>style.css</strong>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, click “Run”.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Since the universal selector targets all elements, every element on the
+page now has a red border. Not a visually pleasing look, but you can see
+how all of the elements have been modified.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Class
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+CSS is not limited to selecting elements by their type. As you know,
+HTML elements can also have
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/attr-html">attributes</a>.
+When working with HTML and CSS a
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/classes?page_req=catalog"><em>class</em></a>
+attribute is one of the most common ways to select an element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For example, consider the following HTML:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'brand'</span><span class="mtk4">&gt;</span><span class="mtk1">Sole Shoe Company</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The paragraph element in the example above has a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute within
+the opening tag of
+the<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute is set
+to <code class="code__2rdF32qjRVp7mMVBHuPwDS">‘brand’</code>. To select
+this element using CSS, we can create a ruleset with a class selector of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.brand</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To select an HTML element by its class using CSS, a period
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">.</code>) must be prepended
+to the class’s name. In the example above, the class is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">brand</code>, so the CSS
+selector for it is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.brand</code>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On line 11 of <strong>index.html</strong> there is an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> element with
+the class <code class="code__2rdF32qjRVp7mMVBHuPwDS">title</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now, open <strong>style.css</strong>. On line 13, use the class selector
+to create a ruleset that selects that HTML element using the class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">title</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside the curly braces of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.title</code> selector, add
+the declaration:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">teal</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This code will change the color of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">title</code> class to teal.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We’ll see in a later exercise why using
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.title</code> overrides the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> selector.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Multiple Classes
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We can use CSS to select an HTML element’s
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute by
+name. And so far, we’ve selected elements using only one class name per
+element. If every HTML element had a single class, all the style
+information for each element would require a new class.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Luckily, it’s possible to add more than one class name to an HTML
+element’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code>
+attribute.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For instance, perhaps there’s a heading element that needs to be green
+and bold. You could write two CSS rulesets like so:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.green</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.bold</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-weight</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">bold</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, you could include both of these classes on one HTML element like
+this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'green bold'</span><span class="mtk4">&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We can add multiple classes to an HTML element’s
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> attribute by
+separating them with a space. This enables us to mix and match CSS
+classes to create many unique styles without writing a custom class for
+every style combination needed.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>index.html</strong>, on line 11, there is an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> element with a
+class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">title</code>. Add a
+second class named
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">uppercase</code> to this
+element.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, navigate to <strong>style.css</strong>, and add a ruleset using
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.uppercase</code> class
+selector. Then, add the declaration below inside of the curly braces.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">text-transform</span><span class="mtk9">: </span><span class="mtk4">uppercase</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### ID
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Oftentimes it’s important to select a single element with CSS to give it
+its own unique style. If an HTML element needs to be styled uniquely, we
+can give it an ID using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">'large-title'</span><span class="mtk4">&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In contrast to <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code>
+which accepts multiple values, and can be used broadly throughout an
+HTML document, an element’s
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> can only have a
+single value, and only be used once per page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To select an element’s ID with CSS, we prepend the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> name with a number
+sign (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\#</code>). For
+instance, if we wanted to select the HTML element in the example above,
+it would look like this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">#large-title</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> name is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">large-title</code>, therefore
+the CSS selector for it is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#large-title</code>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On line 11 of <strong>index.html</strong>, inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> opening tag and
+after the class attribute, add an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> with the value
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">article-title</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Navigate to <strong>style.css</strong>. Add a ruleset using the ID
+selector to target the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">article-title</code> ID.
+Inside of its curly braces, write the declaration:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-family</span><span class="mtk9">: </span><span class="mtk4">cursive</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You’ll see the title change to a cursive font bringing some beauty and
+elegance to the page! Okay, maybe not so much. But the font does change.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Attribute
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You may remember that some HTML elements use attributes to add extra
+detail or functionality to the element. Some familiar attributes may be
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>, but there are
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">many
+more</a>—including
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <em>attribute selector</em> can be used to target HTML elements that
+already contain attributes. Elements of the same type can be targeted
+differently by their attribute or attribute value. This alleviates the
+need to add new code, like the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attributes.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Attributes can be selected similarly to types, classes, and IDs.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">[</span><span class="mtk9">href</span><span class="mtk1">]{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">magenta</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The most basic syntax is an attribute surrounded by square brackets. In
+the above example:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\[href\]</code> would target
+all elements with an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute and set
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">magenta</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+And it can get
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#syntax">more
+granular</a> from there by adding type and/or attribute values. One way
+is by using
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">type\[attribute\*=value\]</code>.
+In short, this code selects an element where the attribute contains any
+instance of the specified value. Let’s take a look at an example.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">'/images/seasons/cold/winter.jpg'</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">'/images/seasons/warm/summer.jpg'</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The HTML code above renders two
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/img?page_req=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code></a>
+elements, each containing a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute with a
+value equaling a link to an image file.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">img</span><span class="mtk1">[</span><span class="mtk12">src</span><span class="mtk1">*=</span><span class="mtk8">'winter'</span><span class="mtk1">]</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 50px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk4">img</span><span class="mtk1">[</span><span class="mtk12">src</span><span class="mtk1">*=</span><span class="mtk8">'summer'</span><span class="mtk1">]</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 100px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now take a look at the above CSS code. The <em>attribute selector</em>
+is used to target each image individually.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The first ruleset looks for an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">img</code> element with an
+attribute of <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> that
+contains the string
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">‘winter’</code>, and sets the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">50px</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The second ruleset looks for an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">img</code> element with an
+attribute of <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> that
+contains the string
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">‘summer’</code>, and sets the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">100px</code>.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice how no new HTML markup (like a class or id) needed to be added,
+and we were still able to modify the styles of each image independently.
+This is one advantage to using the attribute selector!
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To use the attribute selector to select the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element with an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute value
+containing ‘florence’, add the following code to
+<strong>style.css</strong>:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">a</span><span class="mtk1">[</span><span class="mtk9">href</span><span class="mtk1">*=</span><span class="mtk8">'florence'</span><span class="mtk1">]</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">lightgreen</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice how only the “Learn More” link in the Florence, Italy paragraph
+changed to light green.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, in <strong>style.css</strong>, use the attribute selector to
+select the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code>
+element that has an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute value
+containing <code class="code__2rdF32qjRVp7mMVBHuPwDS">‘beijing’</code>.
+Add a declaration of <code class="code__2rdF32qjRVp7mMVBHuPwDS">color:
+lightblue;</code> to make the link appear light blue.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, use the attribute selector change the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element that has
+an <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute
+value containing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">‘seoul’</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">lightpink</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Pseudo-class
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You may have observed how the appearance of certain elements can change,
+or be in a different state, after certain user interactions. For
+instance:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+When you click on an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<input\></code> element, and
+a blue border is added showing that it is in <em>focus</em>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+When you click on a blue
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> link to
+<em>visit</em> to another page, but when you return the link’s text is
+purple.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+When you’re filling out a form and the submit button is grayed out and
+<em>disabled</em>. But when all of the fields have been filled out, the
+button has color showing that it’s <em>active</em>.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+These are all examples of pseudo-class selectors in action! In fact,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">:focus</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">:visited</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">:disabled</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">:active</code> are all
+pseudo-classes. Factors such as user interaction, site navigation, and
+position in the document tree can all give elements a different state
+with pseudo-class.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A pseudo-class can be attached to any selector. It is always written as
+a colon <code class="code__2rdF32qjRVp7mMVBHuPwDS">:</code> followed by
+a name. For example
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p:hover</code>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9">:</span><span class="mtk4">hover</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">lime</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the above code, whenever the mouse hovers over a paragraph element,
+that paragraph will have a lime-colored background.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Add a ruleset to the end of <strong>style.css</strong> that selects the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> elements on the
+page. Leave the declaration block empty for now.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">:hover</code>
+pseudo-class to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">a</code>
+selector you just created.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Lastly, set the text color to dark orange by adding the following CSS
+declaration inside the declaration block:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">darkorange</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now when you hover the mouse over the “Learn More” text, the font color
+changes to dark orange! Neato.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Classes and IDs
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+CSS can select HTML elements by their type, class, and ID. CSS classes
+and IDs have different purposes, which can affect which one you use to
+style HTML elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+CSS classes are meant to be reused over many elements. By writing CSS
+classes, you can style elements in a variety of ways by mixing classes.
+For instance, imagine a page with two headlines. One headline needs to
+be bold and blue, and the other needs to be bold and green. Instead of
+writing separate CSS rules for each headline that repeat each other’s
+code, it’s better to write a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.bold</code> CSS rule, a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.green</code> CSS rule, and a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.blue</code> CSS rule. Then
+you can give one headline the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">bold green</code> classes,
+and the other the <code class="code__2rdF32qjRVp7mMVBHuPwDS">bold
+blue</code> classes.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+While classes are meant to be used many times, an ID is meant to style
+only one element. As you’ll learn in the next exercise, IDs override the
+styles of types and classes. Since IDs override these styles, they
+should be used sparingly and only on elements that need to always appear
+the same.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To demonstrate using classes on multiple elements, let’s give a few
+elements the same style.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>index.html</strong>, there are four
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> elements. Give
+each of them a class of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">heading-background</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now, let’s give a unique style to a single element using ID.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On line 13 of <strong>index.html</strong>, there’s an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code> element that
+displays the time the article on the page was published.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Add an id attribute to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code>, and give it a
+value of <code class="code__2rdF32qjRVp7mMVBHuPwDS">publish-time</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, in <strong>style.css</strong>, create a ruleset targeting the new
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">heading-background</code>
+class, and give it a declaration of:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">background-color</span><span class="mtk9">: </span><span class="mtk4">aqua</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After you press Run, notice how all of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> elements now
+have the same style. This
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">heading-background</code>
+class can continue to be applied to any element you wish to bestow that
+amazing style onto.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">4.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, in <strong>style.css</strong>, create another ruleset using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">publish-time</code> ID
+selector. Add the declaration:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">gray</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Since ID’s are single-use, this element now has a unique ID that can’t
+be used again in this document!
+</p>
+
+<span aria-live="assertive">Checkpoint 5 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Specificity
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Specificity is the order by which the browser decides which CSS styles
+will be displayed. A best practice in CSS is to style elements while
+using the lowest degree of specificity so that if an element needs a new
+style, it is easy to override.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+IDs are the most specific selector in CSS, followed by classes, and
+finally, type. For example, consider the following HTML and CSS:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'headline'</span><span class="mtk4">&gt;</span><span class="mtk1">Breaking News</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.headline</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">firebrick</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example code above, the color of the heading would be set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">firebrick</code>, as the
+class selector is more specific than the type selector. If an ID
+attribute (and selector) were added to the code above, the styles within
+the ID selector’s body would override all other styles for the heading.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Over time, as files grow with code, many elements may have IDs, which
+can make CSS difficult to edit since a new, more specific style must be
+created to change the style of an element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To make styles easy to edit, it’s best to style with a type selector, if
+possible. If not, add a class selector. If that is not specific enough,
+then consider using an ID selector.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To compare type, class, and ID specificity, let’s add a class and ID to
+an existing element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On line 12 of <strong>index.html</strong>, there is an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> element with
+the author’s name. Give the element a class of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">author-class</code> and an ID
+of <code class="code__2rdF32qjRVp7mMVBHuPwDS">author-id</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The element now has 3 ways of selecting it, by type, class, and ID. Add
+the 3 following rulesets to the bottom of <strong>style.css</strong>
+utilizing each of the selectors:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h5</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">yellow</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.author-class</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">pink</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk1">#author-id</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">cornflowerblue</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Each of these rules selects the same element in a different way. Which
+style will win the “specificity war”? Click “Run” to find out!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Because ID is the most specific selector, the element will change to
+cornflower blue. You may have noticed the other
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> elements
+changed to yellow. This is because the most specific (and only) selector
+they have is their type.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Chaining
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When writing CSS rules, it’s possible to require an HTML element to have
+two or more CSS selectors at the same time.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This is done by combining multiple selectors, which we will refer to as
+chaining. For instance, if there was a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">special</code> class for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> elements, the
+CSS would look like below:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk7">.special</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code above would select only the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> elements with a
+class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">special</code>. If a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element also had
+a class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">special</code>,
+the rule in the example would not style the paragraph.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s use chaining to select only the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> elements with
+destinations, and add a style to them.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, write a CSS selector for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> elements with a
+class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.destination</code>.
+Inside the selector’s curly braces, add this declaration:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-family</span><span class="mtk9">: </span><span class="mtk4">Tahoma</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This will change the font of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> elements that also
+have the class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">destination</code>. The last
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> element (“More
+Destinations”) will remain unchanged.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Descendant Combinator
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In addition to chaining selectors to select elements, CSS also supports
+selecting elements that are nested within other HTML elements, also
+known as <em>descendants</em>. For instance, consider the following
+HTML:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ul</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">'main-list'</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1"> ... </span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ul&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The nested <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code>
+elements are descendants of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code> element and can
+be selected with the <em>descendant combinator</em> like so:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.main-list</span><span class="mtk9"> </span><span class="mtk4">li</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list</code> selects the
+element with
+the<code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list</code> class
+(the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code> element).
+The descendant
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code>’s are selected
+by adding <code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code> to the
+selector, separated by a space. This results in
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.main-list li</code> as the
+final selector.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Selecting elements in this way can make our selectors even more specific
+by making sure they appear in the context we expect.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>index.html</strong>, each destination has a paragraph with a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">description</code> class
+below it. Nested within each description paragraph, is an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> element with
+the text “Top Attractions”. They’re a little hard to read since they
+turned yellow. Let’s fix that!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Navigate to <strong>style.css</strong>. Add a ruleset that uses the
+descendant combinator to target only the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> descendants of
+elements with the class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.description</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside the curly braces of the selector, add a declaration of:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">blueviolet</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Chaining and Specificity
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the last exercise, instead of selecting all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> elements, you
+selected only the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> elements nested
+inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.description</code> elements.
+This CSS selector was more specific than writing only
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h5</code>. Adding more than
+one tag, class, or ID to a CSS selector increases the specificity of the
+CSS selector.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For instance, consider the following CSS:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.main</span><span class="mtk9"> </span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Both of these CSS rules define what a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element should
+look like. Since <code class="code__2rdF32qjRVp7mMVBHuPwDS">.main
+p</code> has a class and a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> type as its
+selector, only the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> elements inside
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.main</code> element will
+appear <code class="code__2rdF32qjRVp7mMVBHuPwDS">red</code>. This
+occurs despite there being another more general rule that states
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> elements should
+be <code class="code__2rdF32qjRVp7mMVBHuPwDS">blue</code>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To show how specificity increases with additional selectors, let’s
+create another ruleset with the descendant combinator and then compare
+it to a ruleset without.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, write a ruleset using the descendant
+combinator to select the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code> elements nested
+in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code>
+elements. Inside of the curly braces, write:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">gold</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Click Run and then scroll down the page to see the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code> elements under
+“More Destinations” appear gold.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now, create a ruleset targeting elements with just the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h4</code> type, and add a
+declaration of:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">dodgerblue</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Will the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code>
+elements turn blue? Click “Run” to find out.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The elements stay gold because there is a more specific selector for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code> elements you
+wrote in the last step. Because of the more specific CSS selector
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">li h4</code>), the more
+general selector of <code class="code__2rdF32qjRVp7mMVBHuPwDS">h4</code>
+will not take hold.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Multiple Selectors
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In order to make CSS more concise, it’s possible to add CSS styles to
+multiple CSS selectors all at once. This prevents writing repetitive
+code.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For instance, the following code has repetitive style attributes:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Georgia</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.menu</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Georgia</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Instead of writing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family: Georgia</code>
+twice for two selectors, we can separate the selectors by a comma to
+apply the same style to both, like this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk1">,</span><span class="mtk9"> </span></span><br><span><span class="mtk7">.menu</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Georgia</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+By separating the CSS selectors with a comma, both the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> elements and
+the elements with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">menu</code> class will
+receive the <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family:
+Georgia</code> styling.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, write selectors for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> elements so
+they will both be styled with the same CSS rule. Apply this style
+declaration:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-family</span><span class="mtk9">: </span><span class="mtk4">monospace</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice that both the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h5\></code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> element’s fonts
+will change, without writing the same CSS declaration twice.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## SELECTORS
+
+### Review
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Throughout this lesson, you learned how to select HTML elements with CSS
+and apply styles to them. Let’s review what you learned:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+CSS can select HTML elements by type, class, ID, and attribute.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+All elements can be selected using the universal selector.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+An element can have different states using the pseudo-class selector.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Multiple CSS classes can be applied to one HTML element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Classes can be reusable, while IDs can only be used once.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+IDs are more specific than classes, and classes are more specific than
+type. That means IDs will override any styles from a class, and classes
+will override any styles from a type selector.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Multiple selectors can be chained together to select an element. This
+raises the specificity but can be necessary.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Nested elements can be selected by separating selectors with a space.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Multiple unrelated selectors can receive the same styles by separating
+the selector names with commas.
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Great work this lesson. With this knowledge, you’ll be able to use CSS
+to change the look and feel of websites to make them look great!
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take some time to take in the beauty of the site you just created, and
+feel free to continue when you’re ready!
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Introduction To Visual Rules
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The purpose of CSS is to add style to web page, and each element on the
+page can have many style properties. Some of the basic properties relate
+to the size, style, and color of the element. In this lesson, you’ll
+learn some fundamental CSS visual rules that you can use to start
+styling web page elements!
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Explore the code to the right. Think about how it relates to the web
+page on the right side of the browser.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Font Family
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you’ve ever used word processing software, like Microsoft Word or
+Google Docs, chances are that you probably also used a feature that
+allowed you to change the font you were typing in. Font refers to the
+technical term
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Typeface">typeface</a>,
+or <em>font family</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To change the typeface of text on your web page, you can use the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code> property.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Garamond</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the font family for all main heading elements has
+been set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">Garamond</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When setting typefaces on a web page, keep the following points in mind:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The font specified must be installed on the user’s computer or
+downloaded with the site.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://www.cssfontstack.com/">Web
+safe fonts</a> are a group of fonts supported across most browsers and
+operating systems.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Unless you are using web safe fonts, the font you choose may not appear
+the same between all browsers and operating systems.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+When the name of a typeface consists of more than one word, it’s a best
+practice to enclose the typeface’s name in quotes, like so:
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk8">'Courier New'</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You’ll take a deeper look into typography in a later lesson!
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside <strong>style.css</strong>, set the font family of the main
+heading (<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code>) and
+subheading (<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code>) to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Georgia</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Note that certain font changes may be hard to recognize at first. Feel
+free to remove and add the declaration a few times until you notice the
+change!
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, add a style rule that sets the font family of the paragraph
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>) to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Helvetica</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Font Size
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Changing the typeface isn’t the only way to customize the text.
+Oftentimes, different sections of a web page are highlighted by
+modifying the <em>font size</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To change the size of text on your web page, you can use the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> property.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-size</span><span class="mtk1">:</span><span class="mtk9"> 18px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> of all
+paragraphs was set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">18px</code>.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">px</code> means pixels, which
+is one way to measure font size.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> of paragraph
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>) elements to 18
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Font Weight
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In CSS, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code> property
+controls how bold or thin text appears.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-weight</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">bold</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, all paragraphs on the web page would appear
+bolded.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code>
+property has another value:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">normal</code>. Why does it
+exist?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If we wanted <em>all</em> text on a web page to appear bolded, we could
+select all text elements and change their font weight to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">bold</code>. If a certain
+section of text was required to appear normal, however, we could set the
+font weight of that particular element to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">normal</code>, essentially
+shutting off bold for that element.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the font weight of paragraph
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>) elements to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">bold</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Text Align
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+No matter how much styling is applied to text (typeface, size, weight,
+etc.), the text always appears on the left side of the container in
+which it resides.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To align text we can use the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code> property.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code>
+property will align text to the element that holds it, otherwise known
+as its <em>parent</em>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">text-align</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk10">right</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code>
+property can be set to one of the following commonly used values:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code> — aligns text to
+the left side of its parent element, which in this case is the browser.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">center</code> — centers text
+inside of its parent element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code> — aligns text to
+the right side of its parent element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">justify</code>— spaces out
+text in order to align with the right and left side of the parent
+element.
+</li>
+</ul>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code> property of
+the main heading (<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code>)
+so that it appears in the center.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Color and Background Color
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Before discussing the specifics of color, it’s important to make two
+distinctions about color. Color can affect the following design aspects:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Foreground color
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Background color
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Foreground color is the color that an element appears in. For example,
+when a heading is styled to appear green, the <em>foreground color</em>
+of the heading has been styled. Conversely, when a heading is styled so
+that its background appears yellow, the <em>background color</em> of the
+heading has been styled.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In CSS, these two design aspects can be styled with the following two
+properties:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>: this property
+styles an element’s foreground color
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>: this
+property styles an element’s background color
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the text of the heading will appear in red, and
+the background of the heading will appear blue.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a look at the caption on the image at the bottom of the page. In
+<strong>style.css</strong>, set the background color in the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.caption</code> selector to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">white</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, in the same ruleset, set the color of the text to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">black</code>. That should
+make the text a bit easier to read!
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Opacity
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Opacity is the measure of how transparent an element is. It’s measured
+from 0 to 1, with 1 representing 100%, or fully visible and opaque, and
+0 representing 0%, or fully invisible.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Opacity can be used to make elements fade into others for a nice overlay
+effect. To adjust the opacity of an element, the syntax looks like this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.overlay</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">opacity</span><span class="mtk1">:</span><span class="mtk9"> 0.5</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.overlay</code> element would
+be 50% visible, letting whatever is positioned behind it show through.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s give the caption on the image some transparency! In
+<strong>style.css</strong>, set
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.caption</code> to have
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">0.75</code> opacity.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Background Image
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+CSS has the ability to change the background of an element. One option
+is to make the background of an element an image. This is done through
+the CSS property
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code>. Its
+syntax looks like this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.main-banner</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-image</span><span class="mtk1">:</span><span class="mtk9"> url</span><span class="mtk1">(</span><span class="mtk8">'https://www.example.com/image.jpg'</span><span class="mtk1">);</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code>
+property will set the element’s background to display an image.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The value provided to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code> is a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">url</code>. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">url</code> should be a URL to
+an image. The <code class="code__2rdF32qjRVp7mMVBHuPwDS">url</code> can
+be a file within your project, or it can be a link to an external site.
+To link to an image inside an existing project, you must provide a
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">relative
+file path</a>. If there was an image folder in the project, with an
+image named
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">mountains.jpg</code>, the
+relative file path would look like below:
+</li>
+</ol>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.main-banner</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-image</span><span class="mtk1">:</span><span class="mtk9"> url</span><span class="mtk1">(</span><span class="mtk8">'images/mountains.jpg'</span><span class="mtk1">);</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, change the background image of the
+element with the<code class="code__2rdF32qjRVp7mMVBHuPwDS">.image</code>
+class. The image is stored in the following URL:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS"><https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg></code>
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Important
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> can be
+applied to specific declarations, instead of full rules. It will
+override <em>any</em> style no matter how specific it is. As a result,
+it should almost never be used. Once
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> is used, it
+is very hard to override.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The syntax of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> in CSS
+looks like this:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk9"> </span><span class="mtk1">!important;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.main</span><span class="mtk9"> </span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">red</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Since <code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> is
+used on the <code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>
+selector’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>
+attribute, all <code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>
+elements will appear
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">blue</code>, even though
+there is a more specific
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.main p</code> selector that
+sets the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>
+attribute to <code class="code__2rdF32qjRVp7mMVBHuPwDS">red</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+One justification for using
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> is when
+working with multiple stylesheets. For example, if we are using the
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://getbootstrap.com/">Bootstrap</a>
+CSS framework and want to override the styles for one specific HTML
+element, we can use the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> property.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Imagine
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style-library.css</code> is a
+stylesheet that is full of good styles! But, you don’t like how it is
+turning the color of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> yellow.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <code class="code__2rdF32qjRVp7mMVBHuPwDS">style.css</code>, add an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> rule to the
+color style of inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> ruleset to change
+the color back to <code class="code__2rdF32qjRVp7mMVBHuPwDS">#FFF</code>
+(white).
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Review Visual Rules
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Incredible work! You used CSS to alter text and images on a website.
+Throughout this lesson, you learned concepts including:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code>
+property defines the typeface of an element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> controls the
+size of text displayed.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code> defines
+how thin or thick text is displayed.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code>
+property places text in the left, right, or center of its parent
+container.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Text can have two different color attributes:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> defines the
+color of the text, while
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>
+defines the color behind the text.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+CSS can make an element transparent with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">opacity</code> property.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+CSS can also set the background of an element to an image with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code>
+property.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> flag
+will override any style, however it should almost never be used, as it
+is extremely difficult to override.
+</li>
+</ul>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Feel free to experiment with the code and see what other changes you can
+make!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to see how to incorporate CSS visual rules in a project,
+watch the video below and follow along with one of our experts:
+</p>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/InA5Ff7mxrc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="iframe__rk2yNYIwJeUOj5J8cQJ9-">
+</iframe>
+
+**Solutions**
+
+``` html
+```
+
+## VISUAL RULES
+
+### Review Visual Rules
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Incredible work! You used CSS to alter text and images on a website.
+Throughout this lesson, you learned concepts including:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code>
+property defines the typeface of an element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> controls the
+size of text displayed.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code> defines
+how thin or thick text is displayed.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code>
+property places text in the left, right, or center of its parent
+container.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Text can have two different color attributes:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> defines the
+color of the text, while
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>
+defines the color behind the text.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+CSS can make an element transparent with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">opacity</code> property.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+CSS can also set the background of an element to an image with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code>
+property.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">!important</code> flag
+will override any style, however it should almost never be used, as it
+is extremely difficult to override.
+</li>
+</ul>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Feel free to experiment with the code and see what other changes you can
+make!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to see how to incorporate CSS visual rules in a project,
+watch the video below and follow along with one of our experts:
+</p>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/InA5Ff7mxrc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="iframe__rk2yNYIwJeUOj5J8cQJ9-">
+</iframe>
+
+**Solutions**
+
+``` html
+```
+
+## FRONT-END ENGINEER
+
+### Healthy Recipes
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Using CSS selectors, you’ll give a recipe website some new style!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you get stuck during this project or would like to see an experienced
+developer work through it, click “<strong>Get Unstuck</strong>“ to see a
+<strong>project walkthrough video</strong>.
+</p>
+
+**Instructions**
+
+<span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as
+complete by checking them off</span>
+
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-1">1.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Before you begin, take a look at the site’s structure in
+<strong>index.html</strong>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Start by making the image at the top of the page a little smaller.
+Navigate to <strong>style.css</strong> and write a CSS selector for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">img</code> tag.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Within its curly braces, write:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">height</span><span class="mtk9">: 150</span><span class="mtk4">px</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Try experimenting with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">150</code> number and
+observing the results.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-2">2.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The font size of the recipe description should be larger. In
+<strong>style.css</strong>, write a CSS selector for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.description</code> class.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Within its curly braces, add the following CSS:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-size</span><span class="mtk9">: 20</span><span class="mtk4">px</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-3">3.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, let’s style the cooking time. The element on line 15 of
+<strong>index.html</strong> has an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> attribute of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">cook-time</code>. Navigate to
+<strong>style.css</strong> and add a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">cook-time</code> ID selector.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside of its curly braces, write:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-weight</span><span class="mtk9">: </span><span class="mtk4">bold</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-4">4.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now, let’s change the bullet points of the ingredient list to squares
+instead of circles. Start by writing a selector for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code> elements inside of
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.ingredients</code>
+element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, write this inside of its curly braces:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">list-style</span><span class="mtk9">: </span><span class="mtk4">square</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-5">5.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next let’s make the time for each preparation step appear gray. In
+<strong>style.css</strong>, write a selector for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> elements that also
+have a class of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.time</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, inside of this selector’s curly braces, write:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">gray</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-6">6.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+At the bottom of the page, there’s a link to the full recipe. Let’s make
+the link a different color.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice that in <strong>index.html</strong>, on line 42, there is a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> element with a class
+of <code class="code__2rdF32qjRVp7mMVBHuPwDS">citation</code>, then an
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">a</code> element inside of it
+with a class of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">external-link</code>.
+Navigate to <strong>style.css</strong> and write a selector using
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">external-link</code> class.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Then, add this code inside of the selector’s curly braces:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">color</span><span class="mtk9">: </span><span class="mtk4">SeaGreen</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-7">7.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, let’s make the font Helvetica instead of the default Times New
+Roman. Instead of writing multiple selectors to apply the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code> property,
+write a selector that applies a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code> attribute
+to all text at once.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The selector should target the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code> elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To change their font, include this line of code inside the curly braces:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">font-family</span><span class="mtk9">: </span><span class="mtk4">Helvetica</span><span class="mtk9">;</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+
+**Solutions**
+
+``` html
+```
+
+## FRONT-END ENGINEER
+
+### Olivia Woodruff Portfolio
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this project, you’ll use your knowledge of CSS visual rules to create
+rule sets and improve the appearance of a photography portfolio site!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you get stuck during this project or would like to see an experienced
+developer work through it, click “<strong>Get Unstuck</strong>“ to see a
+<strong>project walkthrough video</strong>.
+</p>
+
+**Instructions**
+
+<span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as
+complete by checking them off</span>
+
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-1">1.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Look over <strong>index.html</strong> to review the different HTML
+elements you have to work with, then navigate to
+<strong>style.css</strong>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Start by making the header section stand out a bit more. Select the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code> element, and
+make its background color
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">CornflowerBlue</code> by
+using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-color</code>
+property.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-2">2.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now change how the text is aligned in the top
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code> section.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In your <code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code> rule
+set, align the text in the center using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">text-align</code> property.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-3">3.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, use CSS to make the paragraph below Olivia’s name have a larger
+text size.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, select the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.about-me</code> element, and
+set its <code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code>
+property to <code class="code__2rdF32qjRVp7mMVBHuPwDS">20px</code>.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-4">4.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">.about-me</code>
+paragraph looks a little dark against the light blue background, maybe
+it would look nice if it blended more with the background.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.about-me</code>
+selector, use the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">opacity</code> property to
+make it 50% transparent.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-5">5.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the Projects section, make the section titles bold.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Select the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.title</code>
+elements, and add a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code> property
+to make their text bold.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-6">6.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Change the main title color so that it matches the background color more
+nicely. Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>
+for <code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> elements to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Azure</code>.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-7">7.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Instead of the page being in the default Times font, change the font of
+the entire page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Select the <code class="code__2rdF32qjRVp7mMVBHuPwDS">body</code>
+element and make the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-family</code> of the
+page <code class="code__2rdF32qjRVp7mMVBHuPwDS">Georgia</code>.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-8">8.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, let’s make the background of the page more interesting.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">body</code>
+selector, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">background-image</code>
+property to this URL:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-css-s</span><span class="mtk1">electors-visual-rules/hypnotize_bg.png</span></span><br></div></code></pre></pre>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-9">9.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Great work! Feel free to keep coding and edit the visual rules to
+personalize the site’s appearance!
+</p>
+
+</article>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Introduction to the Box Model
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Browsers load HTML elements with default position values. This often
+leads to an unexpected and unwanted user experience while limiting the
+views you can create. In this lesson, you will learn about the <em>box
+model</em>, an important concept to understand how elements are
+positioned and displayed on a website.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you have used HTML and CSS, you have unknowingly seen aspects of the
+box model. For example, if you have set the background color of an
+element, you may have noticed that the color was applied not only to the
+area directly behind the element but also to the area to the right of
+the element. Also, if you have aligned text, you know it is aligned
+relative to something. What is that something?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All elements on a web page are interpreted by the browser as “living”
+inside of a box. This is what is meant by the box model.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For example, when you change the background color of an element, you
+change the background color of its entire box.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, you’ll learn about the following aspects of the box
+model:
+</p>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The dimensions of an element’s box.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The borders of an element’s box.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The paddings of an element’s box.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The margins of an element’s box.
+</li>
+</ol>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s begin!
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take some time to explore the code to the right. See if you can figure
+out how these following CSS properties impact how an element is
+displayed:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code>
+</li>
+</ul>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### The Box Model
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The box model comprises the set of properties that define parts of an
+element that take up space on a web page. The model includes the content
+area’s size (<em>width</em> and <em>height</em>) and the element’s
+<em>padding</em>, <em>border</em>, and <em>margin</em>. The properties
+include:
+</p>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>: The width and
+height of the content area.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code>: The amount of
+space between the content area and the border.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code>: The thickness
+and style of the border surrounding the content area and padding.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code>: The amount of
+space between the border and the outside edge of the element.
 </li>
 </ol>
 
 **Instructions**
 
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the heading that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Countries with Large Brown
-Bear Populations</code>, add an ordered list.
+Take a look at the image on the right—a visual representation of the box
+model.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Do not add any list items to the list just yet.
+You can open
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/freelance-1/unit-4/diagram-boxmodel.svg">the
+box model image</a> in a new tab to reference it as you move through the
+lesson.
 </p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the following list items to the ordered list:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Russia
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-United States
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Canada
-</li>
-</ul>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
 
 **Solutions**
 
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## THE BOX MODEL
 
-### Images
+### Height and Width
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-All of the elements you’ve learned about so far (headings, paragraphs,
-lists, and spans) share one thing in common: they’re composed entirely
-of text! What if you want to add content to your web page that isn’t
-composed of text, like
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/images?page_ref=catalog">images</a>?
+An element’s content has two dimensions: a height and a width. By
+default, the dimensions of an HTML box are set to hold the raw contents
+of the box.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag allows
-you to add an image to a web page. Most elements require both opening
-and closing tags, but the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag is a
-<em>self-closing tag</em>. Note that the end of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag has a
-forward slash <code class="code__2rdF32qjRVp7mMVBHuPwDS">/</code>.
-Self-closing tags may include or omit the final slash — both will render
-properly.
+The CSS <code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> properties can
+be used to modify these default dimensions.
 </p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"image-location.jpg"</span><span class="mtk1"> </span><span class="mtk4">/&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 80px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 240px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag has a
-required <em>attribute</em> called
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute must be
-set to the image’s <em>source</em>, or the location of the image. In
-this case, the value of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> must be the
-<em>uniform resource locator</em> (URL) of the image. A URL is the web
-address or local address where a file is stored.
+In this example, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> of paragraph
+elements are set to 80 pixels and 240 pixels, respectively — the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">px</code> in the code above
+stands for <em>pixels</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Pixels allow you to set the exact size of an element’s box (width and
+height). When the width and height of an element are set in pixels, it
+will be the same size on all devices — an element that fills a laptop
+screen will overflow a mobile screen.
 </p>
 
 **Instructions**
@@ -1293,167 +3958,8 @@ address or local address where a file is stored.
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the <code class="code__2rdF32qjRVp7mMVBHuPwDS">Media</code>
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> heading, add an
-image. Use the following URL as the source
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>) for the image:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/web-101/web</span><span class="mtk1">101-image_brownbear.jpg</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Image Alts
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Part of being an exceptional web developer is making your site
-accessible to users of all backgrounds. In order to make the Web more
-inclusive, we need to consider what happens when assistive technologies
-such as screen readers come across image tags.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute,
-which means alternative text, brings meaning to the images on our sites.
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute can
-be added to the image tag just like the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute. The
-value of <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> should be
-a description of the image.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"#"</span><span class="mtk1"> </span><span class="mtk7">alt</span><span class="mtk1">=</span><span class="mtk8">"A field of yellow sunflowers"</span><span class="mtk1"> </span><span class="mtk4">/&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute also
-serves the following purposes:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-If an image fails to load on a web page, a user can mouse over the area
-originally intended for the image and read a brief description of the
-image. This is made possible by the description you provide in the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Visually impaired users often browse the web with the aid of screen
-reading software. When you include the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute, the
-screen reading software can read the image’s description out loud to the
-visually impaired user.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute also
-plays a role in Search Engine Optimization (SEO), because search engines
-cannot “see” the images on websites as they crawl the internet. Having
-descriptive <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code>
-attributes can improve the ranking of your site.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If the image on the web page is not one that conveys any meaningful
-information to a user (visually impaired or otherwise), the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute should
-be left empty.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">alt</code> attribute
-to the image and include a description. Make sure the description
-accurately describes the image.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## INTRODUCTION TO HTML
-
-### Videos
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In addition to images, HTML also supports displaying
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/videos?page_ref=catalog">videos</a>.
-Like the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code>
-element, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>
-element requires a <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>
-attribute with a link to the video source. Unlike the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> element
-however, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>
-element requires an opening and a closing tag.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;video</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"myVideo.mp4"</span><span class="mtk1"> </span><span class="mtk7">width</span><span class="mtk1">=</span><span class="mtk8">"320"</span><span class="mtk1"> </span><span class="mtk7">height</span><span class="mtk1">=</span><span class="mtk8">"240"</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;Video not supported</span></span><br><span><span class="mtk4">&lt;/video&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the video source
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>) is
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“myVideo.mp4”</code>. The
-source can be a video file that is hosted alongside your webpage, or a
-URL that points to a video file hosted on another webpage.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-After the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>
-attribute, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>
-and <code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> attributes
-are used to set the size of the video displayed in the browser. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> attribute
-instructs the browser to include basic video controls such as pausing
-and playing.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The text, <code class="code__2rdF32qjRVp7mMVBHuPwDS">Video not
-supported</code>, between the opening and closing video tags will only
-be displayed if the browser is unable to load the video.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the image, create a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code> tag and add
-the following video url as the source:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/freelance-1</span><span class="mtk1">/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Be sure to create a closing tag as well with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</video\></code>.
+Add a height of 700 pixels to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#banner</code>.
 </p>
 
 <span aria-live="assertive">Checkpoint 2 Passed</span>
@@ -1480,12 +3986,8 @@ Arrow Chevron Down Icon
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Define the <code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> of
-the video as <code class="code__2rdF32qjRVp7mMVBHuPwDS">“320”</code> and
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> as
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“240”</code>. Make sure to
-also include the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> attribute.
+Set <code class="code__2rdF32qjRVp7mMVBHuPwDS">.pull-quote</code> width
+to 350 pixels.
 </p>
 
 <span aria-live="assertive">Checkpoint 3 Passed</span>
@@ -1512,14 +4014,1748 @@ Arrow Chevron Down Icon
 <b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-In between the opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code> tags, add
-the phrase <code class="code__2rdF32qjRVp7mMVBHuPwDS">Video not
-supported</code>, which will be displayed if the browser is unable to
-load your video.
+Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">#banner .content
+h1</code> width to 400 pixels.
 </p>
 
 <span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Borders
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A <em>border</em> is a line that surrounds an element, like a frame
+around a painting. Borders can be set with a specific
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>—The thickness of
+the border. A border’s thickness can be set in pixels or with one of the
+following keywords:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">thin</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">medium</code>, or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">thick</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code>—The design of
+the border. Web browsers can render any of
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#Values">10
+different styles</a>. Some of these styles include:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">none</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">dotted</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">solid</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code>—The color of the
+border. Web browsers can render colors using a few different formats,
+including
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">140
+built-in color keywords</a>.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">coral</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the border has a width of 3 pixels, a style of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">solid</code>, and a color of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">coral</code>. All three
+properties are set in one line of code.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The default border is <code class="code__2rdF32qjRVp7mMVBHuPwDS">medium
+none color</code>, where
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> is the current
+color of the element. If
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">style</code>, or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">color</code> are not set in
+the CSS file, the web browser assigns the default value for that
+property.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 80px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 240px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">coral</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this example, the border style is set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">solid</code> and the color is
+set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">coral</code>. The
+width is not set, so it defaults to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">medium</code>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Add a dotted red border with 1-pixel thickness to all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> headings.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Add a solid, white border, with a 3 pixel width, to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#banner .content h1</code>
+rule.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Border Radius
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Ever since we revealed the borders of boxes, you may have noticed that
+the borders highlight the true shape of an element’s box: square. Thanks
+to CSS, a border doesn’t have to be square.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can modify the corners of an element’s border box with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-radius</code>
+property.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">div</span><span class="mtk7">.container</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border-radius</span><span class="mtk1">:</span><span class="mtk9"> 5px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above will set <em>all four corners</em> of the
+border to a radius of 5 pixels (i.e. the same curvature that a circle
+with a radius of 5 pixels would have).
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can create a border that is a perfect circle by first creating an
+element with the same width and height, and then setting the radius
+equal to half the width of the box, which is 50%.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">div</span><span class="mtk7">.container</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 60px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 60px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border-radius</span><span class="mtk1">:</span><span class="mtk9"> 50%</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above creates a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> that is a
+perfect circle.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the border radius of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#banner .content h1</code> to
+15 pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Additionally, try experimenting with other border-radius values and
+running your code to see the result!
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Padding
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The space between the contents of a box and the borders of a box is
+known as <em>padding</em>. Padding is like the space between a picture
+and the frame surrounding it. In CSS, you can modify this space with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> property.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">coral</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in this example puts 10 pixels of space between the content of
+the paragraph (the text) and the borders, on all four sides.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> property
+is often used to expand the background color and make the content look
+less cramped.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to be more specific about the amount of padding on each side
+of a box’s content, you can use the following properties:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-top</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-right</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-bottom</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-left</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Each property affects the padding on only one side of the box’s content,
+giving you more flexibility in customization.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">fuchsia</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding-bottom</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, only the bottom side of the paragraph’s content
+will have a <code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> of
+10 pixels.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In a single line, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.navigation li</code>
+elements to have 20 pixels of padding.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Click “Run” and observe the changes.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Look at the red boxes at the bottom of the web page. Set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.share a</code> elements to
+have 14 pixels of padding in <strong>style.css</strong> and run your
+code.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Observe how the red boxes at the bottom of the page changed.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the top and bottom padding of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> elements to 20
+pixels and set the left and right padding of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> elements to 30
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Padding Shorthand
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Another implementation of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> property lets
+you specify exactly how much padding there should be on each side of the
+content in a single declaration. A declaration that uses multiple
+properties as values is known as a <em>shorthand property</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Padding shorthand lets you specify all of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> properties as
+values on a single line:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-top</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-right</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-bottom</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding-left</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can specify these properties in a few different ways:
+</p>
+<h6 id="heading-4-values">
+4 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 6px 11px 4px 9px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the four values
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">6px 11px 4px 9px</code>
+correspond to the amount of padding on each side, in a clockwise
+rotation. In order, it specifies the padding-top value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">6px</code>), the
+padding-right value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">11px</code>), the
+padding-bottom value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">4px</code>), and the
+padding-left value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">9px</code>) of the content.
+</p>
+<h6 id="heading-3-values">
+3 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 5px 10px 20px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If the left and right sides of the content can be equal, the padding
+shorthand property allows for 3 values to be specified. The first value
+sets the padding-top value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">5px</code>), the second
+value sets the padding-left and padding-right values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">10px</code>), and the third
+value sets the padding-bottom value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">20px</code>).
+</p>
+<h6 id="heading-2-values">
+2 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk7">.content-header</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 5px 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+And finally, if the top and bottom sides can be equal, and the left and
+right sides can be equal, you can specify 2 values. The first value sets
+the padding-top and padding-bottom values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">5px</code>), and the second
+value sets the padding-left and padding-right values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">10px</code>).
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Change the individual padding declarations on the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> selector ruleset to
+use padding shorthand with 2 values. Keep the padding for the top and
+bottom at 20 pixels and the value for the left and right padding at 30
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Using two values for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code> property, set
+the padding of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code>
+element to 10 pixels on the top and bottom and 20 pixels on the left and
+right.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Margin
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+So far you’ve learned about the following components of the box model:
+content, borders, and padding. The fourth and final component of the box
+model is <em>margin</em>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Margin refers to the space directly outside of the box. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code> property is
+used to specify the size of this space.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">aquamarine</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 20px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above will place 20 pixels of space on the
+outside of the paragraph’s box on all four sides. This means that other
+HTML elements on the page cannot come within 20 pixels of the
+paragraph’s border.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you want to be even more specific about the amount of margin on each
+side of a box, you can use the following properties:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-top</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-right</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-bottom</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-left</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Each property affects the margin on only one side of the box, providing
+more flexibility in customization.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 3px </span><span class="mtk5">solid</span><span class="mtk9"> DarkSlateGrey</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin-right</span><span class="mtk1">:</span><span class="mtk9"> 15px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, only the right side of the paragraph’s box will
+have a margin of 15 pixels. It’s common to see margin values used for a
+specific side of an element.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the top margin of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> elements to 60
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Look at the three red boxes at the bottom of the web page. These
+elements are anchor elements of class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.share</code>. Set these
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.share a</code> elements to
+have a margin of 10 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Margin Shorthand
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+What if you don’t want equal margins on all four sides of the box and
+don’t have time to separate properties for each side? You’re in luck!
+Margin can be written as a shorthand property as well. The shorthand
+syntax for margins is the same as padding, so if you’re feeling
+comfortable with that, skip to the instructions. Otherwise, read on to
+learn how to use margin shorthand!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Similar to padding shorthand, <em>margin shorthand</em> lets you specify
+all of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code>
+properties as values on a single line:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-top</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-right</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-bottom</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin-left</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can specify these properties in a few different ways:
+</p>
+<h6 id="heading-4-values">
+4 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 6px 10px 5px 12px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the four values
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">6px 10px 5px 12px</code>
+correspond to the thickness of the margin on each side, in a clockwise
+rotation. In order, it specifies the margin-top value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">6px</code>), the
+margin-right value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">10px</code>), the
+margin-bottom value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">5px</code>), and the
+margin-left value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">12px</code>) of the content.
+</p>
+<h6 id="heading-3-values">
+3 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 5px 12px 4px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If the left and right sides of the content can be equal, the margin
+shorthand property allows for 3 values to be specified. The first value
+sets the margin-top value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">5px</code>), the second
+value sets the margin-left and margin-right values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">12px</code>), and the third
+value sets the margin-bottom value
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">4px</code>).
+</p>
+<h6 id="heading-2-values">
+2 Values
+</h6>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 20px 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+And finally, if the top and bottom sides can be equal, and the left and
+right sides can be equal, you can specify 2 values. The first value sets
+the margin-top and margin-bottom values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">20px</code>), and the second
+value sets the margin-left and margin-right values
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">10px</code>).
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Using two values, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h2</code> top and bottom
+margins to 30 pixels and the left and right margins to 20 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Auto
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code> property
+also lets you center content. However, you must follow a few syntax
+requirements. Take a look at the following example:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">div</span><span class="mtk7">.headline</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 400px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 0&nbsp;</span><span class="mtk5">auto</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, <code class="code__2rdF32qjRVp7mMVBHuPwDS">margin:
+0 auto;</code> will center the divs in their containing elements. The 0
+sets the top and bottom margins to 0 pixels. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">auto</code> value instructs
+the browser to adjust the left and right margins until the element is
+centered within its containing element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In order to center an element, a width must be set for that element.
+Otherwise, the width of the div will be automatically set to the full
+width of its containing element, like the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code>, for example.
+It’s not possible to center an element that takes up the full width of
+the page, since the width of the page can change due to display and/or
+browser window size.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">div</code> is set to 400
+pixels, which is less than the width of most screens. This will cause
+the div to center within a containing element that is greater than 400
+pixels wide.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.pull-quote</code> class
+elements to 350 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In one line, set the vertical (top and bottom) margins of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.pull-quote</code> class to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">0</code> and the horizontal
+(left and right) margins to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">auto</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the vertical margins of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#main</code> element to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">0</code>, and the horizontal
+margins to <code class="code__2rdF32qjRVp7mMVBHuPwDS">auto</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Margin Collapse
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+As you have seen, padding is space added inside an element’s border,
+while margin is space added outside an element’s border. One additional
+difference is that top and bottom margins, also called vertical margins,
+<em>collapse</em>, while top and bottom padding does not.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Horizontal margins (left and right), like padding, are always displayed
+and added together. For example, if two divs with ids
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#div-one</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#div-two</code>, are next to
+each other, they will be as far apart as the sum of their adjacent
+margins.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">#img-one</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin-right</span><span class="mtk1">:</span><span class="mtk9"> 20px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk1">#img-two</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin-left</span><span class="mtk1">:</span><span class="mtk9"> 20px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this example, the space between the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-one</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-two</code> borders is 40
+pixels. The right margin of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-one</code>
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">20px</code>) and the left
+margin of <code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-two</code>
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">20px</code>) add to make a
+total margin of 40 pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Unlike horizontal margins, vertical margins do not add. Instead, the
+larger of the two vertical margins sets the distance between adjacent
+elements.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">#img-one</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin-bottom</span><span class="mtk1">:</span><span class="mtk9"> 30px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk1">#img-two</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin-top</span><span class="mtk1">:</span><span class="mtk9"> 20px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this example, the vertical margin between the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-one</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-two</code> elements is
+30 pixels. Although the sum of the margins is 50 pixels, the margin
+collapses so the spacing is only dependent on the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#img-one</code> bottom
+margin.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+It may be helpful to think of collapsing vertical margins as a short
+person trying to push a taller person. The tall person has longer arms
+and can easily push the short person, while the person with short arms
+cannot reach the person with long arms.
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Study the graphic display to the right. Elements A and B have 20 pixels
+of horizontal margin, the sum of each element’s margin. Elements A and C
+have 30 pixels of vertical margin — the top margin of element C.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Minimum and Maximum Height and Width
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Because a web page can be viewed through displays of differing screen
+size, the content on the web page can suffer from those changes in size.
+To avoid this problem, CSS offers two properties that can limit how
+narrow or how wide an element’s box can be sized to:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">min-width</code>—this
+property ensures a minimum width of an element’s box.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">max-width</code>—this
+property ensures a maximum width of an element’s box.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">min-width</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">max-width</span><span class="mtk1">:</span><span class="mtk9"> 600px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the width of all paragraphs will not shrink below
+300 pixels, nor will the width exceed 600 pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Content, like text, can become difficult to read when a browser window
+is narrowed or expanded. These two properties ensure that content is
+legible by limiting the minimum and maximum widths of an element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can also limit the minimum and maximum <em>height</em> of an
+element:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">min-height</code> — this
+property ensures a minimum height for an element’s box.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">max-height</code> — this
+property ensures a maximum height of an element’s box.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">min-height</span><span class="mtk1">:</span><span class="mtk9"> 150px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">max-height</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the height of all paragraphs will not shrink below
+150 pixels and the height will not exceed 300 pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+What will happen to the contents of an element’s box if the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">max-height</code> property is
+set too low? It’s possible for the content to spill outside of the box,
+resulting in content that is not legible. You’ll learn how to work
+around this issue in the next exercise.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the minimum width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> element to 200
+pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After you’ve done this successfully, resize the browser and notice how
+the paragraph’s box will no longer shrink below 200 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, set the maximum width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> element to 800
+pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After you’ve done this successfully, resize the browser and notice how
+the paragraph’s box will no longer expand beyond 800 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the minimum height of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> element to 200
+pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After you’ve done this successfully, resize the browser and notice how
+the height of paragraph’s box will no longer shrink below 200 pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">4.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the maximum height of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">p</code> element to 300
+pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+After you’ve done this successfully, resize the browser and notice how
+the height of paragraph’s box will no longer expand beyond 300 pixels.
+You should see your text overflowing. In the next exercise, we will fix
+that!
+</p>
+
+<span aria-live="assertive">Checkpoint 5 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Overflow
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All of the components of the box model comprise an element’s size. For
+example, an image that has the following dimensions is 364 pixels wide
+and 244 pixels tall.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+300 pixels wide
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+200 pixels tall
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+10 pixels padding on the left and right
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+10 pixels padding on the top and bottom
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+2 pixels border on the left and right
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+2 pixels border on the top and bottom
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+20 pixels margin on the left and right
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+10 pixels margin on the top and bottom
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The total dimensions (364px by 244px) are calculated by adding all of
+the vertical dimensions together and all of the horizontal dimensions
+together. Sometimes, these components result in an element that is
+larger than the parent’s containing area.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+How can we ensure that we can view all of an element that is larger than
+its parent’s containing area?
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code> property
+controls what happens to content that spills, or overflows, outside its
+box. The most commonly used values are:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">hidden</code>—when set to
+this value, any content that overflows will be hidden from view.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">scroll</code>—when set to
+this value, a scrollbar will be added to the element’s box so that the
+rest of the content can be viewed by scrolling.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">visible</code>—when set to
+this value, the overflow content will be displayed outside of the
+containing element. Note, this is the default value.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">p</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">overflow</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">scroll</span><span class="mtk1">;</span><span class="mtk9"> </span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, if any of the paragraph content overflows (perhaps
+a user resizes their browser window), a scrollbar will appear so that
+users can view the rest of the content.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The overflow property is set on a parent element to instruct a web
+browser on how to render child elements. For example, if a div’s
+overflow property is set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">scroll</code>, all children
+of this div will display overflowing content with a scroll bar.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For a more in-depth look at
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code>, including
+additional properties like
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow-x</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow-y</code> that
+separate out the horizontal and vertical values, head over to the MDN
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow">documentation</a>.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In order to see the impact of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow: scroll</code>,
+first change the height of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#main</code> element to 1000
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the overflow of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">#main</code> element to
+scroll.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When you scroll down, a second scroll bar should appear over the
+paragraph section. You may have to expand the browser component in order
+to see this behavior clearly.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Resetting Defaults
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All major web browsers have a default stylesheet they use in the absence
+of an external stylesheet. These default stylesheets are known as
+<em>user agent stylesheets</em>. In this case, the term
+<em><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/User_agent">user
+agent</a></em> is a technical term for the browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+User agent stylesheets often have default CSS rules that set default
+values for padding and margin. This affects how the browser displays
+HTML elements, which can make it difficult for a developer to design or
+style a web page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Many developers choose to reset these default values so that they can
+truly work with a clean slate.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">margin</span><span class="mtk1">:</span><span class="mtk9"> 0</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 0</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above resets the default margin and padding
+values of all HTML elements. It is often the first CSS rule in an
+external stylesheet.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Note that both properties are set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">0</code>. When these
+properties are set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">0</code>, they do not require
+a unit of measurement.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, reset the default margin and padding
+values for the body. What happens to the web page in the browser?
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Visibility
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Elements can be hidden from view with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">visibility</code> property.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">visibility</code>
+property can be set to one of the following values:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">hidden</code> — hides an
+element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">visible</code> — displays an
+element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">collapse</code> — collapses
+an element.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Explore</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;</span><span class="mtk1">Connect</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"future"</span><span class="mtk4">&gt;</span><span class="mtk1">Donate</span><span class="mtk4">&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ul&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.future</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">visibility</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">hidden</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the list item with a class of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">future</code> will be hidden
+from view in the browser.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Keep in mind, however, that users can still view the contents of the
+list item (e.g.,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Donate</code>) by viewing the
+source code in their browser. Furthermore, the web page will
+<em>only</em> hide the contents of the element. It will still leave an
+empty space where the element is intended to display.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<strong>Note:</strong> What’s the difference between
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display: none</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">visibility: hidden</code>? An
+element with <code class="code__2rdF32qjRVp7mMVBHuPwDS">display:
+none</code> will be completely removed from the web page. An element
+with <code class="code__2rdF32qjRVp7mMVBHuPwDS">visibility:
+hidden</code>, however, will not be visible on the web page, but the
+space reserved for it will.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a look at the list items in <strong>index.html</strong>. Notice
+that the list item
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">Donate</code> has a class of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">donate</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>:
+</p>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Add a class selector ruleset for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">donate</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the visibility to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">hidden</code>.
+</li>
+</ol>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## THE BOX MODEL
+
+### Review
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, we covered the four properties of the box model: height
+and width, padding, borders, and margins. Understanding the box model is
+an important step towards learning more advanced HTML and CSS topics.
+Let’s take a minute to review what you learned:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The box model comprises a set of properties used to create space around
+and between HTML elements.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The height and width of a content area can be set in pixels or
+percentages.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Borders surround the content area and padding of an element. The color,
+style, and thickness of a border can be set with CSS properties.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Padding is the space between the content area and the border. It can be
+set in pixels or percent.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Margin is the amount of spacing outside of an element’s border.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Horizontal margins add, so the total space between the borders of
+adjacent elements is equal to the sum of the right margin of one element
+and the left margin of the adjacent element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Vertical margins collapse, so the space between vertically adjacent
+elements is equal to the larger margin.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin: 0 auto</code>
+horizontally centers an element inside of its parent content area, if it
+has a width.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code> property
+can be set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">hide</code>, or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">scroll</code>, and dictates
+how HTML will render content that overflows its parent’s content area.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">visibility</code>
+property can hide or show elements.
+</li>
+</ul>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Make some adjustments to the code in the code editor. See if you can
+improve the appearance of the page by changing the following properties:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code>
+</li>
+</ul>
+
+**Solutions**
+
+``` html
+```
+
+## CHANGING THE BOX MODEL
+
+### Why Change the Box Model?
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The last lesson focused on the most important aspects of the box model:
+box dimensions, borders, padding, and margin.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The box model, however, has an awkward limitation regarding box
+dimensions. This limitation is best illustrated with an example.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Hello World</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, a heading element’s box has solid, black, 1 pixel
+thick borders. The height of the box is 200 pixels, while the width of
+the box is 300 pixels. A padding of 10 pixels has also been set on all
+four sides of the box’s content.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Unfortunately, under the current box model, the border thickness and the
+padding will affect the dimensions of the box.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The 10 pixels of padding increases the height of the box to 220 pixels
+and the width to 320 pixels. Next, the 1-pixel thick border increases
+the height to 222 pixels and the width to 322 pixels.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Under this box model, the border thickness and padding are added to the
+overall dimensions of the box. This makes it difficult to accurately
+size a box. Over time, this can also make all of a web page’s content
+difficult to position and manage.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this brief lesson, you’ll learn how to use a different technique that
+avoids this problem altogether.
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We’ll be using the app provided to demonstrate how to work with the box
+model. Click “Next” to continue.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## CHANGING THE BOX MODEL
+
+### Box Model: Content-Box
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Many properties in CSS have a default value and don’t have to be
+explicitly set in the stylesheet.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For example, the default
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-weight</code> of text is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">normal</code>, but this
+property-value pair is not typically specified in a stylesheet.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The same can be said about the box model that browsers assume. In CSS,
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">box-sizing</code>
+property controls the type of box model the browser should use when
+interpreting a web page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The default value of this property is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">content-box</code>. This is
+the same box model that is affected by border thickness and padding.
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Study the diagram to the right. It illustrates the default box model
+used by the browser,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">content-box</code>. When
+you’re done, continue to the next exercise.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## CHANGING THE BOX MODEL
+
+### Box Model: Border-Box
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Fortunately, we can reset the entire box model and specify a new one:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">box-sizing</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">border-box</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The code in the example above resets the box model to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code> for all
+HTML elements. This new box model avoids the dimensional issues that
+exist in the former box model you learned about.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this box model, the height and width of the box will remain fixed.
+The border thickness and padding will be included inside of the box,
+which means the overall dimensions of the box do not change.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Hello World</span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">box-sizing</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">border-box</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">padding</span><span class="mtk1">:</span><span class="mtk9"> 10px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the height of the box would remain at 200 pixels
+and the width would remain at 300 pixels. The border thickness and
+padding would remain entirely <em>inside</em> of the box.
+</p>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Study the diagram to the right. It illustrates the new box model,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code>. Pay
+attention to how the total width
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">200px</code>) and the
+padding affect the inner width of the element.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## CHANGING THE BOX MODEL
+
+### The New Box Model
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now that you know about the new box model, let’s actually implement it
+in the browser.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">*</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">box-sizing</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">border-box</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+It’s that simple! In the example above, the universal selector
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\*</code>) targets all
+elements on the web page and sets their box model to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code> model.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, change the box model for all elements on
+the web page to the new box model.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You probably didn’t see a difference in the web page to the right -
+that’s ok! The new box model simply makes sure that the dimensions of
+elements remains the same regardless of border width and padding.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
 
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
 <title>
@@ -1533,1520 +5769,2000 @@ Check Icon
 ``` html
 ```
 
-## INTRODUCTION TO HTML
+## CHANGING THE BOX MODEL
 
-### Review
+### Review: Changing the Box Model
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Congratulations on completing the first lesson of HTML! You are well on
-your way to becoming a skilled web developer.
+In this lesson, you learned about an important limitation of the default
+box model: box dimensions are affected by border thickness and padding.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s review what you learned:
+</p>
+<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+In the default box model, box dimensions are affected by border
+thickness and padding.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">box-sizing</code>
+property controls the box model used by the browser.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The default value of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">box-sizing</code> property is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">content-box</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The value for the new box model is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">border-box</code> model
+is not affected by border thickness or padding.
+</li>
+</ol>
+
+**Instructions**
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take some time to experiment with your new knowledge of the box model in
+<strong>style.css</strong>. When you’re done, proceed to the next unit.
+</p>
+
+**Solutions**
+
+``` html
+```
+
+## The Box Model in DevTools
+
+<div data-testid="markdown" class="spacing-loose__3_R8mSIQ2cspwhDGkCOXTu markdown__1eeYJ4WPKUcvX_LDDGJR12 darkTheme__2i0sjr_RjoITRh35Ld2GzM gamut-gk1onf-ArticleMarkdown e1xfx7rd0">
+<h2 id="heading-introduction" class="h2__1Ly_Sza5xVS3yZl46_StcN">
+Introduction
+</h2>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+All HTML elements are boxes made up of four components: a content
+container, padding, border, and margin. In our
+<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/courses/learn-css/lessons/box-model-intro/exercises/box-model-intro">Box
+Model lesson</a> we introduce these four properties and use them to
+position elements on a website. If you have not taken this lesson, we
+recommend you do so now, before continuing.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this article, we will introduce how Google Chrome’s DevTools can be
+used to view the box around each element on a web page.
+</p>
+<h4 id="heading-1-view-box-model-dimensions-with-devtools" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+
+1.  View Box Model Dimensions with DevTools
+    </h4>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    You can use Google Chrome’s DevTools to view the box around every
+    element on a web page. There are a few different ways to open
+    DevTools, depending on your platform:
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <strong>Mac</strong>
+    </p>
+    <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    <kbd>command</kbd> + <kbd>option</kbd> + i
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    View \> Developer \> Developer Tools
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Chrome 3 dot menu ⋮ \> More Tools \> Developer Tools
+    </li>
+    </ul>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <strong>Windows</strong>
+    </p>
+    <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    <kbd>control</kbd> + <kbd>shift</kbd> + i
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    <kbd>F12</kbd>
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Chrome 3 dot menu ⋮ \> More Tools \> Developer Tools
+    </li>
+    </ul>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    Use whichever method works best for you. When you have the DevTools
+    open, navigate to the <strong>Elements</strong> tab.
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-elements.jpg" alt="Elements Tab" class="img__1JGFO2nlisObc3KeOSGPRp">
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    In this tab you can view all of the elements on the current page.
+    From this view, you can select the element of interest, which will
+    open a new column on the right side of DevTools. Select the tab
+    labeled <strong>Computed</strong> on the top of the rightmost
+    column.
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Box-Model-in-DevTools/DevToolsTabs.png" alt="Computed Tab" class="img__1JGFO2nlisObc3KeOSGPRp">
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    The selected element’s box should appear at the top of the pane.
+    Hovering over each property of the box will cause the property to be
+    highlighted in the web page.
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    If you know the element you want to inspect, going through all of
+    the steps listed above is unnecessary. Instead, you can right click
+    the element you want to observe and select the Inspect button. This
+    will display DevTools on the right side of the browser with the
+    element selected in the Elements tab. To view the element’s box, you
+    can select the Computed tab.
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    If you’d like some more info or a refresher on how to use Google Dev
+    Tools, take a look at
+    <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://youtu.be/VuQ4pF_hfag">this
+    video</a>.
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <strong>Exercise I: View a Website’s Box Model Dimensions</strong>
+    </p>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    Complete the following steps within the current web browser view.
+    </p>
+    <ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    In a new tab navigate to the Codecademy
+    <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Codecademy">Wikipedia</a>
+    page.
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Right click (or
+    <code class="code__2rdF32qjRVp7mMVBHuPwDS">Ctrl</code> and click
+    simultaneously) the Contents navigation box displayed in the image
+    below:
+    </li>
+    </ol>
+    <p class="p__1qg33Igem5pAgn4kPMirjw">
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-inspect.jpg" alt="Dropdown image" class="img__1JGFO2nlisObc3KeOSGPRp">
+    </p>
+    <ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Select <strong>Inspect</strong>.
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Select the Computed tab at the top of the rightmost column.
+    </li>
+    <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+    Hover over the different properties of the logo’s box. The
+    corresponding space on the web page should be highlighted when you
+    do this.
+    </li>
+    </ol>
+    <h4 id="heading-2-modify-box-dimensions" class="h4__1cJx3E4QhkKjfWj3jLsTFU">
+
+    1.  Modify Box Dimensions
+        </h4>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        Now that you know how to view the box of an element we’ll modify
+        the box’s values with DevTools.
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        To modify the values of the box double click the property value,
+        assign it a new number, and press enter. You can also adjust the
+        value incrementally by double clicking the value and using the
+        up or down arrow keys.
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-boxmodel.jpg" alt="Selecting Values" class="img__1JGFO2nlisObc3KeOSGPRp">
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        In the image above, the border on each side is set to
+        <code class="code__2rdF32qjRVp7mMVBHuPwDS">1</code> and the
+        padding is set to
+        <code class="code__2rdF32qjRVp7mMVBHuPwDS">7</code>. These
+        values can be changed by double clicking the values in the box
+        and assigning them new numbers, or using the up or down arrow
+        keys on your keyboard.
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        <strong>Note:</strong> If you inspect an element and find that
+        the border is set to
+        <code class="code__2rdF32qjRVp7mMVBHuPwDS">-</code>, adding a
+        numerical value will not make a border appear. The border color,
+        style, and width must be set in the CSS document in order to see
+        the border.
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        <strong>Exercise II: Modify a Website’s Box Model
+        Dimensions</strong>
+        </p>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        Pick up where you left off in Exercise 1.
+        </p>
+        <ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
+        <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+        Double click the top padding of the element.
+        </li>
+        <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+        Use the up and down arrows to adjust the element’s padding.
+        Observe how the appearance changes on the web page.
+        </li>
+        <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+        Change the left margin to 200. Observe how the element’s
+        appearance changes.
+        </li>
+        </ol>
+        <p class="p__1qg33Igem5pAgn4kPMirjw">
+        <strong>Remember</strong> the changes you make in DevTools are
+        not saved. If you are using DevTools to make adjustments to a
+        personal project, make sure to adjust values in the HTML and CSS
+        documents.
+        </p>
+        </div>
+
+## The Box Model in DevTools
+
+<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="The Box Model in Chrome DevTools" width="100%" height="100%" src="https://www.youtube.com/embed/uQi8TK-GDO4?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.codecademy.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-76="true">
+</iframe>
+
+## FRONT-END ENGINEER
+
+### The Box Model: Davie’s Burgers
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this project, you will follow step-by-step instructions to fix a
+fictional restaurant’s website. All of the HTML and most of the CSS is
+intact, but the box model properties have yet to be set. You’ll use
+knowledge of <code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">padding</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code> to complete
+this project.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The website’s existing <strong>index.html</strong> and
+<strong>style.css</strong> files are displayed in the text editor to the
+right. As you work, use both to see which elements you are selecting and
+styling. Most of the elements that you’ll need to add styles for already
+have rule sets in <strong>style.css</strong> to which you can add
+additional declarations.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+If you get stuck during this project or would like to see an experienced
+developer work through it, click “<strong>Get Unstuck</strong>“ to see a
+<strong>project walkthrough video</strong>.
+</p>
+
+**Instructions**
+
+<span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as
+complete by checking them off</span>
+
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-1">1.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You’ll go through Davie’s Burger’s menu item roughly from top to bottom.
+Let’s begin with styling the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> element
+containing the logo and navigation elements.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">img</code> to 180 pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Center the <code class="code__2rdF32qjRVp7mMVBHuPwDS">img</code>
+horizontally using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">margin</code> property.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-2">2.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set margin of <code class="code__2rdF32qjRVp7mMVBHuPwDS">span</code>
+elements inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">nav</code> to 10 pixels on
+the top and bottom, and 0 pixels on the left and right.
+</p>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-3">3.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now set some rules for the element with the class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">content</code>. This element
+is a container for all the elements not included in
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code>.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the height to 500 pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Create 10-pixel vertical margins and automatic horizontal margins.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set <code class="code__2rdF32qjRVp7mMVBHuPwDS">.body</code> elements
+inside <code class="code__2rdF32qjRVp7mMVBHuPwDS">.content</code> to
+have no vertical margin and automatic horizontal margins so that it is
+centered.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-4">4.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+With a 500-pixel height for
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.content</code>, some
+elements will overflow out of its box if the browser window is made too
+small.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Make <code class="code__2rdF32qjRVp7mMVBHuPwDS">.content</code>
+scrollable with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">overflow</code> property.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Resize the browser window so it is very skinny and notice that this
+section is now scrollable.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-5">5.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now it’s time to tackle the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code> and its
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> text: ‘BBQ BACON
+BURGER’.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the height of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code> class to 320
+pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Create a 20-pixel padding for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> element inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.header</code>.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set vertical margins to 0 pixels and the horizontal margins to be
+determined automatically for the same
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">h1</code> element.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-6">6.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now add some box-model formatting to the ‘ORDER NOW’
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.button</code> element. As
+you make each change, make sure to scroll down if necessary to view the
+effect on the button.
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the width to 200 pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the padding to 20 pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the vertical margins to 40 pixels and the horizontal margins to
+automatic.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Give the button a 1-pixel, solid, blue border.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-7">7.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Finally, style the nutrition facts section at the bottom. In the element
+selected with
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">ul.nutrition</code>:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the padding of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">ul.nutrition</code> element
+to 20 pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set the width of <code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code>
+elements within the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">ul.nutrition</code> to 200
+pixels.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Set a 10-pixel vertical padding and 20-pixel horizontal padding to the
+same elements.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Add a 3-pixel bottom margin to the same elements.
+</li>
+</ul>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+</article>
+<article class="fit-full fcn-task fcn-task--complete">
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<span class="fcn-task__number" data-testid="task-8">8.</span>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Good job—this menu item is looking great, and the layout and spacing is
+much more readable. If you’d like, you can continue refining the design
+or add your own spin!
+</p>
+
+</article>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Flow of HTML
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+A browser will render the elements of an HTML document that has no CSS
+from left to right, top to bottom, in the same order as they exist in
+the document. This is called the <em>flow</em> of elements in HTML.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In addition to the properties that it provides to style HTML elements,
+CSS includes properties that change how a browser <em>positions</em>
+elements. These properties specify where an element is located on a
+page, if the element can share lines with other elements, and other
+related attributes.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, you will learn five properties for adjusting the
+position of HTML elements in the browser:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">clear</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Each of these properties will allow us to position and view elements on
+a web page. They can be used in conjunction with any other styling
+properties you may know.
+</p>
+
+## DISPLAY AND POSITIONING
+
+### Position
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a look at the <em>block-level</em> elements in the image below:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Position-updated.png" alt="Diagram of block-level elements" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Block-level elements like these boxes create a <em>block</em> the full
+width of their parent elements, and they prevent other elements from
+appearing in the same horizontal space.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice the block-level elements in the image above take up their own
+line of space and therefore don’t overlap each other. In the browser to
+the right, you can see block-level elements also consistently appear on
+the left side of the browser. This is the default <em>position</em> for
+block-level elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The default position of an element can be changed by setting its
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property. The
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property can
+take one of five values:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">static</code> - the default
+value (it does not need to be specified)
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code>
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">sticky</code>
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the next few exercises, you’ll learn about the values in the list
+above. For now, it’s important to understand that if you favor the
+default position of an HTML element, you don’t need to set its
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, add a declaration to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.question</code> ruleset that
+sets the position to static.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice that setting
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">static</code> does nothing.
+That’s because <code class="code__2rdF32qjRVp7mMVBHuPwDS">static</code>
+simply refers to the default behavior.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Position: Relative
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+One way to modify the default position of an element is by setting its
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This value allows you to position an element <em>relative</em> to its
+default static position on the web page.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.green-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">relative</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Although the code in the example above instructs the browser to expect a
+relative positioning of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.green-box</code> element, it
+does not specify where the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.green-box</code> element
+should be positioned on the page. This is done by accompanying the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> declaration
+with one or more of the following <em>offset properties</em> that will
+move the element away from its default static position:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">top</code> - moves the
+element down from the top.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">bottom</code> - moves the
+element up from the bottom.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code> - moves the
+element away from the left side (to the right).
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code> - moves the
+element away from the right side (to the left).
+</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+You can specify values in pixels, ems, or percentages, among others, to
+dial in exactly how far you need the element to move. It’s also
+important to note that offset properties will not work if the element’s
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property is
+the default <code class="code__2rdF32qjRVp7mMVBHuPwDS">static</code>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.green-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">relative</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">top</span><span class="mtk1">:</span><span class="mtk9"> 50px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">left</span><span class="mtk1">:</span><span class="mtk9"> 120px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the element of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">green-box</code> class will
+be moved down 50 pixels, and to the right 120 pixels, from its default
+static position. The image below displays the new position of the box.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Relative.png" alt="Diagram of an element with relative position" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Offsetting the relative element will not affect the positioning of other
+elements.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, inside the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.question</code> ruleset,
+change the <code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code>
+property to <code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Next, in <strong>style.css</strong>, offset
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.question</code> 40 pixels
+from the top.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Position: Absolute
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Another way of modifying the position of an element is by setting its
+position to <code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When an element’s position is set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>, all other
+elements on the page will ignore the element and act like it is not
+present on the page. The element will be positioned relative to its
+closest positioned parent element, while offset properties can be used
+to determine the final position from there. Take a look at the image
+below:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/position-absolute.png" alt="Diagram of an element with absolute position, as described in the following paragraph" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The “This website is in progress. Please come back later!” text is
+displaced from its static position at the top left corner of its parent
+container. It has offset property declarations of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">top: 300px;</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right: 0px;</code>,
+positioning it 300 pixels down, and 0 pixels from the right side of the
+page.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> inside of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">header</code> ruleset to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice how it’s now removed from the normal flow of the document, and
+covering the welcome section.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When you changed the position to absolute, you may have noticed that the
+header shrunk horizontally. We’ll learn why in a later exercise. For
+now, set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>
+property of the header to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">100%</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Position: Fixed
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When an element’s position is set to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>, as in the
+last exercise, the element will scroll with the rest of the document
+when a user scrolls.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+We can <em>fix</em> an element to a specific position on the page
+(regardless of user scrolling) by setting its position to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code>, and
+accompanying it with the familiar offset properties
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">top</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">bottom</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.title</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">fixed</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">top</span><span class="mtk1">:</span><span class="mtk9"> 0px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">left</span><span class="mtk1">:</span><span class="mtk9"> 0px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.title</code> element will
+remain fixed to its position no matter where the user scrolls on the
+page, like in the image below:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Fixed.gif" alt="Diagram of position fixed" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+This technique is often used for navigation bars on a web page.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, change the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property
+inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">header</code>
+rule to <code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code>. Scroll
+up and down the web page. What do you notice?
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Notice that part of the “Welcome” section is now covered up by the
+header. That’s because when we changed the position of the header to
+fixed, we removed it from the flow of the html document. Let’s fix that.
+Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> of
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.welcome</code> element
+to <code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Offset the “Welcome” section by 200 pixels from the top. Everything
+might not be displaying correctly just yet; we’ll fix it in a later
+exercise.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Position: Sticky
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Since <code class="code__2rdF32qjRVp7mMVBHuPwDS">static</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code> positioned
+elements stay in the normal flow of the document, when a user scrolls
+the page (or parent element) these elements will scroll too. And since
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code> positioned
+elements are removed from the document flow, when a user scrolls, these
+elements will stay at their specified offset position.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">sticky</code> value is
+another position value that keeps an element in the document flow as the
+user scrolls, but <em>sticks</em> to a specified position as the page is
+scrolled further. This is done by using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">sticky</code> value along
+with the familiar offset properties, as well as one new one.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.box-bottom</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">darkgreen</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> sticky</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">top</span><span class="mtk1">:</span><span class="mtk9"> 240px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.box-bottom</code>
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> will remain in
+its relative position, and scroll as usual. When it reaches 240 pixels
+from the top, it will stick to that position until it reaches the bottom
+of its parent container where it will “unstick” and rejoin the flow of
+the document.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Sticky.gif" alt="Diagram of an element with sticky position" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Inside <strong>style.css</strong>, change the position of the elements
+with the class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">question</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">sticky</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Z-Index
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+When boxes on a web page have a combination of different positions, the
+boxes (and therefore, their content) can overlap with each other, making
+the content difficult to read or consume.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.blue-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.green-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">relative</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">top</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk1">-</span><span class="mtk9">170px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">left</span><span class="mtk1">:</span><span class="mtk9"> 170px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.green-box</code> element
+overlaps on top of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.blue-box</code> element.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> property
+controls how far back or how far forward an element should appear on the
+web page when elements overlap. This can be thought of as the
+<em>depth</em> of elements, with deeper elements appearing behind
+shallower elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> property
+accepts integer values. Depending on their values, the integers instruct
+the browser on the order in which elements should be layered on the web
+page.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.blue-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">blue</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">relative</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">z-index</span><span class="mtk1">:</span><span class="mtk9"> 1</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.green-box</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">green</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">position</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">relative</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">top</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk1">-</span><span class="mtk9">170px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">left</span><span class="mtk1">:</span><span class="mtk9"> 170px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, we set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.blue-box</code> position to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code> and the
+z-index to 1. We changed position to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>, because the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> property does
+<em>not</em> work on static elements. The z-index of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">1</code> moves the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.blue-box</code> element
+forward, because the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> value has not
+been explicitly specified for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.green-box</code> element,
+which means it has a default
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> value of 0.
+Take a look at the example image below:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Z-index.png" alt="Diagram of z-index" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>style.css</strong>, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">header</code> to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">10</code>. Notice how the
+header is no longer covered by other elements when you scroll!
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Inline Display
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Every HTML element has a default
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> value that
+dictates if it can share horizontal space with other elements. Some
+elements fill the entire browser from left to right regardless of the
+size of their content. Other elements only take up as much horizontal
+space as their content requires and can be directly next to other
+elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In this lesson, we’ll cover three values for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> property:
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">block</code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The default <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+for some elements, such as
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code>, and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code>, is called
+<em>inline</em>. Inline elements have a box that wraps tightly around
+their content, only taking up the amount of space necessary to display
+their content and not requiring a new line after each element. The
+height and width of these elements cannot be specified in the CSS
+document. For example, the text of an anchor tag
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code>) will, by
+default, be displayed on the same line as the surrounding text, and it
+will only be as wide as necessary to contain its content.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code> elements cannot
+be altered in size with the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> CSS properties.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">To learn more about </span><span class="mtk4">&lt;em&gt;</span><span class="mtk1">inline</span><span class="mtk4">&lt;/em&gt;</span><span class="mtk1"> elements, read </span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#"</span><span class="mtk4">&gt;</span><span class="mtk1">MDN documentation</span><span class="mtk4">&lt;/a&gt;</span><span class="mtk1">.&nbsp;&nbsp;&nbsp;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> element is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code>, because it
+displays its content on the same line as the content surrounding it,
+including the anchor tag. This example will display:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To learn more about <em>inline</em> elements, read
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">MDN
+documentation</a>.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The CSS <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+property provides the ability to make any element an inline element.
+This includes elements that are not inline by default such as
+paragraphs, divs, and headings.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">h1</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">display</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">inline</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The CSS in the example above will change the display of all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> elements to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code>. The browser
+will render <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
+elements on the same line as other inline elements immediately before or
+after them (if there are any).
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>index.html</strong>, add opening and closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\>\</strong\></code>
+tags around the word “Welcome”. Notice that the element does not move.
+That’s because
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> elements
+are inline, so they can share lines with other elements.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Display: Block
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Some elements are not displayed in the same line as the content around
+them. These are called <em>block-level</em> elements. These elements
+fill the entire width of the page by default, but their
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> property can
+also be set. Unless otherwise specified, they are the height necessary
+to accommodate their content.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Elements that are block-level by default include all levels of heading
+elements (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
+through <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code>),
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>,
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code>. For a
+complete list of block level elements, visit
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">the
+MDN documentation</a>.
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">strong</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">display</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">block</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> elements
+will be displayed on their own line, with no content directly on either
+side of them even though their contents may not fill the width of most
+computer screens.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In <strong>index.html</strong>, add a
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code> element at
+the bottom of the document, right above the closing
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</body\></code> tag.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Nothing changed! That’s because the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code> element is
+empty. Add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code>
+element inside of the footer that says “Thanks for taking our survey!”
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+To improve the appearance of the web page, set the height of the footer
+to 100 pixels in <strong>style.css</strong>.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Display: Inline-Block
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The third value for the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> property is
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code>.
+Inline-block display combines features of both inline and block
+elements. Inline-block elements can appear next to each other and we can
+specify their dimensions using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> properties.
+Images are the best example of default inline-block elements.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+For example, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s below will be
+displayed on the same line and with the specified dimensions:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/display-inline-block.png" alt="inline block example" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s take a look at the code:
+</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">I’m a&nbsp;rectangle!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">So am I!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">class</span><span class="mtk1">=</span><span class="mtk8">"rectangle"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Me three!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.rectangle</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">display</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">inline-block</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 300px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+There are three rectangular divs that each contain a paragraph of text.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">.rectangle</code>
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s will all
+appear inline (provided there is enough space from left to right) with a
+width of 200 pixels and height of 300 pixels, even though the text
+inside of them may not require 200 pixels by 300 pixels of space.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Let’s fix the display of the list elements in the menu at the top of the
+page.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+property of <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code>
+elements to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the width of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">li</code> elements to 80
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Now, we can reduce the top offset of the “Welcome” section. Set it to 50
+pixels.
+</p>
+
+<span aria-live="assertive">Checkpoint 4 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">4.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+property of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.answer</code>
+elements to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 5 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Float
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+So far, you’ve learned how to specify the exact position of an element
+using offset properties. If you’re simply interested in moving an
+element as far left or as far right as possible in the container, you
+can use the <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code>
+property.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code> property is
+commonly used for wrapping text around an image. Note, however, that
+moving elements left or right for layout purposes is better suited for
+tools like CSS grid and flexbox, which you’ll learn about later on.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code> property is
+often set using one of the values below:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code> - moves, or
+floats, elements as far left as possible.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code> - moves elements
+as far right as possible.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk7">.green-section</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 50%</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">height</span><span class="mtk1">:</span><span class="mtk9"> 150px</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk7">.orange-section</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">background-color</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk12">orange</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 50%</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">float</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk10">right</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, we float the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.orange-section</code>
+element to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code>.
+This works for static and relative positioned elements. See the result
+of the code below:
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+<img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Display-Position/Float.png" alt="Diagrm of an element floating on the right" class="img__1JGFO2nlisObc3KeOSGPRp">
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Floated elements must have a width specified, as in the example above.
+Otherwise, the element will assume the full width of its containing
+element, and changing the float value will not yield any visible
+results.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Add a declaration to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.answer</code> ruleset that
+sets the <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code>
+property to <code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code>.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Clear
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code> property can
+also be used to float multiple elements at once. However, when multiple
+floated elements have different heights, it can affect their layout on
+the page. Specifically, elements can “bump” into each other and not
+allow other elements to properly move to the left or right.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">clear</code> property
+specifies how elements should behave when they bump into each other on
+the page. It can take on one of the following values:
+</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code>—the left side of
+the element will not touch any other element within the same containing
+element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">right</code>—the right side
+of the element will not touch any other element within the same
+containing element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">both</code>—neither side of
+the element will touch any other element within the same containing
+element.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">none</code>—the element can
+touch either side.
+</li>
+</ul>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">div</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">width</span><span class="mtk1">:</span><span class="mtk9"> 200px</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">float</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk10">left</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br><span><span> </span></span><br><span><span class="mtk4">div</span><span class="mtk7">.special</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">clear</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk10">left</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the example above, all
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>s on the page
+are floated to the left side. The element with class
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">special</code> did not move
+all the way to the left because a taller
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> blocked its
+positioning. By setting its
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">clear</code> property to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code>, the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">special</code>
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> will be moved
+all the way to the left side of the page.
+</p>
+
+**Instructions**
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Take a look at the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.answer</code> divs on the
+web page. They have been floated to the left, but the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.question</code> divs are
+touching the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.answer</code>
+divs on the right, let’s fix this.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+In the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.question</code>
+selector, set the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">clear</code> property to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">left</code>. Notice how the
+questions moved.
+</p>
+
+<span aria-live="assertive">Checkpoint 2 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+On second thought, this layout is not looking so good. Remove the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code> property from
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.answer</code> selector
+ruleset.
+</p>
+
+<span aria-live="assertive">Checkpoint 3 Passed</span>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Check Icon
+</title>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
+</svg>
+
+<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
+<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
+
+Stuck? Get a hint
+
+</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
+<title>
+Arrow Chevron Down Icon
+</title>
+<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</button>
+
+**Solutions**
+
+``` html
+```
+
+## DISPLAY AND POSITIONING
+
+### Review: Layout
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Great job! In this lesson, you learned how to control the positioning of
+elements on a web page.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Let’s review what you’ve learned so far:
 </p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<strong>HTML</strong> stands for
-<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
-<strong>L</strong>anguage and is used to create the structure and
-content of a webpage.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> property
+allows you to specify the position of an element.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Most HTML elements contain opening and closing tags with raw text or
-other HTML tags between them.
+When set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">relative</code>,
+an element’s position is relative to its default position on the page.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-HTML elements can be nested inside other elements. The enclosed element
-is the child of the enclosing parent element.
+When set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">absolute</code>,
+an element’s position is relative to its closest positioned parent
+element. It can be pinned to any part of the web page, but the element
+will still move with the rest of the document when the page is scrolled.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Any visible content should be placed within the opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tags.
+When set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code>, an
+element’s position can be pinned to any part of the web page. The
+element will remain in view no matter what.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Headings and sub-headings,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code> tags, are used
-to provide titles for sections of content.
+When set to <code class="code__2rdF32qjRVp7mMVBHuPwDS">sticky</code>, an
+element can stick to a defined offset position when the user scrolls its
+parent container.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tags specify
-text or blocks.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> of an
+element specifies how far back or how far forward an element appears on
+the page when it overlaps other elements.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<em\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> tags are
-used to emphasize text.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> property
+allows you to control how an element flows vertically and horizontally
+in a document.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Line breaks are created with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<br\></code> tag.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline</code> elements take
+up as little space as possible, and they cannot have manually adjusted
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> or
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Ordered lists (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ol\></code>)
-are numbered and unordered lists
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code>) are bulleted.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">block</code> elements take up
+the width of their container and can have manually adjusted
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>s.
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Images (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code>) and
-videos (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>) can
-be added by linking to an existing source.
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">inline-block</code> elements
+can have set <code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code>, but they can
+also appear next to each other and do not take up their entire container
+width.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">float</code> property can
+move elements as far left or as far right as possible on a web page.
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+You can clear an element’s left or right side (or both) using the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">clear</code> property.
 </li>
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Here are a few more resources to add to your toolkit:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html">Codecademy
-Docs: HTML</a>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/workspaces/new">Codecademy
-Workspaces: HTML</a>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Make sure to bookmark these links so you have them at your disposal.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the next lesson, we’ll take the content that you’ve added to this
-website and transform it into an HTML document that’s ready to go on the
-web.
+When combined with an understanding of the box model, positioning can
+create visually appealing web pages. So far, we’ve focused on adding
+content in the form of text to a web page. In the next unit, you’ll
+learn how to add and manipulate images to a web page.
 </p>
 
 **Instructions**
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-We’ve left you with your final code. Feel free to play around and modify
-it using the new elements you’ve learned!
+Take some time to experiment with your new knowledge of positioning in
+<strong>style.css</strong>.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-If you want to review how to structure HTML in a project and use
-semantically meaningful elements, watch the video below and follow along
-with one of our experts:
+When you’re done, proceed to the next unit.
 </p>
-
-<iframe width="300" height="200" src="https://www.youtube.com/embed/uxmB8MlO3m8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="iframe__rk2yNYIwJeUOj5J8cQJ9-">
-</iframe>
 
 **Solutions**
 
 ``` html
 ```
-
-## HTML DOCUMENT STANDARDS
-
-### Preparing for HTML
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that we’ve learned about some of the most common HTML elements, it’s
-time to learn how to set up an HTML file.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML files require certain elements to set up the document properly. We
-can let web browsers know that we are using HTML by starting our
-document with a <em>document type declaration</em>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The declaration looks like this:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This declaration is an instruction, and it must be the first line of
-code in your HTML document. It tells the browser what type of document
-to expect, along with what version of HTML is being used in the
-document. For now, the browser will correctly assume that the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">html</code> in
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code> is
-referring to HTML5, as it is the current standard.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the future, however, a new standard will override HTML5. To make sure
-your document is forever interpreted correctly, always include
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code> at
-the very beginning of your HTML documents.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Lastly, HTML code is always saved in a file with an
-<strong>.html</strong> extension.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE
-html\></code> declaration as the very first line of code at the top of
-the <strong>index.html</strong> file.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-\### The
-<html>
-
-tag
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code>
-declaration provides the browser with two pieces of information (the
-type of document and the HTML version to expect), but it doesn’t
-actually add any HTML structure or content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-To create HTML structure and content, we must add opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> tags after
-declaring <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE
-html\></code>:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Anything between the opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</html\></code> tags will be
-interpreted as HTML code. Without these tags, it’s possible that
-browsers could incorrectly interpret your HTML code.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> tags below
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code>
-tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### The Head
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-So far you’ve done two things to set up the file properly:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Declared to the browser that your code is HTML with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Added the HTML element
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code>) that will
-contain the rest of your code.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We have added these elements to the Brown Bears page you previously
-created. Now, let’s also give the browser some information about the
-page itself. We can do this by adding a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Remember the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code>
-tag? The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>
-element is part of this HTML metaphor. It goes above our
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> element
-contains the <em>metadata</em> for a web page. Metadata is information
-about the page that isn’t displayed directly on the web page. Unlike the
-information inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tag, the
-metadata in the head is information about the page itself. You’ll see an
-example of this in the next exercise.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The opening and closing head tags typically appear as the first item
-after your first HTML tag:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br></div></code></pre></pre>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Place the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>
-element below the opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Page Titles
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-What kind of metadata about the web page can the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> element
-contain?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you navigate to the Codecademy
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/all">
-catalog </a> and look at the top of your browser, you’ll notice the
-words <code class="code__2rdF32qjRVp7mMVBHuPwDS">All Courses & Tutorials
-\| Codecademy</code>, which is the <em>title</em> of the web page.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-A browser’s tab displays the title specified in the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code> tag. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code> tag is
-always inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;title&gt;</span><span class="mtk1">My Coding Journal</span><span class="mtk4">&lt;/title&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/head&gt;</span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If we were to open a file containing the HTML code in the example above,
-the browser would display the words
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">My Coding Journal</code> in
-the title bar (or in the tab’s title).
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add “Brown Bears” as the title of your web page by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code> element,
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Unfortunately, you won’t be able to see the title of your page in the
-smaller browser to the right. We’ll show you what it would look like in
-the next exercise.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Where Does the Title Appear?
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Good work! Unfortunately, the browser panel used by the Codecademy
-environment does not have a title bar, so the “Brown Bear” title you
-wrote in the previous exercise will not be displayed. Outside of the
-Codecademy environment, however, your title would appear as depicted in
-the diagram to the right.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-So far, we have learned about:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code>, the
-declaration specifying the version of HTML for the browser
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> tags that
-enclose all of your HTML code
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> tag that
-contains the metadata of a webpage, such as its
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Next, you will learn about new types of elements that go inside the
-body.
-</p>
-
-## HTML DOCUMENT STANDARDS
-
-### Linking to Other Web Pages
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-One of the powerful aspects of HTML (and the Internet), is the ability
-to <em>link</em> to other web pages.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can add links to a web page by adding an <em>anchor</em> element
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/a?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code></a>
-and including the text of the link in between the opening and closing
-tags.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Wait a minute! Technically, the link in the example above is incomplete.
-How exactly is the link above supposed to work if there is no URL that
-will lead users to the actual Wikipedia page?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The anchor element in the example above is incomplete without the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute. This
-attribute stands for <em>hyperlink reference</em> and is used to link to
-a <em>path</em>, or the address to where a file is located (whether it
-is on your computer or another location). The paths provided to the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute are
-often URLs.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://www.wikipedia.org/"</span><span class="mtk4">&gt;</span><span class="mtk1">This Is A&nbsp;Link To Wikipedia</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute has
-been set to the value of the URL
-<code class="code__2rdF32qjRVp7mMVBHuPwDS"><https://www.wikipedia.org/></code>.
-The example now shows the correct use of an anchor element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When reading technical documentation, you may come across the term
-<em>hyperlink</em>. Not to worry, this is simply the technical term for
-link. These terms are often used interchangeably.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-After the first paragraph, right above the heading that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Species</code>, add a link
-that says: <code class="code__2rdF32qjRVp7mMVBHuPwDS">Learn More</code>.
-Don’t add the URL just yet.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add the following URL to the link:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://en.wikipedia.org/wiki/Brown_bear</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Opening Links in a New Window
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Have you ever clicked on a link and observed the resulting web page open
-in a new browser window? If so, you can thank the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element’s
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute
-specifies how a link should open.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-It’s possible that one or more links on your web page link to an
-entirely different website. In that case, you may want users to read the
-linked website, but hope that they return to your web page. This is
-exactly when the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute is
-useful!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-For a link to open in a new window, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute
-requires a value of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\_blank</code>. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute can
-be added directly to the opening tag of the anchor element, just like
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">href</code> attribute.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Brown_bear"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">The Brown Bear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, setting the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“\_blank”</code> instructs
-the browser to open the relevant Wikipedia page in a new window.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this exercise, we’ve used the terminology “open in a new window.”
-It’s likely that you are using a modern browser that opens up websites
-in new <em>tabs</em>, rather than new windows. Before the advent of
-browsers with tabs, additional browser windows had to be opened to view
-more websites. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target=“\_blank”</code>
-attribute, when used in modern browsers, will open new websites in a new
-tab.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the link that reads <code class="code__2rdF32qjRVp7mMVBHuPwDS">Learn
-More</code>, add the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute and
-set it equal to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\_blank</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Linking to Relative Page
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Thus far you have learned how to link to external web pages. Many sites
-also link to internal web pages like Home, About, and Contact.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Before we learn how to link between internal pages, let’s establish
-where our files are stored. When making multi-page static websites, web
-developers often store HTML files in the <em>root directory</em>, or a
-main folder where all the files for the project are stored. As the size
-of the projects you create grows, you may use additional folders within
-the main project folder to organize your code.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">project-folder/</span></span><br><span><span class="mtk1">|—— about.html</span></span><br><span><span class="mtk1">|—— contact.html</span></span><br><span><span class="mtk1">|—— index.html</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The example above shows three different files —
-<strong>about.html</strong>, <strong>contact.html</strong>, and
-<strong>index.html</strong> in one folder.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML files are often stored in the same folder, as shown in the example
-above. If the browser is currently displaying
-<strong>index.html</strong>, it also knows that
-<strong>about.html</strong> and <strong>contact.html</strong> are in the
-same folder. Because the files are stored in the same folder, we can
-link web pages together using a <em>relative path</em>.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"./contact.html"</span><span class="mtk4">&gt;</span><span class="mtk1">Contact</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> tag is used with
-a relative path to link from the current HTML file to the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">contact.html</code> file in
-the same folder. On the web page,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Contact</code> will appear as
-a link.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-A relative path is a filename that shows the path to a <em>local
-file</em> (a file on the same website, such as
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">./index.html</code>) versus
-an absolute path (a full URL, like
-<code class="code__2rdF32qjRVp7mMVBHuPwDS"><https://www.codecademy.com/learn/learn-html></code>
-which is stored in a different folder). The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">./</code> in
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">./index.html</code> tells the
-browser to look for the file in the current folder.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Directly below the opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tag within
-<strong>index.html</strong>, add an anchor tag that links to
-<strong>index.html</strong> with a relative path. The link should say
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Brown Bear</code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the link to <strong>index.html</strong>, add an anchor tag that
-links to <strong>aboutme.html</strong> using a relative path. The link
-should say <code class="code__2rdF32qjRVp7mMVBHuPwDS">About Me</code>.
-Notice that there is also another file in the code editor,
-<strong>aboutme.html</strong>. Click the link to make sure it works!
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Linking At Will
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You’ve probably visited websites where not all links were made up of
-text. Maybe the links you clicked on were images or some other form of
-content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-So far, we’ve added links that were made up of only text, like the
-following:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;</span><span class="mtk1">Prickly Pear</span><span class="mtk4">&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Text-only links, however, would significantly decrease your flexibility
-as a web developer!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Thankfully, HTML allows you to turn nearly any element into a link by
-wrapping that element with an anchor element. With this technique, it’s
-possible to turn images into links by simply wrapping the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> element with
-an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"https://en.wikipedia.org/wiki/Opuntia"</span><span class="mtk1"> </span><span class="mtk7">target</span><span class="mtk1">=</span><span class="mtk8">"_blank"</span><span class="mtk4">&gt;&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"https://www.Prickly_Pear_Closeup.jpg"</span><span class="mtk1"> </span><span class="mtk7">alt</span><span class="mtk1">=</span><span class="mtk8">"A red prickly pear fruit"</span><span class="mtk4">/&gt;&lt;/a&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, an image of a prickly pear has been turned into a
-link by wrapping the outside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> element with
-an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>index.html</strong>, transform the image on your page into a
-link by wrapping the image element with an anchor element. Set the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target</code> attribute so
-that the link opens in a new window.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Your image element should be a nested tag inside your anchor element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Use the same URL as before:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://en.wikipedia.org/wiki/Brown_bear</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Linking to Same Page
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-At this point, we have all the content we want on our page. Since we
-have so much content, it doesn’t all fit on the screen. How do we make
-it easier for a user to jump to different portions of our page?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When users visit our site, we want them to be able to click a link and
-have the page automatically scroll to a specific section.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In order to link to a <em>target</em> on the same page, we must give the
-target an <em>id</em>, like this:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;p</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"top"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the top of the page!</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;h1</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">This is the bottom! </span><span class="mtk4">&lt;/h1&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element is
-assigned an <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> of
-“top” and the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
-element is assigned “bottom.” An
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> can be added to
-most elements on a webpage.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-An <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> should be
-descriptive to make it easier to remember the purpose of a link. The
-target link is a string containing the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\#</code> character and the
-target element’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;ol&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#top"</span><span class="mtk4">&gt;</span><span class="mtk1">Top</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#bottom"</span><span class="mtk4">&gt;</span><span class="mtk1">Bottom</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk4">&lt;/ol&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the links to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p id=“top”\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1 id=“bottom”\></code> are
-embedded in an ordered list. These links appear in the browser as a
-numbered list of links. An
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> is especially
-helpful for organizing content belonging to a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">div</code>!
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>
-element that says <code class="code__2rdF32qjRVp7mMVBHuPwDS">The Brown
-Bear</code>, create an unordered list with the following three list
-items:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Introduction
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Habitat
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Media
-</li>
-</ul>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Wrap the text of each list item in the unordered list in an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">anchor</code> element. Each
-anchor tag should link to the corresponding
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> on the page
-(The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> element
-that contains the text “Introduction” links to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">#introduction</code>).
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Whitespace
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The rest of this lesson will focus on some tools developers use to make
-code easier to interpret.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As the code in an HTML file grows, it becomes increasingly difficult to
-keep track of how elements are related. Programmers use two tools to
-visualize the relationship between elements: <em>whitespace</em> and
-<em>indentation</em>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Both tools take advantage of the fact that the position of elements in a
-browser is independent of the amount of whitespace or indentation in the
-<strong>index.html</strong> file.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-For example, if you wanted to increase the space between two paragraphs
-on your web page, you would <em>not</em> be able to accomplish this by
-adding space between the paragraph elements in the
-<strong>index.html</strong> file. The browser ignores
-<em>whitespace</em> in HTML files when it renders a web page, so it can
-be used as a tool to make code easier to read and follow.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-What makes the example below difficult to read?
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You have to read the entire line to know what elements are present.
-Compare the example above to this:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This example is easier to read, because each element is on its own line.
-While the first example required you to read the entire line of code to
-identify the elements, this example makes it easy to identify the body
-tag and two paragraphs.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-A browser renders both examples the same way:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">Paragraph 1</span></span><br><span><span class="mtk1">Paragraph 2</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the next exercise you will learn how to use indentation to help
-visualize nested elements.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Use whitespace to make the code more readable by putting each element on
-its own line.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Indentation
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The second tool web developers use to make the structure of code easier
-to read is <em>indentation</em>. The spaces are inserted using the
-<kbd>space</kbd> and <kbd>tab</kbd> bars on your keyboard.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.w3.org/Consortium/">World
-Wide Web Consortium</a>, or W3C, is responsible for maintaining the
-style standards of HTML. At the time of writing, the W3C recommends 2
-spaces of indentation when writing HTML code. Although your code will
-work without exactly two spaces, this standard is followed by the
-majority of professional web developers. Indentation is used to easily
-visualize which elements are nested within other elements.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 1</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;div&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Paragraph 2</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/div&gt;</span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Paragraph 1</code> and the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag are nested
-inside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code>
-tag, so they are indented two spaces. The
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Paragraph 2</code> element is
-nested inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag, so it is
-indented an additional two spaces.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Indent the code in <strong>index.html</strong> to match the W3C
-standards.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### Comments
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML files also allow you to add
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/comments?page_ref=catalog">comments</a>
-to your code.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Comments begin with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!–</code> and end with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">–\></code>. Any characters in
-between will be ignored by your browser.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- This is a&nbsp;comment that the browser will not d</span><span class="mtk16">isplay. --&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Including comments in your code is helpful for many reasons:
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-They help you (and others) understand your code if you decide to come
-back and review it at a much later date.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-They allow you to experiment with new code, without having to delete old
-code.
-</li>
-</ol>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- Favorite Films Section --&gt;</span></span><br><span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The following is a&nbsp;list of my favorite films:</span><span class="mtk4">&lt;/p&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, the comment is used to denote that the following text
-makes up a particular section of the page.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!-- &lt;p&gt; Test Code &lt;/p&gt; --&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, a valid HTML element (a paragraph element) has
-been “commented out.” This practice is useful when there is code you
-want to experiment with, or return to, in the future.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a comment to <strong>index.html</strong> file.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML DOCUMENT STANDARDS
-
-### HTML Tags
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You now know all of the basic elements and set-up you need to structure
-an HTML page and add different types of content. With the help of CSS,
-very soon you’ll be creating beautiful websites!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-While some tags have a very specific purpose, such as image and video
-tags, most tags are used to describe the content that they surround,
-which helps us modify and style our content later. There are seemingly
-infinite numbers of tags to use (many more than we’ve taught). Knowing
-when to use each one is based on how you want to describe the content of
-your HTML. Descriptive, well-chosen tags are one key to high-quality web
-development. A full list of available HTML tags can be found
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">in
-Mozilla documentation</a>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s review what you’ve learned this lesson:
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE html\></code>
-declaration should always be the first line of code in your HTML files.
-This lets the browser know what version of HTML to expect.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code> element
-will contain all of your HTML code.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Information about the web page, like the title, belongs within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> of the page.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-You can add a title to your web page by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code> element,
-inside of the head.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A webpage’s title appears in a browser’s tab.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Anchor tags (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code>)
-are used to link to internal pages, external pages or content on the
-same page.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-You can create sections on a webpage and jump to them using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> tags and adding
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code>s to the elements
-you wish to jump to.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Whitespace between HTML elements helps make code easier to read while
-not changing how elements appear in the browser.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Indentation also helps make code easier to read. It makes parent-child
-relationships visible.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Comments are written in HTML using the following syntax:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!– comment –\></code>.
-</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Take some time to edit the workspace you created and observe how it
-changes!
-</p>
-
-**Instructions**
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Congratulations on completing this lesson!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you want to review how to use HTML in a project, watch the video
-below and follow along with one of our experts:
-</p>
-
-<iframe width="300" height="200" src="https://www.youtube.com/embed/B4tCt6elrU0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="iframe__rk2yNYIwJeUOj5J8cQJ9-">
-</iframe>
-
-**Solutions**
-
-``` html
-```
-
-## Intro to Mozilla Developer Network
-
-<h2 id="heading-introduction-the-mozilla-developer-network" class="h2__1Ly_Sza5xVS3yZl46_StcN">
-Introduction: The Mozilla Developer Network
-</h2>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When learning a topic, it’s often helpful to go straight to the source
-to read more from the original documentation. For web development, one
-of the most well-known names in the industry is the
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/">Mozilla
-Developer Network</a>, or “MDN” for short. This open-source network of
-documentation and tools has information about a wide variety of topics
-related to web development, including HTML, CSS, and JavaScript.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_homepage.png" alt="MDN home page" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-MDN originally started with documentation for web browsers but has grown
-to cover a wide variety of web-related topics over the years. Today,
-companies like Microsoft and Google actively support MDN as the central
-source of information about web technology.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-While reading or using MDN documentation isn’t required to complete
-Codecademy lessons or projects, it’s an important resource for you to be
-aware of. As you start to put your skills to practical use by working on
-projects off of Codecademy, knowing where to go for more information
-will be essential to your growth and success as a developer.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This article will cover:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-How to search for MDN articles
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Identifying which sections relate to what you’re looking for
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The examples provided will focus on HTML syntax, but this article will
-give you a general idea of how to use MDN documentation.
-</p>
-<h2 id="heading-searching-for-mdn-articles" class="h2__1Ly_Sza5xVS3yZl46_StcN">
-Searching for MDN Articles
-</h2>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-To find documentation related to a topic you’re looking for, go to the
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/">home
-page</a> and find the search bar in the upper-righthand corner of the
-page.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_searchbar.png" alt="Home page of MDN Web Docs site with search bar highlighted" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Type in the topic you’re searching for in the search bar, press
-<kbd>Enter</kbd> to display a list of results. (The more specific the
-terms you use to search, the more likely you’ll get relevant results.)
-In this example, we’ll look for documentation related to the HTML
-section heading elements syntax:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_search_results.gif" alt="Typing keywords into MDN search bar and search results displaying" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Choose a result and you’ll be taken to a page displaying more detailed
-information about the topic. The example here uses the article titled
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">“\<h1\>–\<h6\>:
-The HTML Section Heading elements”</a>.
-</p>
-<h2 id="heading-mdn-article-sections" class="h2__1Ly_Sza5xVS3yZl46_StcN">
-MDN Article Sections
-</h2>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-MDN articles usually divide content into separate sections. The types of
-sections will vary depending on the topic, but you will find the
-following sections in HTML documentation:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A definition and demo
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Attributes
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Usage notes
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Examples
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Accessibility concerns
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Specifications
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Browser compatibility
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Related topics
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Except for the Related Topics sidebar, you can jump to the relevant
-section you want to look at by clicking on the link in the menu, “On
-this Page,” located at the top of the page.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_jump_to_section.jpg" alt="On this Page section of the MDN article for HTML section heading elements" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Each of these sections will be covered, starting with those that should
-provide you with immediate help with syntax followed by the sections
-that give more general information about HTML. One thing to note before
-continuing is that it is not necessary to read through every section in
-an article or to understand all the content in it. Feel free to pick and
-choose sections to look at that make the most sense to you. There will
-always be more information in documentation than is necessary for what
-you need to do at any one time.
-</p>
-<h3 id="heading-definition-and-demo" class="h3__3B1DSzXTW-ux1viDSStOux">
-Definition and Demo
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-At the top of an MDN article, you’ll see a written definition of the
-article’s subject. Below the definition, you will find a demo, an
-interactive example. Here the demo displays a variety of heading
-elements showing the correct syntax.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_demo.png" alt="Definition and demo section of the MDN HTML section heading elements article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-These demos allow you to run the example code given to you and see the
-immediate result.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can also interact with the example code including making changes to
-it, allowing you to learn how the code works by testing code and
-observing the result. The demo can be especially helpful if you prefer
-to learn by reading through code and playing with it rather than a
-written description.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_interactive_demo.gif" alt="Changing the content of a section heading element in the demo of the MDN HTML section heading elements article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<h3 id="heading-attributes" class="h3__3B1DSzXTW-ux1viDSStOux">
-Attributes
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the definition and demo is “Attributes.” This section describes
-any attributes specific to the HTML element. In this case, there are
-none except for global attributes like
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> or
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id</code> that are used on
-all HTML elements.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_attributes_section.png" alt="Attributes section of the MDN HTML section heading elements article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<h3 id="heading-usage-notes" class="h3__3B1DSzXTW-ux1viDSStOux">
-Usage Notes
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The section titled “Usage notes” gives helpful tips, including best
-practices that will help your website follow certain standards.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_usage_notes_list.png" alt="Usage notes section of the MDN article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This section is particularly useful when working with unfamiliar syntax
-and can help you avoid common mistakes. If any of the notes are unclear,
-the examples in the next section should show code snippets that follow
-the recommendations in the usage notes.
-</p>
-<h3 id="heading-examples" class="h3__3B1DSzXTW-ux1viDSStOux">
-Examples
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This section provides you with even more examples. However, unlike the
-interactive demo you saw at the top of the page you won’t be able to
-change the code directly in this section.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_examples.png" alt="A code example from the MDN article on HTML section heading elements showing all headings" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The examples provide syntactically correct uses of HTML elements for you
-to model your code on as well as the result of running these examples.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If the written definition and demo don’t provide clear guidance on what
-an article subject is or how to use it, looking at the examples in this
-section can be helpful. Like the written content, it’s not necessary to
-understand every example shown or read through every example.
-</p>
-<h2 id="heading-supporting-sections" class="h2__1Ly_Sza5xVS3yZl46_StcN">
-Supporting Sections
-</h2>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The following sections aren’t essential to learning syntax but they
-provide more detailed information about how to best and correctly use
-the code shown in the previous sections. As mentioned earlier, there
-will always be more information contained in documentation than you
-need. However, going through these sections can help enlarge your
-knowledge of a given topic or give some insight into how or why a
-certain web technology was created.
-</p>
-<h3 id="heading-accessibility-concerns" class="h3__3B1DSzXTW-ux1viDSStOux">
-Accessibility Concerns
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The accessibility concerns section goes over any issues that might
-impact accessibility, or how easily people can use your website when
-implementing the code or web technology shown in the article.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_accessibility.png" alt="Accessibility Concerns section of an MDN article " class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Similar to the usage notes, the accessibility concerns section covers
-best practices that should be followed so that anyone visiting your
-website can use it.
-</p>
-<h3 id="heading-specifications" class="h3__3B1DSzXTW-ux1viDSStOux">
-Specifications
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The specifications section provides links to resources that discuss the
-article’s topic in more detail. This article’s section goes into the
-design of these HTML elements, what their purpose is, and how they
-should function.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_specifications.png" alt="Specifications section of an MDN article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<h3 id="heading-browser-compatibility" class="h3__3B1DSzXTW-ux1viDSStOux">
-Browser Compatibility
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This section displays information about which web browsers can support,
-or properly display the HTML elements, discussed in the article. The
-information found here is similar to the information you would find on a
-website like
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://caniuse.com/">caniuse.com</a>
-although less detailed.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<img src="https://static-assets.codecademy.com/Courses/reading-documentation/mdn_browser_compatibility.png" alt="Browser compatibility section of an MDN article" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<h3 id="heading-related-topics" class="h3__3B1DSzXTW-ux1viDSStOux">
-Related Topics
-</h3>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-There are two sections of this article that will show you additional,
-related topics: the section “See also” and the sidebar under “Related
-Topics.” Both provide linked articles that discuss topics related to the
-subject of the current article.
-</p>
-<h2 id="heading-recap" class="h2__1Ly_Sza5xVS3yZl46_StcN">
-Recap
-</h2>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this article you learned:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-How to search on MDN
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-What sections provide practical help with syntax and style
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Where you can interact with examples
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-What sections have more information about a topic, including new
-terminology and more complex contexts and uses
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Introducing you to MDN documentation early on provides you with an
-additional resource for looking up syntax and familiarizes you with one
-of the most important sources of documentation about web technologies.
-It also gives you the resources to enrich and extend your knowledge of a
-topic or subject beyond a beginner-level. So when you’re stuck on
-something, or you just want to learn a little more, try reading the
-documentation. You might just find what you’re looking for!
-</p>
-
-## HTML on MDN Web Docs: Debugging
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-→
-<strong><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML">HTML
-on MDN Web Docs: Debugging</a></strong>
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this article, you will learn about debugging HTML through the
-documentation on the Mozilla Developer Network. This is helpful if you’d
-like to understand how to fix common errors that developers make while
-constructing HTML. After you finish reading the article, return to this
-page and complete the following assessments.
-</p>
-
-<svg viewBox="0 0 1000 1000" height="24" width="24" aria-label="Loading assessment">
-<title>
-Spinner
-</title>
-<circle fill="currentColor" cx="937.5" cy="500" r="62.5"></circle><path fill="currentColor" d="M1000 500H875c0-22.2-1.9-44-5.6-65.1l123.1-21.7h.1c4.8 28.2 7.4 57.2 7.4 86.8z"></path><path opacity=".96" fill="currentColor" d="M992.5 413.2l-123.1 21.7c-3.8-21.8-9.5-42.9-16.9-63.2L969.9 329l.1-.1c9.8 27.1 17.4 55.2 22.5 84.3z"></path><path opacity=".92" fill="currentColor" d="M969.9 328.9l-.1.1-117.3 42.7c-7.5-20.6-16.8-40.4-27.7-59.2L933 249.9l.1-.1a503.3 503.3 0 0 1 36.8 79.1z"></path><path opacity=".88" fill="currentColor" d="M933.1 249.9l-108.2 62.6c-10.9-18.9-23.6-36.9-37.6-53.5l95.7-80.4c18.7 22.2 35.4 46.1 50.1 71.3z"></path><path opacity=".84" fill="currentColor" d="M883 178.6L787.3 259c-14.1-16.7-29.5-32.2-46.2-46.2l80.3-95.8c22.3 18.7 42.9 39.3 61.6 61.6z"></path><path opacity=".8" fill="currentColor" d="M821.4 116.9L741 212.7c-16.7-14-34.6-26.6-53.5-37.6l62.4-108.2.1-.1c25.3 14.8 49.2 31.5 71.4 50.1z"></path><path opacity=".76" fill="currentColor" d="M750.1 66.9l-62.5 108.2c-18.8-10.9-38.6-20.1-59.2-27.7L671 30.1l.1-.1c27.5 10.1 53.9 22.4 79 36.9z"></path><path opacity=".72" fill="currentColor" d="M671.1 30l-.1.1-42.7 117.4c-20.3-7.4-41.4-13.1-63.2-16.9l21.7-123v-.1c29.1 5.1 57.2 12.7 84.3 22.5z"></path><path opacity=".68" fill="currentColor" d="M586.8 7.5l-21.7 123.1c-21.1-3.7-42.9-5.6-65.1-5.6V0c29.6 0 58.6 2.6 86.8 7.5z"></path><path opacity=".64" fill="currentColor" d="M500 0v125c-22.2 0-44 1.9-65.1 5.6l-21.7-123v-.1C441.4 2.6 470.4 0 500 0z"></path><path opacity=".6" fill="currentColor" d="M413.2 7.6l21.7 123.1c-21.8 3.8-42.9 9.5-63.2 16.9L329 30.1l-.1-.1c27.1-9.9 55.2-17.4 84.3-22.4z"></path><path opacity=".56" fill="currentColor" d="M329 30.1l42.7 117.4c-20.6 7.5-40.4 16.8-59.2 27.7L250 67l-.1-.1C275 52.4 301.4 40.1 329 30.1z"></path><path opacity=".04" fill="currentColor" d="M371.7 852.5L329 969.9l-.1.1c-27.6-10-53.9-22.4-79-36.9l.1-.1 62.5-108.2c18.7 10.9 38.6 20.1 59.2 27.7z"></path><path opacity=".52" fill="currentColor" d="M250 67l62.5 108.2c-18.9 11-36.9 23.6-53.5 37.6L178.6 117c22.2-18.7 46.1-35.4 71.4-50z"></path><path opacity=".08" fill="currentColor" d="M312.5 824.8L250 933l-.1.1c-25.2-14.6-49.1-31.4-71.4-50.1l80.4-95.7c16.7 13.9 34.6 26.6 53.6 37.5z"></path><path opacity=".48" fill="currentColor" d="M178.6 117l80.4 95.8c-16.7 14.1-32.2 29.5-46.2 46.2L117 178.6c18.7-22.3 39.3-42.9 61.6-61.6z"></path><path opacity=".12" fill="currentColor" d="M258.9 787.2L178.6 883c-22.3-18.7-42.9-39.3-61.6-61.6l95.8-80.3c14 16.7 29.4 32.1 46.1 46.1z"></path><path opacity=".44" fill="currentColor" d="M117 178.6l95.8 80.4c-14 16.6-26.6 34.5-37.6 53.5L67 250l-.1-.1c14.7-25.2 31.4-49.1 50.1-71.3z"></path><path opacity=".16" fill="currentColor" d="M212.8 741.1L117 821.4c-18.7-22.2-35.4-46.1-50.1-71.4l.1-.1 108.2-62.4c11 19 23.6 36.9 37.6 53.6z"></path><path opacity=".4" fill="currentColor" d="M67 250l108.2 62.5c-10.9 18.8-20.1 38.6-27.7 59.2L30.1 329l-.1-.1c10-27.6 22.4-53.9 36.9-79l.1.1z"></path><path opacity=".2" fill="currentColor" d="M175.2 687.6L67 750l-.1.1C52.4 725 40 698.7 30 671.1l.1-.1 117.4-42.7c7.6 20.6 16.8 40.5 27.7 59.3z"></path><path opacity=".36" fill="currentColor" d="M30.1 329l117.4 42.7c-7.4 20.3-13.1 41.4-16.9 63.2l-123-21.7h-.1c5.1-29 12.6-57.2 22.5-84.2h.1z"></path><path opacity=".24" fill="currentColor" d="M147.5 628.3L30.1 671l-.1.1c-9.9-27.1-17.4-55.2-22.5-84.2h.1l123.1-21.7c3.7 21.7 9.4 42.8 16.8 63.1z"></path><path opacity=".32" fill="currentColor" d="M7.6 413.2l123.1 21.7c-3.7 21.1-5.6 42.9-5.6 65.1H0c0-29.6 2.6-58.6 7.6-86.8z"></path><path opacity=".28" fill="currentColor" d="M130.6 565.1l-123 21.7h-.1A506.7 506.7 0 0 1 0 500h125c0 22.2 1.9 44 5.6 65.1z"></path><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" begin="0" repeatCount="indefinite"></animateTransform>
-</svg>
-
-<svg viewBox="0 0 1000 1000" height="24" width="24" aria-label="Loading assessment">
-<title>
-Spinner
-</title>
-<circle fill="currentColor" cx="937.5" cy="500" r="62.5"></circle><path fill="currentColor" d="M1000 500H875c0-22.2-1.9-44-5.6-65.1l123.1-21.7h.1c4.8 28.2 7.4 57.2 7.4 86.8z"></path><path opacity=".96" fill="currentColor" d="M992.5 413.2l-123.1 21.7c-3.8-21.8-9.5-42.9-16.9-63.2L969.9 329l.1-.1c9.8 27.1 17.4 55.2 22.5 84.3z"></path><path opacity=".92" fill="currentColor" d="M969.9 328.9l-.1.1-117.3 42.7c-7.5-20.6-16.8-40.4-27.7-59.2L933 249.9l.1-.1a503.3 503.3 0 0 1 36.8 79.1z"></path><path opacity=".88" fill="currentColor" d="M933.1 249.9l-108.2 62.6c-10.9-18.9-23.6-36.9-37.6-53.5l95.7-80.4c18.7 22.2 35.4 46.1 50.1 71.3z"></path><path opacity=".84" fill="currentColor" d="M883 178.6L787.3 259c-14.1-16.7-29.5-32.2-46.2-46.2l80.3-95.8c22.3 18.7 42.9 39.3 61.6 61.6z"></path><path opacity=".8" fill="currentColor" d="M821.4 116.9L741 212.7c-16.7-14-34.6-26.6-53.5-37.6l62.4-108.2.1-.1c25.3 14.8 49.2 31.5 71.4 50.1z"></path><path opacity=".76" fill="currentColor" d="M750.1 66.9l-62.5 108.2c-18.8-10.9-38.6-20.1-59.2-27.7L671 30.1l.1-.1c27.5 10.1 53.9 22.4 79 36.9z"></path><path opacity=".72" fill="currentColor" d="M671.1 30l-.1.1-42.7 117.4c-20.3-7.4-41.4-13.1-63.2-16.9l21.7-123v-.1c29.1 5.1 57.2 12.7 84.3 22.5z"></path><path opacity=".68" fill="currentColor" d="M586.8 7.5l-21.7 123.1c-21.1-3.7-42.9-5.6-65.1-5.6V0c29.6 0 58.6 2.6 86.8 7.5z"></path><path opacity=".64" fill="currentColor" d="M500 0v125c-22.2 0-44 1.9-65.1 5.6l-21.7-123v-.1C441.4 2.6 470.4 0 500 0z"></path><path opacity=".6" fill="currentColor" d="M413.2 7.6l21.7 123.1c-21.8 3.8-42.9 9.5-63.2 16.9L329 30.1l-.1-.1c27.1-9.9 55.2-17.4 84.3-22.4z"></path><path opacity=".56" fill="currentColor" d="M329 30.1l42.7 117.4c-20.6 7.5-40.4 16.8-59.2 27.7L250 67l-.1-.1C275 52.4 301.4 40.1 329 30.1z"></path><path opacity=".04" fill="currentColor" d="M371.7 852.5L329 969.9l-.1.1c-27.6-10-53.9-22.4-79-36.9l.1-.1 62.5-108.2c18.7 10.9 38.6 20.1 59.2 27.7z"></path><path opacity=".52" fill="currentColor" d="M250 67l62.5 108.2c-18.9 11-36.9 23.6-53.5 37.6L178.6 117c22.2-18.7 46.1-35.4 71.4-50z"></path><path opacity=".08" fill="currentColor" d="M312.5 824.8L250 933l-.1.1c-25.2-14.6-49.1-31.4-71.4-50.1l80.4-95.7c16.7 13.9 34.6 26.6 53.6 37.5z"></path><path opacity=".48" fill="currentColor" d="M178.6 117l80.4 95.8c-16.7 14.1-32.2 29.5-46.2 46.2L117 178.6c18.7-22.3 39.3-42.9 61.6-61.6z"></path><path opacity=".12" fill="currentColor" d="M258.9 787.2L178.6 883c-22.3-18.7-42.9-39.3-61.6-61.6l95.8-80.3c14 16.7 29.4 32.1 46.1 46.1z"></path><path opacity=".44" fill="currentColor" d="M117 178.6l95.8 80.4c-14 16.6-26.6 34.5-37.6 53.5L67 250l-.1-.1c14.7-25.2 31.4-49.1 50.1-71.3z"></path><path opacity=".16" fill="currentColor" d="M212.8 741.1L117 821.4c-18.7-22.2-35.4-46.1-50.1-71.4l.1-.1 108.2-62.4c11 19 23.6 36.9 37.6 53.6z"></path><path opacity=".4" fill="currentColor" d="M67 250l108.2 62.5c-10.9 18.8-20.1 38.6-27.7 59.2L30.1 329l-.1-.1c10-27.6 22.4-53.9 36.9-79l.1.1z"></path><path opacity=".2" fill="currentColor" d="M175.2 687.6L67 750l-.1.1C52.4 725 40 698.7 30 671.1l.1-.1 117.4-42.7c7.6 20.6 16.8 40.5 27.7 59.3z"></path><path opacity=".36" fill="currentColor" d="M30.1 329l117.4 42.7c-7.4 20.3-13.1 41.4-16.9 63.2l-123-21.7h-.1c5.1-29 12.6-57.2 22.5-84.2h.1z"></path><path opacity=".24" fill="currentColor" d="M147.5 628.3L30.1 671l-.1.1c-9.9-27.1-17.4-55.2-22.5-84.2h.1l123.1-21.7c3.7 21.7 9.4 42.8 16.8 63.1z"></path><path opacity=".32" fill="currentColor" d="M7.6 413.2l123.1 21.7c-3.7 21.1-5.6 42.9-5.6 65.1H0c0-29.6 2.6-58.6 7.6-86.8z"></path><path opacity=".28" fill="currentColor" d="M130.6 565.1l-123 21.7h-.1A506.7 506.7 0 0 1 0 500h125c0 22.2 1.9 44 5.6 65.1z"></path><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" begin="0" repeatCount="indefinite"></animateTransform>
-</svg>
 
 ## FRONT-END ENGINEER
 
-### Fashion Blog
+### Broadway
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Your friend Isa is a budding fashion blogger, and she’s asked you to
-build her a new website, just in time for New York Fashion Week!
+In this project, you will use properties such as
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> to improve
+the layout of the landing page for a fictional design firm, Broadway
+Design.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Use your new HTML knowledge to create the underlying structure of the
-blog. Make sure to include plenty of pictures, links, lists, and other
-HTML elements that you’ve learned so that her fans have plenty to read.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can view a
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/learn-html/elements-and-structure/fashion.html">completed
-project</a> and see how it compares to your work!
+The site has some style rules to begin with. You will improve the layout
+and positioning of the navigation menu at the top of the page and the
+three supporting sections (Design, Develop, Deploy) below the image.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 If you get stuck during this project or would like to see an experienced
@@ -3071,11 +7787,13 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-1">1.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-To start, add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<!DOCTYPE
-html\></code> declaration as the very first line of code at the top of
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">index.html</code> file.
-Add the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code>
-element below.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>
+currently scrolls with the rest of the document.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set its <code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code>
+property so that it stays stuck to the top of the window when the
+document is scrolled.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -3103,12 +7821,12 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-2">2.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<html\></code>
-opening tag, add a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code> element.
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>
-element, add the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> element.
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> has
+shrunk!
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Change the width of the same element so that it stretches across its
+entire parent element.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -3136,9 +7854,17 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-3">3.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<head\></code>
-tags, add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<title\></code>
-element. Title the website “Everyday with Isa”.
+List items (<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code>)
+inside of the navigation section
+(<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code>) are
+currently displayed as a list.
+</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">
+Set their <code class="code__2rdF32qjRVp7mMVBHuPwDS">display</code>
+property so that they can appear next to each other horizontally (but so
+that you still set their
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code> in the next
+task).
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -3166,26 +7892,7 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-4">4.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Directly below the opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tag, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> that says:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-“An Insider’s Guide to NYFW”
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below that, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> that says:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-“Getting Tickets & Picking the Shows”
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below that, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> that says:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-“Dressing for the Shows”
+Set the width of the same elements to 80 pixels.
 </p>
 
 </article>
@@ -3201,17 +7908,16 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-5">5.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Here’s Isa’s first dispatch from Fashion Week! Let’s add a blog post.
-Between the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> and
-first <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> tag, add
-a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag that says:
+After changing the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> of the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> element to
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">fixed</code>, the contents of
+the entire site after it shifted upwards.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-“NYFW can be both amazingly fun & incredibly overwhelming, especially if
-you’ve never been. Luckily, I’m here to give you an insider’s guide and
-make your first show a pleasurable experience. By taking my tips and
-tricks, and following your gut, you’ll have an unforgettable
-experience!”
+Set the <code class="code__2rdF32qjRVp7mMVBHuPwDS">position</code> of
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> so that we
+can position it relatively.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -3239,2886 +7945,14 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-6">6.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Between the first and second
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> tags, add
-another paragraph to the post using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-“If you’re lucky or connected you can get an invite, sans the price tag.
-But I wasn’t so lucky or connected my first 2 years so I’m here to help
-you out. First, plan out which shows are most important to you and make
-a schedule and this is a biggie: SET A BUDGET. If you’re worrying about
-blowing your cash the whole time you won’t have fun. Then check out
-prices, days, and times and prioritize the designers you want to see
-most. Lastly, purchase your tickets and get excited!”
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-7">7.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-After the last <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-tag, add a final paragraph that says:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-“Always be true to your own sense of style, if you don’t you’ll be
-uncomfortable the whole time and it will show. Remember, NYFW is about
-expressing yourself and taking in what the designers have chosen to
-express through their new lines. Also it’s important to wear shoes
-you’ll be comfortable in all day. Obviously you want to look good, but
-you’ll be on your feet all day long, so be prepared.”
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-8">8.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Of course, this wouldn’t be a fashion blog without some images. Above
-each paragraph, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag and set
-its <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> to be one of
-the following links:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-one.jpeg</span></span><br></div></code></pre></pre>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-two.jpeg</span></span><br></div></code></pre></pre>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/image-three.jpeg</span></span><br></div></code></pre></pre>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-9">9.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Your first blog post is complete! Now let’s add an image of Isa, so her
-readers get to know her. Below the opening body tag, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag with the
-following source:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/learn-html/</span><span class="mtk1">elements-and-structure/profile.jpg</span></span><br></div></code></pre></pre>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-10">10.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag,
-add an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code> that
-says “by Isabelle Rodriguez \| 1 day ago”
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-11">11.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Isa wants her readers to know that she’s written a lot more than one
-post. Let’s make a list of some related blog posts. Beneath the last
-paragraph, add a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h4\></code> tag that says
-“Related Content”. Underneath that header tag, create an unordered list.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-12">12.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The unordered list should have the following four items:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-“How To Style Boyfriend Jeans”
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-“When Print Is Too Much”
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-“The Overalls Trend”
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-“Fall’s It Color: Blush”
-</li>
-</ul>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-13">13.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s get Isa’s blog connected to the rest of the web! In the first
-paragraph, turn ‘NYFW’ into a link and have it go to:
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/New_York_Fashion_Week">https://en.wikipedia.org/wiki/New_York_Fashion_Week</a>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Make sure to include the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">target=“\_blank”</code>
-attribute so that it opens in a new page.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-14">14.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Isa wants to make sure that her friends can get in touch with her. At
-the bottom of your body, add a new
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> and set its
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">id=‘contact’</code>. Inside
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>, create a
-new <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag and put
-the following contact information inside of it:
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-email:
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="mailto:isa@fashionblog.com">isa@fashionblog.com</a>
-\| phone: 917-555-1098 \| address: 371 284th St, New York, NY, 10001
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-15">15.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside the contact
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>, put
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<strong\></code> opening and
-closing tags around “email”, “phone”, and “address”.
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-16">16.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s make the profile picture a link to the contact section of the
-webpage. Find the profile
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag, and
-surround it by opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> tags. In the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a\></code> tag, set
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">href=“#contact”</code>.
-</p>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-17">17.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Congrats! You’ve got the beginnings of a solid fashion blog. Feel free
-to make modifications and practice your HTML by adding more content.
-</p>
-
-</article>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Introduction to Tables
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-There are many websites on the Internet that display information like
-stock prices, sports scores, invoice data, and more. This data is
-tabular in nature, meaning that a table is often the best way of
-presenting the data.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this part of the course, we’ll learn how to use the HTML
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element to
-present information in a two-dimensional table to the users.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s get started!
-</p>
-
-**Instructions**
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Take a look at the code in the body of <strong>index.html</strong>. What
-new code do you see?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Explore with the code in this file and try modifying something at
-random. What happened?
-</p>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Create a Table
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Before displaying data, we must first create the table that will contain
-the data by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element
-will contain all of the tabular data we plan on displaying.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>index.html</strong>, create a table just above the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">body</code> tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Rows
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In many programs that use tables, the table is already predefined for
-you, meaning that it contains the
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Table_(information)">rows,
-columns, and cells that will hold data</a>. In HTML, all of these
-components must be created.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The first step in entering data into the table is to add rows using the
-<em>table row</em> element:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tr\></code>.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, two rows have been added to the table.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add two rows to the table in <strong>index.html</strong>.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Data
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Rows aren’t sufficient to add data to a table. Each cell element must
-also be defined. In HTML, you can add data using the <em>table data</em>
-element: <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td\></code>.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, two data points
-(<code class="code__2rdF32qjRVp7mMVBHuPwDS">73</code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">81</code>) were entered in
-the one row that exists. By adding two data points, we created two cells
-of data.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If the table were displayed in the browser, it would show a table with
-one row and two columns.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the second row, add three cells of data. The cells should contain the
-following data, in order:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Adam’s Greenworks
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-14
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Package Items
-</li>
-</ul>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Headings
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Table data doesn’t make much sense without titles to describe what the
-data represents.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-To add titles to rows and columns, you can use the <em>table
-heading</em> element:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The table heading element is used just like a table data element, except
-with a relevant title. Just like table data, a table heading must be
-placed within a table row.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Temperature</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-What happened in the code above?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-First, a new row was added to hold the three headings: a blank heading,
-a <code class="code__2rdF32qjRVp7mMVBHuPwDS">Saturday</code> heading,
-and a <code class="code__2rdF32qjRVp7mMVBHuPwDS">Sunday</code> heading.
-The blank heading creates the extra table cell necessary to align the
-table headings correctly over the data they correspond to.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the second row, one table heading was added as a row title:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Temperature</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When rendered, this code will appear similar to the image below:
-<img src="https://content.codecademy.com/courses/learn-html-tables/table_example.png" alt="Table Example" class="img__1JGFO2nlisObc3KeOSGPRp">
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Note, also, the use of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">scope</code> attribute, which
-can take one of two values:
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">row</code> - this value makes
-it clear that the heading is for a row.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">col</code> - this value makes
-it clear that the heading is for a column.
-</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-HTML code for tables may look a little strange at first, but analyzing
-it piece by piece helps make the code more understandable.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the first row, add three table headings. The headings should contain
-the following data, in order:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Company Name
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Number of Items to Ship
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Next Action
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-These headings will add meaning to the rest of the data in the table.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now add a <code class="code__2rdF32qjRVp7mMVBHuPwDS">scope</code>
-attribute to each of these new headings.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Borders
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-So far, the tables you’ve created have been a little difficult to read
-because they have no borders.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In older versions of HTML, a border could be added to a table using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code> attribute and
-setting it equal to an integer. This integer would represent the
-thickness of the border.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table</span><span class="mtk1"> </span><span class="mtk7">border</span><span class="mtk1">=</span><span class="mtk8">"1"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">73</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">81</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The code in the example above is
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Deprecation">deprecated</a>,
-so please don’t use it. It’s meant to illustrate older conventions you
-may come across when reading other developers’ code.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The browser will likely still interpret your code correctly if you use
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">border</code> attribute,
-but that doesn’t mean the attribute should be used.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We use CSS to add style to HTML documents, because it helps us to
-separate the structure of a page from how it looks. You can learn more
-about CSS in our CSS courses.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can achieve the same table border effect using CSS.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The code in the example above uses CSS instead of HTML to show table
-borders.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We’re going to need some more data in the table. Add the following data
-to the table. Make sure to place it after the second table row.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Davie's Burgers</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">2</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Baker's Bike Shop</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">3</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Send Invoice</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Miss Sally's Southern</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Summit Resort Rentals</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">4</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Ship</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Strike Fitness</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">1</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Enter Order</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;/tr&gt;</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Spanning Columns
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-What if the table contains data that spans multiple columns?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-For example, a personal calendar could have events that span across
-multiple hours, or even multiple days.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Data can span columns using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">colspan</code> attribute. The
-attribute accepts an integer (greater than or equal to 1) to denote the
-number of columns it spans across.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Monday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Tuesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Wednesday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">colspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Out of Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Back in Town</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the data
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Out of Town</code> spans the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Monday</code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Tuesday</code> table headings
-using the value <code class="code__2rdF32qjRVp7mMVBHuPwDS">2</code> (two
-columns). The data <code class="code__2rdF32qjRVp7mMVBHuPwDS">Back in
-Town</code> appear only under the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Wednesday</code> heading.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>index.html</strong>, span a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td\></code> element across
-two columns.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Spanning Rows
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Data can also span multiple rows using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">rowspan</code> attribute.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">rowspan</code> attribute
-is used for data that spans multiple rows (perhaps an event goes on for
-multiple hours on a certain day). It accepts an integer (greater than or
-equal to 1) to denote the number of rows it spans across.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 1&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 2&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 3&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span><span class="mtk1"> </span><span class="mtk16">&lt;!-- Row 4&nbsp;--&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, there are four rows:
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The first row contains an empty cell and the two column headings.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The second row contains the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Morning</code> row heading,
-along with <code class="code__2rdF32qjRVp7mMVBHuPwDS">Work</code>, which
-spans two rows under the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Saturday</code> column. The
-“Relax” entry spans three rows under the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Sunday</code> column.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The third row only contains the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Afternoon</code> row heading.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The fourth row only contains the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Dinner</code> entry, since
-“Relax” spans into the cell next to it.
-</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you’d like to see how the browser interprets the code above, feel
-free to copy and paste it into the code editor to understand it a little
-better.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>index.html</strong>, span a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td\></code> element across
-two rows.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Body
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Over time, a table can grow to contain a lot of data and become very
-long. When this happens, the table can be sectioned off so that it is
-easier to manage.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Long tables can be sectioned off using the <em>table body</em> element:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tbody\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tbody\></code> element
-should contain all of the table’s data, excluding the table headings
-(more on this in a later exercise).
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, all of the table data is contained within a table
-body element. Note, however, that the headings were also kept in the
-table’s body — we’ll change this in the next exercise.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Enclose rows 2, 3, 4, 5, 6, and 7 of the table in a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tbody\></code> element.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Head
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the last exercise, the table’s headings were kept inside of the
-table’s body. When a table’s body is sectioned off, however, it also
-makes sense to section off the table’s column headings using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Saturday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"col"</span><span class="mtk4">&gt;</span><span class="mtk1">Sunday</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Morning</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"2"</span><span class="mtk4">&gt;</span><span class="mtk1">Work</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td</span><span class="mtk1"> </span><span class="mtk7">rowspan</span><span class="mtk1">=</span><span class="mtk8">"3"</span><span class="mtk4">&gt;</span><span class="mtk1">Relax</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Afternoon</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th</span><span class="mtk1"> </span><span class="mtk7">scope</span><span class="mtk1">=</span><span class="mtk8">"row"</span><span class="mtk4">&gt;</span><span class="mtk1">Evening</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Dinner</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the only new element is
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code>. The table
-headings are contained inside of this element. Note that the table’s
-head still requires a row in order to contain the table headings.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Additionally, only the <strong>column</strong> headings go under the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code> element. We
-can use the <code class="code__2rdF32qjRVp7mMVBHuPwDS">scope</code>
-attribute on <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code>
-elements to indicate whether a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code> element is
-being used as a <code class="code__2rdF32qjRVp7mMVBHuPwDS">“row”</code>
-heading or a <code class="code__2rdF32qjRVp7mMVBHuPwDS">“col”</code>
-heading.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Enclose the first row of the table in a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code> element.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Table Footer
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The bottom part of a long table can also be sectioned off using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tfoot\></code> element.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;table&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Quarter</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Revenue</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Costs</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/thead&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q1</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$10M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$7.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Q2</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tbody&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;tfoot&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;th&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/th&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$22M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">$12.5M</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/tr&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/tfoot&gt;</span></span><br><span><span class="mtk4">&lt;/table&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the footer contains the totals of the data in the
-table. Footers are often used to contain sums, differences, and other
-data results.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a table footer at the bottom of the table using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tfoot\></code> element.
-Inside of the footer, add the following data:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">Total</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span class="mtk4">&lt;td&gt;</span><span class="mtk1">28</span><span class="mtk4">&lt;/td&gt;</span></span><br><span><span> </span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Styling with CSS
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Tables, by default, are very bland. They have no borders, the font color
-is black, and the typeface is the same type used for other HTML
-elements.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/learn/learn-css">CSS</a>,
-or Cascading Style Sheets, is a language that web developers use to
-style the HTML content on a web page. You can use CSS to style tables.
-Specifically, you can style the various aspects mentioned above.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-css" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">table</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">th</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk4">td</span><span class="mtk9"> </span><span class="mtk1">{</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">border</span><span class="mtk1">:</span><span class="mtk9"> 1px </span><span class="mtk5">solid</span><span class="mtk9"> </span><span class="mtk12">black</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">font-family</span><span class="mtk1">:</span><span class="mtk9"> Arial</span><span class="mtk1">,</span><span class="mtk9"> </span><span class="mtk5">sans-serif</span><span class="mtk1">;</span></span><br><span><span class="mtk9">&nbsp;&nbsp;</span><span class="mtk10">text-align</span><span class="mtk1">:</span><span class="mtk9"> </span><span class="mtk5">center</span><span class="mtk1">;</span></span><br><span><span class="mtk1">}</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The code in the example above demonstrates just some of the various
-table aspects you can style using CSS properties.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We’ve included a <strong>.css</strong> file containing instructions for
-styling the HTML content in the <strong>index.html</strong> file.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>style.css</strong>, set the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">font-size</code> of all table
-headings (<code class="code__2rdF32qjRVp7mMVBHuPwDS">th</code>) and
-table data (<code class="code__2rdF32qjRVp7mMVBHuPwDS">td</code>) to 18
-pixels (<code class="code__2rdF32qjRVp7mMVBHuPwDS">18px</code>).
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## HTML TABLES
-
-### Review
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Great job! In this lesson, we learned how to create a table, add data to
-it, and section the table into smaller parts that make it easier to
-read.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s review what we’ve learned so far:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element
-creates a table.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tr\></code> element
-adds rows to a table.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-To add data to a row, you can use the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td\></code> element.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Table headings clarify the meaning of data. Headings are added with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code> element.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Table data can span columns using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">colspan</code> attribute.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Table data can span rows using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">rowspan</code> attribute.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Tables can be split into three main sections: a head, a body, and a
-footer.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A table’s head is created with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code> element.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A table’s body is created with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tbody\></code> element.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A table’s footer is created with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<tfoot\></code> element.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-All the CSS properties you learned about in this course can be applied
-to tables and their data.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Congratulations on completing HTML Tables!
-</p>
-
-**Instructions**
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Take some time to experiment with your new knowledge of tables in
-<strong>index.html</strong>. When you’re done, proceed to the next unit.
-</p>
-
-**Solutions**
-
-``` html
-```
-
-## FRONT-END ENGINEER
-
-### Wine Festival Schedule
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The Aguillar Family is hosting their annual wine festival and they have
-asked you to build a web page for the event schedule! Use your knowledge
-of HTML to display a table to the attendees.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can preview the final version
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/learn-html-tables/index.html">
-at this link</a>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s begin!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-If you get stuck during this project or would like to see an experienced
-developer work through it, click “<strong>Get Unstuck</strong>“ to see a
-<strong>project walkthrough video</strong>.
-</p>
-
-**Instructions**
-
-<span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as
-complete by checking them off</span>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-1">1.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In <strong>index.html</strong>, inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element that
-has the attribute
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> with a value of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“container”</code>, create a
-new <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-2">2.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<table\></code> element, add
-a section for table headings using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<thead\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Then, add two rows inside of it using the <em>table row</em> element.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-3">3.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside the first table row element, from task 2, add a <em>table
-heading</em> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside of that, include an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> with the
-following text: <code class="code__2rdF32qjRVp7mMVBHuPwDS">Wine Festival
-Schedule</code>.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-4">4.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside the second table row element, from task 2, add two
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code>s:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the first, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Time</code>.
-</p>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the second, add an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> that says
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Event</code>.
-</p>
-</li>
-</ul>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-5">5.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You may notice that “Wine Festival Schedule” does not stretch across the
-entire table. Let’s fix that!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the opening <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<th\></code>
-tag of this element, add
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">colspan=“2”</code>.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-6">6.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Below the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</thead\></code> tag,
-section off the table using the <em>table body</em> element.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-7">7.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside of the table body you created in the previous task, create 5 rows
-using the <em>table row</em> element.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-8">8.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside each row, create two cells using the <em>table data</em> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The first table data in each row should have the attribute
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code> with the value
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“left”</code>.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-9">9.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside each of the 5 <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td
-class=“left”\></code> elements, add
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code> elements that
-include the times of the events:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">12:00 PM</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">01:00 PM</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">02:00 PM</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">03:00 PM</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">04:00 PM</code>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Feel free to look back at the
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/learn-html-tables/index.html">live
-site</a> to compare.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-10">10.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside each of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<td\></code> elements that
-does not have a <code class="code__2rdF32qjRVp7mMVBHuPwDS">class</code>
-attribute with a value of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“left”</code>, add
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h3\></code> elements that
-include the name of events:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Welcome Reception</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Storytelling & Tasting</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Wine Luncheon</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Aguillar Family Wines</code>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">Wine & Cheese Tasting</code>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You have created the events table. Cheers!
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Introduction to Semantic HTML
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-When building web pages, we use a combination of non-semantic HTML and
-<em>Semantic HTML</em>. The word semantic means “relating to meaning,”
-so semantic elements provide information about the content between the
-opening and closing tags.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-By using Semantic HTML, we select HTML elements based on their meaning,
-not on how they are presented. Elements such as
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<span\></code> are not
-semantic elements since they provide no context as to what is inside of
-those tags.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-For example, instead of using a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> element to
-contain our header information, we could use a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> element,
-which is used as a heading section. By using a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> tag instead
-of a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>, we
-provide context as to what information is inside of the opening and
-closing tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Why use Semantic HTML?</strong>
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Accessibility:</strong> Semantic HTML makes webpages accessible
-for mobile devices and for people with disabilities as well. This is
-because screen readers and browsers are able to interpret the code
-better.
-</p>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>SEO:</strong> It improves the website SEO, or <em>Search Engine
-Optimization</em>, which is the process of increasing the number of
-people that visit your webpage. With better SEO, search engines are
-better able to identify the content of your website and weight the most
-important content appropriately.
-</p>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Easy to Understand:</strong> Semantic HTML also makes the
-website’s source code easier to read for other web developers.
-</p>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-To better understand this, you can think of comparing non-semantic HTML
-to going into a store with no signs on the aisles. Since the aisles
-aren’t labeled, you don’t know what products are in those aisles.
-However, stores that do have signs for each aisle make it a lot easier
-to find the items you need, just like Semantic HTML.
-</p>
-
-**Instructions**
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Analyze the diagram and take note of key differences between
-non-semantic and semantic code.
-</p>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Header and Nav
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s take a look at some semantic elements that assist in the structure
-of a web page. A
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/header?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code></a>
-is a container usually for either navigational links or introductory
-content containing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h6\></code> headings.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The example below shows
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> in action:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This can be compared to the code below which uses a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag instead of
-a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> tag:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;div</span><span class="mtk1"> </span><span class="mtk7">id</span><span class="mtk1">=</span><span class="mtk8">"header"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to know about pizza!</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk4">&lt;/div&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-By using a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>
-tag, our code becomes easier to read. It is much easier to identify what
-is inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code>’s parent tags,
-as opposed to a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag which
-would provide no details as to what was inside of the tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-A
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/nav?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code></a>
-is used to define a block of navigation links such as menus and tables
-of contents. It is important to note that
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> can be used
-inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> element but
-can also be used on its own.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s take a look at the example below:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;header&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;nav&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#home"</span><span class="mtk4">&gt;</span><span class="mtk1">Home</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;li&gt;&lt;a</span><span class="mtk1"> </span><span class="mtk7">href</span><span class="mtk1">=</span><span class="mtk8">"#about"</span><span class="mtk4">&gt;</span><span class="mtk1">About</span><span class="mtk4">&lt;/a&gt;&lt;/li&gt;</span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/ul&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/nav&gt;</span></span><br><span><span class="mtk4">&lt;/header&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-By using <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> as a
-way to label our navigation links, it will be easier for not only us,
-but also for web browsers and screen readers to read the code.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that we’ve learned about the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> elements let’s
-add them into our code!
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code editor, find the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div id=“header”\></code>
-tag and change it to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> When changing an opening tag, you must find the
-corresponding closing tag and change that as well. If you don’t, you’ll
-see some red in your code to indicate the error.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now, find the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div
-id=“nav”\></code> tag and change it to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Main and Footer
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Two more structural elements are
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code>. These
-elements along with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> help
-describe where an element is located based on conventional web
-development standards.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The element
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/main?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code></a>
-is used to encapsulate the dominant content within a webpage. This tag
-is separate from the
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/footer?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code></a>
-and the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> of a
-web page since these elements don’t contain the principal content. By
-using <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> as
-opposed to a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code>
-element, screen readers and web browsers are better able to identify
-that whatever is inside of the tag is the bulk of the content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-So how does <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code>
-look when incorporated into our code? That’s a great question.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;main&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Types of Sports</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/header&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;h3&gt;</span><span class="mtk1">Baseball</span><span class="mtk4">&lt;/h3&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first game of baseball was played in Coo</span><span class="mtk1">perstown, New York in the summer of 1839.</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/main&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As we see above,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> contains an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> tag with
-child elements that hold the most important information related to the
-page.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The content at the bottom of the subject information is known as the
-<em>footer</em>, indicated by the
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/footer?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code></a>
-element. The footer contains information such as:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Contact information
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Copyright information
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Terms of use
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Site Map
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Reference to top of page links
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-For example:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;footer&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Email me at Codey@Codecademy.com</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/footer&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, the footer is used to contain contact information.
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code> tag is
-separate from the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> element and
-typically located at the bottom of the content.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code editor, find the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div id=“main”\></code> tag
-and change it to
+The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code> has
+disappeared behind the
 <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code>.
 </p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Now, find the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div
-id=“footer”\></code> tag and change it to
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Article and Section
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that we covered the body of Semantic HTML, let’s focus on what can
-go in the body. The two elements we’re going to focus on now are
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/section?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code></a>
-defines elements in a document, such as chapters, headings, or any other
-area of the document with the same theme. For example, content with the
-same theme such as articles about cricket can go under a single
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code>. A
-website’s home page could be split into sections for the introduction,
-news items, and contact information.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Here is an example of how to use
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code>:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span><span class="mtk1"> </span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code above we created a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element to
-encapsulate the code. In
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> we added a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> element as a
-heading.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/article?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code></a>
-element holds content that makes sense on its own.
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> can hold
-content such as articles, blogs, comments, magazines, etc. An
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> tag would
-help someone using a screen reader understand where the article content
-(that might contain a combination of text, images, audio, etc.) begins
-and ends.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Here is an example of how to use
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;section&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;h2&gt;</span><span class="mtk1">Fun Facts About Cricket</span><span class="mtk4">&lt;/h2&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">A single match of cricket can last up to 5&nbsp;days.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;/section&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code above, the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> element
-containing a fact about cricket was placed inside of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element.
-It is important to note that a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element
-could also be placed in an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> element
-depending on the context.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code find and replace
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div id=“section”\></code>
-with <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> and
-replace the corresponding closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</div\></code> with a
-closing <code class="code__2rdF32qjRVp7mMVBHuPwDS">\</section\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> When removing the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div\></code> tag, make sure
-you remove the id attached to it!
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now encapsulate the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>.
-</p>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### The Aside Element
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/aside?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code></a>
-element is used to mark additional information that can enhance another
-element but isn’t required in order to understand the main content. This
-element can be used alongside other elements such as
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> or
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code>. Some
-common uses of the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> element are
-for:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Bibliographies
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Endnotes
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Comments
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Pull_quote">Pull
-quotes</a>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Editorial sidebars
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Additional information
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Here’s an example of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> being used
-alongside <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;article&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">The first World Series was played between Pittsbur</span><span class="mtk1">gh and Boston in 1903 and was a&nbsp;nine-game series.</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/article&gt;</span></span><br><span><span class="mtk4">&lt;aside&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;p&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;Babe Ruth once stated, “Heroes get remembered, </span><span class="mtk1">but legends never die.” </span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span class="mtk4">&lt;/aside&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As shown above, the information within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> is the
-important content. Meanwhile the information within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> enhances the
-information in
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> but is not
-required in order to understand it.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Remove the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<div
-id=“aside”\></code> tag and replace it with
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> tag. Don’t
-forget about the closing tag!
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Figure and Figcaption
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-With <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code>, we
-learned that we can put additional information next to a main piece of
-content, but what if we wanted to add an image or illustration? That is
-where <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> come
-in.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/figure?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code></a>
-is an element used to encapsulate media such as an image, illustration,
-diagram, code snippet, etc, which is referenced in the main flow of the
-document.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this code, we created a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> element so
-that we can encapsulate our
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag. In
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> we used the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag to insert
-an image onto the webpage. We used the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute within
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag so
-that we can link the source of the image.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-It’s possible to add a caption to the image by using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/semantic-html/figcaption?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code></a>
-is an element used to describe the media in the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> tag.
-Usually,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> will go
-inside <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>.
-This is different than using a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element to
-describe the content; if we decide to change the location of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>, the
-paragraph tag may get displaced from the figure while a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> will
-move with the figure. This is useful for grouping an image with a
-caption.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;figure&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;img</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"overwatch.jpg"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;figcaption&gt;</span><span class="mtk1">This picture shows characters from Overwatch.</span><span class="mtk4">&lt;/figcaption&gt;</span></span><br><span><span class="mtk4">&lt;/figure&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the example above, we added a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> into
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> element
-to describe the image from the previous example. This helps group the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> content
-with the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code>
-content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-While the content in
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> is related
-to the main flow of the document, its position is independent. This
-means that you can remove it or move it somewhere else without affecting
-the flow of the document.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an opening and closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> tag under
-the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</section\></code> tag.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add an image by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag within
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>. Use the
-following URL as the source for the image:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dogimage.jpeg</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">3.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> under
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> and describe
-the image.
-</p>
-
-<span aria-live="assertive">Checkpoint 4 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Audio and Attributes
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that we learned about text-based content, let us dig into
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/audio?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code></a>!
-Surely everyone needs
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>—how else
-would you listen to your Korean hip hop?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> element
-is used to embed audio content into a document. Like
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> uses
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> to link the audio
-source.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"iAmAnAudioFile.mp3"</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/audio&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, we created an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> element.
-Then we created a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<source\></code> element to
-encapsulate our audio link. In this case,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">iAmAnAudioFile.mp3</code> is
-our audio file. Then we specified the type by using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">type</code> and named what
-kind of audio it is. Although not always necessary, it’s recommended
-that we state the type of audio as it helps the browser identify it more
-easily and determine if that type of audio file is supported by the
-browser.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We linked our audio file into the browser but now we need to give it
-controls. This is where <em>attributes</em> come in.
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/attributes?page_ref=catalog">Attributes</a>
-provide additional information about an element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Attributes allow us to do many different things to our audio file. There
-are many attributes for
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> but today
-we’re going to be focusing on
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>.
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>:
-automatically displays the audio controls into the browser such as play
-and mute.
-</p>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>: specifies the URL
-of the audio file.
-</p>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As you might have noticed, we already used the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute in the
-example code above. Most attributes go in the opening tag of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>. For
-example, here’s how we could add both autoplay functionality and audio
-controls:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio</span><span class="mtk1"> </span><span class="mtk7">autoplay</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can find other attributes here:
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Attributes">Useful
-attributes</a>.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code editor, create an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> tag with the
-attribute <code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>
-directly under the commented line.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a source for the audio inside the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> tag by using
-this code:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">""</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Use the following URL as the source for the audio:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dogBarking.mp3</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Audio and Attributes
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that we learned about text-based content, let us dig into
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/elements/audio?page_ref=catalog"><code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code></a>!
-Surely everyone needs
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>—how else
-would you listen to your Korean hip hop?
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> element
-is used to embed audio content into a document. Like
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> uses
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> to link the audio
-source.
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">"iAmAnAudioFile.mp3"</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;/audio&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In this example, we created an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> element.
-Then we created a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<source\></code> element to
-encapsulate our audio link. In this case,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">iAmAnAudioFile.mp3</code> is
-our audio file. Then we specified the type by using
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">type</code> and named what
-kind of audio it is. Although not always necessary, it’s recommended
-that we state the type of audio as it helps the browser identify it more
-easily and determine if that type of audio file is supported by the
-browser.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-We linked our audio file into the browser but now we need to give it
-controls. This is where <em>attributes</em> come in.
-<a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/resources/docs/html/attributes?page_ref=catalog">Attributes</a>
-provide additional information about an element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Attributes allow us to do many different things to our audio file. There
-are many attributes for
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> but today
-we’re going to be focusing on
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>.
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>:
-automatically displays the audio controls into the browser such as play
-and mute.
-</p>
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>: specifies the URL
-of the audio file.
-</p>
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-As you might have noticed, we already used the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code> attribute in the
-example code above. Most attributes go in the opening tag of
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>. For
-example, here’s how we could add both autoplay functionality and audio
-controls:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;audio</span><span class="mtk1"> </span><span class="mtk7">autoplay</span><span class="mtk1"> </span><span class="mtk7">controls</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can find other attributes here:
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Attributes">Useful
-attributes</a>.
-</p>
-
-**Instructions**
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-In the code editor, create an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> tag with the
-attribute <code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>
-directly under the commented line.
-</p>
-
-<span aria-live="assertive">Checkpoint 2 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Add a source for the audio inside the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> tag by using
-this code:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk4">&lt;source</span><span class="mtk1"> </span><span class="mtk7">src</span><span class="mtk1">=</span><span class="mtk8">""</span><span class="mtk1"> </span><span class="mtk7">type</span><span class="mtk1">=</span><span class="mtk8">"audio/mp3"</span><span class="mtk4">&gt;</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Use the following URL as the source for the audio:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">https://content.codecademy.com/courses/SemanticHTM</span><span class="mtk1">L/dogBarking.mp3</span></span><br></div></code></pre></pre>
-
-<span aria-live="assertive">Checkpoint 3 Passed</span>
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-**Solutions**
-
-``` html
-```
-
-## SEMANTIC HTML
-
-### Review
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Congrats on completing this lesson on Semantic HTML! Now that you know
-the benefits of Semantic HTML and how to use it, you can incorporate
-semantic elements into your website to make it more accessible and to
-make the code easier to read.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s review some of the topics we covered throughout the lesson:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Semantic HTML introduces meaning to a page through specific elements
-that provide context as to what is in between the tags.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Semantic HTML is a modern standard and makes a website accessible for
-people who use screen readers to translate the webpage and improves your
-website’s SEO.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code> ,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code> create the
-basic structure of the webpage.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> defines
-elements in a document, such as chapters, headings, or any other area of
-the document with the same theme.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> holds
-content that makes sense on its own such as articles, blogs, comments,
-etc.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> contains
-information that is related to the main content, but not required in
-order to understand the dominant information.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>
-encapsulates all types of media.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code> is used
-to describe the media in
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>,
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<embed\></code>, and
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code> elements are
-used for media files.
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now, apply this knowledge to become a better Web Developer.
-</p>
-
-**Instructions**
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now it’s time to use what you’ve learned to build a more accessible
-website.
-</p>
-
-**Solutions**
-
-``` html
-```
-
-## FRONT-END ENGINEER
-
-### New York City Blog
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-After researching New York City, you decide to create a blog for your
-viewers who want to know more about the city. It’s time to create a blog
-to show off how amazing the Big Apple is. You got this!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Don’t forget to save your code after each step. By pressing save to run
-your code you will see the changes you’ve made in the browser.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> While you are developing the webpage, you will
-notice that the elements are automatically assigned colors, borders, and
-positioned properly. This is because of the CSS file. Don’t worry about
-CSS right now, it’s only there so that the webpage looks nice.
-</p>
-
-**Instructions**
-
-<span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as
-complete by checking them off</span>
-<h2 class="fit-full fcn-task-header">
-Navigation Bar
-</h2>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-1">1.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-A common usage of a navigation bar is to create shortcuts for a webpage.
-This will allow the user to go directly to the information they want to
-access through the navigation links.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code>
-element underneath the opening
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<body\></code> tag.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-2">2.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<nav\></code>
-element, create a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ul\></code> element to
-create an unordered list.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The unordered list should contain the following three items:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Blog
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Media
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-About
-</li>
-</ul>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Use an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> element
-with <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<a
-href=““\>\</a\></code> nested within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<li\></code> element to link
-the content to the nav bar. You may notice that the navbar doesn’t work
-right now but don’t worry, once the content is added, the navbar will be
-fully functional!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-
-<h2 class="fit-full fcn-task-header">
-Blog Content
-</h2>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-3">3.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You need to title your blog, so people know what you’re writing about.
-Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>
-element under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</nav\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>
-element, create an
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h1\></code> element which
-should contain the following:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City</span></span><br></div></code></pre></pre>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-4">4.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code>
-element below the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</header\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Within the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code>
-element, create a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element
-with an id of “blog”.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-This <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code>
-element will hold the main content of your webpage. You are giving this
-element an id so that you can target it with the nav bar.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-5">5.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>
-element within the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Then, create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code>
-element within
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> that has
-the following:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is made up of five boroughs which </span><span class="mtk1">include Queens, Manhattan, Brooklyn, the Bronx, </span><span class="mtk1">and Staten Island. The city is the home of </span><span class="mtk1">approximately 8&nbsp;million people. In 1876, France </span><span class="mtk1">gifted the City of New York what is known as the </span><span class="mtk1">Statue of Liberty, which is currently located on </span><span class="mtk1">Liberty Island and commonly visited by tourists. </span><span class="mtk1">However, it took 10 years to assemble and </span><span class="mtk1">therefore wasn’t unveiled until 1886. Another </span><span class="mtk1">tourist destination is Times Square. Times Square </span><span class="mtk1">is commonly known for the big buildings, Broadway </span><span class="mtk1">shows, and bright neon signs. This famous location </span><span class="mtk1">was named after The New York Times after the Times </span><span class="mtk1">moved to that location. Prior to that, it was </span><span class="mtk1">named Longacre Square. New York City is also known </span><span class="mtk1">for its bridges that connect the boroughs and </span><span class="mtk1">allow ease of transportation.</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-6">6.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Now that our blog has some content, the next step is adding media to
-enhance our blog.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You can do this by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> element.
-Under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</section\></code> tag
-create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code>
-element.
+Use <code class="code__2rdF32qjRVp7mMVBHuPwDS">z-index</code> to make
+the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<header\></code>
+visible.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -6146,13 +7980,12 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-7">7.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<img\></code> tag
-within <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figure\></code> and
-use the following link as the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>:
+Now the navigation bar looks good, but it is blocking the title at the
+top of the page.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg">https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg</a>
+Offset <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<main\></code> by 80
+pixels from the top.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -6180,15 +8013,15 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-8">8.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Let’s describe the image for those who don’t know what statue this is!
+Now, fix up the supporting element style below the image.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Using <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<figcaption\></code>
-add this description of the image:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">This is the Statue of Liberty, a&nbsp;popular tourist a</span><span class="mtk1">ttraction located on Liberty Island.</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
+Add a declaration to the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">.supporting .col</code> rule
+set so that these elements can appear horizontally next to each other
+but have defined
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">height</code> and
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>.
 </p>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
@@ -6204,11 +8037,6 @@ Arrow Chevron Down Icon
 </button>
 
 </article>
-
-<h2 class="fit-full fcn-task-header">
-Aside Content
-</h2>
-
 <article class="fit-full fcn-task fcn-task--complete">
 
 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
@@ -6221,21 +8049,13 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-9">9.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-For our blog post, you need to add additional content to enhance the
-post, you can do this by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> element.
+Inspect the <code class="code__2rdF32qjRVp7mMVBHuPwDS">.supporting
+.col</code> elements—they don’t seem to be flowing horizontally yet
+because they have no set
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">width</code>. Set the width
+and height of <code class="code__2rdF32qjRVp7mMVBHuPwDS">.supporting
+.col</code> elements to 200 pixels.
 </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</figure\></code> tag create
-an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Within <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code>,
-create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element
-containing the following information:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">New York City is very popular for the variety of g</span><span class="mtk1">reat food it has. Some of the top food items in NY</span><span class="mtk1">C include:</span></span><br></div></code></pre></pre>
 
 <button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
 <span class="children__3aFTNwOnkG0i7uCSFwvYT5">
@@ -6262,364 +8082,13 @@ Check Icon
 <span class="fcn-task__number" data-testid="task-10">10.</span>
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-New York is known for its amazing food. Our blog should list some of the
-top food options in NYC. You can do this by creating an ordered list!
+Great work, the Broadway Design site looks much better!
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an ordered list by using the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<ol\></code> element within
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<aside\></code> element.
-In an ordered list the first item is ranked one, the second item is
-ranked two and so on.
+If you want to continue coding, challenge yourself to make the
+<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code> element
+also fixed to the bottom of the page regardless of scrolling.
 </p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-The ordered list should contain the following seven items in this order:
-</p>
-<ol class="ol__1XI8Ausmo9cwwog3NvDzWF">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Pizza
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Bagels
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Burgers and Sandwiches
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Ramen
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Tacos
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Pasta
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Desserts
-</li>
-</ol>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-
-<h2 class="fit-full fcn-task-header">
-Media
-</h2>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-11">11.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Right now our blog post consists of only one image. Adding more media
-can help give a better visual representation of New York. Let’s create a
-section for the media content.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code>
-element with an id of “media” under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</aside\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Within the new
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<section\></code> element,
-create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>
-element.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Then, create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<h2\></code>
-element within
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code> that says:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">The Scenery in NYC</span></span><br></div></code></pre></pre>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-12">12.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-You are going to add a little description to explain the media. Add a
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> element directly
-underneath the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</h2\></code> tag but within
-the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<article\></code>
-element with the following paragraph:
-</p>
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">While the view in the city is beautiful, the sound</span><span class="mtk1">s are not as lovely. Below you'll see an example o</span><span class="mtk1">f the view and the sounds you'll deal with in NYC </span><span class="mtk1">on a&nbsp;daily basis.</span></span><br></div></code></pre></pre>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-13">13.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-New York City has a beautiful skyline, so let’s show that with a video.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</article\></code> tag,
-create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<video\></code>
-element with the attribute
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code>. Use the
-following URL as the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“<https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4>”</code>.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-14">14.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-During the night time, the New York City skyline can light up the whole
-sky! This time you are going to use
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\<embed\></code> to display
-an image of the skyline.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<embed\></code>
-element under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</video\></code> tag. Use
-the following URL as the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“<https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg>”</code>.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-15">15.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-New York City is known as “the city that never sleeps.” At any point in
-the day, you can hear the traffic as you make your way through the city.
-Let’s add an audio clip to show how loud NYC can be.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create an <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>
-tag with the attribute
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">controls</code> directly
-below the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<embed\></code>
-element. (Don’t forget the closing tag.)
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<audio\></code>
-tag, insert an audio file with the following URL as the
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">src</code>:
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">“<https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov>”</code>.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-<strong>Note:</strong> Save your work to see your progress.
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-
-<h2 class="fit-full fcn-task-header">
-Footer
-</h2>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-16">16.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-At the bottom of a page, you can add a footer to credit you for the
-creation of this blog!
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Create a <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<footer\></code>
-element with an id of “about” under the closing
-<code class="code__2rdF32qjRVp7mMVBHuPwDS">\</main\></code> tag.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Inside, add the following content:
-</p>
-<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag with
-“Posted by:” followed by your name.
-</li>
-<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-A <code class="code__2rdF32qjRVp7mMVBHuPwDS">\<p\></code> tag that
-provides one type of contact information for people to reach you at. For
-example:
-<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">Contact information: Blogger@NYC.com</span></span><br></div></code></pre></pre>
-</li>
-</ul>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
-
-</article>
-
-<h2 class="fit-full fcn-task-header">
-The Endgame!
-</h2>
-
-<article class="fit-full fcn-task fcn-task--complete">
-
-<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Check Icon
-</title>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path>
-</svg>
-
-<span class="fcn-task__number" data-testid="task-17">17.</span>
-
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Congratulations! You successfully created a webpage using only semantic
-elements. Now that you’ve learned about the importance of Semantic HTML
-along with its benefits, it’s time to incorporate this knowledge into
-your future projects.
-</p>
-<p class="p__1qg33Igem5pAgn4kPMirjw">
-Think about ways you could improve this project or create your very own
-project using semantic elements. Need some suggestions? Check the hint
-for some ideas to get you started!
-</p>
-
-<button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true">
-<span class="children__3aFTNwOnkG0i7uCSFwvYT5">
-
-Stuck? Get a hint
-
-</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0">
-<title>
-Arrow Chevron Down Icon
-</title>
-<path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</button>
 
 </article>
 
@@ -6628,28 +8097,31 @@ Arrow Chevron Down Icon
 ``` html
 ```
 
-## Review: Fundamentals of HTML
+## Review: Fundamentals of CSS
 
 <p class="p__1qg33Igem5pAgn4kPMirjw">
-Congratulations! The goal of this unit was to get an introduction to the
-fundamentals of HTML, one of the languages essential to developing
-websites.
+Congratulations! The goal of this unit was to get an introduction to
+CSS, one of the languages essential to developing websites. You learned
+how to apply styles to HTML documents using CSS.
 </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
 Having completed this unit, you are now able to:
 </p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Understand how HTML is used for web development
+Understand how CSS is used for web development
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Use HTML to build a structure for a website
+Use CSS to add initial styling to your website
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Create tables in HTML documents
+Understand the Box Model in CSS
 </li>
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
-Write clearer, more accessible HTML using Semantic HTML tags
+Add positioning using CSS
+</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
+Read CSS documentation
 </li>
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
@@ -6660,7 +8132,8 @@ additional resources:
 <li class="li__1KqBjwbWA3ze6V0BvXq9Rx">
 Book:
 <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://bookshop.org/books/html-and-css-design-and-build-websites/9781118008188">HTML
-& CSS</a>, Jon Duckett, Chapters 1-5 (pp. 12-124)
+& CSS</a>, Jon Duckett, Chapters 10 (pp. 226-244), 13 (pp. 300-328), and
+15 (pp. 358-404)
 </li>
 </ul>
 <p class="p__1qg33Igem5pAgn4kPMirjw">
