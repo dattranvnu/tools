@@ -4,6 +4,8 @@ output:
     variant: markdown_github
 ---
 
+# Introduction: Fundamentals of HTML
+
 ## Introduction: Fundamentals of HTML
 
 
@@ -20,7 +22,7 @@ output:
 <p class="p__1qg33Igem5pAgn4kPMirjw">Learning is social. Whatever you’re working on, be sure to connect with the Codecademy community in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/">forums</a>. Remember to check in with the community regularly, including for things like asking for code reviews on your project work and providing code reviews to others in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/c/project/1833">projects category</a>, which can help to reinforce what you’ve learned.</p>
 </div>
 
-
+# Learn HTML: Elements
 
 
 ## INTRODUCTION TO HTML
@@ -61,7 +63,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### HTML Anatomy
 
@@ -111,7 +113,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### The Body
 
@@ -147,7 +149,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### HTML Structure
 
@@ -185,7 +187,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Headings
 
@@ -231,7 +233,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Divs
 
@@ -270,7 +272,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Attributes
 
@@ -309,7 +311,7 @@ output:
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Displaying Text
 
@@ -362,7 +364,7 @@ This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;span&gt;</code> element sepa
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Styling Text
 
@@ -403,7 +405,7 @@ This <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;span&gt;</code> element sepa
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Line Breaks
 
@@ -440,7 +442,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Unordered Lists
 
@@ -488,7 +490,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Ordered Lists
 
@@ -533,7 +535,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Images
 
@@ -566,7 +568,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Image Alts
 
@@ -605,7 +607,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Videos
 
@@ -642,7 +644,7 @@ miles).</p>
 
 
 
-## INTRODUCTION TO HTML
+
 
 ### Review
 
@@ -729,7 +731,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### The <html> tag
 
@@ -762,7 +764,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### The Head
 
@@ -801,7 +803,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Page Titles
 
@@ -836,7 +838,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Where Does the Title Appear?
 
@@ -856,7 +858,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Other Web Pages
 
@@ -895,7 +897,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Opening Links in a New Window
 
@@ -931,7 +933,7 @@ miles).</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Relative Page
 
@@ -970,7 +972,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking At Will
 
@@ -1008,7 +1010,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Linking to Same Page
 
@@ -1051,7 +1053,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Whitespace
 
@@ -1091,7 +1093,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Indentation
 
@@ -1124,7 +1126,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### Comments
 
@@ -1165,7 +1167,7 @@ Click the link to make sure it works!</p>
 
 
 
-## HTML DOCUMENT STANDARDS
+
 
 ### HTML Tags
 
@@ -1307,9 +1309,7 @@ Click the link to make sure it works!</p>
 
 
 
-## FRONT-END ENGINEER
-
-### Fashion Blog
+## Fashion Blog
 
 
 
@@ -1376,7 +1376,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 ```
 
 
-
+# Learn HTML: Structure
 
 ## HTML TABLES
 
@@ -1411,7 +1411,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Create a Table
 
@@ -1443,7 +1443,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Rows
 
@@ -1476,7 +1476,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Data
 
@@ -1514,7 +1514,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Headings
 
@@ -1565,7 +1565,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Borders
 
@@ -1604,7 +1604,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Spanning Columns
 
@@ -1638,7 +1638,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Spanning Rows
 
@@ -1678,7 +1678,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Body
 
@@ -1712,7 +1712,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Head
 
@@ -1745,7 +1745,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Table Footer
 
@@ -1778,7 +1778,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Styling with CSS
 
@@ -1812,7 +1812,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## HTML TABLES
+
 
 ### Review
 
@@ -1857,9 +1857,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## FRONT-END ENGINEER
-
-### Wine Festival Schedule
+## Wine Festival Schedule
 
 
 
@@ -1923,7 +1921,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 ```
 
 
-
+# Semantic HTML
 
 ## SEMANTIC HTML
 
@@ -1967,7 +1965,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Header and Nav
 
@@ -2009,7 +2007,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Main and Footer
 
@@ -2055,7 +2053,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Article and Section
 
@@ -2095,7 +2093,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### The Aside Element
 
@@ -2136,7 +2134,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Figure and Figcaption
 
@@ -2178,7 +2176,7 @@ At the bottom of your body, add a new <code class="code__2rdF32qjRVp7mMVBHuPwDS"
 
 
 
-## SEMANTIC HTML
+
 
 ### Audio and Attributes
 
@@ -2229,7 +2227,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## SEMANTIC HTML
+
 
 ### Audio and Attributes
 
@@ -2280,7 +2278,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## SEMANTIC HTML
+
 
 ### Review
 
@@ -2323,9 +2321,7 @@ For example, here’s how we could add both autoplay functionality and audio con
 
 
 
-## FRONT-END ENGINEER
-
-### New York City Blog
+## New York City Blog
 
 
 
@@ -2420,7 +2416,7 @@ Use the following URL as the <code class="code__2rdF32qjRVp7mMVBHuPwDS">src</cod
 ```
 
 
-
+# Review: Fundamentals of HTML
 
 ## Review: Fundamentals of HTML
 
