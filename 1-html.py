@@ -51,7 +51,7 @@ for link in links:
       try:
         div = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]/div/div[2]').get_attribute('innerHTML')
         nodes = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
-        div = div + '\n\n\n\n\n' + '**Instructions** \n\n\n' + nodes  + '\n\n\n **Solutions**' + '\n\n\n```html\n\n```'
+        div = div + '\n\n\n\n\n' + '**Instructions** \n\n\n' + nodes  + '\n\n\n**Solutions**' + '\n\n\n```html\n\n```'
       except:
         pass
     except:
