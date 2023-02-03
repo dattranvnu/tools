@@ -41,8 +41,8 @@ for link in links:
     try:
       header = '## ' + driver.find_element(By.XPATH, '//div[@class="gamut-haybot-Text e8i0p5k0"]').text + '\n\n### ' + driver.find_element(By.XPATH, '//span[@class="gamut-yj8jvy-Text e8i0p5k0"]').text
       try:
-        div = driver.find_element(By.XPATH, '//div[@class="gamut-iys7gh-Box ebnwbv90"]//div[2]/div/div[2]').get_attribute('innerHTML')
-        nodes = driver.find_element(By.XPATH, '//div[@class="gamut-iys7gh-Box ebnwbv90"]/div[4]').get_attribute('innerHTML')
+        div = driver.find_element(By.XPATH, '//div[@class="gamut-1h3qpnn-Box ebnwbv90"]/../../div[2]').get_attribute('innerHTML')
+        nodes = driver.find_element(By.XPATH, '//div[@class="gamut-1h3qpnn-Box ebnwbv90"]/../../div[4]').get_attribute('innerHTML')
         div = div + '\n\n\n\n\n' + '**Instructions** \n\n\n' + nodes  + '\n\n\n**Solutions**' + '\n\n\n```html\n\n```'
       except:
         pass
