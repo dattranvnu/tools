@@ -16,13 +16,11 @@ wait = WebDriverWait(driver, 100)
 
 soup = BeautifulSoup(open('0-links.html'), 'html.parser')
 dom = etree.HTML(str(soup))
+
 links = [link.get('href') for link in soup.find_all('a')]
 links = [f"https://www.codecademy.com{link}" for link in links]
 
-links = ['https://www.codecademy.com/paths/build-python-web-apps-with-django/tracks/django-introduction-to-the-web/modules/django-introduction-to-the-web/informationals/django-welcome', 'https://www.codecademy.com/paths/build-python-web-apps-with-django/tracks/django-introduction-to-the-web/modules/django-introduction-to-the-web/articles/django-exploring-html-and-css', 'https://www.codecademy.com/paths/build-python-web-apps-with-django/tracks/introduction-to-django/modules/introduction-to-django/lessons/creating-your-first-django-app/exercises/configuring-django-settings']
-
 username, password, output = "CMR333221@yahoo.com", "Diamond3", ""
-
 
 driver.get("https://www.codecademy.com/login")
 wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//*[@id="user_login"]'))).send_keys(username)
@@ -30,9 +28,8 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//*[@id="lo
 wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@class="e1w6mdco0 gamut-18luxs6-ResetElement-createButtonComponent e1bhhzie0"]'))).click()
 time.sleep(8)
 i = 0
-instructions = ''
-# print(links)
 for link in links:
+    contents =''
     driver.get(link)
     time.sleep(10)
     try:
@@ -59,7 +56,6 @@ for link in links:
     #   instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
     # except:
     #   pass
-
     output = f"{output}\n\n\n\n\n{contents}"
     print(i, link)
     i += 1
