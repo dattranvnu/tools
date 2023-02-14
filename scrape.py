@@ -14,7 +14,7 @@ chrome_options.add_argument('--no-sandbox')
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 wait = WebDriverWait(driver, 100)
 
-soup = BeautifulSoup(open('0-links.html'), 'html.parser')
+soup = BeautifulSoup(open('links.html'), 'html.parser')
 dom = etree.HTML(str(soup))
 
 links = [link.get('href') for link in soup.find_all('a')]
