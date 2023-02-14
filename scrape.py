@@ -20,6 +20,10 @@ dom = etree.HTML(str(soup))
 links = [link.get('href') for link in soup.find_all('a')]
 links = [f"https://www.codecademy.com{link}" for link in links]
 
+with open("my_file.txt", "w") as file:
+    for item in links:
+        file.write(item + "\n")
+
 username, password, output = "CMR333221@yahoo.com", "Diamond3", ""
 
 driver.get("https://www.codecademy.com/login")
@@ -31,7 +35,7 @@ i = 0
 for link in links:
     contents =''
     driver.get(link)
-    time.sleep(10)
+    time.sleep(25)
     try:
         # informationals & articles
         contents = driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]').get_attribute("innerHTML")
@@ -41,7 +45,7 @@ for link in links:
         # lessons & projects
         learn = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]')
         instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]')
-        contents = f'<h1>Learn</h1>\n\n\n{learn.get_attribute("innerHTML")}\n\n\n<h2>Instructions</h1>\n\n\n{instructions.get_attribute("innerHTML")}\n\n\n<h2>Solution</h2>\n\n\n```python\n\n```'
+        contents = f'<h1>Learn</h1>\n\n\n{learn.get_attribute("innerHTML")}\n\n\n<h2>Instructions</h1>\n\n\n{instructions.get_attribute("innerHTML")}\n\n\n<h2>Solution</h2>\n\n\n'
     except:
         pass
     # # videos
@@ -60,6 +64,6 @@ for link in links:
     print(i, link)
     i += 1
 
-f=open("README.html","w")
+f=open("README.txt","w")
 f.write(output)
 f.close()
