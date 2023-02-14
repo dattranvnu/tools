@@ -34,6 +34,7 @@ time.sleep(8)
 i = 0
 for link in links:
     contents =''
+    instructions =''
     driver.get(link)
     time.sleep(25)
     try:
@@ -44,7 +45,10 @@ for link in links:
     try:
         # lessons & projects
         learn = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]')
-        instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]')
+        try:
+            instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]')
+        except:
+            pass
         contents = f'<h1>Learn</h1>\n\n\n{learn.get_attribute("innerHTML")}\n\n\n<h2>Instructions</h1>\n\n\n{instructions.get_attribute("innerHTML")}\n\n\n<h2>Solution</h2>\n\n\n'
     except:
         pass
