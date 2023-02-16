@@ -7,7 +7,6 @@
 
 <h1>Learn</h1>
 
-
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Front and Back</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In this lesson, we’ll explain what makes up the back-end of a web application or website. The back-end can feel very abstract, but it becomes clearer when we explain it in terms of the front-end! To oversimplify a bit, the front-end is the parts of a webpage that a visitor can interact with and see. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Various tools and frameworks can be used to make a webpage, but, at its core, the front-end is composed of JavaScript, CSS, HTML, and other <em>static assets</em>, such as images or videos. Static assets are files that don’t change. When a visitor navigates to a webpage, these assets are sent to their browser. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Visiting a simple website is like ordering delivery from a restaurant: we place an order for our meal, and, once it’s delivered to us, we have it entirely in our possession. In this analogy, we can think of the front-end as everything that’s dropped off with the delivery: the containers, the utensils, and the food itself. </p>
@@ -16,8 +15,7 @@
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Watch the video to get a better understanding of the front-end.</p>
 </div></div></div>
@@ -26,44 +24,153 @@
 <h2>Solution</h2>
 
 
-```python
-
-```
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">The Web Server</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">We talked about how the front-end consists of the information sent to a client so that a user can see and interact with a website, but where does the information come from? The answer is a <em>web server</em>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The word “server” can mean a lot of things in computing, but we’re going to focus on web servers specifically. A <em>web server</em> is a process running on a computer that listens for incoming requests for information over the internet and sends back responses. Each time a user navigates to a website on their browser, the browser makes a request to the web server of that website. Every website has at least one web server. A large company like Facebook has thousands of powerful computers running web servers in facilities located all around the world which are listening for requests, but we could also run a simple web server from our own computer!</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The specific format of a request (and the resulting response) is called the <em>protocol</em>. You might be familiar with the protocol used to access websites: HTTP.  When a visitor navigates to a website on their browser, similarly to how one places an order for takeout, they make <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/articles/http-requests">an HTTP request</a> for the resources that make up that site.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">For the simplest websites, a client makes a single request. The web server receives that request and sends the client a response containing everything needed to view the website. This is called a <em>static website</em>. This doesn’t mean the website is not interactive. As with the individual static assets, a website is static because once those files are received, they don’t change or move. A static website might be a good choice for a simple personal website with a short bio and family photos. A user navigating Twitter, however, wants access to new content as it’s created, which a static website couldn’t provide.  </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">A static website is like ordering takeout, but modern web applications are like dining in person at a sit-down restaurant. A restaurant patron might order drinks, different courses, make substitutions, or ask questions of the waiter. To accomplish this level of complexity, an equally complex back-end is required. </p>
+</div></div></div>
 
 
-
-
-
-
-
-
-
-
+<h2>Solution</h2>
 
 
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">So What is the Back-end?</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">When a user navigates to google.com, their request specifies the URL but not the filename for today’s <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/Google_Doodle">Google Doodle</a>. The web application’s back-end will need to hold the logic for deciding which assets to send. Moreover, modern web applications often cater to the specific user rather than sending the same files to every visitor of a webpage. This is known as <em>dynamic content</em>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">When we eat at a restaurant, we’ll order to our tastes, make substitutions, etc; the result is a dining experience unique to us. Aside from that, there’s a lot happening behind the scenes to make a restaurant work: ingredients are ordered from suppliers, new menus are designed, and employees’ schedules are created. Similarly, to make a web application that runs smoothly, the back-end is doing a lot more than simply sending assets to browsers.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The collection of programming logic required to deliver dynamic content to a client, manage security, process payments, and myriad other tasks is sometimes known as the “application” or <em>application server</em>. The application server can be responsible for anything from sending an email confirmation after a purchase to running the complicated algorithms a search engine uses to give us meaningful results.</p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Storing Data</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">You’ve probably heard that data is a big deal. By some measures, 90% of the world’s data has been generated in just the past two years! From a stored credit card number on an e-commerce site to the timestamp when you hit pause on Netflix, modern web applications collect a lot of data. For that data to be useful, it has to be organized and stored somewhere. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The back-ends of modern web applications include some sort of <em>database</em>, often more than one. Databases are collections of information. There are many different databases, but we can divide them into two types: <a target="_blank" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.codecademy.com/articles/what-is-rdbms-sql">relational databases</a> and <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/NoSQL">non-relational databases (also known as NoSQL databases)</a>. Whereas relational databases store information in tables with columns and rows, non-relational databases might use other systems such as key-value pairs or a document storage model. <em>SQL</em>, <strong>S</strong>tructured <strong>Q</strong>uery <strong>L</strong>anguage, is a programming language for accessing and changing data stored in relational databases. Popular relational databases include <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.mysql.com/">MySQL</a> and <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.postgresql.org/">PostgreSQL</a> while popular NoSQL databases include <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.mongodb.com/">MongoDB</a> and <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://redis.io/">Redis</a>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In addition to the database itself, the back-end needs a way to programmatically access, change, and analyze the data stored there.</p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">What is an API?</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">When a user navigates to a specific item for sale on an e-commerce site, the price listed for that item is stored in a database, and when they purchase it, the database will need to be updated with the correct inventory for that item type. In fact, much of what the back-end entails is reading, updating, or deleting information stored in a database. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In order to have consistent ways of interacting with data, a back-end will often include a <em>web API</em>. API stands for <strong>A</strong>pplication <strong>P</strong>rogramming <strong>I</strong>nterface and can mean a lot of different things, but a <em>web API</em> is a collection of predefined ways of, or rules for, interacting with a web application’s data, often through an HTTP request-response cycle. Unlike the HTTP requests a client makes when a user navigates to a website’s URL, this type of request indicates how it would like to interact with a web application’s data (create new data, read existing data, update existing data, or delete existing data), and it receives some data back as a response.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Let’s walk through the example of making an online purchase again, but this time, we’ll imagine how the application’s web API might be used. When a user presses the button to submit an order, that will trigger a request to send them to a different view of the website, an order confirmation page, but an additional request will be triggered from the front-end, unseen by the user, to the web API so that the database can be updated with the information from the order.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Some web APIs are open to the public. 
+<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.instagram.com/developer/">Instagram</a>, for example, has an API that other developers can use to access some of the data Instagram stores. Others are only used by the web application internally— Codecademy, for example, has a web API that employees use to accomplish internal tasks. </p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Authorization and Authentication</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Two other concepts we’ll want our server-side logic to handle are <em>authentication</em> and <em>authorization</em>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw"><em>Authentication</em> is the process of validating the identity of a user. One technique for authentication is to use logins with usernames and passwords. These credentials need to be securely stored in the back-end on a database and checked upon each visit.  Web applications can also use external resources for authentication. You’ve likely logged into a website or application using your Facebook, Google, or Github credentials; that’s also an authentication process.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw"><em>Authorization</em> controls which users have access to which resources and actions. Certain application views, like the page to edit a social media personal profile, are only accessible to that user. Other activities, like deleting a post, are often similarly restricted.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">When building a robust web application back-end, we need to incorporate both authentication (Who is this user? Are they who they claim to be?) and authorization (Who is allowed to do and see what?) into our server-side logic to make sure we’re creating secure, personalized, and dynamic content. </p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Different Back-end Stacks</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Unlike the front-end, which must be built using HTML, CSS, and JavaScript, there’s a lot of flexibility in which technologies can be used in order to create the back-end of a web application. Developers can construct back-ends in many different languages like PHP, Java, JavaScript, Python, and more. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">You don’t need to reinvent the wheel to create a robust back-end. Instead, most developers make use of <em>frameworks</em> which are collections of tools that shape the organization of your back-end and provide efficient ways of accomplishing otherwise difficult tasks.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">There are numerous <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#A_few_good_web_frameworks">back-end frameworks</a> from which developers can choose. Here are a few examples: </p>
+<div class="tableWrapper__EVxl5zAnBzx8EZsGfplAJ"><table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://laravel.com/">Laravel</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://www.php.net/">PHP</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://expressjs.com/">Express.js</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> (runs in the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://nodejs.org/en/">Node environment</a>)</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://rubyonrails.org">Ruby on Rails</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.ruby-lang.org/en/">Ruby</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://spring.io/">Spring</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.oracle.com/java/">Java</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.oracle.com/java/">Java</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="http://flask.pocoo.org/">Flask</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.python.org/">Python</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.djangoproject.com/">Django</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.python.org/">Python</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet">ASP.NET</a></td>
+<td><a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://dotnet.microsoft.com/learn/csharp">C#</a></td>
+</tr>
+</tbody></table></div>
+<br>
+
+
+<p class="p__1qg33Igem5pAgn4kPMirjw">The collection of technologies used to create the front-end and back-end of a web application is referred to as a <em>stack</em>. This is where the term <em>full-stack developer</em> comes from; rather than working in either the front-end or the back-end exclusively, a full-stack developer works in both.  </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">For example, <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">the MEAN stack</a> is a technology stack for building web applications that uses <strong>M</strong>ongoDB, <strong>E</strong>xpress.js, <strong>A</strong>ngularJS, and <strong>N</strong>ode.js: MongoDB is used as the database, Node.js with Express.js for the rest of the back-end, and Angular is used as a front-end framework. While the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP Stack</a>, sometimes considered the archetypal stack, uses <strong>L</strong>inux, <strong>A</strong>pache, <strong>M</strong>ySQL, and <strong>P</strong>HP. </p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
+
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">What is the Back-end?</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Review</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In order to deliver the front-end of a website or web application to a user, a lot needs to happen behind the scenes on the back-end! Understanding what makes up the back-end can be overwhelming because the back-end has a lot of different parts, and different websites or web applications can have dramatically different back-ends. We covered a lot in this lesson, so let’s review what we learned:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The front-end of a website or application consists of the HTML, CSS, JavaScript, and static assets sent to a client, like a web browser. </li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">A web server is a process running on a computer somewhere that listens for incoming requests for information over the internet and sends back responses.</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Storing, accessing, and manipulating data is a large part of a web application’s back-end</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Data is stored in databases which can be relational databases or NoSQL databases.</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The server-side of a web application, sometimes called the application server, handles important tasks such as authorization and authentication.</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">The back-end of web application often has a web API which is a way of interacting with an application’s data through HTTP requests and responses.</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Together the technologies used to build the front-end and back-end of a web application are known as the stack, and many different languages and frameworks can be used to build a robust back-end.</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Now that you have a sense for server-side web development and what the back-end is, you’re ready to dive in and learn about the different parts in more depth!</p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
@@ -103,13 +210,20 @@
 
 
 
+<h1>Learn</h1>
 
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Introduction to Django</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Welcome to the world of Django! </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Django, pronounced like JANG-go with a silent D, is a high-level web framework that is written with Python — one of the most readable and beginner-friendly programming languages. Django can be used to rapidly build complex database-driven websites. Like Python, Django is often considered to be strongly <em>opinionated</em>.  An opinionated software has guidelines and defaults, such as code structure, project structure, for developing code. Django’s opinionated approach means specific ways of writing code and a steeper learning curve to apply the “<a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://docs.djangoproject.com/en/3.1/misc/design-philosophies/">Django philosophy</a>“. However, it comes with advantages when onboarding new teammates to a project and debugging code because of how structured a Django project is.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Django is an open-source project, supported by the <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.djangoproject.com/foundation">Django Software Foundation</a>, and has a strong community of contributors. It has been used by many well-known data-heavy websites such as Instagram, Youtube, and Dropbox. In this lesson, we’ll create together our first Django app! More importantly, we’ll experience first-hand how its design helps to take applications from concept to completion using its “batteries included” approach.</p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">What is a Web Framework?</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s first establish what it means when we say Django is a <em>web framework</em>. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Web frameworks are a type of software development tool that makes it easier and faster to develop web applications. They are a type of code library that provides code and patterns for database access, as well as templating systems for content. They promote code reuse, so we don’t have to write as much code to get a project running. Some features most web frameworks include are:</p>
@@ -126,8 +240,7 @@
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Take a look at the diagram to the right to see common parts of a web application that web frameworks can help you with.</p>
 </div></div></div>
@@ -136,15 +249,9 @@
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">How Django Works</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Before we create our first Django web app, let’s take a little look into how Django works underneath the hood. The Django project describes itself as an MTV framework, using <em>Models</em>, <em>Templates</em> and <em>Views</em>. Let’s break down these components:</p>
 <ul class="ul__11icM1EC_0uPj3OY0Skp4r">
@@ -159,8 +266,7 @@
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Take a look at the diagram to the right to see the the structure of MTV in Django.</p>
 </div></div></div>
@@ -169,15 +275,9 @@
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Starting a Django Project</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that we have a basic understanding of what Django is and how it works, let’s get started with creating a project. Django provides us with <code class="code__2rdF32qjRVp7mMVBHuPwDS">django-admin</code>, a command-line utility that helps us with a variety of administrative tasks. We can use it with various commands by calling it in the terminal like this:</p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="shell" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">django-admin &lt;command&gt; [options]</span></span><br></div></code></pre></pre>
@@ -191,8 +291,7 @@
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Start a Django project called <strong>djangovet</strong> using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">django-admin</code> utility in the terminal.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">View the project directory that was created inside the file explorer. Click on the button the folder at the top left hand corner of the code editor expand the menu or select “Open file”. After you’ve explored the files, click “Check work” to pass this step and move on to the next exercise.</p>
@@ -202,15 +301,9 @@
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Configuring Django Settings</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">With only a one-line command, Django has started a functioning project! Behind the scenes, Django will do all the configurations for us and store them in an inner directory with the same name as the project.  Important for us are <strong>settings.py</strong> and <strong>urls.py</strong>. We can safely ignore the other files, just remember to not delete them by accident!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw"><strong>settings.py</strong> is a Python file that contains configurations that we’ll be editing throughout the development of our project. Inside, there is a list called <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code> which contains the apps that make up the Django project, more on these later. After running the <code class="code__2rdF32qjRVp7mMVBHuPwDS">startproject</code> command, our <strong>settings.py</strong> should contain:</p>
@@ -231,8 +324,7 @@
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw"><strong>settings.py</strong>  is already opened in the file editor. Please find <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code> list and leave a comment directly above the list that says, <code class="code__2rdF32qjRVp7mMVBHuPwDS"># I found INSTALLED_APPS</code>. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">Next, find the <code class="code__2rdF32qjRVp7mMVBHuPwDS">DATABASES</code> dictionary and leave a comment directly above the dictionary that says, <code class="code__2rdF32qjRVp7mMVBHuPwDS"># I found DATABASES</code>.</p>
@@ -246,15 +338,9 @@
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Migrating the Database</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">When we started the server, Django gave us an error message that there were unapplied migrations: </p>
 <pre class="pre__3_SOs7YT7NaHjnNunEArSM"><code class="errorBlock__2oVHQQnsjhJzzFnkMpHhy3 code__2rdF32qjRVp7mMVBHuPwDS language-error">You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): auth, contenttypes, sessions.
@@ -265,8 +351,7 @@ Run 'python manage.py migrate' to apply them.</code></pre>
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">In the terminal, <code class="code__2rdF32qjRVp7mMVBHuPwDS">cd</code> into the root project directory, <strong>djangovet/</strong>, and apply the database migration with <code class="code__2rdF32qjRVp7mMVBHuPwDS">python3 manage.py migrate</code> in the terminal. After running the commands, please click “Check Work”. </p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Start the server on port <code class="code__2rdF32qjRVp7mMVBHuPwDS">0.0.0.0:4001</code> and see that the error messages are gone!</p>
@@ -277,15 +362,9 @@ Run 'python manage.py migrate' to apply them.</code></pre>
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Django Apps</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">We’ve been talking about Django projects and apps for a while, but what exactly are apps? How are apps different from a project? Well, a Django app is a submodule to a project, that contains the code for a specific feature. In the submodule, we’ll find things like: a <strong>models.py</strong> file, a migration directory, and other files and directories related to the application. Django apps should be self-sufficient and in theory, can be picked up and placed in another project without any modification. A Django project refers to the entire code base and its parts. The Django project folder holds <strong>manage.py</strong> and the other module that includes <strong>settings.py</strong>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In a real-world example, think of a website for a veterinarian’s office as a Django project. It would consist of smaller apps, such as an appointment calendar, patient profiles, and perhaps a testimonial section. Apps are part of what makes Django projects so scalable. Since they should be entirely self-sufficient, they shouldn’t break any parts as more features are added to a project. 
@@ -298,8 +377,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Change to the project root directory, <strong>djangovet</strong>, and create a Django app called <strong>vetoffice</strong> using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">startapp</code> command in the terminal.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Add <code class="code__2rdF32qjRVp7mMVBHuPwDS">"vetoffice.apps.VetofficeConfig"</code> to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code> list inside <strong>settings.py</strong>.</p>
@@ -309,15 +387,9 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Creating a View for an App</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Earlier, we discussed the MTV pattern and the integral role that views play. They are the information brokers in a Django application that decides what data gets delivered to a template and displayed. More simply put, a view is a class or function that processes a request and sends a response back. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In our veterinarian’s office example website, a customer might go to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">/profile</code> page of the website and their request gets passed to a view function to be processed. The view function may: </p>
@@ -341,8 +413,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Import the <code class="code__2rdF32qjRVp7mMVBHuPwDS">HttpResponse</code> module from <code class="code__2rdF32qjRVp7mMVBHuPwDS">django.http</code> inside <strong>views.py</strong>.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a function named <code class="code__2rdF32qjRVp7mMVBHuPwDS">home()</code> that takes <code class="code__2rdF32qjRVp7mMVBHuPwDS">request</code> as an argument. Return an <code class="code__2rdF32qjRVp7mMVBHuPwDS">HttpResponse</code> object with the string <code class="code__2rdF32qjRVp7mMVBHuPwDS">"Welcome to the Vet's office!"</code>.</p>
@@ -352,15 +423,9 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Using a View To Send an HTML Page</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">We just made a view that sends raw text to the browser. But, websites aren’t just plain text! In order to create stylish web pages, we mainly use HTML, CSS, and JavaScript. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">We can use Django to render an HTML page when a view function is called. Django will look in each app folder inside <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code> for directories named <strong>templates</strong>. The <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://docs.djangoproject.com/en/3.0/intro/tutorial03/#namespacing-url-names">best practice</a> for structuring this folder is to <em>namespace</em> them. That is to place our HTML pages inside a directory that has the same name as your app within the <strong>templates/</strong> directory. </p>
@@ -372,8 +437,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Create the template directory structure inside the vetoffice app folder. Click on the folder icon on the top-left corner and hover the <strong>vetoffice/</strong> folder. Select the three dots to the right of the menu item to bring up the options menu. Click on the “New Folder” option and provide <strong>templates</strong> as the name. Again, select the “New Folder” option on the <strong>templates/</strong> folder create another folder within it named, <strong>vetoffice/</strong>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">The final folder structure should look like this.</p>
@@ -385,15 +449,9 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Creating a Django Template</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">To place content generated from Django inside the HTML file, we need to turn our static HTML file into a <em>template</em>.</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In the context of a web framework, templates are pages created with special markup that allows for backend data and commands to modify the contents of a page. Django employs a special syntax called <em>Django Templating Language</em> to distinguish itself from HTML, CSS, and JavaScript. That syntax in many template languages uses curly braces, sometimes referred to as <em>handlebars</em>, as a placeholder for data that is passed by Django.</p>
@@ -411,8 +469,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Refactor the <code class="code__2rdF32qjRVp7mMVBHuPwDS">home()</code> function in <strong>views.py</strong> to use the <code class="code__2rdF32qjRVp7mMVBHuPwDS">render()</code> function and pass the <code class="code__2rdF32qjRVp7mMVBHuPwDS">request</code>, template path as a string, <code class="code__2rdF32qjRVp7mMVBHuPwDS">"vetoffice/home.html"</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">context</code>.</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div></div>
@@ -421,15 +478,9 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Wiring Up a View</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">On the internet, every page needs its own URL because each URL displays unique information. In Django, we can use something called a <strong>URLconf</strong>, for URL configuration. This module is a set of patterns that Django will try to match the requested URL to find the correct view. </p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">An app’s URLconf is located in a file named <strong>urls.py</strong> inside the app’s directory. At the top of the <strong>urls.py</strong> we import the <code class="code__2rdF32qjRVp7mMVBHuPwDS">path</code> object from <code class="code__2rdF32qjRVp7mMVBHuPwDS">django.urls</code> and we import the view functions from <strong>views.py</strong> and add routes that direct to each of our view functions. </p>
@@ -447,8 +498,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">1.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Create a file called <strong>urls.py</strong> in the <strong>djangovet/vetoffice</strong> directory and import <code class="code__2rdF32qjRVp7mMVBHuPwDS">path</code> from <code class="code__2rdF32qjRVp7mMVBHuPwDS">django.urls</code> and the view functions (<code class="code__2rdF32qjRVp7mMVBHuPwDS">from . import views</code>).</p>
 </div></div></div><div class="checkpointCheckbox__vmGdbkCMW4Z7ET3KCrCJP checkboxSatisfied__1xX8YQAWCZp7OxlyblPKiC"><div class="gamut-xz9pfx-HiddenText e88fw8k0"><span aria-live="assertive">Checkpoint 2 Passed</span></div><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></div><div aria-hidden="false"><div class="checkpoint__Mmv3yv-wu7NJCX0vgcy0h" data-testid="checkpoint-satisfied"><b class="checkpointNumber__P9kFWzdu5a6M0jcG_LgjT">2.</b><div class="checkpointBody__3Sn4jghNHiScLJ7-zmcXUk"><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Include a <code class="code__2rdF32qjRVp7mMVBHuPwDS">urlpatterns</code> list with a <code class="code__2rdF32qjRVp7mMVBHuPwDS">path()</code> function in the list. Provide <code class="code__2rdF32qjRVp7mMVBHuPwDS">""</code> and <code class="code__2rdF32qjRVp7mMVBHuPwDS">views.home</code> as arguments.</p>
@@ -462,15 +512,9 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
-
-
 
 
 <h1>Learn</h1>
-
 
 <div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Review</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Great! We just built a simple web application with Django. When we start up the development server, we will see a welcome message displayed when we navigate to <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code> in the browser!</p>
 <p class="p__1qg33Igem5pAgn4kPMirjw">In this lesson, we learned a lot about Django and how it simplifies making a dynamic database-driven web application. We learned: </p>
@@ -486,8 +530,7 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 </div></div></div>
 
 
-<h2>Instructions</h1>
-
+<h2>Instructions</h2>
 
 <div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Start Django’s development server on port <code class="code__2rdF32qjRVp7mMVBHuPwDS">4001</code> and visit the homepage of our app in the browser at <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code>. Try adding another view function for our app or adding additional contexts to the template file. Click on “Next” when you are ready to continue learning!</p>
 </div></div></div>
@@ -496,14 +539,114 @@ A Django app can be created by running the <code class="code__2rdF32qjRVp7mMVBHu
 <h2>Solution</h2>
 
 
-```python
-
-```
 
 
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Creating Your First Django App </div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Review</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Great! We just built a simple web application with Django. When we start up the development server, we will see a welcome message displayed when we navigate to <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code> in the browser!</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In this lesson, we learned a lot about Django and how it simplifies making a dynamic database-driven web application. We learned: </p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to use <code class="code__2rdF32qjRVp7mMVBHuPwDS">django-admin</code> to start a project</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">startproject</code> command automatically configures default applications and a browser</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to use the <code class="code__2rdF32qjRVp7mMVBHuPwDS">startapp</code> command to create a Django app </li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to install the app to the list of <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code></li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to write a view function to return a template with context </li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">How to wire a view function to a URL for us to see</li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In the following lessons, we’ll learn more features of the Django web framework to build robust web applications. Next, we’ll learn how to use additional syntax to make our templates more dynamic.</p>
+</div></div></div>
+
+
+<h2>Instructions</h2>
+
+<div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 body__3bSqqzbent-J_gmFLtFRzM"><p class="p__1qg33Igem5pAgn4kPMirjw">Start Django’s development server on port <code class="code__2rdF32qjRVp7mMVBHuPwDS">4001</code> and visit the homepage of our app in the browser at <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code>. Try adding another view function for our app or adding additional contexts to the template file. Click on “Next” when you are ready to continue learning!</p>
+</div></div></div>
+
+
+<h2>Solution</h2>
 
 
 
+
+<h1>Learn</h1>
+
+<div class="gamut-1h3qpnn-Box ebnwbv90"><div aria-hidden="true" class="gamut-haybot-Text e8i0p5k0">Build Python Web Apps with Django</div><span aria-hidden="true" class="gamut-yj8jvy-Text e8i0p5k0">Fortune Teller</span><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s build a Fortune Telling web app!</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">It’s always nice to get a random positive message to brighten up our day. We can use our newfound Django skills to make a website just for that! In this project, we will build a Django project from scratch using the MTV pattern. Whenever our website is loaded, Django will call on a view function to select a random fortune from a list and populate a template to send back to the client.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">We’ll start with an empty workspace and build out our <strong>fortuneteller</strong> project step by step. </p>
+</div></div><div class="group__LspoGf1Fw0-ac_AUnuvRV"></div></div>
+
+
+<h2>Instructions</h2>
+
+<div class="tasks__2zeiH_BHmhuJBXUlJC3X0R"><span class="tasksHelp__2gwNuLZ9kdz9gCp9vw39no">Mark the tasks as complete by checking them off</span><h2 class="fit-full fcn-task-header"> Start the Fortune Teller Project</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 1" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-1-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-1">1.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">In the workspace on the right is a code editor, terminal, and web browser. Right now it’s completely empty, but soon we’ll have a fully functional web application.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Inside the terminal create a Django project named <strong>fortuneteller</strong> by running in terminal:</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="shell" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">django-admin startproject fortuneteller</span></span><br></div></code></pre></pre>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 2" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-2-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-2">2.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that the Django project is created, we should see the Django project files in the file explorer. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Change directories into the the <strong>fortuneteller</strong> project folder by running in the terminal:</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="shell" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">cd fortuneteller</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">To remove any errors from the server, we’ll have to run a migration to configure the database used by the default apps. In the terminal run:</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="shell" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">python3 manage.py migrate</span></span><br></div></code></pre></pre>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 3" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-3-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-3">3.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that the project is created and configured, we can test if there were any errors while creating the Django project. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Start the development server on port <code class="code__2rdF32qjRVp7mMVBHuPwDS">4001</code> by running in the terminal:</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="shell" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">python3 manage.py runserver 0.0.0.0:4001</span></span><br></div></code></pre></pre>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 4" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-4-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-4">4.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">After the server is started, navigate to <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code> in the browser, and you should see a default splash page from Django.
+Then stop the development server using <kbd>ctrl</kbd>+<kbd>c</kbd>.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Start the Random Fortune App</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 5" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-5-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-5">5.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Next, we want to create a new app named <strong>randomfortune</strong> that will eventually display a fortune at random in the browser.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Use Django’s <code class="code__2rdF32qjRVp7mMVBHuPwDS">startapp</code> command with the <code class="code__2rdF32qjRVp7mMVBHuPwDS">manage.py</code> script and create an app named <strong>randomfortune</strong>.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 6" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-6-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-6">6.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Great job! The <code class="code__2rdF32qjRVp7mMVBHuPwDS">startapp</code> command will create files and folders for the new app. We’ll have to add our new app, <strong>randomfortune</strong> to our list of installed apps for our Django project to be aware of it.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In the code editor, open up <strong>settings.py</strong> inside <strong>fortuneteller/fortuneteller</strong>. Find the list named <code class="code__2rdF32qjRVp7mMVBHuPwDS">INSTALLED_APPS</code> and add the config file for <strong>randomfortune</strong> by including <code class="code__2rdF32qjRVp7mMVBHuPwDS">"randomfortune.apps.RandomfortuneConfig"</code> to the list. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">After you add the app to the list, click “Save”.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Create a Template</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 7" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-7-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-7">7.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Our <strong>randomfortune</strong> app is now installed! To see a fortune in the browser, we’ll create an HTML template file that will be used to display our fortune in the browser.  First,  we will create the template directories to namespace the template.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Inside the project app directory, <strong>randomfortune/</strong>, create a folder named, <strong>templates</strong>. Next, within the newly created, <strong>templates/</strong>, create a folder named <strong>randomfortune</strong> to namespace our template file.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">The resulting structure should look like:</p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="plaintext" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk1">randomfortune/</span></span><br><span><span class="mtk1">└── templates/</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;└── randomfortune/</span></span><br></div></code></pre></pre></div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 8" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-8-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-8">8.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Let’s create the actual file which we will send to the client! </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Within the namespaced template folder, create an HTML file named, <strong>fortune.html</strong>. The new file will contain some markup to format our message. Paste in the following HTML which has some placeholder in the text which will allow us to see text in the browser: </p>
+<pre class="pre__3_SOs7YT7NaHjnNunEArSM"><pre><code><div data-lang="codecademy-html" class="gamut-1oq8wcb-ColorizedContainer e1hgti5c0"><span><span class="mtk16">&lt;!DOCTYPE html&gt;</span></span><br><span><span class="mtk4">&lt;html</span><span class="mtk1"> </span><span class="mtk7">lang</span><span class="mtk1">=</span><span class="mtk8">"en"</span><span class="mtk4">&gt;</span></span><br><span><span class="mtk4">&lt;head&gt;</span></span><br><span><span class="mtk1"> </span><span class="mtk4">&lt;title&gt;</span><span class="mtk1">Django Fortune Teller</span><span class="mtk4">&lt;/title&gt;</span></span><br><span><span class="mtk1"> </span><span class="mtk4">&lt;style&gt;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk4">body</span><span class="mtk1"> </span><span class="mtk4">{</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk7">text-align:</span><span class="mtk1"> </span><span class="mtk4">center;</span></span><br><span><span class="mtk1">&nbsp;&nbsp;&nbsp;</span><span class="mtk4">}</span></span><br><span><span class="mtk1"> </span><span class="mtk4">&lt;/style&gt;</span></span><br><span><span class="mtk4">&lt;/head&gt;</span></span><br><span><span class="mtk4">&lt;body&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk1"> </span><span class="mtk4">&lt;h1&gt;</span><span class="mtk1">Here is your fortune:</span><span class="mtk4">&lt;/h1&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk1"> </span><span class="mtk4">&lt;p&gt;</span><span class="mtk1">Place holder for fortune</span><span class="mtk4">&lt;/p&gt;</span></span><br><span><span> </span></span><br><span><span class="mtk4">&lt;/body&gt;</span></span><br><span><span class="mtk4">&lt;/html&gt;</span></span><br></div></code></pre></pre>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Take a second and look at the provided HTML. It contains some boilerplate HTML structure and some barebones CSS. Inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;body&gt;</code> tags, there is placeholder text that we will soon replace with data. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">After you have pasted the HTML and have taken a look at it press “Save”. We’ll have to write the view functions and the URLconfig before we can see it.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Create a View Function</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 9" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-9-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-9">9.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">To send <strong>fortune.html</strong> to our client, we’ll write a view function and send it when the page is requested.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Inside the <strong>randomfortune</strong> app, open <strong>views.py</strong>. Define a new function named <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> that takes a single parameter, <code class="code__2rdF32qjRVp7mMVBHuPwDS">request</code>. In <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code>, return the render function with two arguments, the <code class="code__2rdF32qjRVp7mMVBHuPwDS">request</code> and the path to <strong>fortune.html</strong> as a string, <code class="code__2rdF32qjRVp7mMVBHuPwDS">"randomfortune/fortune.html"</code>.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Wire Up View</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 10" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-10-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-10">10.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Our <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> view function sends back <strong>fortune.html</strong> when called. We’ll need to tell Django which URL we want to direct to this function. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">First, create the URLconf for the <strong>randomfortune</strong> app by creating a file named <strong>urls.py</strong> inside the app directory.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 11" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-11-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-11">11.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Inside <strong>urls.py</strong>, we’ll need to import a couple of things to call the view function when the URL is requested. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">At the top of <strong>urls.py</strong> import:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">path</code> module from <code class="code__2rdF32qjRVp7mMVBHuPwDS">django.urls</code></li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">the functions from <strong>views.py</strong>.</li>
+</ul>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 12" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-12-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-12">12.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">After importing the necessary modules into <strong>urls.py</strong>, we will create a list of patterns for Django to match URLs against. Create a list called <code class="code__2rdF32qjRVp7mMVBHuPwDS">urlpatterns</code> and set it as a blank list. </p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 13" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-13-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-13">13.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Inside the list, we’ll add a route to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> function using the <code class="code__2rdF32qjRVp7mMVBHuPwDS">path()</code> function. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Since we want to have our random fortune appear as our main page,  provide an empty string, <code class="code__2rdF32qjRVp7mMVBHuPwDS">""</code>, as the first argument to <code class="code__2rdF32qjRVp7mMVBHuPwDS">path()</code>. Pass the view function, <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code>, as the second argument. Be sure to use dot notation since we are referencing the function from <strong>views.py</strong>!</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 14" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-14-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-14">14.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now that we have our app’s URLconfig setup, we will have to import it in the project’s URLconfig for the URLs to be picked up by the Django project. We’ll have to import the <code class="code__2rdF32qjRVp7mMVBHuPwDS">include</code> module to include the URL configuration file.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Inside <strong>fortuneteller/fortuneteller</strong>, import the <code class="code__2rdF32qjRVp7mMVBHuPwDS">include</code> module from <code class="code__2rdF32qjRVp7mMVBHuPwDS">django.urls</code>. </p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 15" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-15-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-15">15.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">We’ve imported <code class="code__2rdF32qjRVp7mMVBHuPwDS">include</code>, now we have to make use of it.</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">In the existing <code class="code__2rdF32qjRVp7mMVBHuPwDS">urlpatterns</code> list, add another <code class="code__2rdF32qjRVp7mMVBHuPwDS">path()</code> with the arguments:</p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">""</code> to reference the home page</li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx"><code class="code__2rdF32qjRVp7mMVBHuPwDS">include()</code> with <strong>randomfortune</strong>‘s URLs as a string. </li>
+</ul>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Click on “Save”, and <code class="code__2rdF32qjRVp7mMVBHuPwDS">cd</code> into the root directory to start the development server again with <code class="code__2rdF32qjRVp7mMVBHuPwDS">python3 manage.py runserver 0.0.0.0:4001</code> and when you refresh the browser page, you should see <strong>fortune.html</strong>.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Sending a Context to the Template</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 16" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-16-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-16">16.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Great! Our static <strong>fortune.html</strong> is sent whenever the page, <code class="code__2rdF32qjRVp7mMVBHuPwDS">localhost</code> is requested. Now, we want to replace the text with a new message every time we load the page!</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">First, start by creating a list of fortunes named <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortuneList</code> inside our app’s <strong>views.py</strong> file. Define it outside of the <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> function. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Add some strings containing fortune-telling sayings in the <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortuneList</code>. Be as creative as you’d like! (There’s also some samples in the Hint if you need some inspiration)</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 17" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-17-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-17">17.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">To select a random fortune from the list we’ll use a built-in Python function, <a target="_blank" rel="noopener" class="e14vpv2g1 gamut-xro1w8-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://docs.python.org/3/library/random.html#random.choice"><code class="code__2rdF32qjRVp7mMVBHuPwDS">random.choice()</code></a>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Import the <code class="code__2rdF32qjRVp7mMVBHuPwDS">random</code> module at the top of <strong>views.py</strong>. Then inside the <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> function create a variable named <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune</code> and set it equal to <code class="code__2rdF32qjRVp7mMVBHuPwDS">random.choice(fortuneList)</code>.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 18" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-18-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-18">18.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Great! We now have a random fortune stored in <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune</code>. To send it to the HTML template, we’ll create a context variable to send with the template. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Below where we set <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune</code>, create a dictionary named <code class="code__2rdF32qjRVp7mMVBHuPwDS">context</code>. In the dictionary, create a key named <code class="code__2rdF32qjRVp7mMVBHuPwDS">"fortune"</code> and set <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune</code> as the value. </p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 19" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-19-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-19">19.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">Now add our newly created <code class="code__2rdF32qjRVp7mMVBHuPwDS">context</code> as the third argument to the <code class="code__2rdF32qjRVp7mMVBHuPwDS">render()</code> function that <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune()</code> returns.</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article></div><h2 class="fit-full fcn-task-header">Render Context Inside Template</h2><div><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 20" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-20-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-20">20.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">The last step to render the fortune in the template is to use the Django template language to replace the placeholder text. Inside <strong>fortune.html</strong>, between the <code class="code__2rdF32qjRVp7mMVBHuPwDS">&lt;p&gt;&lt;/p&gt;</code> tags, replace the text with <code class="code__2rdF32qjRVp7mMVBHuPwDS">{{ fortune }}</code>. </p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Click “Save”, and now whenever the <code class="code__2rdF32qjRVp7mMVBHuPwDS">context</code> is passed to the template, the value of <code class="code__2rdF32qjRVp7mMVBHuPwDS">fortune</code> will be placed in the template!</p>
+</div></div></div><div class="hintAccordion__9ohWFNq_viHGmKzOyh-M3"><button aria-expanded="false" class="basicBtn__2_xxdSYwVIY18Fd5pq9JgS accordionButton__3LbMIquV93ec6TYv2l6mjX yellow__2olEZaNZdnw4sc3pSwo39e" data-btn="true"><span class="children__3aFTNwOnkG0i7uCSFwvYT5"><div class="accordionHeader__10Sfx7s_OzXLjiFtCNI7ZV">Stuck? Get a hint</div></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="expansionIcon__3EAlubPR6T3-MPaeVEwyjl gamut-sd6ku5-Svg eol2zvm0"><title>Arrow Chevron Down Icon</title><path d="M23.25 7.311L12.53 18.03a.749.749 0 01-1.06 0L.75 7.311" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="gamut-1j727xk-StyledAccordionBody eg6ri2w0" style="height: 0px;"></div></div></article><article class="fit-full fcn-task fcn-task--complete"><div class="gamut-1m02y73-FlexBox e1tc6bzh0"><div class="gamut-1efsrtw-Box ebnwbv90"><div aria-checked="true" aria-label="Task item 21" class="fcn-task__check fcn-task__check--checked centeredCheckbox__2QQhtR9gO-52xrQs_8ZEjS" data-cue="discovery-checklist" role="checkbox" tabindex="0" data-testid="task-21-checkbox"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Check Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M23.552 3.93a1.5 1.5 0 01.017 2.122l-13.778 14a1.5 1.5 0 01-2.056.077L.513 13.813a1.5 1.5 0 011.974-2.258l6.158 5.385L21.431 3.948a1.5 1.5 0 012.121-.017z" fill="currentColor"></path></svg></div></div><div class="gamut-dtzm1a-Box ebnwbv90"><span class="fcn-task__number" data-testid="task-21">21.</span></div><div><div data-testid="markdown" class="spacing-tight__2Gp7GTqG0TykPQ18OnUOVt markdown__1eeYJ4WPKUcvX_LDDGJR12 narrativeMarkdown__1UywfcBd-60XKky6qUHIYA scrollable___DFOWZAyFa-jr7fZML66U"><p class="p__1qg33Igem5pAgn4kPMirjw">As the old saying goes: “From nothing, sprouts a Django project.”Take a moment to refresh the browser a few times. On each page reload you should see a new fortune appear in the browser!</p>
+<p class="p__1qg33Igem5pAgn4kPMirjw">Optionally, you can continue to play around with the code and challenge yourself. </p>
+<ul class="ul__11icM1EC_0uPj3OY0Skp4r">
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Try adding additional CSS styles to the <strong>fortune.html</strong> page to make it stylish. </li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Creating a new view function to populate the template with a different type of message. </li>
+<li class="li__1KqBjwbWA3ze6V0BvXq9Rx">Perhaps incorporate horoscopes!</li>
+</ul>
+</div></div></div></article></div></div>
+
+
+<h2>Solution</h2>
 
 
 

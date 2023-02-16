@@ -33,23 +33,24 @@ wait.until(EC.element_to_be_clickable(driver.find_element(By.XPATH, '//button[@c
 time.sleep(8)
 i = 0
 for link in links:
-    contents =''
-    instructions =''
     driver.get(link)
-    time.sleep(25)
+    time.sleep(15)
+    # informationals & articles
     try:
-        # informationals & articles
         contents = driver.find_element(By.XPATH, '//div[@class="gamut-1ag67m1-FlexBox e1tc6bzh0"]').get_attribute("innerHTML")
     except:
         pass
+    # lessons & projects
     try:
-        # lessons & projects
-        learn = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]')
+        contents = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[2]').get_attribute("innerHTML")
+        contents = f'<h1>Learn</h1>\n\n{contents}'
         try:
-            instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]')
+            instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1s3gwqq-Box ebnwbv90"]/div[4]').get_attribute("innerHTML")
+            instructions = f'\n\n\n<h3>Instructions</h3>\n\n{instructions}'
+            contents = f'{contents}{instructions}'
         except:
             pass
-        contents = f'<h1>Learn</h1>\n\n\n{learn.get_attribute("innerHTML")}\n\n\n<h2>Instructions</h1>\n\n\n{instructions.get_attribute("innerHTML")}\n\n\n<h2>Solution</h2>\n\n\n'
+        contents = f'{contents}\n\n\n<h3>Solution</h3>'
     except:
         pass
     # # videos
@@ -64,7 +65,7 @@ for link in links:
     #   instructions = driver.find_element(By.XPATH, '//div[@class="gamut-1qd5muv-FlexBox-ExternalResourceContainer e1xk5veq0"]//*[name(.) !="h1"]').get_attribute('innerHTML')
     # except:
     #   pass
-    output = f"{output}\n\n\n\n\n{contents}"
+    output = f"{output}{contents}\n\n\n\n\n"
     print(i, link)
     i += 1
 
